@@ -1,39 +1,38 @@
-<svg width="1280" height="260" viewBox="0 0 1280 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="260">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="280">
       <stop stop-color="#020617"/>
       <stop offset="1" stop-color="#0F172A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1280" y2="260">
+    <linearGradient id="accent" x1="48" y1="86" x2="1232" y2="86">
       <stop stop-color="#22D3EE"/>
-      <stop offset="0.55" stop-color="#8B5CF6"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
       <stop offset="1" stop-color="#F97316"/>
     </linearGradient>
   </defs>
+  <rect width="1280" height="280" rx="28" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1224" height="224" rx="24" stroke="#334155"/>
+  <text x="56" y="68" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Sinais do portf&#243;lio</text>
+  <path d="M56 96H1224" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
 
-  <rect width="1280" height="260" rx="28" fill="url(#bg)"/>
-  <rect x="22" y="22" width="1236" height="216" rx="22" stroke="#334155"/>
-  <path d="M52 86H1228" stroke="url(#accent)" stroke-width="3" opacity="0.65"/>
-
-  <text x="56" y="62" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">Sinais do Portf&#243;lio</text>
-
-  <g transform="translate(70 112)">
-    <text x="0" y="42" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">16</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">links de projetos</text>
+  <g transform="translate(48 124)">
+    <rect width="278" height="100" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <text x="28" y="45" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="950">16</text>
+    <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">links de projetos</text>
   </g>
-
-  <g transform="translate(330 112)">
-    <text x="0" y="42" fill="#8B5CF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">6</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">sistemas em destaque</text>
+  <g transform="translate(350 124)">
+    <rect width="278" height="100" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <text x="28" y="45" fill="#8B5CF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="950">6</text>
+    <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">sistemas em destaque</text>
   </g>
-
-  <g transform="translate(560 112)">
-    <text x="0" y="42" fill="#F97316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">3</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">tecnologias principais</text>
+  <g transform="translate(652 124)">
+    <rect width="278" height="100" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <text x="28" y="45" fill="#F97316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="950">3</text>
+    <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">tecnologias centrais</text>
   </g>
-
-  <g transform="translate(780 112)">
-    <text x="0" y="42" fill="#22C55E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">Proximo</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">banco / acesso / publicacao</text>
+  <g transform="translate(954 124)">
+    <rect width="278" height="100" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <text x="28" y="45" fill="#22C55E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="950">Pr&#243;ximo</text>
+    <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">banco, acesso e publica&#231;&#227;o</text>
   </g>
 </svg>
