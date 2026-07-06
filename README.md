@@ -1,14 +1,26 @@
 <div align="center">
 
-# Ola, eu sou Kenji
+<h1>Ol&aacute;, eu sou Kenji</h1>
 
-Desenvolvedor em evolucao, criando projetos com **HTML**, **CSS**, **JavaScript**, **Node.js** e **PHP**.
+<p>
+  <strong>Desenvolvedor em evolu&ccedil;&atilde;o</strong><br>
+  Criando projetos com HTML, CSS, JavaScript, Node.js e PHP.
+</p>
+
+<p>
+  <a href="https://github.com/Kenjihidehira">
+    <img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=fff" alt="Node.js">
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=fff" alt="PHP">
+</p>
 
 </div>
 
 ---
 
-## Sobre mim
+## :man_technologist: Sobre mim
 
 ```javascript
 const kenji = {
@@ -21,83 +33,114 @@ const kenji = {
 };
 ```
 
-- Construindo projetos para fortalecer meu portfolio
-- Estudando JavaScript, Node.js, APIs, PHP e boas praticas
-- Aprendendo com projetos reais e incrementais
-- Foco em codigo simples, funcional e bem organizado
+- :dart: Foco em projetos reais, simples de entender e funcionais.
+- :seedling: Estudando JavaScript, Node.js, APIs, PHP e boas pr&aacute;ticas.
+- :hammer_and_wrench: Criando aplica&ccedil;&otilde;es com front-end, back-end, persist&ecirc;ncia e testes.
+- :pushpin: Organizando um portf&oacute;lio para demonstrar evolu&ccedil;&atilde;o t&eacute;cnica.
 
 ---
 
-## Stack
+## :rocket: Stack
 
-| Area | Tecnologias |
+| &Aacute;rea | Tecnologias |
 | --- | --- |
 | Front-end | HTML, CSS, JavaScript |
 | Back-end | Node.js, APIs REST, PHP |
 | Ferramentas | GitHub, VS Code, NPM |
-| Pratica atual | Dashboards, CRUDs, APIs, sistemas web e projetos full-stack |
+| Pr&aacute;tica atual | Dashboards, CRUDs, APIs, sistemas web e projetos full-stack |
 
 ---
 
-## Projetos em destaque
+## :pushpin: Projetos em destaque
 
-| Projeto | Tecnologias | O que faz |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/erp-estoque-node">ERP Estoque Node</a></h3>
+      <p>Mini ERP full-stack com API REST, estoque, movimenta&ccedil;&otilde;es, dashboard e testes.</p>
+      <p><code>Node.js</code> <code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">Helpdesk Node Fullstack</a></h3>
+      <p>Sistema de chamados com API pr&oacute;pria, dashboard e testes automatizados.</p>
+      <p><code>Node.js</code> <code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">Dashboard Vendas Pro</a></h3>
+      <p>Dashboard comercial com KPIs, filtros, metas, gr&aacute;ficos e exporta&ccedil;&atilde;o CSV.</p>
+      <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/planner-pro-js">Planner Pro JS</a></h3>
+      <p>Planner com Kanban drag and drop, timeline, capacidade e exporta&ccedil;&atilde;o JSON.</p>
+      <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/crm-pipeline-js">CRM Pipeline JS</a></h3>
+      <p>CRM com pipeline de vendas, forecast, follow-ups, filtros e exporta&ccedil;&atilde;o CSV.</p>
+      <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/encurtador-url-node">Encurtador URL Node</a></h3>
+      <p>Encurtador de links com interface web, API e testes.</p>
+      <p><code>Node.js</code> <code>Express</code> <code>JavaScript</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## :open_file_folder: Mais projetos
+
+| Projeto | Tecnologias | Link |
 | --- | --- | --- |
-| [ERP Estoque Node](https://github.com/Kenjihidehira/erp-estoque-node) | Node.js, HTML, CSS, JS | Mini ERP full-stack com API REST, estoque, movimentacoes, dashboard e testes |
-| [Helpdesk Node Fullstack](https://github.com/Kenjihidehira/helpdesk-node-fullstack) | Node.js, HTML, CSS, JS | Sistema de chamados com API propria, dashboard e testes automatizados |
-| [Dashboard Vendas Pro](https://github.com/Kenjihidehira/dashboard-vendas-pro) | HTML, CSS, JS | Dashboard comercial com KPIs, filtros, metas, grafico e exportacao CSV |
-| [Planner Pro JS](https://github.com/Kenjihidehira/planner-pro-js) | HTML, CSS, JS | Planner com Kanban drag and drop, timeline, capacidade e exportacao JSON |
-| [CRM Pipeline JS](https://github.com/Kenjihidehira/crm-pipeline-js) | HTML, CSS, JS | CRM com pipeline de vendas, forecast, follow-ups e exportacao CSV |
-| [Encurtador URL Node](https://github.com/Kenjihidehira/encurtador-url-node) | Node.js, Express, JS | Encurtador de links com interface web, API e testes |
-| [API Produtos Node](https://github.com/Kenjihidehira/api-produtos-node) | Node.js, Express | API CRUD de produtos com testes |
-| [Notas API Node](https://github.com/Kenjihidehira/notas-api-node) | Node.js | API REST de notas feita com Node puro |
-| [Loja PHP](https://github.com/Kenjihidehira/loja-php) | PHP, HTML, CSS | Mini loja virtual com carrinho em sessao |
-| [Agenda PHP](https://github.com/Kenjihidehira/agenda-php) | PHP, HTML, CSS | Sistema de agendamento com persistencia em JSON |
+| API Produtos Node | Node.js, Express | [Abrir repositorio](https://github.com/Kenjihidehira/api-produtos-node) |
+| Notas API Node | Node.js | [Abrir repositorio](https://github.com/Kenjihidehira/notas-api-node) |
+| Loja PHP | PHP, HTML, CSS | [Abrir repositorio](https://github.com/Kenjihidehira/loja-php) |
+| Agenda PHP | PHP, HTML, CSS | [Abrir repositorio](https://github.com/Kenjihidehira/agenda-php) |
+| Lista de tarefas | HTML, CSS, JavaScript | [Abrir repositorio](https://github.com/Kenjihidehira/lista-tarefas) |
+| Controle financeiro | HTML, CSS, JavaScript | [Abrir repositorio](https://github.com/Kenjihidehira/controle-financeiro) |
+| Kanban Board | HTML, CSS, JavaScript | [Abrir repositorio](https://github.com/Kenjihidehira/kanban-board) |
+| Pomodoro Focus | HTML, CSS, JavaScript | [Abrir repositorio](https://github.com/Kenjihidehira/pomodoro-focus) |
+| Quiz Dev JS | HTML, CSS, JavaScript | [Abrir repositorio](https://github.com/Kenjihidehira/quiz-dev-js) |
+| Catalogo de Filmes | HTML, CSS, JavaScript | [Abrir repositorio](https://github.com/Kenjihidehira/catalogo-filmes) |
 
 ---
 
-## Outros projetos
+## :bar_chart: Resumo do portf&oacute;lio
 
-| Projeto | Link |
+| Tipo | Projetos |
 | --- | --- |
-| Lista de tarefas | [github.com/Kenjihidehira/lista-tarefas](https://github.com/Kenjihidehira/lista-tarefas) |
-| Controle financeiro | [github.com/Kenjihidehira/controle-financeiro](https://github.com/Kenjihidehira/controle-financeiro) |
-| Kanban Board | [github.com/Kenjihidehira/kanban-board](https://github.com/Kenjihidehira/kanban-board) |
-| Pomodoro Focus | [github.com/Kenjihidehira/pomodoro-focus](https://github.com/Kenjihidehira/pomodoro-focus) |
-| Quiz Dev JS | [github.com/Kenjihidehira/quiz-dev-js](https://github.com/Kenjihidehira/quiz-dev-js) |
-| Catalogo de Filmes | [github.com/Kenjihidehira/catalogo-filmes](https://github.com/Kenjihidehira/catalogo-filmes) |
+| Front-end | Dashboards, planners, CRM, Kanban, Pomodoro, Quiz e cat&aacute;logo |
+| Back-end | APIs REST com Node.js, CRUDs, persist&ecirc;ncia local e testes |
+| PHP | Agenda, loja virtual e sistemas simples com persist&ecirc;ncia |
+| Foco t&eacute;cnico | L&oacute;gica de neg&oacute;cio, organiza&ccedil;&atilde;o, interface, filtros e testes |
 
 ---
 
-## Resumo do portfolio
-
-- **Projetos front-end:** dashboards, planners, CRM, Kanban, Pomodoro, Quiz e catalogo
-- **Projetos back-end:** APIs REST com Node.js, CRUDs, persistencia local e testes
-- **Projetos PHP:** agenda e loja virtual
-- **Foco tecnico:** logica de negocio, organizacao, interface, filtros, persistencia e testes
-
----
-
-## Objetivos para 2026
+## :dart: Objetivos para 2026
 
 - [x] Publicar meus primeiros projetos completos no GitHub
 - [x] Criar APIs REST com Node.js
 - [x] Criar sistemas funcionais com PHP
-- [x] Criar projetos mais complexos para portfolio
+- [x] Criar projetos mais complexos para portf&oacute;lio
 - [ ] Aprofundar banco de dados
-- [ ] Criar aplicacoes full-stack com autenticacao
+- [ ] Criar aplica&ccedil;&otilde;es full-stack com autentica&ccedil;&atilde;o
 - [ ] Contribuir para projetos open source
-
----
-
-## Contato
-
-GitHub: [@Kenjihidehira](https://github.com/Kenjihidehira)
 
 ---
 
 <div align="center">
 
-Obrigado por visitar meu perfil.
+<p>
+  <strong>Contato:</strong>
+  <a href="https://github.com/Kenjihidehira">@Kenjihidehira</a>
+</p>
+
+<p>Obrigado por visitar meu perfil.</p>
 
 </div>
