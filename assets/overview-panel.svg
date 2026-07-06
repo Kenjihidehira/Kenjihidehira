@@ -27,15 +27,15 @@
     <rect width="360" height="150" rx="22" fill="#0F172A" stroke="#1E293B"/>
     <circle cx="42" cy="42" r="18" fill="#22D3EE"/>
     <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Construir</text>
-    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Dashboards, CRUDs, CRM, ERP,</text>
-    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">helpdesk e apps de produtividade.</text>
+    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Pain&#233;is, CRUDs, CRM, ERP,</text>
+    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">chamados e produtividade.</text>
   </g>
 
   <g transform="translate(460 145)">
     <rect width="360" height="150" rx="22" fill="#0F172A" stroke="#1E293B"/>
     <circle cx="42" cy="42" r="18" fill="#8B5CF6"/>
     <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Organizar</text>
-    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Reposit&#243;rios por objetivo, stack,</text>
+    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Reposit&#243;rios por objetivo, tecnologias,</text>
     <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">clareza e evolu&#231;&#227;o do projeto.</text>
   </g>
 
@@ -44,6 +44,6 @@
     <circle cx="42" cy="42" r="18" fill="#F97316"/>
     <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Evoluir</text>
     <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Pr&#243;ximos passos: banco de dados,</text>
-    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">login, deploy, testes e docs.</text>
+    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">autentica&#231;&#227;o, publica&#231;&#227;o, testes e documentacao.</text>
   </g>
 </svg>
