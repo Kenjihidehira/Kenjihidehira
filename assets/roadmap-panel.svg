@@ -12,38 +12,38 @@
   </defs>
   <rect width="1280" height="300" rx="28" fill="url(#bg)"/>
   <rect x="22" y="22" width="1236" height="256" rx="22" stroke="#334155"/>
-  <text x="58" y="70" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Technical Roadmap</text>
-  <text x="58" y="102" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">From basic projects to deployable full-stack applications.</text>
+  <text x="58" y="70" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Roadmap T&#233;cnico</text>
+  <text x="58" y="102" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Dos projetos b&#225;sicos para aplica&#231;&#245;es full-stack publicadas.</text>
 
   <path d="M130 158H1150" stroke="url(#line)" stroke-width="6" stroke-linecap="round"/>
 
   <g transform="translate(90 132)">
     <circle cx="40" cy="26" r="26" fill="#22D3EE"/>
     <text x="12" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Base JS</text>
-    <text x="6" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">done</text>
+    <text x="6" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">feito</text>
   </g>
 
   <g transform="translate(305 132)">
     <circle cx="40" cy="26" r="26" fill="#38BDF8"/>
-    <text x="0" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Node APIs</text>
-    <text x="12" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">done</text>
+    <text x="0" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">APIs Node</text>
+    <text x="12" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">feito</text>
   </g>
 
   <g transform="translate(520 132)">
     <circle cx="40" cy="26" r="26" fill="#8B5CF6"/>
     <text x="-8" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Full-stack</text>
-    <text x="-4" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">building</text>
+    <text x="-4" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">criando</text>
   </g>
 
   <g transform="translate(735 132)">
     <circle cx="40" cy="26" r="26" fill="#F97316"/>
-    <text x="0" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Database</text>
-    <text x="12" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">next</text>
+    <text x="0" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Banco</text>
+    <text x="12" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">proximo</text>
   </g>
 
   <g transform="translate(950 132)">
     <circle cx="40" cy="26" r="26" fill="#22C55E"/>
     <text x="6" y="88" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Deploy</text>
-    <text x="12" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">next</text>
+    <text x="12" y="113" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">proximo</text>
   </g>
 </svg>
