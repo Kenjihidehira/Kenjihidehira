@@ -2,12 +2,12 @@
   <defs><linearGradient id="g" x1="0" y1="0" x2="620" y2="230"><stop stop-color="#111827"/><stop offset="1" stop-color="#064E3B"/></linearGradient></defs>
   <rect width="620" height="230" rx="24" fill="url(#g)"/>
   <rect x="1" y="1" width="618" height="228" rx="23" stroke="#34D399" stroke-opacity="0.5"/>
-  <text x="34" y="52" fill="#34D399" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">APP COMERCIAL</text>
-  <text x="34" y="92" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">CRM Pipeline JS</text>
-  <text x="34" y="126" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Pipeline de vendas com etapas, forecast, follow-ups,</text>
+  <text x="34" y="52" fill="#34D399" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">SISTEMA COMERCIAL</text>
+  <text x="34" y="92" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">CRM de Vendas JS</text>
+  <text x="34" y="126" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Funil de vendas com etapas, previsao, acompanhamentos,</text>
   <text x="34" y="152" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">filtros e exportacao de dados.</text>
   <rect x="34" y="178" width="76" height="28" rx="14" fill="#34D399"/><text x="55" y="198" fill="#020617" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">CRM</text>
   <rect x="120" y="178" width="116" height="28" rx="14" fill="#1E293B"/><text x="141" y="198" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">KANBAN</text>
   <rect x="246" y="178" width="116" height="28" rx="14" fill="#1E293B"/><text x="267" y="198" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">VENDAS</text>
-  <text x="466" y="198" fill="#34D399" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">ABRIR REPO -></text>
+  <text x="466" y="198" fill="#34D399" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">ABRIR PROJETO -></text>
 </svg>
