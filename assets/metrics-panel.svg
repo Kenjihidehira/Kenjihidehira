@@ -24,16 +24,16 @@
 
   <g transform="translate(330 112)">
     <text x="0" y="42" fill="#8B5CF6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">6</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">apps em destaque</text>
+    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">sistemas em destaque</text>
   </g>
 
   <g transform="translate(560 112)">
     <text x="0" y="42" fill="#F97316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">3</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">stacks principais</text>
+    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">tecnologias principais</text>
   </g>
 
   <g transform="translate(780 112)">
     <text x="0" y="42" fill="#22C55E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="950">Proximo</text>
-    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">banco / login / deploy</text>
+    <text x="0" y="80" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">banco / acesso / publicacao</text>
   </g>
 </svg>
