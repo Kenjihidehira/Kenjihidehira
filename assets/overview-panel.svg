@@ -20,30 +20,30 @@
   <rect width="1280" height="360" rx="30" fill="url(#glow)"/>
   <rect x="22" y="22" width="1236" height="316" rx="24" stroke="url(#stroke)" stroke-opacity="0.55" stroke-width="2"/>
 
-  <text x="60" y="72" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Portfolio Operating System</text>
-  <text x="60" y="106" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">A practical GitHub profile focused on real projects, visible progress and technical growth.</text>
+  <text x="60" y="72" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Sistema Visual do Portf&#243;lio</text>
+  <text x="60" y="106" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Perfil GitHub pr&#225;tico, focado em projetos reais, progresso vis&#237;vel e evolu&#231;&#227;o t&#233;cnica.</text>
 
   <g transform="translate(60 145)">
     <rect width="360" height="150" rx="22" fill="#0F172A" stroke="#1E293B"/>
     <circle cx="42" cy="42" r="18" fill="#22D3EE"/>
-    <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Build</text>
+    <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Construir</text>
     <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Dashboards, CRUDs, CRM, ERP,</text>
-    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">helpdesk and productivity apps.</text>
+    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">helpdesk e apps de produtividade.</text>
   </g>
 
   <g transform="translate(460 145)">
     <rect width="360" height="150" rx="22" fill="#0F172A" stroke="#1E293B"/>
     <circle cx="42" cy="42" r="18" fill="#8B5CF6"/>
-    <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Structure</text>
-    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Repos organized by purpose, stack,</text>
-    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">readability and project evolution.</text>
+    <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Organizar</text>
+    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Reposit&#243;rios por objetivo, stack,</text>
+    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">clareza e evolu&#231;&#227;o do projeto.</text>
   </g>
 
   <g transform="translate(860 145)">
     <rect width="360" height="150" rx="22" fill="#0F172A" stroke="#1E293B"/>
     <circle cx="42" cy="42" r="18" fill="#F97316"/>
-    <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Improve</text>
-    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Next steps: database, auth, deploy,</text>
-    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">tests and stronger documentation.</text>
+    <text x="72" y="50" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">Evoluir</text>
+    <text x="32" y="92" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Pr&#243;ximos passos: banco de dados,</text>
+    <text x="32" y="120" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">login, deploy, testes e docs.</text>
   </g>
 </svg>
