@@ -1,0 +1,44 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="300" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1232" height="252" rx="22" fill="#020617" stroke="#334155"/>
+  <text x="60" y="70" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850">Stack Matrix</text>
+  <text x="60" y="104" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Skills organized by practical project use</text>
+
+  <g transform="translate(60 136)">
+    <rect width="260" height="102" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <rect width="260" height="5" rx="2.5" fill="url(#a)"/>
+    <text x="24" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Front-end</text>
+    <text x="24" y="76" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">HTML / CSS / JavaScript</text>
+  </g>
+
+  <g transform="translate(360 136)">
+    <rect width="260" height="102" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <rect width="260" height="5" rx="2.5" fill="url(#a)"/>
+    <text x="24" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Back-end</text>
+    <text x="24" y="76" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Node.js / REST / PHP</text>
+  </g>
+
+  <g transform="translate(660 136)">
+    <rect width="260" height="102" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <rect width="260" height="5" rx="2.5" fill="url(#a)"/>
+    <text x="24" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Product UI</text>
+    <text x="24" y="76" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Dashboards / CRM / ERP</text>
+  </g>
+
+  <g transform="translate(960 136)">
+    <rect width="260" height="102" rx="18" fill="#0F172A" stroke="#1E293B"/>
+    <rect width="260" height="5" rx="2.5" fill="url(#a)"/>
+    <text x="24" y="42" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="800">Quality</text>
+    <text x="24" y="76" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Tests / Docs / GitHub</text>
+  </g>
+</svg>
