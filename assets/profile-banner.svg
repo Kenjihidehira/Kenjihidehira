@@ -1,0 +1,45 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B1A"/>
+      <stop offset="0.45" stop-color="#0B1026"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="60" x2="1060" y2="310" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="34" fill="url(#bg)"/>
+  <circle cx="1040" cy="80" r="170" fill="#22D3EE" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="170" cy="310" r="180" fill="#8B5CF6" opacity="0.18" filter="url(#blur)"/>
+  <circle cx="830" cy="310" r="140" fill="#F97316" opacity="0.12" filter="url(#blur)"/>
+
+  <path d="M80 92H1120" stroke="url(#accent)" stroke-width="2" opacity="0.55"/>
+  <path d="M80 270H1120" stroke="url(#accent)" stroke-width="2" opacity="0.28"/>
+
+  <rect x="78" y="122" width="430" height="128" rx="22" fill="#0F172A" opacity="0.82" stroke="#334155"/>
+  <circle cx="112" cy="154" r="8" fill="#EF4444"/>
+  <circle cx="138" cy="154" r="8" fill="#F59E0B"/>
+  <circle cx="164" cy="154" r="8" fill="#22C55E"/>
+  <text x="110" y="193" fill="#94A3B8" font-family="Consolas, Monaco, monospace" font-size="22">$ portfolio --build</text>
+  <text x="110" y="226" fill="#22D3EE" font-family="Consolas, Monaco, monospace" font-size="22">status: in progress</text>
+
+  <text x="560" y="145" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Kenji Hidehira</text>
+  <text x="565" y="194" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">Web Developer Portfolio</text>
+  <text x="566" y="236" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22">JavaScript | Node.js | PHP | APIs | Dashboards</text>
+
+  <rect x="565" y="266" width="144" height="38" rx="19" fill="#F7DF1E"/>
+  <text x="604" y="292" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">JavaScript</text>
+  <rect x="725" y="266" width="120" height="38" rx="19" fill="#339933"/>
+  <text x="758" y="292" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Node.js</text>
+  <rect x="861" y="266" width="92" height="38" rx="19" fill="#777BB4"/>
+  <text x="889" y="292" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">PHP</text>
+  <rect x="969" y="266" width="112" height="38" rx="19" fill="#2563EB"/>
+  <text x="997" y="292" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">GitHub</text>
+</svg>
