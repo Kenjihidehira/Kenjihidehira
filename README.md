@@ -1,110 +1,103 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:58A6FF&height=180&section=header&text=Olá,%20eu%20sou%20Kenji!&fontSize=38&fontColor=FFFFFF&fontAlignY=35&animation=fadeIn" alt="Banner de apresentação" />
+# OlÃ¡, eu sou Kenji
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=21&pause=1000&color=58A6FF&center=true&vCenter=true&width=720&lines=Desenvolvedor+em+constante+evolução+🚀;HTML%2C+CSS%2C+JavaScript%2C+Node.js+e+PHP;Aprendendo+através+de+projetos+reais;Transformando+ideias+em+código+💻)](https://git.io/typing-svg)
+Desenvolvedor em evoluÃ§Ã£o, criando projetos com **HTML**, **CSS**, **JavaScript**, **Node.js** e **PHP**.
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mim
+## ðŸ‘¨â€ðŸ’» Sobre mim
 
 ```javascript
 const kenji = {
-  perfil: "Desenvolvedor em evolução",
+  perfil: "Desenvolvedor em evoluÃ§Ã£o",
   focoAtual: ["JavaScript", "Node.js", "PHP"],
   frontend: ["HTML", "CSS", "JavaScript"],
-  backend: ["Node.js", "Express", "PHP"],
-  aprendendo: "Um projeto de cada vez",
-  objetivo: "Criar soluções úteis e evoluir como desenvolvedor",
-  status: "Sempre construindo 🚀"
+  backend: ["Node.js", "APIs REST", "PHP"],
+  objetivo: "Criar projetos Ãºteis, organizados e cada vez mais profissionais",
+  status: "Construindo portfÃ³lio na prÃ¡tica"
 };
 ```
 
-- 🔭 Atualmente construindo projetos para fortalecer meu portfólio
-- 🌱 Aprofundando meus conhecimentos em **JavaScript, Node.js e PHP**
-- 🧠 Aprendendo na prática, testando ideias e resolvendo problemas
-- 🎯 Buscando escrever código cada vez mais organizado e profissional
+- ðŸ”­ Construindo projetos para fortalecer meu portfÃ³lio
+- ðŸŒ± Estudando JavaScript, Node.js, APIs, PHP e boas prÃ¡ticas
+- ðŸ§  Aprendendo com projetos reais e incrementais
+- ðŸŽ¯ Foco em cÃ³digo simples, funcional e bem organizado
 
 ---
 
-## 🚀 Stack e tecnologias
+## ðŸš€ Stack
 
-### Foco principal
-
-<p>
-  <img src="https://skillicons.dev/icons?i=js,nodejs,php,html,css&theme=dark" alt="JavaScript, Node.js, PHP, HTML e CSS" />
-</p>
-
-### Ferramentas
-
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm&theme=dark" alt="Git, GitHub, VS Code e NPM" />
-</p>
+| Ãrea | Tecnologias |
+| --- | --- |
+| Front-end | HTML, CSS, JavaScript |
+| Back-end | Node.js, APIs REST, PHP |
+| Ferramentas | GitHub, VS Code, NPM |
+| PrÃ¡tica atual | Dashboards, CRUDs, APIs, sistemas web e projetos full-stack |
 
 ---
 
-## 📌 Projetos em destaque
+## ðŸ“Œ Projetos em destaque
 
-<div align="center">
-
-<a href="https://github.com/Kenjihidehira/lista-tarefas">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=Kenjihidehira&repo=lista-tarefas&theme=github_dark&hide_border=true" alt="Lista de tarefas" />
-</a>
-<a href="https://github.com/Kenjihidehira/controle-financeiro">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=Kenjihidehira&repo=controle-financeiro&theme=github_dark&hide_border=true" alt="Controle financeiro" />
-</a>
-<a href="https://github.com/Kenjihidehira/api-produtos-node">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=Kenjihidehira&repo=api-produtos-node&theme=github_dark&hide_border=true" alt="API de produtos com Node.js" />
-</a>
-<a href="https://github.com/Kenjihidehira/agenda-php">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=Kenjihidehira&repo=agenda-php&theme=github_dark&hide_border=true" alt="Sistema de agendamento em PHP" />
-</a>
-
-</div>
+| Projeto | Tecnologias | O que faz |
+| --- | --- | --- |
+| [ERP Estoque Node](https://github.com/Kenjihidehira/erp-estoque-node) | Node.js, HTML, CSS, JS | Mini ERP full-stack com API REST, estoque, movimentaÃ§Ãµes, dashboard e testes |
+| [Helpdesk Node Fullstack](https://github.com/Kenjihidehira/helpdesk-node-fullstack) | Node.js, HTML, CSS, JS | Sistema de chamados com API prÃ³pria, dashboard e testes automatizados |
+| [Dashboard Vendas Pro](https://github.com/Kenjihidehira/dashboard-vendas-pro) | HTML, CSS, JS | Dashboard comercial com KPIs, filtros, metas, grÃ¡fico e exportaÃ§Ã£o CSV |
+| [Planner Pro JS](https://github.com/Kenjihidehira/planner-pro-js) | HTML, CSS, JS | Planner com Kanban drag and drop, timeline, capacidade e exportaÃ§Ã£o JSON |
+| [CRM Pipeline JS](https://github.com/Kenjihidehira/crm-pipeline-js) | HTML, CSS, JS | CRM com pipeline de vendas, forecast, follow-ups e exportaÃ§Ã£o CSV |
+| [Encurtador URL Node](https://github.com/Kenjihidehira/encurtador-url-node) | Node.js, Express, JS | Encurtador de links com interface web, API e testes |
+| [API Produtos Node](https://github.com/Kenjihidehira/api-produtos-node) | Node.js, Express | API CRUD de produtos com testes |
+| [Notas API Node](https://github.com/Kenjihidehira/notas-api-node) | Node.js | API REST de notas feita com Node puro |
+| [Loja PHP](https://github.com/Kenjihidehira/loja-php) | PHP, HTML, CSS | Mini loja virtual com carrinho em sessÃ£o |
+| [Agenda PHP](https://github.com/Kenjihidehira/agenda-php) | PHP, HTML, CSS | Sistema de agendamento com persistÃªncia em JSON |
 
 ---
 
-## 📊 Estatísticas do GitHub
+## ðŸ§© Outros projetos
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Kenjihidehira&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kenjihidehira&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Linguagens mais usadas" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=Kenjihidehira&theme=github-dark-blue&hide_border=true&locale=pt_BR" alt="Sequência de contribuições" />
-
-</div>
+| Projeto | Link |
+| --- | --- |
+| Lista de tarefas | [github.com/Kenjihidehira/lista-tarefas](https://github.com/Kenjihidehira/lista-tarefas) |
+| Controle financeiro | [github.com/Kenjihidehira/controle-financeiro](https://github.com/Kenjihidehira/controle-financeiro) |
+| Kanban Board | [github.com/Kenjihidehira/kanban-board](https://github.com/Kenjihidehira/kanban-board) |
+| Pomodoro Focus | [github.com/Kenjihidehira/pomodoro-focus](https://github.com/Kenjihidehira/pomodoro-focus) |
+| Quiz Dev JS | [github.com/Kenjihidehira/quiz-dev-js](https://github.com/Kenjihidehira/quiz-dev-js) |
+| CatÃ¡logo de Filmes | [github.com/Kenjihidehira/catalogo-filmes](https://github.com/Kenjihidehira/catalogo-filmes) |
 
 ---
 
-## 🎯 Objetivos para 2026
+## ðŸ“Š Resumo do portfÃ³lio
+
+- **Projetos front-end:** dashboards, planners, CRM, Kanban, Pomodoro, Quiz e catÃ¡logo
+- **Projetos back-end:** APIs REST com Node.js, CRUDs, persistÃªncia local e testes
+- **Projetos PHP:** agenda e loja virtual
+- **Foco tÃ©cnico:** lÃ³gica de negÃ³cio, organizaÃ§Ã£o, interface, filtros, persistÃªncia e testes
+
+---
+
+## ðŸŽ¯ Objetivos para 2026
 
 - [x] Publicar meus primeiros projetos completos no GitHub
-- [x] Construir uma API REST com Node.js e Express
-- [x] Criar um sistema funcional com PHP
-- [ ] Aprofundar JavaScript assíncrono e consumo de APIs
-- [ ] Desenvolver uma aplicação full stack
-- [ ] Adicionar banco de dados aos próximos projetos
+- [x] Criar APIs REST com Node.js
+- [x] Criar sistemas funcionais com PHP
+- [x] Criar projetos mais complexos para portfÃ³lio
+- [ ] Aprofundar banco de dados
+- [ ] Criar aplicaÃ§Ãµes full-stack com autenticaÃ§Ã£o
 - [ ] Contribuir para projetos open source
 
 ---
 
-## 🤝 Vamos nos conectar
+## ðŸ¤ Contato
 
-<p align="center">
-  <a href="https://github.com/Kenjihidehira">
-    <img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github&logoColor=white" alt="Perfil no GitHub" />
-  </a>
-</p>
+GitHub: [@Kenjihidehira](https://github.com/Kenjihidehira)
+
+---
 
 <div align="center">
 
-![Visualizações do perfil](https://komarev.com/ghpvc/?username=Kenjihidehira&color=1F6FEB&style=for-the-badge&label=VISITAS+AO+PERFIL)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0D1117&height=110&section=footer" alt="Rodapé" />
+Obrigado por visitar meu perfil.
 
 </div>
