@@ -50,38 +50,38 @@
   <strong>Clique nos cart&otilde;es para abrir os reposit&oacute;rios.</strong>
 </p>
 
-<table>
+<table width="100%">
   <tr>
-    <td width="50%">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/erp-estoque-node">
         <img src="./assets/card-erp.svg" alt="ERP Estoque Node" width="100%">
       </a>
     </td>
-    <td width="50%">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">
         <img src="./assets/card-helpdesk.svg" alt="Sistema de Chamados Node" width="100%">
       </a>
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">
         <img src="./assets/card-dashboard.svg" alt="Painel de Vendas Pro" width="100%">
       </a>
     </td>
-    <td width="50%">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/crm-pipeline-js">
         <img src="./assets/card-crm.svg" alt="CRM Pipeline JS" width="100%">
       </a>
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/planner-pro-js">
         <img src="./assets/card-planner.svg" alt="Planejador Pro JS" width="100%">
       </a>
     </td>
-    <td width="50%">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/encurtador-url-node">
         <img src="./assets/card-url.svg" alt="Encurtador URL Node" width="100%">
       </a>
