@@ -1,13 +1,14 @@
-<svg width="620" height="230" viewBox="0 0 620 230" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="620" y2="230"><stop stop-color="#111827"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient></defs>
-  <rect width="620" height="230" rx="24" fill="url(#g)"/>
-  <rect x="1" y="1" width="618" height="228" rx="23" stroke="#60A5FA" stroke-opacity="0.5"/>
-  <text x="34" y="52" fill="#60A5FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">PROJETO API</text>
-  <text x="34" y="92" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">Encurtador URL</text>
-  <text x="34" y="126" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Encurtador de links com interface web, endpoints REST,</text>
-  <text x="34" y="152" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">redirecionamentos e testes automatizados.</text>
-  <rect x="34" y="178" width="88" height="28" rx="14" fill="#60A5FA"/><text x="56" y="198" fill="#020617" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">NODE</text>
-  <rect x="132" y="178" width="114" height="28" rx="14" fill="#1E293B"/><text x="153" y="198" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">EXPRESS</text>
-  <rect x="256" y="178" width="84" height="28" rx="14" fill="#1E293B"/><text x="277" y="198" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">API</text>
-  <text x="466" y="198" fill="#60A5FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">ABRIR PROJETO -></text>
+<svg width="600" height="260" viewBox="0 0 600 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="600" y2="260"><stop stop-color="#111827"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient></defs>
+  <rect width="600" height="260" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="598" height="258" rx="23" stroke="#60A5FA" stroke-opacity="0.55"/>
+  <rect x="28" y="28" width="544" height="204" rx="18" fill="#020617" opacity="0.22" stroke="#1E293B"/>
+  <text x="44" y="62" fill="#60A5FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">PROJETO API</text>
+  <text x="44" y="102" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">Encurtador URL</text>
+  <text x="44" y="136" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Encurtador de links com interface web,</text>
+  <text x="44" y="162" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">endpoints REST, redirecionamento e testes.</text>
+  <rect x="44" y="190" width="82" height="30" rx="15" fill="#60A5FA"/><text x="63" y="210" fill="#020617" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">NODE</text>
+  <rect x="138" y="190" width="92" height="30" rx="15" fill="#1E293B"/><text x="157" y="210" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">REST</text>
+  <rect x="242" y="190" width="82" height="30" rx="15" fill="#1E293B"/><text x="264" y="210" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">API</text>
+  <text x="420" y="211" fill="#60A5FA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">ABRIR PROJETO -&gt;</text>
 </svg>
