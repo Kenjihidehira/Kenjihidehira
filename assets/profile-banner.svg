@@ -34,9 +34,9 @@
   <circle cx="114" cy="154" r="8" fill="#EF4444"/>
   <circle cx="140" cy="154" r="8" fill="#F59E0B"/>
   <circle cx="166" cy="154" r="8" fill="#22C55E"/>
-  <text x="110" y="202" fill="#94A3B8" font-family="Consolas, Monaco, monospace" font-size="23">$ npm run portfolio</text>
+  <text x="110" y="202" fill="#94A3B8" font-family="Consolas, Monaco, monospace" font-size="23">$ criar portf&#243;lio</text>
   <text x="110" y="238" fill="#22D3EE" font-family="Consolas, Monaco, monospace" font-size="23">criando sistemas web...</text>
-  <text x="110" y="274" fill="#A78BFA" font-family="Consolas, Monaco, monospace" font-size="23">publicando no github</text>
+  <text x="110" y="274" fill="#A78BFA" font-family="Consolas, Monaco, monospace" font-size="23">publicando no GitHub</text>
 
   <text x="540" y="154" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="900">Kenji Hidehira</text>
   <text x="544" y="208" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="600">Portf&#243;lio Desenvolvedor Web</text>
