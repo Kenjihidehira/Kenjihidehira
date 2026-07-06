@@ -7,8 +7,9 @@
 <a href="https://github.com/Kenjihidehira">
   <img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github" alt="GitHub">
 </a>
-<img src="https://img.shields.io/badge/Portfolio-Web_Developer-22D3EE?style=for-the-badge" alt="Portfolio Web Developer">
-<img src="https://img.shields.io/badge/Status-Evolucao_constante-8B5CF6?style=for-the-badge" alt="Status Evolucao constante">
+<img src="https://img.shields.io/badge/Web_Developer-Portfolio-22D3EE?style=for-the-badge" alt="Web Developer Portfolio">
+<img src="https://img.shields.io/badge/Focus-Full_stack-8B5CF6?style=for-the-badge" alt="Full stack focus">
+<img src="https://img.shields.io/badge/Status-Building-F97316?style=for-the-badge" alt="Status building">
 
 <br><br>
 
@@ -18,42 +19,22 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=ffffff" alt="CSS3">
 <img src="https://img.shields.io/badge/APIs_REST-0F172A?style=flat-square" alt="APIs REST">
-<img src="https://img.shields.io/badge/Testes-2563EB?style=flat-square" alt="Testes">
 <img src="https://img.shields.io/badge/Dashboards-F97316?style=flat-square" alt="Dashboards">
+<img src="https://img.shields.io/badge/Testes-2563EB?style=flat-square" alt="Testes">
 
 </div>
 
 ---
 
-## :zap: Snapshot
+## :zap: Visao executiva
 
-<table>
-  <tr>
-    <td width="58%" valign="top">
+![Portfolio Operating System](./assets/overview-panel.svg)
 
-```txt
-developer@github:~$ whoami
+---
 
-Name      : Kenji Hidehira
-Focus     : Web development
-Stack     : JavaScript, Node.js, PHP, HTML, CSS
-Projects  : APIs, ERP, CRM, dashboards, helpdesk, planners
-Direction : Build real, public and organized portfolio projects
-```
+## :bar_chart: Sinais do portfolio
 
-  </td>
-    <td width="42%" valign="top">
-
-### Prioridade atual
-
-- Criar projetos completos, nao apenas telas soltas.
-- Mostrar evolucao pratica com repositorios publicos.
-- Melhorar back-end, testes, dados e deploy.
-- Organizar o perfil como vitrine profissional.
-
-  </td>
-  </tr>
-</table>
+![Portfolio Signals](./assets/metrics-panel.svg)
 
 ---
 
@@ -64,6 +45,10 @@ Direction : Build real, public and organized portfolio projects
 ---
 
 ## :fire: Projetos principais
+
+<p align="center">
+  <strong>Clique nos cards para abrir os repositorios.</strong>
+</p>
 
 <table>
   <tr>
@@ -138,38 +123,21 @@ Direction : Build real, public and organized portfolio projects
 
 ---
 
-## :bar_chart: O que o portfolio comunica
+## :checkered_flag: Roadmap tecnico
 
-| Sinal | Evidencia |
-| --- | --- |
-| Capacidade de construir produto | CRM, ERP, Helpdesk, Dashboard e Planner com objetivo claro |
-| Capacidade de back-end | APIs REST, rotas, persistencia, validacoes e testes |
-| Capacidade de front-end | Interfaces com cards, filtros, tabelas, fluxos e exportacoes |
-| Evolucao tecnica | Projetos simples, intermediarios e mais completos publicados no GitHub |
-| Proximo salto | Banco de dados real, autenticacao, deploy e documentacao mais forte |
+![Technical Roadmap](./assets/roadmap-panel.svg)
 
 ---
 
-## :checkered_flag: Roadmap
+## :mag: Leitura tecnica do portfolio
 
-```mermaid
-flowchart LR
-  A["Base JS"] --> B["APIs Node"]
-  B --> C["Full-stack"]
-  C --> D["Database"]
-  D --> E["Auth"]
-  E --> F["Deploy"]
-```
-
-<table>
-  <tr>
-    <td align="center"><strong>Concluido</strong><br>HTML, CSS, JS</td>
-    <td align="center"><strong>Concluido</strong><br>APIs Node.js</td>
-    <td align="center"><strong>Em andamento</strong><br>Full-stack</td>
-    <td align="center"><strong>Proximo</strong><br>Database</td>
-    <td align="center"><strong>Proximo</strong><br>Auth + Deploy</td>
-  </tr>
-</table>
+| Area | O que ja aparece | Proximo ajuste objetivo |
+| --- | --- | --- |
+| Produto | Projetos com tema real: CRM, ERP, helpdesk, vendas e planner | Fazer deploy dos melhores projetos |
+| Front-end | Interfaces com cards, tabelas, filtros, dashboards e fluxos | Melhorar responsividade e acessibilidade |
+| Back-end | APIs REST, rotas, validacoes, persistencia local e testes | Adicionar banco de dados real |
+| Qualidade | Repositorios separados, READMEs e testes em projetos Node | Padronizar documentacao e scripts |
+| Evolucao | Projetos simples, intermediarios e full-stack publicados | Criar autenticacao e ambiente em producao |
 
 ---
 
@@ -201,16 +169,12 @@ flowchart LR
 
 ---
 
+![Portfolio in constant evolution](./assets/footer-panel.svg)
+
 <div align="center">
 
-<h3>Portfolio em evolu&ccedil;&atilde;o constante</h3>
-
-<p>
-  O objetivo e simples: sair de projetos basicos para sistemas cada vez mais completos, publicados e verificaveis.
-</p>
-
 <a href="https://github.com/Kenjihidehira">
-  <img src="https://img.shields.io/badge/Ver_perfil_no_GitHub-181717?style=for-the-badge&logo=github" alt="Ver perfil no GitHub">
+  <img src="https://img.shields.io/badge/Abrir_perfil_no_GitHub-181717?style=for-the-badge&logo=github" alt="Abrir perfil no GitHub">
 </a>
 
 </div>
