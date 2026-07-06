@@ -35,12 +35,12 @@
   <circle cx="140" cy="154" r="8" fill="#F59E0B"/>
   <circle cx="166" cy="154" r="8" fill="#22C55E"/>
   <text x="110" y="202" fill="#94A3B8" font-family="Consolas, Monaco, monospace" font-size="23">$ npm run portfolio</text>
-  <text x="110" y="238" fill="#22D3EE" font-family="Consolas, Monaco, monospace" font-size="23">building web systems...</text>
-  <text x="110" y="274" fill="#A78BFA" font-family="Consolas, Monaco, monospace" font-size="23">deploy target: github</text>
+  <text x="110" y="238" fill="#22D3EE" font-family="Consolas, Monaco, monospace" font-size="23">criando sistemas web...</text>
+  <text x="110" y="274" fill="#A78BFA" font-family="Consolas, Monaco, monospace" font-size="23">publicando no github</text>
 
   <text x="540" y="154" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="900">Kenji Hidehira</text>
-  <text x="544" y="208" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="600">Web Developer Portfolio</text>
-  <text x="546" y="254" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">JavaScript / Node.js / PHP / APIs / Dashboards</text>
+  <text x="544" y="208" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="600">Portf&#243;lio Desenvolvedor Web</text>
+  <text x="546" y="254" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">JavaScript / Node.js / PHP / APIs / Pain&#233;is</text>
 
   <rect x="546" y="294" width="132" height="38" rx="19" fill="#F7DF1E"/>
   <text x="579" y="319" fill="#111827" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">JS</text>
@@ -49,7 +49,7 @@
   <rect x="838" y="294" width="132" height="38" rx="19" fill="#777BB4"/>
   <text x="877" y="319" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">PHP</text>
   <rect x="984" y="294" width="154" height="38" rx="19" fill="#2563EB"/>
-  <text x="1019" y="319" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">FULL STACK</text>
+  <text x="1019" y="319" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">SISTEMAS</text>
 
   <circle cx="1160" cy="164" r="6" fill="#22D3EE"/>
   <circle cx="1192" cy="196" r="4" fill="#A78BFA"/>
