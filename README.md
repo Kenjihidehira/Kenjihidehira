@@ -1,15 +1,15 @@
 <div align="center">
 
-![Kenji Hidehira - Web Developer Portfolio](./assets/profile-banner.svg)
+![Kenji Hidehira - Portf&oacute;lio Desenvolvedor Web](./assets/profile-banner.svg)
 
 <br>
 
 <a href="https://github.com/Kenjihidehira">
   <img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github" alt="GitHub">
 </a>
-<img src="https://img.shields.io/badge/Web_Developer-Portfolio-22D3EE?style=for-the-badge" alt="Web Developer Portfolio">
-<img src="https://img.shields.io/badge/Focus-Full_stack-8B5CF6?style=for-the-badge" alt="Full stack focus">
-<img src="https://img.shields.io/badge/Status-Building-F97316?style=for-the-badge" alt="Status building">
+<img src="https://img.shields.io/badge/Desenvolvedor-Web-22D3EE?style=for-the-badge" alt="Desenvolvedor Web">
+<img src="https://img.shields.io/badge/Foco-Full_stack-8B5CF6?style=for-the-badge" alt="Foco Full stack">
+<img src="https://img.shields.io/badge/Status-Em_construcao-F97316?style=for-the-badge" alt="Status em construcao">
 
 <br><br>
 
@@ -26,28 +26,28 @@
 
 ---
 
-## :zap: Visao executiva
+## :zap: Vis&atilde;o executiva
 
-![Portfolio Operating System](./assets/overview-panel.svg)
+![Sistema visual do portf&oacute;lio](./assets/overview-panel.svg)
 
 ---
 
-## :bar_chart: Sinais do portfolio
+## :bar_chart: Sinais do portf&oacute;lio
 
-![Portfolio Signals](./assets/metrics-panel.svg)
+![Sinais do portf&oacute;lio](./assets/metrics-panel.svg)
 
 ---
 
 ## :rocket: Stack visual
 
-![Stack Matrix](./assets/skill-matrix.svg)
+![Matriz de stack](./assets/skill-matrix.svg)
 
 ---
 
 ## :fire: Projetos principais
 
 <p align="center">
-  <strong>Clique nos cards para abrir os repositorios.</strong>
+  <strong>Clique nos cards para abrir os reposit&oacute;rios.</strong>
 </p>
 
 <table>
@@ -91,7 +91,7 @@
 
 ---
 
-## :compass: Mapa do portfolio
+## :compass: Mapa do portf&oacute;lio
 
 <table>
   <tr>
@@ -123,26 +123,26 @@
 
 ---
 
-## :checkered_flag: Roadmap tecnico
+## :checkered_flag: Roadmap t&eacute;cnico
 
-![Technical Roadmap](./assets/roadmap-panel.svg)
+![Roadmap t&eacute;cnico](./assets/roadmap-panel.svg)
 
 ---
 
-## :mag: Leitura tecnica do portfolio
+## :mag: Leitura t&eacute;cnica do portf&oacute;lio
 
-| Area | O que ja aparece | Proximo ajuste objetivo |
+| &Aacute;rea | O que j&aacute; aparece | Pr&oacute;ximo ajuste objetivo |
 | --- | --- | --- |
 | Produto | Projetos com tema real: CRM, ERP, helpdesk, vendas e planner | Fazer deploy dos melhores projetos |
 | Front-end | Interfaces com cards, tabelas, filtros, dashboards e fluxos | Melhorar responsividade e acessibilidade |
-| Back-end | APIs REST, rotas, validacoes, persistencia local e testes | Adicionar banco de dados real |
-| Qualidade | Repositorios separados, READMEs e testes em projetos Node | Padronizar documentacao e scripts |
-| Evolucao | Projetos simples, intermediarios e full-stack publicados | Criar autenticacao e ambiente em producao |
+| Back-end | APIs REST, rotas, valida&ccedil;&otilde;es, persist&ecirc;ncia local e testes | Adicionar banco de dados real |
+| Qualidade | Reposit&oacute;rios separados, READMEs e testes em projetos Node | Padronizar documenta&ccedil;&atilde;o e scripts |
+| Evolu&ccedil;&atilde;o | Projetos simples, intermedi&aacute;rios e full-stack publicados | Criar autentica&ccedil;&atilde;o e ambiente em produ&ccedil;&atilde;o |
 
 ---
 
 <details>
-  <summary><strong>Todos os repositorios importantes</strong></summary>
+  <summary><strong>Todos os reposit&oacute;rios importantes</strong></summary>
 
 <br>
 
@@ -163,13 +163,13 @@
 | Kanban Board | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/kanban-board) |
 | Pomodoro Focus | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/pomodoro-focus) |
 | Quiz Dev JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/quiz-dev-js) |
-| Catalogo de Filmes | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/catalogo-filmes) |
+| Cat&aacute;logo de Filmes | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/catalogo-filmes) |
 
 </details>
 
 ---
 
-![Portfolio in constant evolution](./assets/footer-panel.svg)
+![Portf&oacute;lio em evolu&ccedil;&atilde;o constante](./assets/footer-panel.svg)
 
 <div align="center">
 
