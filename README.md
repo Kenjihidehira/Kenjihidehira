@@ -26,6 +26,12 @@
 
 ---
 
+## :sparkles: Fluxo de evolu&ccedil;&atilde;o
+
+![Fluxo de evolu&ccedil;&atilde;o](./assets/workflow-strip.svg)
+
+---
+
 ## :zap: Vis&atilde;o executiva
 
 ![Sistema visual do portf&oacute;lio](./assets/overview-panel.svg)
@@ -92,6 +98,10 @@
 ---
 
 ## :compass: Mapa do portf&oacute;lio
+
+![Mapa visual do portf&oacute;lio](./assets/portfolio-map.svg)
+
+<br>
 
 <table>
   <tr>
