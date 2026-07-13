@@ -1,15 +1,17 @@
 <div align="center">
 
-![Kenji Hidehira - Portf&oacute;lio Desenvolvedor Web](./assets/profile-banner.svg)
+![Kenji Hidehira - Portf?lio Desenvolvedor Web](./assets/profile-banner.svg)
 
-<br>
+# Kenji Hidehira
+
+**Desenvolvedor web focado em sistemas comerciais, dashboards, APIs e automa??es para neg?cios.**
 
 <a href="https://github.com/Kenjihidehira">
   <img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github" alt="GitHub">
 </a>
-<img src="https://img.shields.io/badge/Desenvolvedor-Web-22D3EE?style=for-the-badge" alt="Desenvolvedor Web">
-<img src="https://img.shields.io/badge/Foco-Sistemas_web-8B5CF6?style=for-the-badge" alt="Foco em sistemas web">
-<img src="https://img.shields.io/badge/Situacao-Em_construcao-F97316?style=for-the-badge" alt="Situacao em construcao">
+<img src="https://img.shields.io/badge/Foco-Sistemas_web-22D3EE?style=for-the-badge" alt="Sistemas web">
+<img src="https://img.shields.io/badge/Portf?lio-Projetos_comerciais-8B5CF6?style=for-the-badge" alt="Projetos comerciais">
+<img src="https://img.shields.io/badge/Idiomas-PT--BR-F97316?style=for-the-badge" alt="Portugu?s brasileiro">
 
 <br><br>
 
@@ -19,172 +21,107 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=ffffff" alt="CSS3">
 <img src="https://img.shields.io/badge/APIs_REST-0F172A?style=flat-square" alt="APIs REST">
-<img src="https://img.shields.io/badge/Paineis-F97316?style=flat-square" alt="Paineis">
+<img src="https://img.shields.io/badge/Dashboards-F97316?style=flat-square" alt="Dashboards">
 <img src="https://img.shields.io/badge/Testes-2563EB?style=flat-square" alt="Testes">
 
 </div>
 
 ---
 
-## :sparkles: Fluxo de evolu&ccedil;&atilde;o
+## Perfil profissional
 
-![Fluxo de evolu&ccedil;&atilde;o](./assets/workflow-strip.svg)
+Meu GitHub ? organizado como portf?lio pr?tico para projetos freelance. A prioridade aqui n?o ? quantidade de exemplos soltos, mas sistemas que representem problemas reais de empresas: vendas, atendimento, estoque, financeiro, agendamento, compliance, log?stica, marketing e produtividade.
+
+Trabalho com aplica??es web que precisam ter interface clara, regra de neg?cio demonstr?vel, API documentada, dados de exemplo e instru??es objetivas para rodar ou evoluir.
+
+## O que eu construo
+
+| ?rea | Entregas que o portf?lio demonstra |
+| --- | --- |
+| Sistemas web | Dashboards operacionais, CRUDs, pain?is internos, portais e fluxos de gest?o |
+| APIs | Rotas REST, valida??es, seed de demonstra??o, regras de neg?cio e testes |
+| Automa??o | Filas de a??o, alertas simulados, prioriza??o, scoring e processamento de dados |
+| Frontend | Interfaces em portugu?s, responsivas, com tabelas, filtros, cards, KPIs e a??es claras |
+| Neg?cio | Solu??es aplic?veis a atendimento, vendas, estoque, cobran?a, agenda, CRM e opera??es |
 
 ---
 
-## :zap: Vis&atilde;o executiva
+## Projetos comerciais em destaque
 
-![Sistema visual do portf&oacute;lio](./assets/overview-panel.svg)
+| Projeto | Problema que resolve | Stack | Reposit?rio |
+| --- | --- | --- | --- |
+| VendorAudit Portal de Compliance | Controle de risco, documentos, SLA e renova??es de fornecedores | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/vendoraudit-compliance-portal) |
+| LeadOps Atribui??o de Campanhas | Atribui??o de marketing, scoring de leads, ROI e automa??o comercial | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/leadops-campaign-attribution) |
+| CobreFlow Finance Ops | Cobran?a, inadimpl?ncia, prioriza??o e opera??o financeira | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/cobreflow-finance-ops) |
+| LogixOps Control Tower | Controle operacional de log?stica, entregas e ocorr?ncias | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/logix-ops-control-tower) |
+| FieldOps Margin Control | Controle de margem, equipe de campo e opera??es comerciais | TypeScript, PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/fieldops-margin-control) |
+| ServiceHub Agendamentos CRM | Agendamento, CRM, atendimento e fila operacional | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/servicehub-agendamentos-crm) |
+| StockPilot ERP | Estoque, reposi??o, fornecedores, ruptura e sugest?o de compras | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/erp-estoque-node) |
+| ResolveDesk SLA Hub | Chamados, SLA, atendimento, prioridades e opera??o de suporte | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/helpdesk-node-fullstack) |
+| LinkPulse Campaign Links | Encurtador de links com m?tricas para campanhas | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/encurtador-url-node) |
 
 ---
 
-## :bar_chart: Sinais do portf&oacute;lio
+## Leitura r?pida para clientes
 
-![Sinais do portf&oacute;lio](./assets/metrics-panel.svg)
+Se voc? est? avaliando meu perfil para um trabalho freelance, estes s?o os pontos principais:
+
+- Consigo transformar uma necessidade comercial em um sistema naveg?vel, com telas e fluxo de uso.
+- N?o entrego s? layout: os projetos incluem regras de neg?cio, APIs, dados de exemplo e valida??o local.
+- Tenho foco em sistemas ?teis para pequenas e m?dias empresas: atendimento, vendas, financeiro, estoque, agenda, CRM e opera??o.
+- Os reposit?rios recentes est?o com interface em portugu?s do Brasil e documenta??o objetiva.
+- O pr?ximo passo natural para projetos reais ? integrar banco de dados, autentica??o, deploy e APIs externas conforme a necessidade do cliente.
 
 ---
 
-## :rocket: Tecnologias
+## Tecnologias
 
 ![Matriz de tecnologias](./assets/skill-matrix.svg)
 
----
-
-## :fire: Projetos principais
-
-<p align="center">
-  <strong>Clique nos cart&otilde;es para abrir os reposit&oacute;rios.</strong>
-</p>
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/erp-estoque-node">
-        <img src="./assets/card-erp.svg" alt="ERP Estoque Node" width="100%">
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">
-        <img src="./assets/card-helpdesk.svg" alt="Sistema de Chamados Node" width="100%">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">
-        <img src="./assets/card-dashboard.svg" alt="Painel de Vendas Pro" width="100%">
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/crm-pipeline-js">
-        <img src="./assets/card-crm.svg" alt="CRM Pipeline JS" width="100%">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/planner-pro-js">
-        <img src="./assets/card-planner.svg" alt="Planejador Pro JS" width="100%">
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/encurtador-url-node">
-        <img src="./assets/card-url.svg" alt="Encurtador URL Node" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
+| Camada | Tecnologias e pr?ticas |
+| --- | --- |
+| Frontend | HTML, CSS, JavaScript, TypeScript, UI responsiva, tabelas, formul?rios e dashboards |
+| Backend | Node.js, PHP, APIs REST, valida??o de entrada e estrutura modular |
+| Dados | JSON seed, persist?ncia local, prepara??o para PostgreSQL, SQLite ou integra??es externas |
+| Qualidade | Smoke tests, testes de regra de neg?cio, checagem de sintaxe e README com instru??es |
+| Entrega | Projetos p?blicos, documenta??o, Dockerfile quando aplic?vel e fluxo preparado para deploy |
 
 ---
 
-## :compass: Mapa do portf&oacute;lio
+## Projetos complementares
 
-![Mapa visual do portf&oacute;lio](./assets/portfolio-map.svg)
-
-<br>
-
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h3>Sistemas completos</h3>
-      <p><a href="https://github.com/Kenjihidehira/erp-estoque-node">ERP Estoque Node</a></p>
-      <p><a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">Sistema de Chamados Node</a></p>
-      <p><a href="https://github.com/Kenjihidehira/encurtador-url-node">Encurtador URL Node</a></p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>APIs</h3>
-      <p><a href="https://github.com/Kenjihidehira/api-produtos-node">API Produtos Node</a></p>
-      <p><a href="https://github.com/Kenjihidehira/notas-api-node">Notas API Node</a></p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Interfaces profissionais</h3>
-      <p><a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">Painel de Vendas Pro</a></p>
-      <p><a href="https://github.com/Kenjihidehira/crm-pipeline-js">CRM Pipeline JS</a></p>
-      <p><a href="https://github.com/Kenjihidehira/planner-pro-js">Planejador Pro JS</a></p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>PHP e base JS</h3>
-      <p><a href="https://github.com/Kenjihidehira/loja-php">Loja PHP</a></p>
-      <p><a href="https://github.com/Kenjihidehira/agenda-php">Agenda PHP</a></p>
-      <p><a href="https://github.com/Kenjihidehira/lista-tarefas">Lista de tarefas</a></p>
-    </td>
-  </tr>
-</table>
-
----
-
-## :checkered_flag: Plano t&eacute;cnico
-
-![Plano t&eacute;cnico](./assets/roadmap-panel.svg)
-
----
-
-## :mag: Leitura t&eacute;cnica do portf&oacute;lio
-
-| &Aacute;rea | O que j&aacute; aparece | Pr&oacute;ximo ajuste objetivo |
+| Projeto | Tipo | Reposit?rio |
 | --- | --- | --- |
-| Produto | Projetos com tema real: CRM, ERP, sistema de chamados, vendas e planejador | Publicar online os melhores projetos |
-| Interface | Telas com cart&otilde;es, tabelas, filtros, pain&eacute;is e fluxos | Melhorar responsividade e acessibilidade |
-| Servidor e APIs | APIs REST, rotas, valida&ccedil;&otilde;es, persist&ecirc;ncia local e testes | Adicionar banco de dados real |
-| Qualidade | Reposit&oacute;rios separados, READMEs e testes em projetos Node | Padronizar documenta&ccedil;&atilde;o e comandos |
-| Evolu&ccedil;&atilde;o | Projetos simples, intermedi&aacute;rios e sistemas completos publicados | Criar autentica&ccedil;&atilde;o e ambiente em produ&ccedil;&atilde;o |
+| Dashboard Vendas Pro | Dashboard comercial | [Abrir](https://github.com/Kenjihidehira/dashboard-vendas-pro) |
+| CRM Pipeline JS | CRM visual com funil | [Abrir](https://github.com/Kenjihidehira/crm-pipeline-js) |
+| Planner Pro JS | Organiza??o de tarefas e projetos | [Abrir](https://github.com/Kenjihidehira/planner-pro-js) |
+| Loja PHP | Loja simples com carrinho | [Abrir](https://github.com/Kenjihidehira/loja-php) |
+| Agenda PHP | Sistema de agendamentos | [Abrir](https://github.com/Kenjihidehira/agenda-php) |
+| API Produtos Node | API REST de produtos | [Abrir](https://github.com/Kenjihidehira/api-produtos-node) |
+| Notas API Node | API REST de notas | [Abrir](https://github.com/Kenjihidehira/notas-api-node) |
+| Controle Financeiro | App de finan?as pessoais | [Abrir](https://github.com/Kenjihidehira/controle-financeiro) |
+| Kanban Board | Quadro Kanban | [Abrir](https://github.com/Kenjihidehira/kanban-board) |
+| Pomodoro Focus | Produtividade e foco | [Abrir](https://github.com/Kenjihidehira/pomodoro-focus) |
 
 ---
 
-<details>
-  <summary><strong>Todos os reposit&oacute;rios importantes</strong></summary>
+## Como este portf?lio est? evoluindo
 
-<br>
-
-| Projeto | Tecnologias | Link |
+| Frente | Estado atual | Pr?ximo n?vel |
 | --- | --- | --- |
-| ERP Estoque Node | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/erp-estoque-node) |
-| Sistema de Chamados Node | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/helpdesk-node-fullstack) |
-| Painel de Vendas Pro | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/dashboard-vendas-pro) |
-| CRM Pipeline JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/crm-pipeline-js) |
-| Planejador Pro JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/planner-pro-js) |
-| Encurtador URL Node | Node.js, Express | [Abrir](https://github.com/Kenjihidehira/encurtador-url-node) |
-| API Produtos Node | Node.js, Express | [Abrir](https://github.com/Kenjihidehira/api-produtos-node) |
-| Notas API Node | Node.js | [Abrir](https://github.com/Kenjihidehira/notas-api-node) |
-| Loja PHP | PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/loja-php) |
-| Agenda PHP | PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/agenda-php) |
-| Lista de tarefas | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/lista-tarefas) |
-| Controle financeiro | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/controle-financeiro) |
-| Kanban Board | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/kanban-board) |
-| Pomodoro Foco | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/pomodoro-focus) |
-| Quiz Dev JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/quiz-dev-js) |
-| Cat&aacute;logo de Filmes | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/catalogo-filmes) |
-
-</details>
+| Produto | Projetos com contexto comercial real | Publicar previews online dos principais sistemas |
+| Backend | APIs e regras de neg?cio demonstr?veis | Integrar banco relacional e autentica??o |
+| Frontend | Interfaces em pt-BR, responsivas e orientadas a opera??o | Refinar acessibilidade e estados vazios/erro |
+| Opera??o | Seeds, testes e documenta??o | Automatizar CI e deploy cont?nuo |
 
 ---
-
-![Portf&oacute;lio em evolu&ccedil;&atilde;o constante](./assets/footer-panel.svg)
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira">
-  <img src="https://img.shields.io/badge/Abrir_perfil_no_GitHub-181717?style=for-the-badge&logo=github" alt="Abrir perfil no GitHub">
+![Portf?lio em evolu??o constante](./assets/footer-panel.svg)
+
+<a href="https://github.com/Kenjihidehira?tab=repositories">
+  <img src="https://img.shields.io/badge/Ver_reposit?rios-181717?style=for-the-badge&logo=github" alt="Ver reposit?rios">
 </a>
 
 </div>
