@@ -16,7 +16,7 @@
 
 ## Vis&atilde;o geral
 
-![M&eacute;tricas verificadas do portf&oacute;lio](./assets/proof-panel.svg?v=20260714-3)
+<img src="./assets/proof-panel-clean.svg" alt="M&eacute;tricas verificadas do portf&oacute;lio">
 
 Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produto usa uma linguagem visual pr&oacute;pria, definida pelo contexto de neg&oacute;cio, sem reaproveitar o mesmo template entre aplica&ccedil;&otilde;es. O trabalho combina interface, regras de neg&oacute;cio, API, dados de demonstra&ccedil;&atilde;o e valida&ccedil;&atilde;o t&eacute;cnica para que o cliente consiga entender o fluxo antes de investir na evolu&ccedil;&atilde;o do produto.
 
@@ -36,19 +36,25 @@ Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produ
 Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Os cards usam largura &uacute;nica para manter texto e indicadores leg&iacute;veis em qualquer tamanho de perfil.
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops.svg?v=20260714-2" alt="ReturnOps - Central de RMA"></a>
+  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops-v2.svg" alt="ReturnOps - Central de RMA"></a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub.svg?v=20260714-2" alt="ServiceHub - Agendamentos CRM"></a>
-</p>
+<br>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops.svg?v=20260714-2" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
+  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub-v2.svg" alt="ServiceHub - Agendamentos CRM"></a>
 </p>
 
+<br>
+
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops.svg?v=20260714-2" alt="FieldOps - Controle de margem"></a>
+  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops-v2.svg" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops-v2.svg" alt="FieldOps - Controle de margem"></a>
 </p>
 
 ### Mais sistemas comerciais
@@ -127,8 +133,4 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
 
 ![Chamada para projetos freelance](./assets/footer-panel.svg?v=20260714-2)
 
-<div align="center">
-
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg?v=20260714-2" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg?v=20260714-2" alt="Ver portf&oacute;lio completo" height="38"></a>
-
-</div>
+<p align="center"><a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg?v=20260714-2" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg?v=20260714-2" alt="Ver portf&oacute;lio completo" height="38"></a> <img src="./assets/action-status.svg?v=20260714-2" alt="Freelance ativo" height="38"></p>

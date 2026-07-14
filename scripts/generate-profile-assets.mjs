@@ -127,7 +127,7 @@ const metric = (x, y, accent, number, label, note, width = 246) => safeBox(x, y,
   `${text(18, 43, number, 36, accent, 950)}${text(82, 35, label, 13, C.text, 850)}${text(82, 60, note, 11, C.muted, 500, MONO)}<rect x="18" y="78" width="${width - 36}" height="5" rx="2.5" fill="${C.grid}"/><rect x="18" y="78" width="${Math.round((width - 36) * (number === "21" ? 0.85 : number === "29" ? 0.99 : 0.66))}" height="5" rx="2.5" fill="${accent}"/>`,
   { fill: C.surface2, stroke: C.border, radius: 5 });
 
-write("proof-panel.svg", shell(900, 300, C.coral,
+write("proof-panel-clean.svg", shell(900, 300, C.coral,
   `${safeBox(26, 58, 294, 214, `${text(22, 30, "PORTF&#211;LIO EM N&#218;MEROS", 12, C.coral, 850, MONO)}${text(22, 78, "Evid&#234;ncia", 30, C.text, 950)}${text(22, 112, "antes de promessa.", 30, C.text, 950)}${text(22, 154, "Projetos publicados, interfaces", 13, C.muted, 550)}${text(22, 176, "distintas e valida&#231;&#227;o objetiva.", 13, C.muted, 550)}${text(22, 201, "AUDITORIA / 2026.07", 10, C.dim, 700, MONO)}`, { fill: C.surface, stroke: C.border, radius: 6, accent: C.coral })}
    ${metric(342, 58, C.green, "29", "REPOSIT&#211;RIOS", "portf&#243;lio p&#250;blico")}
    ${metric(600, 58, C.blue, "21", "INTERFACES", "desktop + mobile")}
@@ -156,16 +156,16 @@ function chart(kind, accent) {
 
 function projectCard(name, project) {
   const right = `${text(18, 28, project.panel, 11, C.muted, 750, MONO)}${text(18, 58, project.metric, 22, project.accent, 900)}${chart(project.chart, project.accent)}${text(18, 178, project.status, 10, project.accent, 750, MONO)}`;
-  const left = `${text(22, 30, `${project.code} / ${project.category}`, 12, project.accent, 850, MONO)}${text(22, 76, project.title, 31, C.text, 950)}${text(22, 112, project.description[0], 15, C.muted, 550)}${text(22, 136, project.description[1], 15, C.muted, 550)}${text(22, 190, project.stack, 11, C.text, 800, MONO)}${text(344, 190, "ABRIR &#8599;", 11, project.accent, 850, MONO)}`;
+  const left = `${text(22, 30, `${project.code} / ${project.category}`, 12, project.accent, 850, MONO)}${text(22, 76, project.title, 31, C.text, 950)}${text(22, 112, project.description[0], 15, C.muted, 550)}${text(22, 136, project.description[1], 15, C.muted, 550)}${line(22, 154, 408, 154, C.border)}${text(22, 178, project.stack, 11, C.text, 800, MONO)}${text(344, 178, "ABRIR &#8599;", 11, project.accent, 850, MONO)}`;
   write(name, shell(720, 250, project.accent,
     `${safeBox(22, 34, 430, 194, left, { fill: "transparent", stroke: "transparent", radius: 0 })}${safeBox(474, 34, 222, 194, right, { fill: C.surface, stroke: C.border, radius: 6 })}${text(24, 23, "SISTEMA COMERCIAL", 10, C.dim, 700, MONO)}`));
 }
 
 const cases = [
-  ["case-returnops.svg", { code: "CASE 01", category: "P&#211;S-VENDA", title: "ReturnOps", description: ["RMA, reembolso, estoque e risco", "de SLA em uma central operacional."], stack: "NODE.JS / API REST / PLAYBOOKS / TESTES", accent: C.coral, panel: "DEVOLU&#199;&#213;ES EM RISCO", metric: "12 priorit&#225;rias", chart: "queue", status: "SLA MONITORADO" }],
-  ["case-servicehub.svg", { code: "CASE 02", category: "SERVI&#199;OS", title: "ServiceHub", description: ["Agenda, clientes, funil e cobran&#231;as", "conectados em um fluxo comercial."], stack: "NODE.JS / CRM / AGENDA / AUTOMA&#199;&#195;O", accent: C.blue, panel: "OCUPA&#199;&#195;O DA AGENDA", metric: "84%", chart: "ring", status: "LEMBRETES ATIVOS" }],
-  ["case-leadops.svg", { code: "CASE 03", category: "MARKETING", title: "LeadOps", description: ["ROI, atribui&#231;&#227;o, pontua&#231;&#227;o", "e automa&#231;&#245;es para vendas."], stack: "NODE.JS / ANALYTICS / FUNIL / API", accent: C.yellow, panel: "ROI / 30 DIAS", metric: "+32,4%", chart: "line", status: "ATRIBUI&#199;&#195;O ATIVA" }],
-  ["case-fieldops.svg", { code: "CASE 04", category: "OPERA&#199;&#213;ES", title: "FieldOps", description: ["Equipe, materiais, faturamento", "e margem de projetos de campo."], stack: "PHP / TYPESCRIPT / MARGEM / RELAT&#211;RIOS", accent: C.green, panel: "MARGEM POR PROJETO", metric: "28,6%", chart: "bars", status: "CUSTO CONTROLADO" }],
+  ["case-returnops-v2.svg", { code: "CASE 01", category: "P&#211;S-VENDA", title: "ReturnOps", description: ["RMA, reembolso, estoque e risco", "de SLA em uma central operacional."], stack: "NODE.JS / API REST / PLAYBOOKS / TESTES", accent: C.coral, panel: "DEVOLU&#199;&#213;ES EM RISCO", metric: "12 priorit&#225;rias", chart: "queue", status: "SLA MONITORADO" }],
+  ["case-servicehub-v2.svg", { code: "CASE 02", category: "SERVI&#199;OS", title: "ServiceHub", description: ["Agenda, clientes, funil e cobran&#231;as", "conectados em um fluxo comercial."], stack: "NODE.JS / CRM / AGENDA / AUTOMA&#199;&#195;O", accent: C.blue, panel: "OCUPA&#199;&#195;O DA AGENDA", metric: "84%", chart: "ring", status: "LEMBRETES ATIVOS" }],
+  ["case-leadops-v2.svg", { code: "CASE 03", category: "MARKETING", title: "LeadOps", description: ["ROI, atribui&#231;&#227;o, pontua&#231;&#227;o", "e automa&#231;&#245;es para vendas."], stack: "NODE.JS / ANALYTICS / FUNIL / API", accent: C.yellow, panel: "ROI / 30 DIAS", metric: "+32,4%", chart: "line", status: "ATRIBUI&#199;&#195;O ATIVA" }],
+  ["case-fieldops-v2.svg", { code: "CASE 04", category: "OPERA&#199;&#213;ES", title: "FieldOps", description: ["Equipe, materiais, faturamento", "e margem de projetos de campo."], stack: "PHP / TYPESCRIPT / MARGEM / RELAT&#211;RIOS", accent: C.green, panel: "MARGEM POR PROJETO", metric: "28,6%", chart: "bars", status: "CUSTO CONTROLADO" }],
 ];
 for (const [name, project] of cases) projectCard(name, project);
 
