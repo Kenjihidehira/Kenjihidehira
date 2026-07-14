@@ -18,17 +18,12 @@
    <g transform="translate(600 58)" data-box="true">
     <rect data-bound="true" x="0.5" y="0.5" width="245" height="103" rx="5" fill="#151F19" stroke="#2A3930" />
 
-    <text x="18" y="43" fill="#6F9EFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="950" letter-spacing="0" >21</text><text x="82" y="35" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850" letter-spacing="0" >INTERFACES</text><text x="82" y="60" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >desktop + mobile</text><rect x="18" y="78" width="210" height="5" rx="2.5" fill="#1A241E"/><rect x="18" y="78" width="178" height="5" rx="2.5" fill="#6F9EFF"/>
+    <text x="18" y="43" fill="#6F9EFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="950" letter-spacing="0" >21</text><text x="82" y="35" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850" letter-spacing="0" >INTERFACES</text><text x="82" y="60" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >desktop + mobile</text><rect x="18" y="78" width="210" height="5" rx="2.5" fill="#1A241E"/><rect x="18" y="78" width="179" height="5" rx="2.5" fill="#6F9EFF"/>
   </g>
    <g transform="translate(342 168)" data-box="true">
-    <rect data-bound="true" x="0.5" y="0.5" width="245" height="103" rx="5" fill="#151F19" stroke="#2A3930" />
+    <rect data-bound="true" x="0.5" y="0.5" width="503" height="103" rx="5" fill="#151F19" stroke="#2A3930" />
 
-    <text x="18" y="43" fill="#F2C14E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="950" letter-spacing="0" >10</text><text x="82" y="35" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850" letter-spacing="0" >DESTAQUES</text><text x="82" y="60" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >cases + sistemas</text><rect x="18" y="78" width="210" height="5" rx="2.5" fill="#1A241E"/><rect x="18" y="78" width="138" height="5" rx="2.5" fill="#F2C14E"/>
-  </g>
-   <g transform="translate(600 168)" data-box="true">
-    <rect data-bound="true" x="0.5" y="0.5" width="245" height="103" rx="5" fill="#151F19" stroke="#2A3930" />
-
-    <text x="18" y="43" fill="#FF6B4A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="950" letter-spacing="0" >PT</text><text x="82" y="35" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850" letter-spacing="0" >BRASILEIRO</text><text x="82" y="60" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >interface + docs</text><rect x="18" y="78" width="210" height="5" rx="2.5" fill="#1A241E"/><rect x="18" y="78" width="150" height="5" rx="2.5" fill="#FF6B4A"/>
+    <text x="18" y="43" fill="#F2C14E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="36" font-weight="950" letter-spacing="0" >10</text><text x="82" y="35" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="850" letter-spacing="0" >DESTAQUES</text><text x="82" y="60" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >cases + sistemas</text><rect x="18" y="78" width="468" height="5" rx="2.5" fill="#1A241E"/><rect x="18" y="78" width="309" height="5" rx="2.5" fill="#F2C14E"/>
   </g>
    <text x="28" y="28" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="700" letter-spacing="0" >01 / PROVA DE EXECU&#199;&#195;O</text>
   </g>
