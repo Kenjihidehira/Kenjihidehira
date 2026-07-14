@@ -36,51 +36,51 @@ Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produ
 Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Os cards usam largura &uacute;nica para manter texto e indicadores leg&iacute;veis em qualquer tamanho de perfil.
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops-v2.svg" alt="ReturnOps - Central de RMA"></a>
+  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops-v3.svg" alt="ReturnOps - Central de RMA"></a>
 </p>
 
 <br>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub-v2.svg" alt="ServiceHub - Agendamentos CRM"></a>
+  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub-v3.svg" alt="ServiceHub - Agendamentos CRM"></a>
 </p>
 
 <br>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops-v2.svg" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
+  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops-v3.svg" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
 </p>
 
 <br>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops-v2.svg" alt="FieldOps - Controle de margem"></a>
+  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops-v3.svg" alt="FieldOps - Controle de margem"></a>
 </p>
 
 ### Mais sistemas comerciais
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img src="./assets/card-vendoraudit.svg?v=20260714-2" alt="VendorAudit - Portal de conformidade"></a>
+  <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img src="./assets/card-vendoraudit-v2.svg" alt="VendorAudit - Portal de conformidade"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow.svg?v=20260714-2" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
+  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow-v2.svg" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/logix-ops-control-tower"><img src="./assets/card-logixops.svg?v=20260714-2" alt="LogixOps - Torre de controle log&iacute;stica"></a>
+  <a href="https://github.com/Kenjihidehira/logix-ops-control-tower"><img src="./assets/card-logixops-v2.svg" alt="LogixOps - Torre de controle log&iacute;stica"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/erp-estoque-node"><img src="./assets/card-erp.svg?v=20260714-2" alt="StockPilot ERP"></a>
+  <a href="https://github.com/Kenjihidehira/erp-estoque-node"><img src="./assets/card-erp-v2.svg" alt="StockPilot ERP"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack"><img src="./assets/card-helpdesk.svg?v=20260714-2" alt="ResolveDesk - Sistema de suporte"></a>
+  <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack"><img src="./assets/card-helpdesk-v2.svg" alt="ResolveDesk - Sistema de suporte"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/encurtador-url-node"><img src="./assets/card-linkpulse.svg?v=20260714-2" alt="LinkPulse - Links de campanha"></a>
+  <a href="https://github.com/Kenjihidehira/encurtador-url-node"><img src="./assets/card-linkpulse-v2.svg" alt="LinkPulse - Links de campanha"></a>
 </p>
 
 <a id="engenharia"></a>
