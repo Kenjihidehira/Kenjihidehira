@@ -16,7 +16,7 @@
 
 ## Vis&atilde;o geral
 
-<img src="./assets/proof-panel-clean.svg" alt="M&eacute;tricas verificadas do portf&oacute;lio">
+<img src="./assets/proof-panel-fit.svg" alt="M&eacute;tricas verificadas do portf&oacute;lio">
 
 Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produto usa uma linguagem visual pr&oacute;pria, definida pelo contexto de neg&oacute;cio, sem reaproveitar o mesmo template entre aplica&ccedil;&otilde;es. O trabalho combina interface, regras de neg&oacute;cio, API, dados de demonstra&ccedil;&atilde;o e valida&ccedil;&atilde;o t&eacute;cnica para que o cliente consiga entender o fluxo antes de investir na evolu&ccedil;&atilde;o do produto.
 

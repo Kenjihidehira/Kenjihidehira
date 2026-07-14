@@ -127,8 +127,8 @@ const metric = (x, y, accent, number, label, note, width = 246) => safeBox(x, y,
   `${text(18, 43, number, 36, accent, 950)}${text(82, 35, label, 13, C.text, 850)}${text(82, 60, note, 11, C.muted, 500, MONO)}<rect x="18" y="78" width="${width - 36}" height="5" rx="2.5" fill="${C.grid}"/><rect x="18" y="78" width="${Math.round((width - 36) * (number === "21" ? 0.85 : number === "29" ? 0.99 : 0.66))}" height="5" rx="2.5" fill="${accent}"/>`,
   { fill: C.surface2, stroke: C.border, radius: 5 });
 
-write("proof-panel-clean.svg", shell(900, 300, C.coral,
-  `${safeBox(26, 58, 294, 214, `${text(22, 30, "PORTF&#211;LIO EM N&#218;MEROS", 12, C.coral, 850, MONO)}${text(22, 78, "Evid&#234;ncia", 30, C.text, 950)}${text(22, 112, "antes de promessa.", 30, C.text, 950)}${text(22, 154, "Projetos publicados, interfaces", 13, C.muted, 550)}${text(22, 176, "distintas e valida&#231;&#227;o objetiva.", 13, C.muted, 550)}${text(22, 201, "AUDITORIA / 2026.07", 10, C.dim, 700, MONO)}`, { fill: C.surface, stroke: C.border, radius: 6, accent: C.coral })}
+write("proof-panel-fit.svg", shell(900, 300, C.coral,
+  `${safeBox(26, 58, 294, 214, `${text(22, 30, "PORTF&#211;LIO EM N&#218;MEROS", 12, C.coral, 850, MONO)}${text(22, 78, "Evid&#234;ncia antes", 26, C.text, 950)}${text(22, 112, "de promessa.", 26, C.text, 950)}${text(22, 154, "Projetos publicados, interfaces", 13, C.muted, 550)}${text(22, 176, "distintas e valida&#231;&#227;o objetiva.", 13, C.muted, 550)}${text(22, 201, "AUDITORIA / 2026.07", 10, C.dim, 700, MONO)}`, { fill: C.surface, stroke: C.border, radius: 6, accent: C.coral })}
    ${metric(342, 58, C.green, "29", "REPOSIT&#211;RIOS", "portf&#243;lio p&#250;blico")}
    ${metric(600, 58, C.blue, "21", "INTERFACES", "desktop + mobile")}
    ${metric(342, 168, C.yellow, "10", "DESTAQUES", "cases + sistemas", 504)}
