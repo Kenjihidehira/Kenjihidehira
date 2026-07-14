@@ -1,14 +1,14 @@
 <div align="center">
 
-![Kenji Hidehira - Desenvolvedor web para neg&oacute;cios](./assets/profile-banner.svg)
+![Kenji Hidehira - Desenvolvedor web para neg&oacute;cios](./assets/profile-banner.svg?v=20260714-2)
 
 <br>
 
-<a href="#user-content-visao-geral"><img src="./assets/nav-overview.svg" alt="Ir para Vis&atilde;o geral" height="34"></a> <a href="#user-content-estudos-de-caso"><img src="./assets/nav-cases.svg" alt="Ir para Projetos" height="34"></a> <a href="#user-content-engenharia"><img src="./assets/nav-engineering.svg" alt="Ir para Engenharia" height="34"></a> <a href="#user-content-processo"><img src="./assets/nav-process.svg" alt="Ir para Processo" height="34"></a> <a href="#user-content-contato"><img src="./assets/nav-contact.svg" alt="Ir para Contato" height="34"></a>
+<a href="#user-content-visao-geral"><img src="./assets/nav-overview.svg?v=20260714-2" alt="Ir para Vis&atilde;o geral" height="34"></a> <a href="#user-content-estudos-de-caso"><img src="./assets/nav-cases.svg?v=20260714-2" alt="Ir para Projetos" height="34"></a> <a href="#user-content-engenharia"><img src="./assets/nav-engineering.svg?v=20260714-2" alt="Ir para Engenharia" height="34"></a> <a href="#user-content-processo"><img src="./assets/nav-process.svg?v=20260714-2" alt="Ir para Processo" height="34"></a> <a href="#user-content-contato"><img src="./assets/nav-contact.svg?v=20260714-2" alt="Ir para Contato" height="34"></a>
 
 <br><br>
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg" alt="Solicitar uma proposta" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg" alt="Ver reposit&oacute;rios" height="38"></a> <img src="./assets/action-status.svg" alt="Freelance ativo" height="38">
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg?v=20260714-2" alt="Solicitar uma proposta" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg?v=20260714-2" alt="Ver reposit&oacute;rios" height="38"></a> <img src="./assets/action-status.svg?v=20260714-2" alt="Freelance ativo" height="38">
 
 </div>
 
@@ -16,11 +16,11 @@
 
 ## Vis&atilde;o geral
 
-![M&eacute;tricas verificadas do portf&oacute;lio](./assets/proof-panel.svg)
+![M&eacute;tricas verificadas do portf&oacute;lio](./assets/proof-panel.svg?v=20260714-2)
 
 Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produto usa uma linguagem visual pr&oacute;pria, definida pelo contexto de neg&oacute;cio, sem reaproveitar o mesmo template entre aplica&ccedil;&otilde;es. O trabalho combina interface, regras de neg&oacute;cio, API, dados de demonstra&ccedil;&atilde;o e valida&ccedil;&atilde;o t&eacute;cnica para que o cliente consiga entender o fluxo antes de investir na evolu&ccedil;&atilde;o do produto.
 
-![Mapa de capacidades: experi&ecirc;ncia, backend e opera&ccedil;&atilde;o](./assets/service-map.svg)
+![Mapa de capacidades: experi&ecirc;ncia, backend e opera&ccedil;&atilde;o](./assets/service-map.svg?v=20260714-2)
 
 | Foco | O que isso representa para o cliente |
 | --- | --- |
@@ -36,52 +36,52 @@ Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produ
 Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Os cards usam largura &uacute;nica para manter texto e indicadores leg&iacute;veis em qualquer tamanho de perfil.
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops.svg" alt="ReturnOps - Central de RMA"></a>
+  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops.svg?v=20260714-2" alt="ReturnOps - Central de RMA"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub.svg" alt="ServiceHub - Agendamentos CRM"></a>
+  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub.svg?v=20260714-2" alt="ServiceHub - Agendamentos CRM"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops.svg" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
+  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops.svg?v=20260714-2" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops.svg" alt="FieldOps - Controle de margem"></a>
+  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops.svg?v=20260714-2" alt="FieldOps - Controle de margem"></a>
 </p>
 
 ### Mais sistemas comerciais
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img src="./assets/card-vendoraudit.svg" alt="VendorAudit - Portal de conformidade"></a>
+  <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img src="./assets/card-vendoraudit.svg?v=20260714-2" alt="VendorAudit - Portal de conformidade"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow.svg" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
+  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow.svg?v=20260714-2" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/logix-ops-control-tower"><img src="./assets/card-logixops.svg" alt="LogixOps - Torre de controle log&iacute;stica"></a>
+  <a href="https://github.com/Kenjihidehira/logix-ops-control-tower"><img src="./assets/card-logixops.svg?v=20260714-2" alt="LogixOps - Torre de controle log&iacute;stica"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/erp-estoque-node"><img src="./assets/card-erp.svg" alt="StockPilot ERP"></a>
+  <a href="https://github.com/Kenjihidehira/erp-estoque-node"><img src="./assets/card-erp.svg?v=20260714-2" alt="StockPilot ERP"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack"><img src="./assets/card-helpdesk.svg" alt="ResolveDesk - Sistema de suporte"></a>
+  <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack"><img src="./assets/card-helpdesk.svg?v=20260714-2" alt="ResolveDesk - Sistema de suporte"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/encurtador-url-node"><img src="./assets/card-linkpulse.svg" alt="LinkPulse - Links de campanha"></a>
+  <a href="https://github.com/Kenjihidehira/encurtador-url-node"><img src="./assets/card-linkpulse.svg?v=20260714-2" alt="LinkPulse - Links de campanha"></a>
 </p>
 
 <a id="engenharia"></a>
 
 ## Engenharia e qualidade
 
-![Engenharia de entrega com c&oacute;digo, testes e documenta&ccedil;&atilde;o](./assets/engineering-panel.svg)
+![Engenharia de entrega com c&oacute;digo, testes e documenta&ccedil;&atilde;o](./assets/engineering-panel.svg?v=20260714-2)
 
 - Regras de neg&oacute;cio separadas da camada de interface para facilitar testes e evolu&ccedil;&atilde;o.
 - APIs com valida&ccedil;&atilde;o de entrada, respostas previs&iacute;veis e dados de demonstra&ccedil;&atilde;o reproduz&iacute;veis.
@@ -92,7 +92,7 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
 
 ## Processo de trabalho
 
-![Fluxo de entrega: entender, modelar, construir e validar](./assets/workflow-strip.svg)
+![Fluxo de entrega: entender, modelar, construir e validar](./assets/workflow-strip.svg?v=20260714-2)
 
 1. **Entender:** processo atual, usu&aacute;rios, gargalos, regras e resultado esperado.
 2. **Modelar:** entidades, estados, permiss&otilde;es, automa&ccedil;&otilde;es e crit&eacute;rios de sucesso.
@@ -101,7 +101,7 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
 
 ## Stack aplicada
 
-![Matriz de tecnologias aplicadas nos projetos](./assets/skill-matrix.svg)
+![Matriz de tecnologias aplicadas nos projetos](./assets/skill-matrix.svg?v=20260714-2)
 
 <details>
 <summary><strong>Explorar outros projetos do portf&oacute;lio</strong></summary>
@@ -125,10 +125,10 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
 
 ## Vamos conversar sobre o seu projeto
 
-![Chamada para projetos freelance](./assets/footer-panel.svg)
+![Chamada para projetos freelance](./assets/footer-panel.svg?v=20260714-2)
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg" alt="Ver portf&oacute;lio completo" height="38"></a>
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg?v=20260714-2" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg?v=20260714-2" alt="Ver portf&oacute;lio completo" height="38"></a>
 
 </div>
