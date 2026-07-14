@@ -8,12 +8,8 @@
 
 <br><br>
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir.">
-  <img src="https://img.shields.io/badge/Solicitar_uma_proposta-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Solicitar uma proposta">
-</a>
-<a href="https://github.com/Kenjihidehira?tab=repositories">
-  <img src="https://img.shields.io/badge/Explorar_reposit%C3%B3rios-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Explorar reposit&oacute;rios">
-</a>
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="https://img.shields.io/badge/Solicitar_uma_proposta-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Solicitar uma proposta"></a>
+<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/Explorar_reposit%C3%B3rios-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Explorar reposit&oacute;rios"></a>
 <img src="https://img.shields.io/badge/Dispon%C3%ADvel_para_freelance-FF6B4A?style=for-the-badge" alt="Dispon&iacute;vel para freelance">
 
 </div>
@@ -168,11 +164,7 @@ Quatro sistemas com **telas reais, dados de exemplo, API e fluxo operacional dem
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir.">
-  <img src="https://img.shields.io/badge/Descrever_meu_projeto-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Descrever meu projeto">
-</a>
-<a href="https://github.com/Kenjihidehira?tab=repositories">
-  <img src="https://img.shields.io/badge/Ver_portf%C3%B3lio_completo-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Ver portf&oacute;lio completo">
-</a>
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="https://img.shields.io/badge/Descrever_meu_projeto-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Descrever meu projeto"></a>
+<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/Ver_portf%C3%B3lio_completo-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Ver portf&oacute;lio completo"></a>
 
 </div>
