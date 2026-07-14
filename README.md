@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="#user-content-visao-geral"><strong>VIS&Atilde;O GERAL</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-estudos-de-caso"><strong>ESTUDOS DE CASO</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-engenharia"><strong>ENGENHARIA</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-processo"><strong>PROCESSO</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-contato"><strong>CONTATO</strong></a>
+<a href="#user-content-visao-geral"><img src="./assets/nav-overview.svg" alt="Ir para Vis&atilde;o geral" height="38"></a> <a href="#user-content-estudos-de-caso"><img src="./assets/nav-cases.svg" alt="Ir para Estudos de caso" height="38"></a> <a href="#user-content-engenharia"><img src="./assets/nav-engineering.svg" alt="Ir para Engenharia" height="38"></a> <a href="#user-content-processo"><img src="./assets/nav-process.svg" alt="Ir para Processo" height="38"></a> <a href="#user-content-contato"><img src="./assets/nav-contact.svg" alt="Ir para Contato" height="38"></a>
 
 <br><br>
 

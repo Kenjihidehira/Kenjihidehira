@@ -1,0 +1,7 @@
+<svg width="144" height="38" viewBox="0 0 144 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="143" height="37" rx="4" fill="#111612" stroke="#2A3630"/>
+  <path d="M4 1V37" stroke="#79A0ED" stroke-width="6"/>
+  <path d="M14 15.5H27V24H14V15.5Z" stroke="#79A0ED" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M18 15.5V13H23V15.5M14 19H27" stroke="#79A0ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="34" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="0">ESTUDOS DE CASO</text>
+</svg>

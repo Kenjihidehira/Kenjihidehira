@@ -1,0 +1,11 @@
+<svg width="104" height="38" viewBox="0 0 104 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="103" height="37" rx="4" fill="#111612" stroke="#2A3630"/>
+  <path d="M4 1V37" stroke="#3BAA83" stroke-width="6"/>
+  <g fill="#3BAA83">
+    <rect x="14" y="12" width="5" height="5" rx="1"/>
+    <rect x="21" y="12" width="5" height="5" rx="1"/>
+    <rect x="14" y="19" width="5" height="5" rx="1"/>
+    <rect x="21" y="19" width="5" height="5" rx="1"/>
+  </g>
+  <text x="34" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="0">VIS&#195;O GERAL</text>
+</svg>
