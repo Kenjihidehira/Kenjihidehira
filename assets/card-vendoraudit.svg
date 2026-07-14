@@ -1,0 +1,18 @@
+<svg width="600" height="250" viewBox="0 0 600 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="250" rx="8" fill="#F4F7F2"/>
+  <rect x="1" y="1" width="598" height="248" rx="7" stroke="#C8D2CB" stroke-width="2"/>
+  <rect width="10" height="250" rx="5" fill="#FF6B4A"/>
+  <text x="34" y="43" fill="#C84529" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">CONFORMIDADE</text>
+  <text x="34" y="84" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">VendorAudit</text>
+  <text x="34" y="116" fill="#526058" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Risco, documentos e renova&#231;&#245;es</text>
+  <text x="34" y="141" fill="#526058" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">de fornecedores sob controle.</text>
+  <text x="34" y="203" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">NODE.JS  /  SLA  /  RISCO</text>
+  <g transform="translate(352 28)">
+    <rect width="216" height="194" rx="6" fill="#121A16"/>
+    <text x="16" y="28" fill="#D5DDD7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">MATRIZ DE RISCO</text>
+    <g transform="translate(16 48)"><rect width="184" height="34" rx="5" fill="#FFFFFF"/><circle cx="18" cy="17" r="7" fill="#FF6B4A"/><rect x="34" y="11" width="82" height="6" rx="3" fill="#748078"/><rect x="132" y="10" width="36" height="14" rx="4" fill="#FFE0D8"/></g>
+    <g transform="translate(16 92)"><rect width="184" height="34" rx="5" fill="#FFFFFF"/><circle cx="18" cy="17" r="7" fill="#E5B94B"/><rect x="34" y="11" width="104" height="6" rx="3" fill="#748078"/><rect x="148" y="10" width="20" height="14" rx="4" fill="#FFF0C8"/></g>
+    <g transform="translate(16 136)"><rect width="184" height="34" rx="5" fill="#FFFFFF"/><circle cx="18" cy="17" r="7" fill="#3BAA83"/><rect x="34" y="11" width="68" height="6" rx="3" fill="#748078"/><rect x="120" y="10" width="48" height="14" rx="4" fill="#D8F0E8"/></g>
+    <text x="16" y="187" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">renova&#231;&#227;o protegida</text>
+  </g>
+</svg>

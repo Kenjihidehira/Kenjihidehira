@@ -1,0 +1,18 @@
+<svg width="600" height="250" viewBox="0 0 600 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="250" rx="8" fill="#F4F7F2"/>
+  <rect x="1" y="1" width="598" height="248" rx="7" stroke="#C8D2CB" stroke-width="2"/>
+  <rect width="10" height="250" rx="5" fill="#4A74C9"/>
+  <text x="34" y="43" fill="#365EA9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">SERVI&#199;OS DE CAMPO</text>
+  <text x="34" y="84" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">FieldOps</text>
+  <text x="34" y="116" fill="#526058" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Margem, equipe, materiais e</text>
+  <text x="34" y="141" fill="#526058" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">cobran&#231;a de projetos.</text>
+  <text x="34" y="203" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">PHP  /  TYPESCRIPT  /  MARGEM</text>
+  <g transform="translate(352 28)">
+    <rect width="216" height="194" rx="6" fill="#121A16"/>
+    <text x="16" y="28" fill="#D5DDD7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">MARGEM POR PROJETO</text>
+    <rect x="16" y="48" width="184" height="44" rx="5" fill="#FFFFFF"/>
+    <text x="28" y="75" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">18,6%</text><text x="112" y="75" fill="#0E7C66" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="800">SAUD&#193;VEL</text>
+    <rect x="16" y="111" width="48" height="55" rx="4" fill="#4A74C9"/><rect x="75" y="128" width="48" height="38" rx="4" fill="#E5B94B"/><rect x="134" y="101" width="48" height="65" rx="4" fill="#3BAA83"/>
+    <text x="16" y="186" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">custo e faturamento</text>
+  </g>
+</svg>

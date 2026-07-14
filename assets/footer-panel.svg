@@ -1,22 +1,12 @@
-<svg width="1280" height="220" viewBox="0 0 1280 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="220">
-      <stop stop-color="#0F172A"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#020617"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="56" y1="60" x2="1224" y2="170">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.52" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#F97316"/>
-    </linearGradient>
-  </defs>
-  <rect width="1280" height="220" rx="28" fill="url(#bg)"/>
-  <rect x="28" y="28" width="1224" height="164" rx="24" stroke="url(#accent)" stroke-opacity="0.72" stroke-width="2"/>
-  <text x="60" y="86" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="900">Portf&#243;lio em evolu&#231;&#227;o constante</text>
-  <text x="60" y="126" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">O objetivo &#233; sair de projetos b&#225;sicos para sistemas reais, public&#225;veis e mantidos.</text>
-  <text x="60" y="160" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">github.com/Kenjihidehira</text>
-  <circle cx="1128" cy="96" r="42" fill="#22D3EE" opacity="0.18"/>
-  <circle cx="1180" cy="124" r="34" fill="#8B5CF6" opacity="0.24"/>
-  <circle cx="1094" cy="146" r="26" fill="#F97316" opacity="0.2"/>
+<svg width="1280" height="210" viewBox="0 0 1280 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="210" rx="8" fill="#0E7C66"/>
+  <rect x="28" y="28" width="1224" height="154" rx="6" stroke="#72C5AE" stroke-width="2"/>
+  <text x="58" y="66" fill="#C9F0E4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">DISPON&#205;VEL PARA PROJETOS FREELANCE</text>
+  <text x="58" y="105" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">Seu processo ainda depende de planilhas</text>
+  <text x="58" y="138" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">e tarefas manuais?</text>
+  <text x="58" y="169" fill="#D9F4EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Vamos transformar a opera&#231;&#227;o em um sistema claro, rastre&#225;vel e pronto para crescer.</text>
+  <g transform="translate(1084 67)">
+    <rect width="112" height="76" rx="6" fill="#F4F7F2"/>
+    <path d="M28 38H80M64 22L80 38L64 54" stroke="#0E7C66" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>
