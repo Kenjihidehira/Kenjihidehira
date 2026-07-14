@@ -1,6 +1,14 @@
-<svg width="118" height="38" viewBox="0 0 118 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="117" height="37" rx="4" fill="#111612" stroke="#2A3630"/>
-  <path d="M4 1V37" stroke="#FFD76A" stroke-width="6"/>
-  <path d="M18 14L13 19L18 24M23 14L28 19L23 24" stroke="#FFD76A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="34" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="0">ENGENHARIA</text>
+<svg width="142" height="44" viewBox="0 0 142 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="140" height="42" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="44" rx="4" fill="#F2C14E"/>
+    <path d="M30 0V44M116 0V44" stroke="#1A241E"/>
+    <path d="M0 42H142M0 20H142" stroke="#1A241E"/>
+    <g transform="translate(0 0)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="141" height="43" rx="4" fill="#101713" stroke="#2A3930" />
+
+    <g transform="translate(12 12)" stroke="#F2C14E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3L1 10l6 7M13 3l6 7-6 7"/></g><text x="40" y="29" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850" letter-spacing="0" >ENGENHARIA</text><rect x="0" y="0" width="5" height="44" rx="2.5" fill="#F2C14E"/>
+  </g>
+  </g>
 </svg>

@@ -1,33 +1,43 @@
-<svg width="1280" height="200" viewBox="0 0 1280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="200" rx="8" fill="#0B0F0D"/>
-  <rect x="1" y="1" width="1278" height="198" rx="7" stroke="#27322B" stroke-width="2"/>
-  <text x="48" y="46" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">FLUXO DE ENTREGA</text>
-  <path d="M48 66H1232" stroke="#27322B" stroke-width="2"/>
-  <g transform="translate(48 94)">
-    <circle cx="28" cy="28" r="28" fill="#0E7C66"/>
-    <text x="20" y="36" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">1</text>
-    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Entender</text>
-    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">processo e gargalos</text>
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="898" height="298" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="300" rx="4" fill="#35C99A"/>
+    <path d="M30 0V300M874 0V300" stroke="#1A241E"/>
+    <path d="M0 42H900M0 276H900" stroke="#1A241E"/>
+    <text x="28" y="30" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="700" letter-spacing="0" >04 / PROCESSO DE TRABALHO</text><text x="28" y="70" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="950" letter-spacing="0" >Quatro etapas. Nenhuma caixa-preta.</text>
+   <g transform="translate(28 96)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="91" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <g transform="translate(16 16)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="45" height="45" rx="4" fill="#35C99A" stroke="#35C99A" />
+
+    <text x="14" y="31" fill="#080C0A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="950" letter-spacing="0" >1</text>
+  </g><text x="82" y="38" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >ENTENDER</text><text x="82" y="62" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="550" letter-spacing="0" >processo, gargalos e resultado</text>
+  </g><g transform="translate(462 96)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="91" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <g transform="translate(16 16)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="45" height="45" rx="4" fill="#FF6B4A" stroke="#FF6B4A" />
+
+    <text x="14" y="31" fill="#080C0A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="950" letter-spacing="0" >2</text>
+  </g><text x="82" y="38" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >MODELAR</text><text x="82" y="62" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="550" letter-spacing="0" >dados, estados e regras</text>
+  </g><g transform="translate(28 200)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="91" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <g transform="translate(16 16)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="45" height="45" rx="4" fill="#F2C14E" stroke="#F2C14E" />
+
+    <text x="14" y="31" fill="#080C0A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="950" letter-spacing="0" >3</text>
+  </g><text x="82" y="38" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >CONSTRUIR</text><text x="82" y="62" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="550" letter-spacing="0" >interface, API e automa&#231;&#245;es</text>
+  </g><g transform="translate(462 200)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="91" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <g transform="translate(16 16)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="45" height="45" rx="4" fill="#6F9EFF" stroke="#6F9EFF" />
+
+    <text x="14" y="31" fill="#080C0A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="950" letter-spacing="0" >4</text>
+  </g><text x="82" y="38" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >VALIDAR</text><text x="82" y="62" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="550" letter-spacing="0" >cen&#225;rios, testes e entrega</text>
   </g>
-  <path d="M302 122H356" stroke="#5B6A60" stroke-width="3"/><path d="M346 113L356 122L346 131" stroke="#5B6A60" stroke-width="3"/>
-  <g transform="translate(372 94)">
-    <circle cx="28" cy="28" r="28" fill="#FF6B4A"/>
-    <text x="20" y="36" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">2</text>
-    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Modelar</text>
-    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">dados e regras</text>
-  </g>
-  <path d="M626 122H680" stroke="#5B6A60" stroke-width="3"/><path d="M670 113L680 122L670 131" stroke="#5B6A60" stroke-width="3"/>
-  <g transform="translate(696 94)">
-    <circle cx="28" cy="28" r="28" fill="#E5B94B"/>
-    <text x="20" y="36" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">3</text>
-    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Construir</text>
-    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">interface e API</text>
-  </g>
-  <path d="M950 122H1004" stroke="#5B6A60" stroke-width="3"/><path d="M994 113L1004 122L994 131" stroke="#5B6A60" stroke-width="3"/>
-  <g transform="translate(1020 94)">
-    <circle cx="28" cy="28" r="28" fill="#4A74C9"/>
-    <text x="20" y="36" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">4</text>
-    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Validar</text>
-    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">testes e entrega</text>
   </g>
 </svg>

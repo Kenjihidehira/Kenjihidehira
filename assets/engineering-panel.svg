@@ -1,49 +1,32 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="360" rx="8" fill="#0D120F"/>
-  <rect x="1" y="1" width="1278" height="358" rx="7" stroke="#27322B" stroke-width="2"/>
-  <g transform="translate(36 34)">
-    <rect width="750" height="292" rx="7" fill="#080B09" stroke="#27322B"/>
-    <rect width="750" height="38" rx="7" fill="#151D18"/>
-    <rect y="31" width="750" height="7" fill="#151D18"/>
-    <circle cx="20" cy="19" r="4" fill="#FF6B4A"/><circle cx="36" cy="19" r="4" fill="#F1CE77"/><circle cx="52" cy="19" r="4" fill="#3BAA83"/>
-    <text x="80" y="24" fill="#718078" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">src/services/operation-engine.js</text>
-    <rect x="0" y="38" width="48" height="254" fill="#0B0F0D"/>
-    <g fill="#4D5B52" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12">
-      <text x="18" y="68">1</text><text x="18" y="94">2</text><text x="18" y="120">3</text><text x="18" y="146">4</text><text x="18" y="172">5</text><text x="18" y="198">6</text><text x="18" y="224">7</text><text x="18" y="250">8</text>
-    </g>
-    <g font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="14">
-      <text x="66" y="68" fill="#FF8D73">export</text><text x="118" y="68" fill="#79A0ED">function</text><text x="188" y="68" fill="#F4F7F2">priorizarFila</text><text x="300" y="68" fill="#AAB5AD">(itens) {</text>
-      <text x="86" y="94" fill="#79A0ED">return</text><text x="138" y="94" fill="#AAB5AD">itens</text>
-      <text x="106" y="120" fill="#AAB5AD">.filter(item =&gt; item.status !== </text><text x="382" y="120" fill="#F1CE77">'concluido'</text><text x="470" y="120" fill="#AAB5AD">)</text>
-      <text x="106" y="146" fill="#AAB5AD">.map(calcularRisco)</text>
-      <text x="106" y="172" fill="#AAB5AD">.sort((a, b) =&gt; b.score - a.score)</text>
-      <text x="106" y="198" fill="#AAB5AD">.slice(</text><text x="158" y="198" fill="#F1CE77">0</text><text x="168" y="198" fill="#AAB5AD">, </text><text x="186" y="198" fill="#F1CE77">10</text><text x="204" y="198" fill="#AAB5AD">);</text>
-      <text x="66" y="224" fill="#AAB5AD">}</text>
-      <text x="66" y="268" fill="#4D5B52">// regra de neg&#243;cio test&#225;vel e isolada</text>
-    </g>
+<svg width="900" height="430" viewBox="0 0 900 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="898" height="428" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="430" rx="4" fill="#F2C14E"/>
+    <path d="M30 0V430M874 0V430" stroke="#1A241E"/>
+    <path d="M0 42H900M0 406H900" stroke="#1A241E"/>
+    <text x="28" y="30" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="700" letter-spacing="0" >03 / ENGENHARIA DE ENTREGA</text><text x="28" y="73" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="950" letter-spacing="0" >C&#243;digo que pode ser verificado.</text><text x="28" y="101" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="550" letter-spacing="0" >Regras isoladas, respostas previs&#237;veis e evid&#234;ncia t&#233;cnica.</text>
+   <g transform="translate(28 126)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="495" height="273" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <circle cx="20" cy="20" r="4" fill="#FF6B4A"/><circle cx="34" cy="20" r="4" fill="#F2C14E"/><circle cx="48" cy="20" r="4" fill="#35C99A"/><text x="70" y="24" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >src/services/operation-engine.js</text><path d="M0 40H496" stroke="#2A3930" stroke-width="1" /><text x="22" y="75" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >01</text><text x="58" y="75" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="14" font-weight="600" letter-spacing="0" >export function priorizarFila(itens) {</text><text x="22" y="107" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >02</text><text x="78" y="107" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="14" font-weight="600" letter-spacing="0" >return itens</text><text x="22" y="139" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >03</text><text x="98" y="139" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="13" font-weight="500" letter-spacing="0" >.filter(item =&gt; item.status !== 'concluido')</text><text x="22" y="171" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >04</text><text x="98" y="171" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="13" font-weight="500" letter-spacing="0" >.map(calcularRisco)</text><text x="22" y="203" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >05</text><text x="98" y="203" fill="#F2C14E" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="13" font-weight="500" letter-spacing="0" >.sort((a, b) =&gt; b.score - a.score);</text><text x="22" y="237" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="500" letter-spacing="0" >06</text><text x="58" y="237" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="14" font-weight="600" letter-spacing="0" >}</text>
   </g>
-  <g transform="translate(812 34)">
-    <text x="0" y="18" fill="#3BAA83" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">ENGENHARIA DE ENTREGA</text>
-    <text x="0" y="54" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">C&#243;digo que pode</text>
-    <text x="0" y="86" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="900">ser verificado.</text>
-    <g transform="translate(0 116)">
-      <rect width="420" height="42" rx="5" fill="#111814" stroke="#27322B"/>
-      <circle cx="22" cy="21" r="7" fill="#3BAA83"/>
-      <text x="42" y="26" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">Testes de regra de neg&#243;cio</text>
-      <text x="374" y="26" fill="#72C5AE" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">PASS</text>
-    </g>
-    <g transform="translate(0 168)">
-      <rect width="420" height="42" rx="5" fill="#111814" stroke="#27322B"/>
-      <circle cx="22" cy="21" r="7" fill="#79A0ED"/>
-      <text x="42" y="26" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">Smoke tests de API e interface</text>
-      <text x="374" y="26" fill="#AFC5F4" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">PASS</text>
-    </g>
-    <g transform="translate(0 220)">
-      <rect width="420" height="42" rx="5" fill="#111814" stroke="#27322B"/>
-      <circle cx="22" cy="21" r="7" fill="#F1CE77"/>
-      <text x="42" y="26" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">Seeds, README e deploy preparado</text>
-      <text x="362" y="26" fill="#F8D98A" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">READY</text>
-    </g>
-    <text x="0" y="292" fill="#718078" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">VALIDAR  &gt;  DOCUMENTAR  &gt;  ENTREGAR</text>
+   <g transform="translate(548 126)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="319" height="57" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <circle cx="20" cy="29" r="7" fill="#35C99A"/><text x="40" y="25" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0" >REGRAS DE NEG&#211;CIO</text><text x="40" y="44" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="600" letter-spacing="0" >TESTES / PASS</text><g transform="translate(282 18)" stroke="#35C99A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><path d="M6 10l3 3 6-7"/></g>
+  </g><g transform="translate(548 194)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="319" height="57" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <circle cx="20" cy="29" r="7" fill="#6F9EFF"/><text x="40" y="25" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0" >API E INTERFACE</text><text x="40" y="44" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="600" letter-spacing="0" >SMOKE / PASS</text><g transform="translate(282 18)" stroke="#6F9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><path d="M6 10l3 3 6-7"/></g>
+  </g><g transform="translate(548 262)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="319" height="57" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <circle cx="20" cy="29" r="7" fill="#F2C14E"/><text x="40" y="25" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0" >SEED E README</text><text x="40" y="44" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="600" letter-spacing="0" >DOCS / READY</text><g transform="translate(282 18)" stroke="#F2C14E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><path d="M6 10l3 3 6-7"/></g>
+  </g><g transform="translate(548 330)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="319" height="57" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <circle cx="20" cy="29" r="7" fill="#FF6B4A"/><text x="40" y="25" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0" >DEPLOY</text><text x="40" y="44" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="600" letter-spacing="0" >CONFIG / READY</text><g transform="translate(282 18)" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><path d="M6 10l3 3 6-7"/></g>
+  </g>
   </g>
 </svg>

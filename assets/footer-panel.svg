@@ -1,12 +1,18 @@
-<svg width="1280" height="210" viewBox="0 0 1280 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="210" rx="8" fill="#0B3D32"/>
-  <rect x="28" y="28" width="1224" height="154" rx="6" stroke="#72C5AE" stroke-width="2"/>
-  <text x="58" y="66" fill="#C9F0E4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">DISPON&#205;VEL PARA PROJETOS FREELANCE</text>
-  <text x="58" y="105" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">Seu processo ainda depende de planilhas</text>
-  <text x="58" y="138" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">e tarefas manuais?</text>
-  <text x="58" y="169" fill="#D9F4EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Vamos transformar a opera&#231;&#227;o em um sistema claro, rastre&#225;vel e pronto para crescer.</text>
-  <g transform="translate(1084 67)">
-    <rect width="112" height="76" rx="6" fill="#111814"/>
-    <path d="M28 38H80M64 22L80 38L64 54" stroke="#72C5AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="898" height="228" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="230" rx="4" fill="#FF6B4A"/>
+    <path d="M30 0V230M874 0V230" stroke="#1A241E"/>
+    <path d="M0 42H900M0 206H900" stroke="#1A241E"/>
+    <g transform="translate(28 54)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="843" height="147" rx="6" fill="#101713" stroke="#2A3930" />
+    <rect x="0" y="0" width="6" height="148" rx="3" fill="#35C99A"/>
+    <text x="24" y="32" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="12" font-weight="850" letter-spacing="0" >DISPON&#205;VEL PARA PROJETOS FREELANCE</text><text x="24" y="76" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="950" letter-spacing="0" >Seu processo ainda depende de planilhas</text><text x="24" y="108" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="950" letter-spacing="0" >e tarefas manuais?</text><text x="24" y="136" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="550" letter-spacing="0" >Vamos transformar a opera&#231;&#227;o em um sistema claro, rastre&#225;vel e pronto para crescer.</text><g transform="translate(718 24)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="95" height="95" rx="5" fill="#FF6B4A" stroke="#FF6B4A" />
+
+    <text x="22" y="42" fill="#080C0A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="13" font-weight="900" letter-spacing="0" >VAMOS</text><text x="20" y="64" fill="#080C0A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="950" letter-spacing="0" >FALAR</text><g transform="translate(58 66)" stroke="#080C0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h14M12 5l5 5-5 5"/></g>
+  </g>
+  </g><text x="30" y="29" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="700" letter-spacing="0" >06 / PR&#211;XIMO PROJETO</text>
   </g>
 </svg>

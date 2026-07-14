@@ -1,50 +1,32 @@
-<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="340" rx="8" fill="#070A08"/>
-  <rect x="1" y="1" width="1278" height="338" rx="7" stroke="#27322B" stroke-width="2"/>
-  <g transform="translate(42 38)">
-    <text x="0" y="18" fill="#3BAA83" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">MAPA DE CAPACIDADES</text>
-    <text x="0" y="54" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="900">Da experi&#234;ncia do usu&#225;rio at&#233; a opera&#231;&#227;o.</text>
+<svg width="900" height="410" viewBox="0 0 900 410" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="898" height="408" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="410" rx="4" fill="#35C99A"/>
+    <path d="M30 0V410M874 0V410" stroke="#1A241E"/>
+    <path d="M0 42H900M0 386H900" stroke="#1A241E"/>
+    <text x="28" y="30" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="700" letter-spacing="0" >02 / CAPACIDADE COMERCIAL</text>
+   <text x="28" y="72" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="950" letter-spacing="0" >Do problema operacional ao sistema em uso.</text>
+   <text x="28" y="101" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="550" letter-spacing="0" >Cada entrega conecta interface, regras, dados e automa&#231;&#227;o.</text>
+   <g transform="translate(28 126)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="127" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="34" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="18" font-weight="900" letter-spacing="0" >01</text><text x="58" y="34" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >INTERFACE</text><path d="M18 52H390" stroke="#2A3930" stroke-width="1" /><text x="18" y="82" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >Fluxos claros para uso recorrente</text><text x="18" y="104" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >e tomada de decis&#227;o r&#225;pida.</text><circle cx="382" cy="28" r="7" fill="#35C99A"/>
   </g>
-  <g transform="translate(42 118)">
-    <rect width="1196" height="56" rx="6" fill="#111814" stroke="#27322B"/>
-    <rect width="174" height="56" rx="6" fill="#173D31"/>
-    <text x="24" y="34" fill="#72C5AE" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">EXPERI&#202;NCIA</text>
-    <text x="206" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Pain&#233;is</text>
-    <circle cx="294" cy="28" r="3" fill="#3BAA83"/>
-    <text x="314" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Portais</text>
-    <circle cx="392" cy="28" r="3" fill="#3BAA83"/>
-    <text x="412" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Formul&#225;rios</text>
-    <circle cx="528" cy="28" r="3" fill="#3BAA83"/>
-    <text x="548" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Tabelas e filtros</text>
-    <rect x="912" y="14" width="258" height="28" rx="4" fill="#0D120F"/>
-    <text x="934" y="33" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">HTML / CSS / JS / TS</text>
+   <g transform="translate(462 126)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="127" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="34" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="18" font-weight="900" letter-spacing="0" >02</text><text x="58" y="34" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >BACKEND</text><path d="M18 52H390" stroke="#2A3930" stroke-width="1" /><text x="18" y="82" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >APIs, valida&#231;&#227;o e persist&#234;ncia</text><text x="18" y="104" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >organizadas por regra de neg&#243;cio.</text><circle cx="382" cy="28" r="7" fill="#6F9EFF"/>
   </g>
-  <g transform="translate(42 188)">
-    <rect width="1196" height="56" rx="6" fill="#111814" stroke="#27322B"/>
-    <rect width="174" height="56" rx="6" fill="#253B66"/>
-    <text x="24" y="34" fill="#AFC5F4" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">BACKEND</text>
-    <text x="206" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">APIs REST</text>
-    <circle cx="310" cy="28" r="3" fill="#79A0ED"/>
-    <text x="330" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Regras de neg&#243;cio</text>
-    <circle cx="502" cy="28" r="3" fill="#79A0ED"/>
-    <text x="522" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Valida&#231;&#245;es</text>
-    <circle cx="632" cy="28" r="3" fill="#79A0ED"/>
-    <text x="652" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Persist&#234;ncia</text>
-    <rect x="912" y="14" width="258" height="28" rx="4" fill="#0D120F"/>
-    <text x="934" y="33" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">NODE.JS / PHP / JSON / SQL</text>
+   <g transform="translate(28 266)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="127" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="34" fill="#F2C14E" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="18" font-weight="900" letter-spacing="0" >03</text><text x="58" y="34" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >AUTOMA&#199;&#195;O</text><path d="M18 52H390" stroke="#2A3930" stroke-width="1" /><text x="18" y="82" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >Alertas, c&#225;lculos e tarefas</text><text x="18" y="104" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >executados de forma consistente.</text><circle cx="382" cy="28" r="7" fill="#F2C14E"/>
   </g>
-  <g transform="translate(42 258)">
-    <rect width="1196" height="56" rx="6" fill="#111814" stroke="#27322B"/>
-    <rect width="174" height="56" rx="6" fill="#563F13"/>
-    <text x="24" y="34" fill="#F8D98A" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">OPERA&#199;&#195;O</text>
-    <text x="206" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Automa&#231;&#245;es</text>
-    <circle cx="326" cy="28" r="3" fill="#F1CE77"/>
-    <text x="346" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Filas de a&#231;&#227;o</text>
-    <circle cx="484" cy="28" r="3" fill="#F1CE77"/>
-    <text x="504" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Alertas</text>
-    <circle cx="576" cy="28" r="3" fill="#F1CE77"/>
-    <text x="596" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Integra&#231;&#245;es</text>
-    <rect x="912" y="14" width="258" height="28" rx="4" fill="#0D120F"/>
-    <text x="934" y="33" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">TESTES / DOCKER / GIT</text>
+   <g transform="translate(462 266)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="409" height="127" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="34" fill="#FF6B4A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="18" font-weight="900" letter-spacing="0" >04</text><text x="58" y="34" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="0" >ENTREGA</text><path d="M18 52H390" stroke="#2A3930" stroke-width="1" /><text x="18" y="82" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >Seed, testes, README e deploy</text><text x="18" y="104" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="550" letter-spacing="0" >preparado para demonstra&#231;&#227;o.</text><circle cx="382" cy="28" r="7" fill="#FF6B4A"/>
+  </g>
   </g>
 </svg>

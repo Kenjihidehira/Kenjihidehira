@@ -1,0 +1,14 @@
+<svg width="190" height="44" viewBox="0 0 190 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="188" height="42" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="44" rx="4" fill="#6F9EFF"/>
+    <path d="M30 0V44M164 0V44" stroke="#1A241E"/>
+    <path d="M0 42H190M0 20H190" stroke="#1A241E"/>
+    <g transform="translate(0 0)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="189" height="43" rx="4" fill="#101713" stroke="#6F9EFF" />
+
+    <g transform="translate(12 12)" stroke="#6F9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="1" width="6" height="6"/><rect x="11" y="1" width="6" height="6"/><rect x="1" y="11" width="6" height="6"/><rect x="11" y="11" width="6" height="6"/></g><text x="40" y="29" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850" letter-spacing="0" >VER REPOSIT&#211;RIOS</text><g transform="translate(161 12)" stroke="#6F9EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h14M12 5l5 5-5 5"/></g>
+  </g>
+  </g>
+</svg>

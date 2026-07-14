@@ -4,13 +4,11 @@
 
 <br>
 
-<a href="#user-content-visao-geral"><img src="./assets/nav-overview.svg" alt="Ir para Vis&atilde;o geral" height="38"></a> <a href="#user-content-estudos-de-caso"><img src="./assets/nav-cases.svg" alt="Ir para Estudos de caso" height="38"></a> <a href="#user-content-engenharia"><img src="./assets/nav-engineering.svg" alt="Ir para Engenharia" height="38"></a> <a href="#user-content-processo"><img src="./assets/nav-process.svg" alt="Ir para Processo" height="38"></a> <a href="#user-content-contato"><img src="./assets/nav-contact.svg" alt="Ir para Contato" height="38"></a>
+<a href="#user-content-visao-geral"><img src="./assets/nav-overview.svg" alt="Ir para Vis&atilde;o geral" height="34"></a> <a href="#user-content-estudos-de-caso"><img src="./assets/nav-cases.svg" alt="Ir para Projetos" height="34"></a> <a href="#user-content-engenharia"><img src="./assets/nav-engineering.svg" alt="Ir para Engenharia" height="34"></a> <a href="#user-content-processo"><img src="./assets/nav-process.svg" alt="Ir para Processo" height="34"></a> <a href="#user-content-contato"><img src="./assets/nav-contact.svg" alt="Ir para Contato" height="34"></a>
 
 <br><br>
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="https://img.shields.io/badge/Solicitar_uma_proposta-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Solicitar uma proposta"></a>
-<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/Explorar_reposit%C3%B3rios-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Explorar reposit&oacute;rios"></a>
-<img src="https://img.shields.io/badge/Dispon%C3%ADvel_para_freelance-FF6B4A?style=for-the-badge" alt="Dispon&iacute;vel para freelance">
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg" alt="Solicitar uma proposta" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg" alt="Ver reposit&oacute;rios" height="38"></a> <img src="./assets/action-status.svg" alt="Freelance ativo" height="38">
 
 </div>
 
@@ -35,42 +33,23 @@ Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produ
 
 ## Estudos de caso
 
-Quatro sistemas com **telas reais, dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Clique em qualquer preview para abrir o reposit&oacute;rio completo.
+Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Os cards usam largura &uacute;nica para manter texto e indicadores leg&iacute;veis em qualquer tamanho de perfil.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Kenjihidehira/returnops-rma-command-center">
-        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/returnops-rma-command-center/main/docs/preview.svg" alt="Preview do ReturnOps">
-      </a>
-      <br><strong>ReturnOps - Central de RMA</strong><br>
-      <sub>Devolu&ccedil;&otilde;es, reembolsos, estoque e risco de SLA. Node.js, API REST, playbooks e testes.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm">
-        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/servicehub-agendamentos-crm/main/docs/dashboard-preview.svg" alt="Preview do ServiceHub">
-      </a>
-      <br><strong>ServiceHub - Agendamentos CRM</strong><br>
-      <sub>Agenda, clientes, funil, cobran&ccedil;as e lembretes em um fluxo operacional integrado.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution">
-        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/leadops-campaign-attribution/main/docs/dashboard-preview.svg" alt="Preview do LeadOps">
-      </a>
-      <br><strong>LeadOps - Atribui&ccedil;&atilde;o de Campanhas</strong><br>
-      <sub>ROI, pontua&ccedil;&atilde;o de leads, funil e automa&ccedil;&otilde;es para marketing e vendas.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Kenjihidehira/fieldops-margin-control">
-        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/fieldops-margin-control/main/docs/dashboard-preview.svg" alt="Preview do FieldOps">
-      </a>
-      <br><strong>FieldOps - Controle de Margem</strong><br>
-      <sub>Projetos de campo, materiais, equipe, faturamento e margem em PHP com TypeScript.</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops.svg" alt="ReturnOps - Central de RMA"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="./assets/case-servicehub.svg" alt="ServiceHub - Agendamentos CRM"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="./assets/case-leadops.svg" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops.svg" alt="FieldOps - Controle de margem"></a>
+</p>
 
 ### Mais sistemas comerciais
 
@@ -124,20 +103,6 @@ Quatro sistemas com **telas reais, dados de exemplo, API e fluxo operacional dem
 
 ![Matriz de tecnologias aplicadas nos projetos](./assets/skill-matrix.svg)
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-<img src="https://img.shields.io/badge/APIs_REST-121A16?style=flat-square" alt="APIs REST">
-<img src="https://img.shields.io/badge/Testes-0E7C66?style=flat-square" alt="Testes">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-
-</div>
-
 <details>
 <summary><strong>Explorar outros projetos do portf&oacute;lio</strong></summary>
 
@@ -164,7 +129,6 @@ Quatro sistemas com **telas reais, dados de exemplo, API e fluxo operacional dem
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="https://img.shields.io/badge/Descrever_meu_projeto-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Descrever meu projeto"></a>
-<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/Ver_portf%C3%B3lio_completo-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Ver portf&oacute;lio completo"></a>
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg" alt="Ver portf&oacute;lio completo" height="38"></a>
 
 </div>

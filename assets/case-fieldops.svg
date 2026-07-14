@@ -1,0 +1,18 @@
+<svg width="720" height="250" viewBox="0 0 720 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="718" height="248" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="250" rx="4" fill="#35C99A"/>
+    <path d="M30 0V250M694 0V250" stroke="#1A241E"/>
+    <path d="M0 42H720M0 226H720" stroke="#1A241E"/>
+    <g transform="translate(22 34)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="429" height="193" rx="0" fill="transparent" stroke="transparent" />
+
+    <text x="22" y="30" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="12" font-weight="850" letter-spacing="0" >CASE 04 / OPERA&#199;&#213;ES</text><text x="22" y="76" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="950" letter-spacing="0" >FieldOps</text><text x="22" y="112" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="550" letter-spacing="0" >Equipe, materiais, faturamento</text><text x="22" y="136" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="550" letter-spacing="0" >e margem de projetos de campo.</text><text x="22" y="190" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="800" letter-spacing="0" >PHP / TYPESCRIPT / MARGEM / RELAT&#211;RIOS</text><text x="344" y="190" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="850" letter-spacing="0" >ABRIR &#8599;</text>
+  </g><g transform="translate(474 34)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="221" height="193" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="28" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="750" letter-spacing="0" >MARGEM POR PROJETO</text><text x="18" y="58" fill="#35C99A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="0" >28,6%</text><rect x="18" y="82" width="146" height="14" rx="3" fill="#1A241E"/><rect x="18" y="82" width="112" height="14" rx="3" fill="#35C99A"/><rect x="18" y="108" width="146" height="14" rx="3" fill="#1A241E"/><rect x="18" y="108" width="78" height="14" rx="3" fill="#F2C14E"/><rect x="18" y="134" width="146" height="14" rx="3" fill="#1A241E"/><rect x="18" y="134" width="45" height="14" rx="3" fill="#FF6B4A"/><text x="18" y="178" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >CUSTO CONTROLADO</text>
+  </g><text x="24" y="23" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="700" letter-spacing="0" >SISTEMA COMERCIAL</text>
+  </g>
+</svg>

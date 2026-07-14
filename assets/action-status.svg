@@ -1,0 +1,14 @@
+<svg width="168" height="44" viewBox="0 0 168 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="166" height="42" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="44" rx="4" fill="#FF6B4A"/>
+    <path d="M30 0V44M142 0V44" stroke="#1A241E"/>
+    <path d="M0 42H168M0 20H168" stroke="#1A241E"/>
+    <g transform="translate(0 0)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="167" height="43" rx="4" fill="#101713" stroke="#FF6B4A" />
+
+    <g transform="translate(12 12)" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="9"/><path d="M6 10l3 3 6-7"/></g><text x="40" y="29" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850" letter-spacing="0" >FREELANCE ATIVO</text><g transform="translate(139 12)" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h14M12 5l5 5-5 5"/></g>
+  </g>
+  </g>
+</svg>

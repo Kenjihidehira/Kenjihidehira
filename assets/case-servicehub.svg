@@ -1,0 +1,18 @@
+<svg width="720" height="250" viewBox="0 0 720 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="718" height="248" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="250" rx="4" fill="#6F9EFF"/>
+    <path d="M30 0V250M694 0V250" stroke="#1A241E"/>
+    <path d="M0 42H720M0 226H720" stroke="#1A241E"/>
+    <g transform="translate(22 34)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="429" height="193" rx="0" fill="transparent" stroke="transparent" />
+
+    <text x="22" y="30" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="12" font-weight="850" letter-spacing="0" >CASE 02 / SERVI&#199;OS</text><text x="22" y="76" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="950" letter-spacing="0" >ServiceHub</text><text x="22" y="112" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="550" letter-spacing="0" >Agenda, clientes, funil e cobran&#231;as</text><text x="22" y="136" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="550" letter-spacing="0" >conectados em um fluxo comercial.</text><text x="22" y="190" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="800" letter-spacing="0" >NODE.JS / CRM / AGENDA / AUTOMA&#199;&#195;O</text><text x="344" y="190" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="850" letter-spacing="0" >ABRIR &#8599;</text>
+  </g><g transform="translate(474 34)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="221" height="193" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="28" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="750" letter-spacing="0" >OCUPA&#199;&#195;O DA AGENDA</text><text x="18" y="58" fill="#6F9EFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="0" >84%</text><circle cx="92" cy="112" r="54" stroke="#1A241E" stroke-width="18"/><path d="M92 58a54 54 0 0149 78" stroke="#6F9EFF" stroke-width="18" stroke-linecap="round"/><text x="69" y="120" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">84%</text><text x="18" y="178" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >LEMBRETES ATIVOS</text>
+  </g><text x="24" y="23" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="700" letter-spacing="0" >SISTEMA COMERCIAL</text>
+  </g>
+</svg>

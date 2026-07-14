@@ -1,0 +1,14 @@
+<svg width="196" height="44" viewBox="0 0 196 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="194" height="42" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="44" rx="4" fill="#35C99A"/>
+    <path d="M30 0V44M170 0V44" stroke="#1A241E"/>
+    <path d="M0 42H196M0 20H196" stroke="#1A241E"/>
+    <g transform="translate(0 0)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="195" height="43" rx="4" fill="#35C99A" stroke="#35C99A" />
+
+    <g transform="translate(12 12)" stroke="#080C0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="19" height="14" rx="2"/><path d="M2 5l8.5 7L19 5"/></g><text x="40" y="29" fill="#080C0A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850" letter-spacing="0" >SOLICITAR PROPOSTA</text><g transform="translate(167 12)" stroke="#080C0A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10h14M12 5l5 5-5 5"/></g>
+  </g>
+  </g>
+</svg>

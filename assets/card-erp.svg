@@ -1,18 +1,18 @@
-<svg width="600" height="250" viewBox="0 0 600 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="250" rx="8" fill="#111814"/>
-  <rect x="1" y="1" width="598" height="248" rx="7" stroke="#2C3931" stroke-width="2"/>
-  <rect width="10" height="250" rx="5" fill="#3BAA83"/>
-  <text x="34" y="43" fill="#3BAA83" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">ESTOQUE E COMPRAS  /  04</text>
-  <text x="34" y="84" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">StockPilot ERP</text>
-  <text x="34" y="116" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Ruptura, reposi&#231;&#227;o, fornecedores</text>
-  <text x="34" y="141" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">e sugest&#245;es de compra.</text>
-  <text x="34" y="203" fill="#E7ECE8" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">NODE.JS  /  API  /  TESTES  &#8599;</text>
-  <g transform="translate(372 28)">
-    <rect width="196" height="194" rx="6" fill="#090C0A" stroke="#27322B"/>
-    <text x="14" y="28" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">N&#205;VEL DE ESTOQUE</text>
-    <g transform="translate(14 47)"><rect width="168" height="27" rx="4" fill="#172019"/><rect width="136" height="27" rx="4" fill="#214F40"/></g>
-    <g transform="translate(14 84)"><rect width="168" height="27" rx="4" fill="#172019"/><rect width="78" height="27" rx="4" fill="#745E21"/></g>
-    <g transform="translate(14 121)"><rect width="168" height="27" rx="4" fill="#172019"/><rect width="42" height="27" rx="4" fill="#8B3524"/></g>
-    <text x="14" y="178" fill="#72C5AE" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">LOTE DE COMPRA PRONTO</text>
+<svg width="720" height="250" viewBox="0 0 720 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="718" height="248" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="250" rx="4" fill="#6F9EFF"/>
+    <path d="M30 0V250M694 0V250" stroke="#1A241E"/>
+    <path d="M0 42H720M0 226H720" stroke="#1A241E"/>
+    <g transform="translate(22 34)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="429" height="193" rx="0" fill="transparent" stroke="transparent" />
+
+    <text x="22" y="30" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="12" font-weight="850" letter-spacing="0" >04 / ESTOQUE</text><text x="22" y="76" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="950" letter-spacing="0" >StockPilot ERP</text><text x="22" y="112" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="550" letter-spacing="0" >Ruptura, reposi&#231;&#227;o e compras</text><text x="22" y="136" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="550" letter-spacing="0" >guiadas por n&#237;vel de estoque.</text><text x="22" y="190" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="800" letter-spacing="0" >NODE.JS / API / TESTES</text><text x="344" y="190" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="850" letter-spacing="0" >ABRIR &#8599;</text>
+  </g><g transform="translate(474 34)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="221" height="193" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="18" y="28" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="750" letter-spacing="0" >N&#205;VEL DE ESTOQUE</text><text x="18" y="58" fill="#6F9EFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900" letter-spacing="0" >17 SKUs</text><rect x="18" y="82" width="146" height="14" rx="3" fill="#1A241E"/><rect x="18" y="82" width="112" height="14" rx="3" fill="#6F9EFF"/><rect x="18" y="108" width="146" height="14" rx="3" fill="#1A241E"/><rect x="18" y="108" width="78" height="14" rx="3" fill="#F2C14E"/><rect x="18" y="134" width="146" height="14" rx="3" fill="#1A241E"/><rect x="18" y="134" width="45" height="14" rx="3" fill="#FF6B4A"/><text x="18" y="178" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >LOTE DE COMPRA PRONTO</text>
+  </g><text x="24" y="23" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="700" letter-spacing="0" >SISTEMA COMERCIAL</text>
   </g>
 </svg>

@@ -1,7 +1,14 @@
-<svg width="94" height="38" viewBox="0 0 94 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0.5" y="0.5" width="93" height="37" rx="4" fill="#111612" stroke="#2A3630"/>
-  <path d="M4 1V37" stroke="#FF7B61" stroke-width="6"/>
-  <rect x="14" y="14" width="14" height="10" rx="1.5" stroke="#FF7B61" stroke-width="1.5"/>
-  <path d="M15 15L21 20L27 15" stroke="#FF7B61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="34" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="0">CONTATO</text>
+<svg width="105" height="44" viewBox="0 0 105 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <g data-box="true">
+    <rect data-bound="true" x="1" y="1" width="103" height="42" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+    <rect x="0" y="0" width="8" height="44" rx="4" fill="#FF6B4A"/>
+    <path d="M30 0V44M79 0V44" stroke="#1A241E"/>
+    <path d="M0 42H105M0 20H105" stroke="#1A241E"/>
+    <g transform="translate(0 0)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="104" height="43" rx="4" fill="#101713" stroke="#2A3930" />
+
+    <g transform="translate(12 12)" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="19" height="14" rx="2"/><path d="M2 5l8.5 7L19 5"/></g><text x="40" y="29" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="850" letter-spacing="0" >CONTATO</text><rect x="0" y="0" width="5" height="44" rx="2.5" fill="#FF6B4A"/>
+  </g>
+  </g>
 </svg>
