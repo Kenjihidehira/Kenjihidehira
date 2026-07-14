@@ -1,0 +1,50 @@
+<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="340" rx="8" fill="#070A08"/>
+  <rect x="1" y="1" width="1278" height="338" rx="7" stroke="#27322B" stroke-width="2"/>
+  <g transform="translate(42 38)">
+    <text x="0" y="18" fill="#3BAA83" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">MAPA DE CAPACIDADES</text>
+    <text x="0" y="54" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="900">Da experi&#234;ncia do usu&#225;rio at&#233; a opera&#231;&#227;o.</text>
+  </g>
+  <g transform="translate(42 118)">
+    <rect width="1196" height="56" rx="6" fill="#111814" stroke="#27322B"/>
+    <rect width="174" height="56" rx="6" fill="#173D31"/>
+    <text x="24" y="34" fill="#72C5AE" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">EXPERI&#202;NCIA</text>
+    <text x="206" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Pain&#233;is</text>
+    <circle cx="294" cy="28" r="3" fill="#3BAA83"/>
+    <text x="314" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Portais</text>
+    <circle cx="392" cy="28" r="3" fill="#3BAA83"/>
+    <text x="412" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Formul&#225;rios</text>
+    <circle cx="528" cy="28" r="3" fill="#3BAA83"/>
+    <text x="548" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Tabelas e filtros</text>
+    <rect x="912" y="14" width="258" height="28" rx="4" fill="#0D120F"/>
+    <text x="934" y="33" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">HTML / CSS / JS / TS</text>
+  </g>
+  <g transform="translate(42 188)">
+    <rect width="1196" height="56" rx="6" fill="#111814" stroke="#27322B"/>
+    <rect width="174" height="56" rx="6" fill="#253B66"/>
+    <text x="24" y="34" fill="#AFC5F4" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">BACKEND</text>
+    <text x="206" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">APIs REST</text>
+    <circle cx="310" cy="28" r="3" fill="#79A0ED"/>
+    <text x="330" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Regras de neg&#243;cio</text>
+    <circle cx="502" cy="28" r="3" fill="#79A0ED"/>
+    <text x="522" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Valida&#231;&#245;es</text>
+    <circle cx="632" cy="28" r="3" fill="#79A0ED"/>
+    <text x="652" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Persist&#234;ncia</text>
+    <rect x="912" y="14" width="258" height="28" rx="4" fill="#0D120F"/>
+    <text x="934" y="33" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">NODE.JS / PHP / JSON / SQL</text>
+  </g>
+  <g transform="translate(42 258)">
+    <rect width="1196" height="56" rx="6" fill="#111814" stroke="#27322B"/>
+    <rect width="174" height="56" rx="6" fill="#563F13"/>
+    <text x="24" y="34" fill="#F8D98A" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">OPERA&#199;&#195;O</text>
+    <text x="206" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Automa&#231;&#245;es</text>
+    <circle cx="326" cy="28" r="3" fill="#F1CE77"/>
+    <text x="346" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Filas de a&#231;&#227;o</text>
+    <circle cx="484" cy="28" r="3" fill="#F1CE77"/>
+    <text x="504" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Alertas</text>
+    <circle cx="576" cy="28" r="3" fill="#F1CE77"/>
+    <text x="596" y="34" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">Integra&#231;&#245;es</text>
+    <rect x="912" y="14" width="258" height="28" rx="4" fill="#0D120F"/>
+    <text x="934" y="33" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="11">TESTES / DOCKER / GIT</text>
+  </g>
+</svg>

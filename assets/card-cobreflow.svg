@@ -2,11 +2,11 @@
   <rect width="600" height="250" rx="8" fill="#111814"/>
   <rect x="1" y="1" width="598" height="248" rx="7" stroke="#2C3931" stroke-width="2"/>
   <rect width="10" height="250" rx="5" fill="#E5B94B"/>
-  <text x="34" y="43" fill="#F1CE77" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">FINANCEIRO</text>
+  <text x="34" y="43" fill="#F1CE77" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">FINANCEIRO  /  02</text>
   <text x="34" y="84" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">CobreFlow</text>
   <text x="34" y="116" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Receb&#237;veis, concilia&#231;&#227;o e</text>
   <text x="34" y="141" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">cobran&#231;a ativa priorizada.</text>
-  <text x="34" y="203" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">NODE.JS  /  FINAN&#199;AS  /  FILAS</text>
+  <text x="34" y="203" fill="#E7ECE8" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">NODE.JS  /  FINAN&#199;AS  /  FILAS  &#8599;</text>
   <g transform="translate(352 28)">
     <rect width="216" height="194" rx="6" fill="#0B0F0D"/>
     <text x="16" y="28" fill="#D5DDD7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">CARTEIRA</text>

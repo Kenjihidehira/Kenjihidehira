@@ -4,69 +4,127 @@
 
 <br>
 
-**Desenvolvedor web focado em sistemas comerciais, APIs, pain&eacute;is operacionais e automa&ccedil;&otilde;es.**
+<a href="#user-content-visao-geral"><strong>VIS&Atilde;O GERAL</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-estudos-de-caso"><strong>ESTUDOS DE CASO</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-engenharia"><strong>ENGENHARIA</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-processo"><strong>PROCESSO</strong></a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#user-content-contato"><strong>CONTATO</strong></a>
 
-Transformo processos manuais em aplica&ccedil;&otilde;es claras, demonstr&aacute;veis e prontas para evoluir.
-
-<br>
+<br><br>
 
 <a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir.">
   <img src="https://img.shields.io/badge/Solicitar_uma_proposta-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Solicitar uma proposta">
 </a>
 <a href="https://github.com/Kenjihidehira?tab=repositories">
-  <img src="https://img.shields.io/badge/Explorar_projetos-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Explorar projetos">
+  <img src="https://img.shields.io/badge/Explorar_reposit%C3%B3rios-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Explorar reposit&oacute;rios">
 </a>
-<img src="https://img.shields.io/badge/Idioma-PT--BR-FF6B4A?style=for-the-badge" alt="Idioma PT-BR">
+<img src="https://img.shields.io/badge/Dispon%C3%ADvel_para_freelance-FF6B4A?style=for-the-badge" alt="Dispon&iacute;vel para freelance">
 
 </div>
 
-## O que eu entrego
+<a id="visao-geral"></a>
 
-![Sistemas web, APIs REST, automa&ccedil;&atilde;o e qualidade](./assets/overview-panel.svg)
+## Vis&atilde;o geral
 
-Meu portf&oacute;lio &eacute; orientado a problemas comerciais reais: atendimento, vendas, cobran&ccedil;a, estoque, marketing, log&iacute;stica, agendamento e opera&ccedil;&otilde;es internas.
+![M&eacute;tricas verificadas do portf&oacute;lio](./assets/proof-panel.svg)
 
-- **Interface utiliz&aacute;vel:** telas responsivas, filtros, tabelas, indicadores e fluxos de trabalho claros.
-- **Regra de neg&oacute;cio:** valida&ccedil;&otilde;es, prioriza&ccedil;&atilde;o, c&aacute;lculos, estados e automa&ccedil;&otilde;es demonstr&aacute;veis.
-- **Servidor e dados:** APIs REST, dados de demonstra&ccedil;&atilde;o, seeds e estrutura preparada para integra&ccedil;&otilde;es.
-- **Entrega verific&aacute;vel:** documenta&ccedil;&atilde;o, testes, smoke tests e instru&ccedil;&otilde;es objetivas de execu&ccedil;&atilde;o.
+Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. O trabalho combina interface, regras de neg&oacute;cio, API, dados de demonstra&ccedil;&atilde;o e valida&ccedil;&atilde;o t&eacute;cnica para que o cliente consiga entender o fluxo antes de investir na evolu&ccedil;&atilde;o do produto.
 
-## Projetos em destaque
+![Mapa de capacidades: experi&ecirc;ncia, backend e opera&ccedil;&atilde;o](./assets/service-map.svg)
+
+| Foco | O que isso representa para o cliente |
+| --- | --- |
+| **Clareza operacional** | Indicadores, filas, prioridades e estados vis&iacute;veis em uma &uacute;nica interface |
+| **Menos trabalho manual** | Automa&ccedil;&otilde;es, alertas, c&aacute;lculos e regras executados de forma consistente |
+| **Decis&atilde;o baseada em dados** | KPIs, filtros, relat&oacute;rios e dados organizados por contexto comercial |
+| **Base para evolu&ccedil;&atilde;o** | Estrutura pronta para autentica&ccedil;&atilde;o, banco de dados, integra&ccedil;&otilde;es e deploy |
+
+<a id="estudos-de-caso"></a>
+
+## Estudos de caso
+
+Quatro sistemas com **telas reais, dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Clique em qualquer preview para abrir o reposit&oacute;rio completo.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kenjihidehira/returnops-rma-command-center">
+        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/returnops-rma-command-center/main/docs/preview.svg" alt="Preview do ReturnOps">
+      </a>
+      <br><strong>ReturnOps - Central de RMA</strong><br>
+      <sub>Devolu&ccedil;&otilde;es, reembolsos, estoque e risco de SLA. Node.js, API REST, playbooks e testes.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm">
+        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/servicehub-agendamentos-crm/main/docs/dashboard-preview.svg" alt="Preview do ServiceHub">
+      </a>
+      <br><strong>ServiceHub - Agendamentos CRM</strong><br>
+      <sub>Agenda, clientes, funil, cobran&ccedil;as e lembretes em um fluxo operacional integrado.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution">
+        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/leadops-campaign-attribution/main/docs/dashboard-preview.svg" alt="Preview do LeadOps">
+      </a>
+      <br><strong>LeadOps - Atribui&ccedil;&atilde;o de Campanhas</strong><br>
+      <sub>ROI, pontua&ccedil;&atilde;o de leads, funil e automa&ccedil;&otilde;es para marketing e vendas.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Kenjihidehira/fieldops-margin-control">
+        <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/fieldops-margin-control/main/docs/dashboard-preview.svg" alt="Preview do FieldOps">
+      </a>
+      <br><strong>FieldOps - Controle de Margem</strong><br>
+      <sub>Projetos de campo, materiais, equipe, faturamento e margem em PHP com TypeScript.</sub>
+    </td>
+  </tr>
+</table>
+
+### Mais sistemas comerciais
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img width="49%" src="./assets/card-returnops.svg" alt="ReturnOps - Central de RMA"></a>
-  <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img width="49%" src="./assets/card-vendoraudit.svg" alt="VendorAudit - Portal de conformidade"></a>
+  <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img src="./assets/card-vendoraudit.svg" alt="VendorAudit - Portal de conformidade"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img width="49%" src="./assets/card-leadops.svg" alt="LeadOps - Atribui&ccedil;&atilde;o de campanhas"></a>
-  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img width="49%" src="./assets/card-cobreflow.svg" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
+  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow.svg" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Kenjihidehira/logix-ops-control-tower"><img width="49%" src="./assets/card-logixops.svg" alt="LogixOps - Torre de controle log&iacute;stica"></a>
-  <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img width="49%" src="./assets/card-fieldops.svg" alt="FieldOps - Controle de margem"></a>
+  <a href="https://github.com/Kenjihidehira/logix-ops-control-tower"><img src="./assets/card-logixops.svg" alt="LogixOps - Torre de controle log&iacute;stica"></a>
 </p>
 
-| Projeto | Valor comercial | Stack principal |
-| --- | --- | --- |
-| [ServiceHub Agendamentos CRM](https://github.com/Kenjihidehira/servicehub-agendamentos-crm) | Agenda, clientes, funil e cobran&ccedil;as para empresas de servi&ccedil;os | Node.js, API REST, JavaScript |
-| [StockPilot ERP](https://github.com/Kenjihidehira/erp-estoque-node) | Estoque, reposi&ccedil;&atilde;o, fornecedores e sugest&atilde;o de compras | Node.js, API REST, testes |
-| [ResolveDesk SLA Hub](https://github.com/Kenjihidehira/helpdesk-node-fullstack) | Fila de chamados, risco de SLA e automa&ccedil;&atilde;o de suporte | Node.js, API REST, JavaScript |
-| [LinkPulse](https://github.com/Kenjihidehira/encurtador-url-node) | Links de campanha, cliques, convers&atilde;o e c&oacute;digos QR | Node.js, analytics, testes |
-| [CRM Pipeline JS](https://github.com/Kenjihidehira/crm-pipeline-js) | Funil comercial, previs&atilde;o, acompanhamentos e exporta&ccedil;&atilde;o | JavaScript, HTML, CSS |
-| [Painel de Vendas Pro](https://github.com/Kenjihidehira/dashboard-vendas-pro) | KPIs, metas, filtros e relat&oacute;rios comerciais | JavaScript, HTML, CSS |
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/erp-estoque-node"><img src="./assets/card-erp.svg" alt="StockPilot ERP"></a>
+</p>
 
-## Como eu trabalho
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack"><img src="./assets/card-helpdesk.svg" alt="ResolveDesk - Sistema de suporte"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/encurtador-url-node"><img src="./assets/card-linkpulse.svg" alt="LinkPulse - Links de campanha"></a>
+</p>
+
+<a id="engenharia"></a>
+
+## Engenharia e qualidade
+
+![Engenharia de entrega com c&oacute;digo, testes e documenta&ccedil;&atilde;o](./assets/engineering-panel.svg)
+
+- Regras de neg&oacute;cio separadas da camada de interface para facilitar testes e evolu&ccedil;&atilde;o.
+- APIs com valida&ccedil;&atilde;o de entrada, respostas previs&iacute;veis e dados de demonstra&ccedil;&atilde;o reproduz&iacute;veis.
+- Testes unit&aacute;rios, smoke tests HTTP e checagens est&aacute;ticas proporcionais ao risco de cada projeto.
+- READMEs com instala&ccedil;&atilde;o, endpoints, arquitetura, dados de exemplo e op&ccedil;&otilde;es de deploy.
+
+<a id="processo"></a>
+
+## Processo de trabalho
 
 ![Fluxo de entrega: entender, modelar, construir e validar](./assets/workflow-strip.svg)
 
-1. **Entendimento do processo:** objetivo, usu&aacute;rios, gargalos, regras e dados necess&aacute;rios.
-2. **Modelagem do fluxo:** entidades, estados, automa&ccedil;&otilde;es e crit&eacute;rios de sucesso.
-3. **Constru&ccedil;&atilde;o do sistema:** interface, API, integra&ccedil;&otilde;es e dados de demonstra&ccedil;&atilde;o.
-4. **Valida&ccedil;&atilde;o e entrega:** testes, documenta&ccedil;&atilde;o, configura&ccedil;&atilde;o e pr&oacute;ximos passos.
+1. **Entender:** processo atual, usu&aacute;rios, gargalos, regras e resultado esperado.
+2. **Modelar:** entidades, estados, permiss&otilde;es, automa&ccedil;&otilde;es e crit&eacute;rios de sucesso.
+3. **Construir:** interface, API, persist&ecirc;ncia e integra&ccedil;&otilde;es necess&aacute;rias.
+4. **Validar:** cen&aacute;rios cr&iacute;ticos, testes, documenta&ccedil;&atilde;o e entrega demonstr&aacute;vel.
 
-## Tecnologias aplicadas
+## Stack aplicada
 
 ![Matriz de tecnologias aplicadas nos projetos](./assets/skill-matrix.svg)
 
@@ -85,22 +143,24 @@ Meu portf&oacute;lio &eacute; orientado a problemas comerciais reais: atendiment
 </div>
 
 <details>
-<summary><strong>Ver projetos complementares</strong></summary>
+<summary><strong>Explorar outros projetos do portf&oacute;lio</strong></summary>
 
-| Projeto | Categoria |
-| --- | --- |
-| [Planejador Pro JS](https://github.com/Kenjihidehira/planner-pro-js) | Kanban, capacidade e produtividade |
-| [Controle Financeiro](https://github.com/Kenjihidehira/controle-financeiro) | Receitas, despesas e indicadores |
-| [Loja PHP](https://github.com/Kenjihidehira/loja-php) | Cat&aacute;logo, carrinho, frete e desconto |
-| [Agenda PHP](https://github.com/Kenjihidehira/agenda-php) | Agendamento responsivo |
-| [API Produtos Node](https://github.com/Kenjihidehira/api-produtos-node) | API REST com Express e testes |
-| [Notas API Node](https://github.com/Kenjihidehira/notas-api-node) | API REST com persist&ecirc;ncia JSON |
-| [Cat&aacute;logo de Filmes](https://github.com/Kenjihidehira/catalogo-filmes) | Busca, filtros e favoritos |
-| [Quiz Dev JS](https://github.com/Kenjihidehira/quiz-dev-js) | Quiz, cron&ocirc;metro e classifica&ccedil;&atilde;o |
-| [Kanban Board](https://github.com/Kenjihidehira/kanban-board) | Quadro com arrastar e soltar |
-| [Pomodoro Focus](https://github.com/Kenjihidehira/pomodoro-focus) | Foco e produtividade |
+| Projeto | Categoria | Principal demonstra&ccedil;&atilde;o |
+| --- | --- | --- |
+| [CRM Pipeline JS](https://github.com/Kenjihidehira/crm-pipeline-js) | Vendas | Funil, previs&atilde;o e acompanhamentos |
+| [Painel de Vendas Pro](https://github.com/Kenjihidehira/dashboard-vendas-pro) | Comercial | KPIs, metas, filtros e exporta&ccedil;&atilde;o |
+| [Planejador Pro JS](https://github.com/Kenjihidehira/planner-pro-js) | Produtividade | Kanban, capacidade e linha do tempo |
+| [Controle Financeiro](https://github.com/Kenjihidehira/controle-financeiro) | Financeiro | Receitas, despesas e indicadores |
+| [Loja PHP](https://github.com/Kenjihidehira/loja-php) | Com&eacute;rcio | Cat&aacute;logo, carrinho, frete e desconto |
+| [Agenda PHP](https://github.com/Kenjihidehira/agenda-php) | Agendamento | Fluxo responsivo de reservas |
+| [API Produtos Node](https://github.com/Kenjihidehira/api-produtos-node) | Backend | API REST com Express e testes |
+| [Notas API Node](https://github.com/Kenjihidehira/notas-api-node) | Backend | Persist&ecirc;ncia JSON e testes nativos |
+| [Cat&aacute;logo de Filmes](https://github.com/Kenjihidehira/catalogo-filmes) | Interface | Busca, filtros e favoritos |
+| [Kanban Board](https://github.com/Kenjihidehira/kanban-board) | Produtividade | Arrastar e soltar e armazenamento local |
 
 </details>
+
+<a id="contato"></a>
 
 ## Vamos conversar sobre o seu projeto
 
@@ -112,7 +172,7 @@ Meu portf&oacute;lio &eacute; orientado a problemas comerciais reais: atendiment
   <img src="https://img.shields.io/badge/Descrever_meu_projeto-0E7C66?style=for-the-badge&logo=github&logoColor=white" alt="Descrever meu projeto">
 </a>
 <a href="https://github.com/Kenjihidehira?tab=repositories">
-  <img src="https://img.shields.io/badge/Ver_portfolio_completo-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Ver portf&oacute;lio completo">
+  <img src="https://img.shields.io/badge/Ver_portf%C3%B3lio_completo-121A16?style=for-the-badge&logo=github&logoColor=white" alt="Ver portf&oacute;lio completo">
 </a>
 
 </div>

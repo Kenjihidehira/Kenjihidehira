@@ -1,61 +1,86 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="420" fill="#0B0F0D"/>
-  <rect width="12" height="420" fill="#0E7C66"/>
-  <path d="M72 62H640" stroke="#27322B" stroke-width="2"/>
-  <text x="72" y="48" fill="#3BAA83" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">DESENVOLVIMENTO WEB PARA NEG&#211;CIOS</text>
-  <text x="72" y="128" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="900">Kenji Hidehira</text>
-  <text x="72" y="174" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Sistemas, APIs e automa&#231;&#245;es que organizam</text>
-  <text x="72" y="208" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">opera&#231;&#245;es e ajudam empresas a vender melhor.</text>
+<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="480" fill="#070A08"/>
+  <path d="M0 120H1280M0 240H1280M0 360H1280M320 0V480M640 0V480M960 0V480" stroke="#172019" stroke-width="1"/>
+  <rect width="12" height="480" fill="#3BAA83"/>
 
-  <g transform="translate(72 260)">
-    <circle cx="8" cy="8" r="8" fill="#0E7C66"/>
-    <text x="28" y="15" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Pain&#233;is operacionais</text>
-    <circle cx="8" cy="48" r="8" fill="#FF6B4A"/>
-    <text x="28" y="55" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">APIs e integra&#231;&#245;es</text>
-    <circle cx="278" cy="8" r="8" fill="#E5B94B"/>
-    <text x="298" y="15" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Automa&#231;&#245;es comerciais</text>
-    <circle cx="278" cy="48" r="8" fill="#4A74C9"/>
-    <text x="298" y="55" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Interfaces em PT-BR</text>
+  <g transform="translate(58 34)">
+    <rect width="48" height="48" rx="6" fill="#3BAA83"/>
+    <text x="11" y="33" fill="#07110D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950">KH</text>
+    <text x="66" y="20" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">PORTF&#211;LIO DE SISTEMAS WEB</text>
+    <text x="66" y="41" fill="#718078" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12">S&#195;O PAULO / BRASIL  &#183;  2026</text>
   </g>
 
-  <g transform="translate(716 46)">
-    <rect width="500" height="328" rx="8" fill="#121A16"/>
-    <rect x="1" y="1" width="498" height="326" rx="7" stroke="#2D3A32" stroke-width="2"/>
-    <rect x="24" y="22" width="452" height="34" rx="6" fill="#1D2922"/>
-    <circle cx="44" cy="39" r="5" fill="#FF6B4A"/>
-    <circle cx="62" cy="39" r="5" fill="#E5B94B"/>
-    <circle cx="80" cy="39" r="5" fill="#3BAA83"/>
-    <text x="110" y="45" fill="#B7C3BB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">central de opera&#231;&#245;es</text>
+  <g transform="translate(58 126)">
+    <text x="0" y="34" fill="#FF8D73" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">DESENVOLVEDOR WEB  /  FREELANCE</text>
+    <text x="0" y="102" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="62" font-weight="950">Kenji Hidehira</text>
+    <rect x="0" y="122" width="78" height="6" rx="3" fill="#FF6B4A"/>
+    <text x="0" y="170" fill="#B7C3BB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="650">Construo sistemas que organizam opera&#231;&#245;es,</text>
+    <text x="0" y="202" fill="#B7C3BB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="650">reduzem trabalho manual e apoiam vendas.</text>
+  </g>
 
-    <g transform="translate(24 78)">
-      <rect width="136" height="76" rx="6" fill="#1B251F"/>
-      <text x="16" y="26" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">RECEITA</text>
-      <text x="16" y="56" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">R$ 84 mil</text>
+  <g transform="translate(58 388)">
+    <rect width="184" height="48" rx="6" fill="#111814" stroke="#27322B"/>
+    <circle cx="24" cy="24" r="6" fill="#3BAA83"/>
+    <text x="42" y="29" fill="#DDE4DF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">SISTEMAS WEB</text>
+    <rect x="196" width="164" height="48" rx="6" fill="#111814" stroke="#27322B"/>
+    <circle cx="220" cy="24" r="6" fill="#79A0ED"/>
+    <text x="238" y="29" fill="#DDE4DF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">APIS REST</text>
+    <rect x="372" width="198" height="48" rx="6" fill="#111814" stroke="#27322B"/>
+    <circle cx="396" cy="24" r="6" fill="#F1CE77"/>
+    <text x="414" y="29" fill="#DDE4DF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">AUTOMA&#199;&#213;ES</text>
+  </g>
+
+  <g transform="translate(700 48)">
+    <rect width="522" height="384" rx="8" fill="#0D120F" stroke="#314038" stroke-width="2"/>
+    <rect width="522" height="46" rx="8" fill="#151D18"/>
+    <rect y="38" width="522" height="8" fill="#151D18"/>
+    <circle cx="24" cy="23" r="5" fill="#FF6B4A"/>
+    <circle cx="43" cy="23" r="5" fill="#F1CE77"/>
+    <circle cx="62" cy="23" r="5" fill="#3BAA83"/>
+    <text x="90" y="28" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12">ops.control / painel executivo</text>
+    <rect x="432" y="14" width="68" height="18" rx="4" fill="#173D31"/>
+    <text x="448" y="27" fill="#72C5AE" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800">ONLINE</text>
+
+    <g transform="translate(18 64)">
+      <rect width="148" height="70" rx="6" fill="#151D18" stroke="#27322B"/>
+      <text x="14" y="24" fill="#718078" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">RECEITA DO M&#202;S</text>
+      <text x="14" y="52" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="900">R$ 84,2 mil</text>
+      <text x="112" y="52" fill="#3BAA83" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">+12%</text>
     </g>
-    <g transform="translate(172 78)">
-      <rect width="136" height="76" rx="6" fill="#1B251F"/>
-      <text x="16" y="26" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CONVERS&#195;O</text>
-      <text x="16" y="56" fill="#3BAA83" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">31,8%</text>
+    <g transform="translate(178 64)">
+      <rect width="148" height="70" rx="6" fill="#151D18" stroke="#27322B"/>
+      <text x="14" y="24" fill="#718078" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">CONVERS&#195;O</text>
+      <text x="14" y="52" fill="#79A0ED" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="900">31,8%</text>
+      <text x="108" y="52" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">META</text>
     </g>
-    <g transform="translate(320 78)">
-      <rect width="156" height="76" rx="6" fill="#FF6B4A"/>
-      <text x="16" y="26" fill="#4A160D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">A&#199;&#213;ES DO DIA</text>
-      <text x="16" y="56" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">12 tarefas</text>
+    <g transform="translate(338 64)">
+      <rect width="166" height="70" rx="6" fill="#512116" stroke="#8B3524"/>
+      <text x="14" y="24" fill="#FFB4A3" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">A&#199;&#213;ES PRIORIT&#193;RIAS</text>
+      <text x="14" y="53" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="900">12 tarefas</text>
     </g>
 
-    <g transform="translate(24 170)">
-      <rect width="278" height="126" rx="6" fill="#1D2922"/>
-      <text x="16" y="25" fill="#D5DDD7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">RESULTADO SEMANAL</text>
-      <path d="M18 100L56 82L92 88L130 55L166 68L204 38L258 48" stroke="#3BAA83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M18 102H258" stroke="#35443A" stroke-width="2"/>
+    <g transform="translate(18 150)">
+      <rect width="306" height="132" rx="6" fill="#111814" stroke="#27322B"/>
+      <text x="14" y="24" fill="#AAB5AD" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">DESEMPENHO / 7 DIAS</text>
+      <path d="M14 106H290M14 80H290M14 54H290" stroke="#202B24"/>
+      <path d="M16 106L52 91L88 96L126 64L164 73L202 42L246 56L288 30" stroke="#3BAA83" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16 112L52 105L88 102L126 96L164 88L202 85L246 74L288 68" stroke="#79A0ED" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 5"/>
     </g>
-    <g transform="translate(314 170)">
-      <rect width="162" height="126" rx="6" fill="#1B251F"/>
-      <text x="14" y="25" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">PRIORIDADES</text>
-      <rect x="14" y="42" width="102" height="8" rx="4" fill="#FF6B4A"/>
-      <rect x="14" y="62" width="132" height="8" rx="4" fill="#0E7C66"/>
-      <rect x="14" y="82" width="78" height="8" rx="4" fill="#E5B94B"/>
-      <text x="14" y="112" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">SLA sob controle</text>
+    <g transform="translate(338 150)">
+      <rect width="166" height="132" rx="6" fill="#111814" stroke="#27322B"/>
+      <text x="14" y="24" fill="#AAB5AD" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">FUNIL COMERCIAL</text>
+      <rect x="14" y="42" width="136" height="12" rx="3" fill="#214F40"/>
+      <rect x="14" y="64" width="104" height="12" rx="3" fill="#31528D"/>
+      <rect x="14" y="86" width="72" height="12" rx="3" fill="#7B6021"/>
+      <rect x="14" y="108" width="46" height="12" rx="3" fill="#8B3524"/>
+    </g>
+
+    <g transform="translate(18 298)">
+      <rect width="486" height="68" rx="6" fill="#090C0A" stroke="#27322B"/>
+      <text x="14" y="20" fill="#718078" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">AUTOMA&#199;&#195;O MAIS RECENTE</text>
+      <text x="14" y="45" fill="#DDE4DF" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12">&gt; priorizar_leads({ risco: "alto", sla: "hoje" })</text>
+      <rect x="393" y="22" width="76" height="24" rx="4" fill="#173D31"/>
+      <text x="410" y="39" fill="#72C5AE" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10" font-weight="800">EXECUTADO</text>
     </g>
   </g>
 </svg>

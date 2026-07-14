@@ -1,0 +1,17 @@
+<svg width="600" height="250" viewBox="0 0 600 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="250" rx="8" fill="#111814"/>
+  <rect x="1" y="1" width="598" height="248" rx="7" stroke="#2C3931" stroke-width="2"/>
+  <rect width="10" height="250" rx="5" fill="#FF6B4A"/>
+  <text x="34" y="43" fill="#FF8D73" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="13" font-weight="900">ATENDIMENTO E SLA  /  05</text>
+  <text x="34" y="84" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="900">ResolveDesk</text>
+  <text x="34" y="116" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Chamados, prioridade e risco de SLA</text>
+  <text x="34" y="141" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">em uma fila operacional.</text>
+  <text x="34" y="203" fill="#E7ECE8" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">NODE.JS  /  SLA  /  AUTOMA&#199;&#195;O  &#8599;</text>
+  <g transform="translate(372 28)">
+    <rect width="196" height="194" rx="6" fill="#090C0A" stroke="#27322B"/>
+    <text x="14" y="28" fill="#9FB0A5" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="10">FILA DE CHAMADOS</text>
+    <g transform="translate(14 46)"><rect width="168" height="36" rx="4" fill="#1B251F"/><circle cx="16" cy="18" r="6" fill="#FF6B4A"/><rect x="32" y="12" width="92" height="6" rx="3" fill="#718078"/><text x="136" y="22" fill="#FF8D73" font-family="Consolas" font-size="9">P1</text></g>
+    <g transform="translate(14 92)"><rect width="168" height="36" rx="4" fill="#1B251F"/><circle cx="16" cy="18" r="6" fill="#F1CE77"/><rect x="32" y="12" width="112" height="6" rx="3" fill="#718078"/><text x="136" y="22" fill="#F1CE77" font-family="Consolas" font-size="9">P2</text></g>
+    <g transform="translate(14 138)"><rect width="168" height="36" rx="4" fill="#1B251F"/><circle cx="16" cy="18" r="6" fill="#3BAA83"/><rect x="32" y="12" width="74" height="6" rx="3" fill="#718078"/><text x="136" y="22" fill="#72C5AE" font-family="Consolas" font-size="9">OK</text></g>
+  </g>
+</svg>
