@@ -1,33 +1,33 @@
 <svg width="1280" height="200" viewBox="0 0 1280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="200" rx="8" fill="#F4F7F2"/>
-  <rect x="1" y="1" width="1278" height="198" rx="7" stroke="#D7DED8" stroke-width="2"/>
-  <text x="48" y="46" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">FLUXO DE ENTREGA</text>
-  <path d="M48 66H1232" stroke="#D7DED8" stroke-width="2"/>
+  <rect width="1280" height="200" rx="8" fill="#0B0F0D"/>
+  <rect x="1" y="1" width="1278" height="198" rx="7" stroke="#27322B" stroke-width="2"/>
+  <text x="48" y="46" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">FLUXO DE ENTREGA</text>
+  <path d="M48 66H1232" stroke="#27322B" stroke-width="2"/>
   <g transform="translate(48 94)">
     <circle cx="28" cy="28" r="28" fill="#0E7C66"/>
     <text x="20" y="36" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">1</text>
-    <text x="72" y="23" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Entender</text>
-    <text x="72" y="48" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">processo e gargalos</text>
+    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Entender</text>
+    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">processo e gargalos</text>
   </g>
-  <path d="M302 122H356" stroke="#AAB5AD" stroke-width="3"/><path d="M346 113L356 122L346 131" stroke="#AAB5AD" stroke-width="3"/>
+  <path d="M302 122H356" stroke="#5B6A60" stroke-width="3"/><path d="M346 113L356 122L346 131" stroke="#5B6A60" stroke-width="3"/>
   <g transform="translate(372 94)">
     <circle cx="28" cy="28" r="28" fill="#FF6B4A"/>
     <text x="20" y="36" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">2</text>
-    <text x="72" y="23" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Modelar</text>
-    <text x="72" y="48" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">dados e regras</text>
+    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Modelar</text>
+    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">dados e regras</text>
   </g>
-  <path d="M626 122H680" stroke="#AAB5AD" stroke-width="3"/><path d="M670 113L680 122L670 131" stroke="#AAB5AD" stroke-width="3"/>
+  <path d="M626 122H680" stroke="#5B6A60" stroke-width="3"/><path d="M670 113L680 122L670 131" stroke="#5B6A60" stroke-width="3"/>
   <g transform="translate(696 94)">
     <circle cx="28" cy="28" r="28" fill="#E5B94B"/>
     <text x="20" y="36" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">3</text>
-    <text x="72" y="23" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Construir</text>
-    <text x="72" y="48" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">interface e API</text>
+    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Construir</text>
+    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">interface e API</text>
   </g>
-  <path d="M950 122H1004" stroke="#AAB5AD" stroke-width="3"/><path d="M994 113L1004 122L994 131" stroke="#AAB5AD" stroke-width="3"/>
+  <path d="M950 122H1004" stroke="#5B6A60" stroke-width="3"/><path d="M994 113L1004 122L994 131" stroke="#5B6A60" stroke-width="3"/>
   <g transform="translate(1020 94)">
     <circle cx="28" cy="28" r="28" fill="#4A74C9"/>
     <text x="20" y="36" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">4</text>
-    <text x="72" y="23" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Validar</text>
-    <text x="72" y="48" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">testes e entrega</text>
+    <text x="72" y="23" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900">Validar</text>
+    <text x="72" y="48" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">testes e entrega</text>
   </g>
 </svg>

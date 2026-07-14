@@ -1,12 +1,12 @@
 <svg width="1280" height="210" viewBox="0 0 1280 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="210" rx="8" fill="#0E7C66"/>
+  <rect width="1280" height="210" rx="8" fill="#0B3D32"/>
   <rect x="28" y="28" width="1224" height="154" rx="6" stroke="#72C5AE" stroke-width="2"/>
   <text x="58" y="66" fill="#C9F0E4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">DISPON&#205;VEL PARA PROJETOS FREELANCE</text>
   <text x="58" y="105" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">Seu processo ainda depende de planilhas</text>
   <text x="58" y="138" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="900">e tarefas manuais?</text>
   <text x="58" y="169" fill="#D9F4EC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Vamos transformar a opera&#231;&#227;o em um sistema claro, rastre&#225;vel e pronto para crescer.</text>
   <g transform="translate(1084 67)">
-    <rect width="112" height="76" rx="6" fill="#F4F7F2"/>
-    <path d="M28 38H80M64 22L80 38L64 54" stroke="#0E7C66" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect width="112" height="76" rx="6" fill="#111814"/>
+    <path d="M28 38H80M64 22L80 38L64 54" stroke="#72C5AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

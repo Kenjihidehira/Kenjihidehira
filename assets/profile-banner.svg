@@ -1,21 +1,21 @@
 <svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="420" fill="#F4F7F2"/>
+  <rect width="1280" height="420" fill="#0B0F0D"/>
   <rect width="12" height="420" fill="#0E7C66"/>
-  <path d="M72 62H640" stroke="#D7DED8" stroke-width="2"/>
-  <text x="72" y="48" fill="#0E7C66" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">DESENVOLVIMENTO WEB PARA NEG&#211;CIOS</text>
-  <text x="72" y="128" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="900">Kenji Hidehira</text>
-  <text x="72" y="174" fill="#425047" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Sistemas, APIs e automa&#231;&#245;es que organizam</text>
-  <text x="72" y="208" fill="#425047" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">opera&#231;&#245;es e ajudam empresas a vender melhor.</text>
+  <path d="M72 62H640" stroke="#27322B" stroke-width="2"/>
+  <text x="72" y="48" fill="#3BAA83" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="800">DESENVOLVIMENTO WEB PARA NEG&#211;CIOS</text>
+  <text x="72" y="128" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="900">Kenji Hidehira</text>
+  <text x="72" y="174" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">Sistemas, APIs e automa&#231;&#245;es que organizam</text>
+  <text x="72" y="208" fill="#AAB5AD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="600">opera&#231;&#245;es e ajudam empresas a vender melhor.</text>
 
   <g transform="translate(72 260)">
     <circle cx="8" cy="8" r="8" fill="#0E7C66"/>
-    <text x="28" y="15" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Pain&#233;is operacionais</text>
+    <text x="28" y="15" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Pain&#233;is operacionais</text>
     <circle cx="8" cy="48" r="8" fill="#FF6B4A"/>
-    <text x="28" y="55" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">APIs e integra&#231;&#245;es</text>
+    <text x="28" y="55" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">APIs e integra&#231;&#245;es</text>
     <circle cx="278" cy="8" r="8" fill="#E5B94B"/>
-    <text x="298" y="15" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Automa&#231;&#245;es comerciais</text>
+    <text x="298" y="15" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Automa&#231;&#245;es comerciais</text>
     <circle cx="278" cy="48" r="8" fill="#4A74C9"/>
-    <text x="298" y="55" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Interfaces em PT-BR</text>
+    <text x="298" y="55" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Interfaces em PT-BR</text>
   </g>
 
   <g transform="translate(716 46)">
@@ -28,14 +28,14 @@
     <text x="110" y="45" fill="#B7C3BB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">central de opera&#231;&#245;es</text>
 
     <g transform="translate(24 78)">
-      <rect width="136" height="76" rx="6" fill="#F4F7F2"/>
-      <text x="16" y="26" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">RECEITA</text>
-      <text x="16" y="56" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">R$ 84 mil</text>
+      <rect width="136" height="76" rx="6" fill="#1B251F"/>
+      <text x="16" y="26" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">RECEITA</text>
+      <text x="16" y="56" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">R$ 84 mil</text>
     </g>
     <g transform="translate(172 78)">
-      <rect width="136" height="76" rx="6" fill="#F4F7F2"/>
-      <text x="16" y="26" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CONVERS&#195;O</text>
-      <text x="16" y="56" fill="#0E7C66" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">31,8%</text>
+      <rect width="136" height="76" rx="6" fill="#1B251F"/>
+      <text x="16" y="26" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">CONVERS&#195;O</text>
+      <text x="16" y="56" fill="#3BAA83" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="900">31,8%</text>
     </g>
     <g transform="translate(320 78)">
       <rect width="156" height="76" rx="6" fill="#FF6B4A"/>
@@ -50,12 +50,12 @@
       <path d="M18 102H258" stroke="#35443A" stroke-width="2"/>
     </g>
     <g transform="translate(314 170)">
-      <rect width="162" height="126" rx="6" fill="#F4F7F2"/>
-      <text x="14" y="25" fill="#66716A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">PRIORIDADES</text>
+      <rect width="162" height="126" rx="6" fill="#1B251F"/>
+      <text x="14" y="25" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">PRIORIDADES</text>
       <rect x="14" y="42" width="102" height="8" rx="4" fill="#FF6B4A"/>
       <rect x="14" y="62" width="132" height="8" rx="4" fill="#0E7C66"/>
       <rect x="14" y="82" width="78" height="8" rx="4" fill="#E5B94B"/>
-      <text x="14" y="112" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">SLA sob controle</text>
+      <text x="14" y="112" fill="#E7ECE8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="800">SLA sob controle</text>
     </g>
   </g>
 </svg>

@@ -1,7 +1,7 @@
 <svg width="1280" height="270" viewBox="0 0 1280 270" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="270" rx="8" fill="#FFFFFF"/>
-  <rect x="1" y="1" width="1278" height="268" rx="7" stroke="#D7DED8" stroke-width="2"/>
-  <rect width="310" height="270" rx="8" fill="#121A16"/>
+  <rect width="1280" height="270" rx="8" fill="#0B0F0D"/>
+  <rect x="1" y="1" width="1278" height="268" rx="7" stroke="#27322B" stroke-width="2"/>
+  <rect width="310" height="270" rx="8" fill="#111814"/>
   <text x="42" y="58" fill="#3BAA83" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="900">STACK APLICADA</text>
   <text x="42" y="106" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">Tecnologia</text>
   <text x="42" y="142" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="900">a servi&#231;o</text>
@@ -11,12 +11,12 @@
 
   <g transform="translate(354 38)">
     <text x="0" y="19" fill="#0E7C66" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">INTERFACE</text>
-    <text x="0" y="50" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">HTML  /  CSS  /  JavaScript  /  TypeScript</text>
-    <path d="M0 72H868" stroke="#E2E7E3" stroke-width="2"/>
+    <text x="0" y="50" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">HTML  /  CSS  /  JavaScript  /  TypeScript</text>
+    <path d="M0 72H868" stroke="#27322B" stroke-width="2"/>
     <text x="0" y="109" fill="#FF6B4A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">SERVIDOR E DADOS</text>
-    <text x="0" y="140" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Node.js  /  PHP  /  APIs REST  /  JSON  /  SQL</text>
-    <path d="M0 162H868" stroke="#E2E7E3" stroke-width="2"/>
+    <text x="0" y="140" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Node.js  /  PHP  /  APIs REST  /  JSON  /  SQL</text>
+    <path d="M0 162H868" stroke="#27322B" stroke-width="2"/>
     <text x="0" y="199" fill="#4A74C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="900">QUALIDADE E ENTREGA</text>
-    <text x="0" y="230" fill="#121A16" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Testes  /  Git  /  Docker  /  Documenta&#231;&#227;o</text>
+    <text x="0" y="230" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Testes  /  Git  /  Docker  /  Documenta&#231;&#227;o</text>
   </g>
 </svg>
