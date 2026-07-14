@@ -8,7 +8,7 @@
 
 <br><br>
 
-<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg?v=20260714-2" alt="Solicitar uma proposta" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg?v=20260714-2" alt="Ver reposit&oacute;rios" height="38"></a> <img src="./assets/action-status.svg?v=20260714-2" alt="Freelance ativo" height="38">
+<a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal-v2.svg" alt="Solicitar uma proposta" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories-v2.svg" alt="Ver reposit&oacute;rios" height="38"></a> <img src="./assets/action-status-v2.svg" alt="Freelance ativo" height="38">
 
 </div>
 
@@ -133,4 +133,4 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
 
 ![Chamada para projetos freelance](./assets/footer-panel.svg?v=20260714-2)
 
-<p align="center"><a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal.svg?v=20260714-2" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories.svg?v=20260714-2" alt="Ver portf&oacute;lio completo" height="38"></a> <img src="./assets/action-status.svg?v=20260714-2" alt="Freelance ativo" height="38"></p>
+<p align="center"><a href="https://github.com/Kenjihidehira/Kenjihidehira/issues/new?title=Proposta%20de%20projeto&body=Descreva%20o%20processo%2C%20problema%20ou%20sistema%20que%20voc%C3%AA%20precisa%20construir."><img src="./assets/action-proposal-v2.svg" alt="Descrever meu projeto" height="38"></a> <a href="https://github.com/Kenjihidehira?tab=repositories"><img src="./assets/action-repositories-v2.svg" alt="Ver portf&oacute;lio completo" height="38"></a> <img src="./assets/action-status-v2.svg" alt="Freelance ativo" height="38"></p>

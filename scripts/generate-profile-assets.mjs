@@ -84,7 +84,7 @@ function actionAsset(name, width, label, accent, iconName, filled = false) {
   const fill = filled ? accent : C.surface;
   const textColor = filled ? C.bg : C.text;
   const iconColor = filled ? C.bg : accent;
-  const content = `${icon(iconName, 12, 12, iconColor)}${text(40, 29, label, 12, textColor, 850)}${icon("arrow", width - 29, 12, iconColor)}`;
+  const content = `${icon(iconName, 12, 12, iconColor)}${text(40, 28, label, 11, textColor, 850)}${icon("arrow", width - 29, 12, iconColor)}`;
   write(name, shell(width, 44, accent, safeBox(0, 0, width, 44, content, { fill, stroke: accent, radius: 4 })));
 }
 
@@ -94,9 +94,9 @@ navAsset("nav-engineering.svg", 142, "ENGENHARIA", C.yellow, "code");
 navAsset("nav-process.svg", 116, "PROCESSO", C.green, "flow");
 navAsset("nav-contact.svg", 105, "CONTATO", C.coral, "mail");
 
-actionAsset("action-proposal.svg", 196, "SOLICITAR PROPOSTA", C.green, "mail", true);
-actionAsset("action-repositories.svg", 190, "VER REPOSIT&#211;RIOS", C.blue, "grid");
-actionAsset("action-status.svg", 168, "FREELANCE ATIVO", C.coral, "check");
+actionAsset("action-proposal-v2.svg", 190, "SOLICITAR PROPOSTA", C.green, "mail", true);
+actionAsset("action-repositories-v2.svg", 190, "VER REPOSIT&#211;RIOS", C.blue, "grid");
+actionAsset("action-status-v2.svg", 190, "FREELANCE ATIVO", C.coral, "check");
 
 const bannerLeft = `
   ${text(24, 34, "DESENVOLVEDOR WEB / FREELANCE", 13, C.coral, 850, MONO)}
