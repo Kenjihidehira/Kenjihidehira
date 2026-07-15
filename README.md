@@ -27,13 +27,21 @@ Construo **sistemas web orientados a opera&ccedil;&otilde;es reais**. Cada produ
 | **Clareza operacional** | Indicadores, filas, prioridades e estados vis&iacute;veis em uma &uacute;nica interface |
 | **Menos trabalho manual** | Automa&ccedil;&otilde;es, alertas, c&aacute;lculos e regras executados de forma consistente |
 | **Decis&atilde;o baseada em dados** | KPIs, filtros, relat&oacute;rios e dados organizados por contexto comercial |
-| **Base para evolu&ccedil;&atilde;o** | Estrutura pronta para autentica&ccedil;&atilde;o, banco de dados, integra&ccedil;&otilde;es e deploy |
+| **Entrega verific&aacute;vel** | Autentica&ccedil;&atilde;o, persist&ecirc;ncia, CI, arquitetura documentada e deploy p&uacute;blico nos estudos principais |
 
 <a id="estudos-de-caso"></a>
 
 ## Estudos de caso
 
-Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;vel**. Os cards usam largura &uacute;nica para manter texto e indicadores leg&iacute;veis em qualquer tamanho de perfil.
+Cinco sistemas com **deploy p&uacute;blico, autentica&ccedil;&atilde;o, persist&ecirc;ncia, CI e arquitetura documentada**. Cada demo permite consultar o cen&aacute;rio comercial sem login e protege altera&ccedil;&otilde;es por usu&aacute;rio.
+
+| Projeto | Problema comercial | Prova ao vivo | Engenharia |
+| --- | --- | --- | --- |
+| **ReturnOps** | Devolu&ccedil;&otilde;es, SLA e recupera&ccedil;&atilde;o de estoque | [Abrir demo](https://returnops-rma-control.dadosepesquisa.chatgpt.site) | [C&oacute;digo e CI](https://github.com/Kenjihidehira/returnops-rma-command-center) |
+| **ServiceHub** | Agenda, funil, cobran&ccedil;a e lembretes | [Abrir demo](https://servicehub-crm-ops.dadosepesquisa.chatgpt.site) | [C&oacute;digo e CI](https://github.com/Kenjihidehira/servicehub-agendamentos-crm) |
+| **LeadOps** | Atribui&ccedil;&atilde;o, scoring e verba de campanhas | [Abrir demo](https://leadops-attribution.dadosepesquisa.chatgpt.site) | [C&oacute;digo e CI](https://github.com/Kenjihidehira/leadops-campaign-attribution) |
+| **FieldOps** | Margem, SLA e opera&ccedil;&atilde;o em campo | [Abrir demo](https://fieldops-margin.dadosepesquisa.chatgpt.site) | [C&oacute;digo e CI](https://github.com/Kenjihidehira/fieldops-margin-control) |
+| **CobreFlow** | Receb&iacute;veis, cobran&ccedil;a e concilia&ccedil;&atilde;o | [Abrir demo](https://cobreflow-finance.dadosepesquisa.chatgpt.site) | [C&oacute;digo e CI](https://github.com/Kenjihidehira/cobreflow-finance-ops) |
 
 <p align="center">
   <a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="./assets/case-returnops-v3.svg" alt="ReturnOps - Central de RMA"></a>
@@ -57,14 +65,16 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
   <a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="./assets/case-fieldops-v3.svg" alt="FieldOps - Controle de margem"></a>
 </p>
 
+<br>
+
+<p align="center">
+  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow-v2.svg" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
+</p>
+
 ### Mais sistemas comerciais
 
 <p align="center">
   <a href="https://github.com/Kenjihidehira/vendoraudit-compliance-portal"><img src="./assets/card-vendoraudit-v2.svg" alt="VendorAudit - Portal de conformidade"></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="./assets/card-cobreflow-v2.svg" alt="CobreFlow - Opera&ccedil;&otilde;es financeiras"></a>
 </p>
 
 <p align="center">
@@ -91,8 +101,9 @@ Quatro sistemas com **dados de exemplo, API e fluxo operacional demonstr&aacute;
 
 - Regras de neg&oacute;cio separadas da camada de interface para facilitar testes e evolu&ccedil;&atilde;o.
 - APIs com valida&ccedil;&atilde;o de entrada, respostas previs&iacute;veis e dados de demonstra&ccedil;&atilde;o reproduz&iacute;veis.
-- Testes unit&aacute;rios, smoke tests HTTP e checagens est&aacute;ticas proporcionais ao risco de cada projeto.
-- READMEs com instala&ccedil;&atilde;o, endpoints, arquitetura, dados de exemplo e op&ccedil;&otilde;es de deploy.
+- Escrita autenticada e workspaces persistentes isolados por usu&aacute;rio nos cinco estudos principais.
+- CI com testes unit&aacute;rios, smoke tests, checagens est&aacute;ticas e builds de produ&ccedil;&atilde;o.
+- READMEs com instala&ccedil;&atilde;o, endpoints, arquitetura, dados de exemplo e links de deploy verificados.
 
 <a id="processo"></a>
 
