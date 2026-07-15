@@ -130,9 +130,6 @@ Cinco sistemas com **deploy p&uacute;blico, autentica&ccedil;&atilde;o, persist&
 | [Planejador Pro JS](https://github.com/Kenjihidehira/planner-pro-js) | Produtividade | Kanban, capacidade e linha do tempo |
 | [Controle Financeiro](https://github.com/Kenjihidehira/controle-financeiro) | Financeiro | Receitas, despesas e indicadores |
 | [Loja PHP](https://github.com/Kenjihidehira/loja-php) | Com&eacute;rcio | Cat&aacute;logo, carrinho, frete e desconto |
-| [Agenda PHP](https://github.com/Kenjihidehira/agenda-php) | Agendamento | Fluxo responsivo de reservas |
-| [API Produtos Node](https://github.com/Kenjihidehira/api-produtos-node) | Backend | API REST com Express e testes |
-| [Notas API Node](https://github.com/Kenjihidehira/notas-api-node) | Backend | Persist&ecirc;ncia JSON e testes nativos |
 | [Cat&aacute;logo de Filmes](https://github.com/Kenjihidehira/catalogo-filmes) | Interface | Busca, filtros e favoritos |
 | [Kanban Board](https://github.com/Kenjihidehira/kanban-board) | Produtividade | Arrastar e soltar e armazenamento local |
 
