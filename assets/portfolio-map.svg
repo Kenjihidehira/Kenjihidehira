@@ -1,0 +1,50 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="48" y1="80" x2="1232" y2="286">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="30" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1224" height="304" rx="24" stroke="#334155"/>
+  <text x="56" y="72" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="900">Mapa visual do portf&#243;lio</text>
+  <text x="56" y="106" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Categorias principais dos projetos publicados no GitHub.</text>
+  <path d="M56 130H1224" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.76"/>
+
+  <g transform="translate(48 162)">
+    <rect width="278" height="128" rx="20" fill="#0F172A" stroke="#1E293B"/>
+    <rect x="0" y="0" width="278" height="6" rx="3" fill="#22D3EE"/>
+    <text x="24" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Sistemas completos</text>
+    <text x="24" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">ERP, chamados e links</text>
+    <text x="24" y="104" fill="#22D3EE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">3 projetos</text>
+  </g>
+
+  <g transform="translate(350 162)">
+    <rect width="278" height="128" rx="20" fill="#0F172A" stroke="#1E293B"/>
+    <rect x="0" y="0" width="278" height="6" rx="3" fill="#38BDF8"/>
+    <text x="24" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">APIs</text>
+    <text x="24" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Produtos, notas e rotas</text>
+    <text x="24" y="104" fill="#38BDF8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">2 projetos</text>
+  </g>
+
+  <g transform="translate(652 162)">
+    <rect width="278" height="128" rx="20" fill="#0F172A" stroke="#1E293B"/>
+    <rect x="0" y="0" width="278" height="6" rx="3" fill="#8B5CF6"/>
+    <text x="24" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Interfaces</text>
+    <text x="24" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Painel, CRM e planejador</text>
+    <text x="24" y="104" fill="#A78BFA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">3 projetos</text>
+  </g>
+
+  <g transform="translate(954 162)">
+    <rect width="278" height="128" rx="20" fill="#0F172A" stroke="#1E293B"/>
+    <rect x="0" y="0" width="278" height="6" rx="3" fill="#F97316"/>
+    <text x="24" y="44" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900">Base e PHP</text>
+    <text x="24" y="78" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Loja, agenda e estudos JS</text>
+    <text x="24" y="104" fill="#FB923C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="900">8 projetos</text>
+  </g>
+</svg>
