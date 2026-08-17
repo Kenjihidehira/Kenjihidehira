@@ -217,6 +217,31 @@ const perfil = Object.freeze({
 
 <p align="center"><strong>Seis sistemas orientados a problemas reais de opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento.</strong></p>
 
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260817-2">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260817-2" alt="Vitrine visual de seis projetos publicados nas &aacute;reas de opera&ccedil;&otilde;es, finan&ccedil;as, marketing e atendimento">
+</picture>
+
+<p align="center"><sub>Acesse diretamente o reposit&oacute;rio de cada sistema.</sub></p>
+
+<div align="center">
+
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/01_PATRIM%C3%94NIO_OPS-0891B2?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://img.shields.io/badge/02_COBREFLOW-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://img.shields.io/badge/03_FIELDOPS-EA580C?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://img.shields.io/badge/04_LEADOPS-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://img.shields.io/badge/05_RETURNOPS-0284C7?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://img.shields.io/badge/06_SERVICEHUB-16A34A?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ServiceHub"></a>
+
+</div>
+
+<br>
+
+<details>
+<summary><strong>:mag: Abrir fichas t&eacute;cnicas dos seis projetos</strong></summary>
+
+<br>
+
 <table width="100%">
   <tr>
     <td valign="top">
@@ -273,6 +298,8 @@ const perfil = Object.freeze({
     </td>
   </tr>
 </table>
+
+</details>
 
 <br>
 

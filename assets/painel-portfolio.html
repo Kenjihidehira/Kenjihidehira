@@ -625,6 +625,367 @@
     }
 
     .stack-mobile .stack-flow span { font-size: 10px; }
+
+    .showcase-desktop {
+      width: 1400px;
+      height: 850px;
+      padding: 44px 52px 34px;
+    }
+
+    .showcase-mobile {
+      width: 540px;
+      height: 1540px;
+      padding: 38px 32px 28px;
+    }
+
+    .showcase-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 34px;
+      margin-bottom: 20px;
+    }
+
+    .showcase-heading h2 {
+      margin: 0;
+      font-size: 46px;
+      line-height: 1;
+      letter-spacing: -0.045em;
+    }
+
+    .showcase-heading h2 span {
+      color: var(--cyan);
+      text-shadow: 0 0 28px rgba(34, 211, 238, 0.3);
+    }
+
+    .showcase-heading p {
+      max-width: 790px;
+      margin: 12px 0 0;
+      color: #cbd5e1;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .showcase-counter {
+      flex: 0 0 auto;
+      color: #ddd6fe;
+      font-family: Consolas, "Courier New", monospace;
+      text-align: right;
+    }
+
+    .showcase-counter strong {
+      display: block;
+      color: #f8fafc;
+      font-size: 34px;
+      line-height: 1;
+    }
+
+    .showcase-counter span {
+      display: block;
+      margin-top: 7px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .showcase-command {
+      display: grid;
+      grid-template-columns: 1.25fr 0.9fr 0.9fr;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .command-cell {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 48px;
+      padding: 11px 15px;
+      color: #94a3b8;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 12px;
+      background: rgba(8, 15, 34, 0.66);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .command-cell b {
+      color: #e2e8f0;
+      font-size: 12px;
+    }
+
+    .command-cell:first-child b { color: var(--cyan); }
+    .command-cell:nth-child(2) b { color: #c4b5fd; }
+    .command-cell:nth-child(3) b { color: #86efac; }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .featured-card {
+      --card-accent: var(--cyan);
+      position: relative;
+      display: flex;
+      min-height: 248px;
+      overflow: hidden;
+      padding: 20px;
+      flex-direction: column;
+      border: 1px solid color-mix(in srgb, var(--card-accent) 28%, transparent);
+      border-radius: 18px;
+      background:
+        linear-gradient(145deg, color-mix(in srgb, var(--card-accent) 9%, transparent), transparent 48%),
+        rgba(8, 15, 34, 0.86);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    }
+
+    .featured-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--card-accent), transparent 78%);
+      box-shadow: 0 0 22px color-mix(in srgb, var(--card-accent) 55%, transparent);
+    }
+
+    .featured-card::after {
+      content: attr(data-index);
+      position: absolute;
+      top: 31px;
+      right: 18px;
+      color: color-mix(in srgb, var(--card-accent) 12%, transparent);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 72px;
+      font-weight: 900;
+      line-height: 0.82;
+      pointer-events: none;
+    }
+
+    .card-cyan { --card-accent: #22d3ee; }
+    .card-blue { --card-accent: #3b82f6; }
+    .card-orange { --card-accent: #f97316; }
+    .card-purple { --card-accent: #a78bfa; }
+    .card-sky { --card-accent: #38bdf8; }
+    .card-green { --card-accent: #4ade80; }
+
+    .featured-meta {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 17px;
+    }
+
+    .featured-domain {
+      color: var(--card-accent);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+    }
+
+    .featured-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: #86efac;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .featured-status::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #22c55e;
+      box-shadow: 0 0 12px rgba(34, 197, 94, 0.86);
+    }
+
+    .featured-card h3 {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      color: #f8fafc;
+      font-size: 24px;
+      line-height: 1.05;
+      letter-spacing: -0.025em;
+    }
+
+    .featured-card p {
+      position: relative;
+      z-index: 1;
+      min-height: 44px;
+      margin: 11px 0 16px;
+      color: #aab8cc;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .featured-tech {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin-top: auto;
+    }
+
+    .featured-tech span {
+      padding: 6px 8px;
+      color: #dbeafe;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 7px;
+      background: rgba(15, 23, 42, 0.72);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .featured-footer {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 15px;
+      padding-top: 12px;
+      color: #64748b;
+      border-top: 1px solid rgba(148, 163, 184, 0.12);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+    }
+
+    .featured-footer b {
+      color: var(--card-accent);
+      font-size: 12px;
+    }
+
+    .showcase-signature {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: 16px;
+      color: #64748b;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .showcase-signature span:last-child { color: #94a3b8; }
+
+    .showcase-mobile .topline { margin-bottom: 22px; }
+    .showcase-mobile .system-id { font-size: 13px; }
+    .showcase-mobile .live-status { padding: 9px 12px; font-size: 11px; }
+
+    .showcase-mobile .showcase-heading {
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    .showcase-mobile .showcase-heading h2 {
+      max-width: 440px;
+      font-size: 39px;
+      line-height: 1.02;
+    }
+
+    .showcase-mobile .showcase-heading p {
+      margin-top: 12px;
+      font-size: 15px;
+    }
+
+    .showcase-mobile .showcase-counter { display: none; }
+
+    .showcase-mobile .showcase-command {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .showcase-mobile .command-cell {
+      min-height: 44px;
+      padding: 10px 11px;
+      font-size: 8px;
+    }
+
+    .showcase-mobile .command-cell:first-child { grid-column: 1 / -1; }
+    .showcase-mobile .command-cell b { font-size: 10px; }
+
+    .showcase-mobile .featured-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .showcase-mobile .featured-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-rows: auto auto auto;
+      min-height: 182px;
+      padding: 17px 18px 15px;
+    }
+
+    .showcase-mobile .featured-card::after {
+      top: 27px;
+      right: 17px;
+      font-size: 61px;
+    }
+
+    .showcase-mobile .featured-meta,
+    .showcase-mobile .featured-card h3,
+    .showcase-mobile .featured-card p,
+    .showcase-mobile .featured-tech,
+    .showcase-mobile .featured-footer {
+      grid-column: 1 / -1;
+    }
+
+    .showcase-mobile .featured-meta { margin-bottom: 11px; }
+    .showcase-mobile .featured-domain { font-size: 9px; }
+    .showcase-mobile .featured-status { font-size: 8px; }
+    .showcase-mobile .featured-card h3 { font-size: 22px; }
+
+    .showcase-mobile .featured-card p {
+      min-height: 0;
+      max-width: 390px;
+      margin: 8px 0 11px;
+      font-size: 12px;
+    }
+
+    .showcase-mobile .featured-tech { gap: 6px; }
+    .showcase-mobile .featured-tech span { padding: 5px 7px; font-size: 8px; }
+
+    .showcase-mobile .featured-footer {
+      margin-top: 11px;
+      padding-top: 9px;
+      font-size: 8px;
+    }
+
+    .showcase-mobile .showcase-signature {
+      margin-top: 13px;
+      font-size: 8px;
+    }
   </style>
 </head>
 <body>
@@ -816,6 +1177,151 @@
     </div>
 
     <div class="stack-flow"><span><b>01</b> INTERFACE</span><span><b>02</b> REGRA</span><span><b>03</b> DADOS</span><span><b>04</b> PUBLICA&Ccedil;&Atilde;O</span></div>
+  </section>
+
+  <section class="dashboard showcase-desktop" id="showcase-desktop" aria-label="Vitrine visual dos projetos em destaque para desktop">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // VITRINE DE PROJETOS</div>
+      <div class="live-status"><span class="live-dot"></span>06 SISTEMAS ATIVOS</div>
+    </div>
+
+    <div class="showcase-heading">
+      <div>
+        <h2>PROJETOS EM <span>DESTAQUE</span></h2>
+        <p>Solu&ccedil;&otilde;es completas para opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento, constru&iacute;das com foco em uso real.</p>
+      </div>
+      <div class="showcase-counter"><strong>06</strong><span>sistemas publicados</span></div>
+    </div>
+
+    <div class="showcase-command">
+      <div class="command-cell"><span>Portf&oacute;lio</span><b>PROBLEMAS REAIS</b></div>
+      <div class="command-cell"><span>Cobertura</span><b>4 DOM&Iacute;NIOS</b></div>
+      <div class="command-cell"><span>Estado</span><b>EM EVOLU&Ccedil;&Atilde;O</b></div>
+    </div>
+
+    <div class="featured-grid">
+      <article class="featured-card card-cyan" data-index="01">
+        <div class="featured-meta"><span class="featured-domain">Auditoria patrimonial</span><span class="featured-status">Publicado</span></div>
+        <h3>Patrim&ocirc;nio Ops</h3>
+        <p>Controle por n&uacute;cleo, rastreabilidade e auditoria para opera&ccedil;&otilde;es patrimoniais.</p>
+        <div class="featured-tech"><span>TypeScript</span><span>Supabase</span><span>Autentica&ccedil;&atilde;o</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-blue" data-index="02">
+        <div class="featured-meta"><span class="featured-domain">Finan&ccedil;as e cobran&ccedil;a</span><span class="featured-status">Publicado</span></div>
+        <h3>CobreFlow</h3>
+        <p>Concilia&ccedil;&atilde;o de receb&iacute;veis, cobran&ccedil;a ativa e automa&ccedil;&otilde;es financeiras.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>Receb&iacute;veis</span><span>Automa&ccedil;&atilde;o</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-orange" data-index="03">
+        <div class="featured-meta"><span class="featured-domain">Campo e margem</span><span class="featured-status">Publicado</span></div>
+        <h3>FieldOps</h3>
+        <p>Margem de servi&ccedil;os de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.</p>
+        <div class="featured-tech"><span>PHP</span><span>TypeScript</span><span>SLA</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-purple" data-index="04">
+        <div class="featured-meta"><span class="featured-domain">Marketing e atribui&ccedil;&atilde;o</span><span class="featured-status">Publicado</span></div>
+        <h3>LeadOps</h3>
+        <p>Atribui&ccedil;&atilde;o de campanhas, pontua&ccedil;&atilde;o de leads e retorno por canal.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>Marketing</span><span>ROI</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-sky" data-index="05">
+        <div class="featured-meta"><span class="featured-domain">Devolu&ccedil;&otilde;es e SLA</span><span class="featured-status">Publicado</span></div>
+        <h3>ReturnOps</h3>
+        <p>Devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o de estoque e controle de SLA.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>RMA</span><span>Estoque</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-green" data-index="06">
+        <div class="featured-meta"><span class="featured-domain">Servi&ccedil;os e CRM</span><span class="featured-status">Publicado</span></div>
+        <h3>ServiceHub</h3>
+        <p>Agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para neg&oacute;cios de servi&ccedil;os.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>CRM</span><span>Agenda</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+    </div>
+
+    <div class="showcase-signature"><span>06 SISTEMAS // PROBLEMAS REAIS // ENTREGA CONT&Iacute;NUA</span><span>perfil://kenjihidehira</span></div>
+  </section>
+
+  <section class="dashboard showcase-mobile" id="showcase-mobile" aria-label="Vitrine visual dos projetos em destaque para celular">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // PROJETOS</div>
+      <div class="live-status"><span class="live-dot"></span>06 ATIVOS</div>
+    </div>
+
+    <div class="showcase-heading">
+      <div>
+        <h2>PROJETOS EM <span>DESTAQUE</span></h2>
+        <p>Solu&ccedil;&otilde;es completas para problemas reais de neg&oacute;cio.</p>
+      </div>
+    </div>
+
+    <div class="showcase-command">
+      <div class="command-cell"><span>Portf&oacute;lio</span><b>PROBLEMAS REAIS</b></div>
+      <div class="command-cell"><span>Cobertura</span><b>4 DOM&Iacute;NIOS</b></div>
+      <div class="command-cell"><span>Estado</span><b>EM EVOLU&Ccedil;&Atilde;O</b></div>
+    </div>
+
+    <div class="featured-grid">
+      <article class="featured-card card-cyan" data-index="01">
+        <div class="featured-meta"><span class="featured-domain">Auditoria patrimonial</span><span class="featured-status">Publicado</span></div>
+        <h3>Patrim&ocirc;nio Ops</h3>
+        <p>Controle por n&uacute;cleo, rastreabilidade e auditoria operacional.</p>
+        <div class="featured-tech"><span>TypeScript</span><span>Supabase</span><span>Autentica&ccedil;&atilde;o</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-blue" data-index="02">
+        <div class="featured-meta"><span class="featured-domain">Finan&ccedil;as e cobran&ccedil;a</span><span class="featured-status">Publicado</span></div>
+        <h3>CobreFlow</h3>
+        <p>Concilia&ccedil;&atilde;o, cobran&ccedil;a ativa e automa&ccedil;&otilde;es financeiras.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>Receb&iacute;veis</span><span>Automa&ccedil;&atilde;o</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-orange" data-index="03">
+        <div class="featured-meta"><span class="featured-domain">Campo e margem</span><span class="featured-status">Publicado</span></div>
+        <h3>FieldOps</h3>
+        <p>Margem de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.</p>
+        <div class="featured-tech"><span>PHP</span><span>TypeScript</span><span>SLA</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-purple" data-index="04">
+        <div class="featured-meta"><span class="featured-domain">Marketing e atribui&ccedil;&atilde;o</span><span class="featured-status">Publicado</span></div>
+        <h3>LeadOps</h3>
+        <p>Atribui&ccedil;&atilde;o, pontua&ccedil;&atilde;o de leads e retorno por campanha.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>Marketing</span><span>ROI</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-sky" data-index="05">
+        <div class="featured-meta"><span class="featured-domain">Devolu&ccedil;&otilde;es e SLA</span><span class="featured-status">Publicado</span></div>
+        <h3>ReturnOps</h3>
+        <p>Devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o e controle de SLA.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>RMA</span><span>Estoque</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+
+      <article class="featured-card card-green" data-index="06">
+        <div class="featured-meta"><span class="featured-domain">Servi&ccedil;os e CRM</span><span class="featured-status">Publicado</span></div>
+        <h3>ServiceHub</h3>
+        <p>Agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para servi&ccedil;os.</p>
+        <div class="featured-tech"><span>JavaScript</span><span>CRM</span><span>Agenda</span></div>
+        <div class="featured-footer"><span>Reposit&oacute;rio dispon&iacute;vel</span><b>ABRIR &gt;</b></div>
+      </article>
+    </div>
+
+    <div class="showcase-signature"><span>06 SISTEMAS // ENTREGA CONT&Iacute;NUA</span><span>KENJI.OS</span></div>
   </section>
 </body>
 </html>
