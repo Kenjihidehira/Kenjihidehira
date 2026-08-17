@@ -215,11 +215,11 @@ const perfil = Object.freeze({
 
 ## :pushpin: Projetos em destaque
 
-<p align="center"><strong>Seis sistemas orientados a problemas reais de opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento.</strong></p>
+<p align="center"><strong>Seis sistemas completos, organizados por impacto operacional e capacidade de entrega.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260817-2">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260817-2" alt="Vitrine visual de seis projetos publicados nas &aacute;reas de opera&ccedil;&otilde;es, finan&ccedil;as, marketing e atendimento">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260817-3">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260817-3" alt="Vitrine hier&aacute;rquica de seis sistemas com projeto principal, fluxo operacional, tecnologias e entregas centrais">
 </picture>
 
 <p align="center"><sub>Acesse diretamente o reposit&oacute;rio de cada sistema.</sub></p>
