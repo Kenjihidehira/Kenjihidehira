@@ -1,6 +1,6 @@
 <div align="center">
 
-![Kenji Hidehira - Portf&oacute;lio Desenvolvedor Web](./assets/profile-banner.svg)
+![Kenji Hidehira - Portf&oacute;lio Desenvolvedor Web](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/profile-banner.svg)
 
 <br>
 
@@ -26,37 +26,37 @@
 
 ---
 
-![Separador visual](./assets/neon-divider.svg)
+![Separador visual](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/neon-divider.svg)
 
 ---
 
 ## :sparkles: Fluxo de evolu&ccedil;&atilde;o
 
-![Fluxo de evolu&ccedil;&atilde;o](./assets/workflow-strip.svg)
+![Fluxo de evolu&ccedil;&atilde;o](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/workflow-strip.svg)
 
 ---
 
 ## :zap: Vis&atilde;o executiva
 
-![Sistema visual do portf&oacute;lio](./assets/overview-panel.svg)
+![Sistema visual do portf&oacute;lio](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/overview-panel.svg)
 
 ---
 
 ## :dart: Foco t&eacute;cnico
 
-![Foco t&eacute;cnico atual](./assets/focus-panel.svg)
+![Foco t&eacute;cnico atual](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/focus-panel.svg)
 
 ---
 
 ## :bar_chart: Sinais do portf&oacute;lio
 
-![Sinais do portf&oacute;lio](./assets/metrics-panel.svg)
+![Sinais do portf&oacute;lio](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/metrics-panel.svg)
 
 ---
 
 ## :rocket: Tecnologias
 
-![Matriz de tecnologias](./assets/skill-matrix.svg)
+![Matriz de tecnologias](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/skill-matrix.svg)
 
 ---
 
@@ -70,36 +70,36 @@
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/erp-estoque-node">
-        <img src="./assets/card-erp.svg" alt="ERP Estoque Node" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-erp.svg" alt="ERP Estoque Node" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">
-        <img src="./assets/card-helpdesk.svg" alt="Sistema de Chamados Node" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-helpdesk.svg" alt="Sistema de Chamados Node" width="100%">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">
-        <img src="./assets/card-dashboard.svg" alt="Painel de Vendas Pro" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-dashboard.svg" alt="Painel de Vendas Pro" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/crm-pipeline-js">
-        <img src="./assets/card-crm.svg" alt="CRM Pipeline JS" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-crm.svg" alt="CRM Pipeline JS" width="100%">
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/planner-pro-js">
-        <img src="./assets/card-planner.svg" alt="Planejador Pro JS" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-planner.svg" alt="Planejador Pro JS" width="100%">
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/Kenjihidehira/encurtador-url-node">
-        <img src="./assets/card-url.svg" alt="Encurtador URL Node" width="100%">
+        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-url.svg" alt="Encurtador URL Node" width="100%">
       </a>
     </td>
   </tr>
@@ -109,7 +109,7 @@
 
 ## :compass: Mapa do portf&oacute;lio
 
-![Mapa visual do portf&oacute;lio](./assets/portfolio-map.svg)
+![Mapa visual do portf&oacute;lio](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/portfolio-map.svg)
 
 <br>
 
@@ -145,13 +145,13 @@
 
 ## :checkered_flag: Plano t&eacute;cnico
 
-![Plano t&eacute;cnico](./assets/roadmap-panel.svg)
+![Plano t&eacute;cnico](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/roadmap-panel.svg)
 
 ---
 
 ## :chart_with_upwards_trend: Evolu&ccedil;&atilde;o por n&iacute;vel
 
-![Evolu&ccedil;&atilde;o por n&iacute;vel](./assets/level-strip.svg)
+![Evolu&ccedil;&atilde;o por n&iacute;vel](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/level-strip.svg)
 
 ---
 
@@ -195,7 +195,7 @@
 
 ---
 
-![Portf&oacute;lio em evolu&ccedil;&atilde;o constante](./assets/footer-panel.svg)
+![Portf&oacute;lio em evolu&ccedil;&atilde;o constante](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/footer-panel.svg)
 
 <div align="center">
 
