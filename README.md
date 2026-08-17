@@ -26,12 +26,12 @@
 
 <br><br>
 
-<a href="#fluxo"><img src="https://img.shields.io/badge/SIS.01-FLUXO-22D3EE?style=for-the-badge" alt="Sistema 1: fluxo"></a>
-<a href="#visao"><img src="https://img.shields.io/badge/SIS.02-VIS%C3%83O-2563EB?style=for-the-badge" alt="Sistema 2: vis&atilde;o"></a>
-<a href="#foco"><img src="https://img.shields.io/badge/SIS.03-FOCO-8B5CF6?style=for-the-badge" alt="Sistema 3: foco"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/SIS.06-PROJETOS-F97316?style=for-the-badge" alt="Sistema 6: projetos"></a>
-<a href="#mapa"><img src="https://img.shields.io/badge/SIS.07-MAPA-22C55E?style=for-the-badge" alt="Sistema 7: mapa"></a>
-<a href="#plano"><img src="https://img.shields.io/badge/SIS.08-EVOLU%C3%87%C3%95ES-334155?style=for-the-badge" alt="Sistema 8: evolu&ccedil;&otilde;es"></a>
+<a href="#fluxo"><img src="https://img.shields.io/badge/SIS.01-FLUXO-22D3EE?style=flat-square" alt="Sistema 1: fluxo"></a>
+<a href="#visao"><img src="https://img.shields.io/badge/SIS.02-VIS%C3%83O-2563EB?style=flat-square" alt="Sistema 2: vis&atilde;o"></a>
+<a href="#foco"><img src="https://img.shields.io/badge/SIS.03-FOCO-8B5CF6?style=flat-square" alt="Sistema 3: foco"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/SIS.06-PROJETOS-F97316?style=flat-square" alt="Sistema 6: projetos"></a>
+<a href="#mapa"><img src="https://img.shields.io/badge/SIS.07-MAPA-22C55E?style=flat-square" alt="Sistema 7: mapa"></a>
+<a href="#plano"><img src="https://img.shields.io/badge/SIS.08-EVOLU%C3%87%C3%95ES-334155?style=flat-square" alt="Sistema 8: evolu&ccedil;&otilde;es"></a>
 
 </div>
 
@@ -47,9 +47,9 @@
 > [!IMPORTANT]
 > **MENSAGEM DO SISTEMA:** este portf&oacute;lio apresenta projetos voltados a opera&ccedil;&otilde;es, vendas, atendimento e produtividade, com foco em clareza de interface e entrega funcional.
 
----
-
 <a id="fluxo"></a>
+
+---
 
 ## :sparkles: 01 // Fluxo de evolu&ccedil;&atilde;o
 
@@ -62,9 +62,9 @@
   </tr>
 </table>
 
----
-
 <a id="visao"></a>
+
+---
 
 ## :zap: 02 // Vis&atilde;o executiva
 
@@ -76,9 +76,9 @@
   </tr>
 </table>
 
----
-
 <a id="foco"></a>
+
+---
 
 ## :dart: 03 // Foco t&eacute;cnico
 
@@ -121,9 +121,9 @@
 
 </div>
 
----
-
 <a id="projetos"></a>
+
+---
 
 ## :fire: 06 // N&oacute;s principais
 
@@ -144,9 +144,9 @@
   </tr>
 </table>
 
----
-
 <a id="mapa"></a>
+
+---
 
 ## :compass: 07 // Mapa do sistema
 
@@ -159,9 +159,9 @@
   </tr>
 </table>
 
----
-
 <a id="plano"></a>
+
+---
 
 ## :checkered_flag: 08 // Pr&oacute;ximas evolu&ccedil;&otilde;es
 
