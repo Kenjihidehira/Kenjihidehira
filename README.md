@@ -22,8 +22,8 @@
 
 <a href="#sobre"><img src="https://img.shields.io/badge/01_SOBRE-0F172A?style=flat-square" alt="Ir para sobre mim"></a>
 <a href="#stack"><img src="https://img.shields.io/badge/02_STACK-1E3A8A?style=flat-square" alt="Ir para stack"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/03_PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos"></a>
-<a href="#objetivos"><img src="https://img.shields.io/badge/04_ROTA-F97316?style=flat-square" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
+<a href="#painel"><img src="https://img.shields.io/badge/03_PAINEL-0EA5E9?style=flat-square" alt="Ir para painel dos projetos"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/04_PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos"></a>
 
 </div>
 
@@ -110,35 +110,85 @@ const perfil = Object.freeze({
   <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&amp;logo=npm&amp;logoColor=ffffff" alt="NPM">
 </div>
 
-<a id="visao"></a>
+<a id="painel"></a>
 
 <br>
 
 ---
 
-## :bar_chart: Vis&atilde;o do portf&oacute;lio
+## :satellite: Painel dos projetos
+
+<p align="center"><strong>Uma leitura t&eacute;cnica dos seis sistemas em destaque e das linguagens classificadas pelo GitHub.</strong></p>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PROJETOS_SELECIONADOS-16-1E3A8A?style=for-the-badge" alt="16 projetos selecionados">
-<img src="https://img.shields.io/badge/PROJETOS_EM_DESTAQUE-6-7C3AED?style=for-the-badge" alt="6 projetos em destaque">
-<img src="https://img.shields.io/badge/FRENTES_T%C3%89CNICAS-4-0EA5E9?style=for-the-badge" alt="4 frentes t&eacute;cnicas">
-<img src="https://img.shields.io/badge/EVOLU%C3%87%C3%83O-CONT%C3%8DNUA-22C55E?style=for-the-badge" alt="Evolu&ccedil;&atilde;o cont&iacute;nua">
+<img src="https://img.shields.io/badge/PROJETOS_NO_PAINEL-6-7C3AED?style=for-the-badge" alt="6 projetos no painel">
+<img src="https://img.shields.io/badge/LINGUAGENS_PRINCIPAIS-6-0EA5E9?style=for-the-badge" alt="6 linguagens principais">
+<img src="https://img.shields.io/badge/TYPESCRIPT-6_DE_6-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript em 6 de 6 projetos">
+<img src="https://img.shields.io/badge/DOCKERFILE-5_DE_6-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=ffffff" alt="Dockerfile em 5 de 6 projetos">
 
 </div>
 
 <br>
 
+### :card_file_box: Mapa do portf&oacute;lio
+
 <table width="100%">
-  <tr>
-    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_01-SISTEMAS-0EA5E9?style=flat-square" alt="Frente 1: sistemas"><h3>Sistemas e opera&ccedil;&otilde;es</h3><p>ERP, chamados, produtividade e servi&ccedil;os web.</p></td>
-    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_02-APIs-7C3AED?style=flat-square" alt="Frente 2: APIs"><h3>APIs e regras</h3><p>Rotas, valida&ccedil;&atilde;o, persist&ecirc;ncia e integra&ccedil;&otilde;es.</p></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_03-INTERFACES-2563EB?style=flat-square" alt="Frente 3: interfaces"><h3>Interfaces e pain&eacute;is</h3><p>Indicadores, filtros, formul&aacute;rios e fluxos responsivos.</p></td>
-    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_04-QUALIDADE-22C55E?style=flat-square" alt="Frente 4: qualidade"><h3>Qualidade e evolu&ccedil;&atilde;o</h3><p>Documenta&ccedil;&atilde;o, testes e melhoria cont&iacute;nua.</p></td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="left">Projeto</th>
+      <th align="left">Frente</th>
+      <th align="left">Linguagens centrais</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><strong>Patrim&ocirc;nio</strong></a></td>
+      <td>Auditoria</td>
+      <td>TypeScript + PLpgSQL</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><strong>CobreFlow</strong></a></td>
+      <td>Finan&ccedil;as</td>
+      <td>JavaScript + TypeScript</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Kenjihidehira/fieldops-margin-control"><strong>FieldOps</strong></a></td>
+      <td>Campo</td>
+      <td>JavaScript + TypeScript + PHP</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><strong>LeadOps</strong></a></td>
+      <td>Marketing</td>
+      <td>JavaScript + TypeScript</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><strong>ReturnOps</strong></a></td>
+      <td>RMA</td>
+      <td>JavaScript + TypeScript</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><strong>ServiceHub</strong></a></td>
+      <td>CRM</td>
+      <td>JavaScript + TypeScript</td>
+    </tr>
+  </tbody>
 </table>
+
+### :bar_chart: Linguagens usadas
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/TypeScript-37%2C9%25-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript: 37,9 por cento">
+<img src="https://img.shields.io/badge/JavaScript-21%2C2%25-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript: 21,2 por cento">
+<img src="https://img.shields.io/badge/CSS-19%2C0%25-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=ffffff" alt="CSS: 19,0 por cento">
+<img src="https://img.shields.io/badge/PLpgSQL-18%2C0%25-336791?style=for-the-badge&amp;logo=postgresql&amp;logoColor=ffffff" alt="PLpgSQL: 18,0 por cento">
+<img src="https://img.shields.io/badge/HTML-3%2C0%25-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=ffffff" alt="HTML: 3,0 por cento">
+<img src="https://img.shields.io/badge/PHP-0%2C8%25-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=ffffff" alt="PHP: 0,8 por cento">
+
+</div>
+
+<p align="center"><sub>Distribui&ccedil;&atilde;o aproximada por volume de c&oacute;digo nos seis reposit&oacute;rios. Os valores acompanham a classifica&ccedil;&atilde;o atual de linguagens do GitHub.</sub></p>
 
 ### :repeat: Fluxo de entrega
 
