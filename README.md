@@ -22,6 +22,8 @@
 
 <a id="sobre"></a>
 
+<br>
+
 ---
 
 ## :man_technologist: Sobre mim
@@ -43,6 +45,8 @@ const kenji = {
 - :round_pushpin: Douradina, Paran&aacute; - Brasil.
 
 <a id="stack"></a>
+
+<br>
 
 ---
 
@@ -86,6 +90,8 @@ const kenji = {
 
 <a id="visao"></a>
 
+<br>
+
 ---
 
 ## :bar_chart: Vis&atilde;o do portf&oacute;lio
@@ -113,6 +119,8 @@ const kenji = {
 </table>
 
 <a id="projetos"></a>
+
+<br>
 
 ---
 
@@ -165,6 +173,8 @@ CRM operacional com agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es p
 </div>
 
 <a id="objetivos"></a>
+
+<br>
 
 ---
 
