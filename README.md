@@ -1,15 +1,14 @@
 <div align="center">
 
-![Kenji Hidehira - Portf&oacute;lio Desenvolvedor Web](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/profile-banner.svg)
+<h1>Kenji Hidehira</h1>
 
-<br>
+<h3>Desenvolvedor web focado em sistemas, APIs e automa&ccedil;&otilde;es</h3>
 
-<a href="https://github.com/Kenjihidehira">
-  <img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github" alt="GitHub">
-</a>
-<img src="https://img.shields.io/badge/Desenvolvedor-Web-22D3EE?style=for-the-badge" alt="Desenvolvedor Web">
+<p>Construo aplica&ccedil;&otilde;es para organizar opera&ccedil;&otilde;es, vendas, atendimento e produtividade.</p>
+
+<a href="https://github.com/Kenjihidehira"><img src="https://img.shields.io/badge/GitHub-Kenjihidehira-181717?style=for-the-badge&logo=github" alt="GitHub Kenjihidehira"></a>
+<img src="https://img.shields.io/badge/Portf%C3%B3lio-Ativo-22C55E?style=for-the-badge" alt="Portf&oacute;lio ativo">
 <img src="https://img.shields.io/badge/Foco-Sistemas_web-8B5CF6?style=for-the-badge" alt="Foco em sistemas web">
-<img src="https://img.shields.io/badge/Situacao-Em_construcao-F97316?style=for-the-badge" alt="Situacao em construcao">
 
 <br><br>
 
@@ -18,189 +17,142 @@
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=ffffff" alt="PHP">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=ffffff" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=ffffff" alt="CSS3">
-<img src="https://img.shields.io/badge/APIs_REST-0F172A?style=flat-square" alt="APIs REST">
-<img src="https://img.shields.io/badge/Paineis-F97316?style=flat-square" alt="Paineis">
-<img src="https://img.shields.io/badge/Testes-2563EB?style=flat-square" alt="Testes">
+<img src="https://img.shields.io/badge/APIs_REST-2563EB?style=flat-square" alt="APIs REST">
+<img src="https://img.shields.io/badge/Testes-0F172A?style=flat-square" alt="Testes">
 
 </div>
 
 ---
 
-![Separador visual](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/neon-divider.svg)
+> **Objetivo do portf&oacute;lio:** demonstrar capacidade de transformar necessidades reais em interfaces organizadas, regras de neg&oacute;cio, APIs e sistemas utiliz&aacute;veis.
+
+## :compass: Vis&atilde;o r&aacute;pida
+
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top"><h3>&#x1F3D7; O que construo</h3><p>Pain&eacute;is, CRMs, ERPs, sistemas de chamados, ferramentas de produtividade e aplica&ccedil;&otilde;es comerciais.</p></td>
+    <td width="33%" valign="top"><h3>&#x2699; Como desenvolvo</h3><p>Interface clara, componentes organizados, valida&ccedil;&otilde;es, APIs REST, persist&ecirc;ncia e testes.</p></td>
+    <td width="33%" valign="top"><h3>&#x1F3AF; Dire&ccedil;&atilde;o t&eacute;cnica</h3><p>Evoluir os projetos para banco de dados real, autentica&ccedil;&atilde;o, observabilidade e publica&ccedil;&atilde;o.</p></td>
+  </tr>
+</table>
 
 ---
 
-## :sparkles: Fluxo de evolu&ccedil;&atilde;o
+## :fire: Projetos em destaque
 
-![Fluxo de evolu&ccedil;&atilde;o](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/workflow-strip.svg)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/erp-estoque-node">ERP Estoque Node</a></h3>
+      <p>Sistema de estoque com cadastro de produtos, movimenta&ccedil;&otilde;es, indicadores, API REST e testes.</p>
+      <p><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"> <img src="https://img.shields.io/badge/API_REST-2563EB?style=flat-square" alt="API REST"> <img src="https://img.shields.io/badge/Testes-0F172A?style=flat-square" alt="Testes"></p>
+      <p><a href="https://github.com/Kenjihidehira/erp-estoque-node"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">Sistema de Chamados Node</a></h3>
+      <p>Atendimento com filas, prioridades, acompanhamento de status e painel operacional.</p>
+      <p><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"> <img src="https://img.shields.io/badge/Full_Stack-8B5CF6?style=flat-square" alt="Full stack"> <img src="https://img.shields.io/badge/Opera%C3%A7%C3%B5es-F97316?style=flat-square" alt="Opera&ccedil;&otilde;es"></p>
+      <p><a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">Painel de Vendas Pro</a></h3>
+      <p>Painel comercial com indicadores, filtros, metas e leitura r&aacute;pida de desempenho.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Painel-0EA5E9?style=flat-square" alt="Painel"> <img src="https://img.shields.io/badge/Vendas-22C55E?style=flat-square" alt="Vendas"></p>
+      <p><a href="https://github.com/Kenjihidehira/dashboard-vendas-pro"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/crm-pipeline-js">CRM Pipeline JS</a></h3>
+      <p>Funil comercial com oportunidades, etapas, valores e acompanhamento de convers&atilde;o.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/CRM-8B5CF6?style=flat-square" alt="CRM"> <img src="https://img.shields.io/badge/Pipeline-F97316?style=flat-square" alt="Pipeline"></p>
+      <p><a href="https://github.com/Kenjihidehira/crm-pipeline-js"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/planner-pro-js">Planejador Pro JS</a></h3>
+      <p>Planejamento de tarefas e metas com prioridade, prazo, organiza&ccedil;&atilde;o e progresso.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Produtividade-2563EB?style=flat-square" alt="Produtividade"></p>
+      <p><a href="https://github.com/Kenjihidehira/planner-pro-js"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Kenjihidehira/encurtador-url-node">Encurtador de URL Node</a></h3>
+      <p>Servi&ccedil;o Node.js para criar links curtos, validar endere&ccedil;os e acompanhar acessos.</p>
+      <p><img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"> <img src="https://img.shields.io/badge/API-2563EB?style=flat-square" alt="API"></p>
+      <p><a href="https://github.com/Kenjihidehira/encurtador-url-node"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## :zap: Vis&atilde;o executiva
+## :bricks: Capacidades demonstradas
 
-![Sistema visual do portf&oacute;lio](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/overview-panel.svg)
-
----
-
-## :dart: Foco t&eacute;cnico
-
-![Foco t&eacute;cnico atual](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/focus-panel.svg)
+| Produto e interface | Servidor e APIs | Organiza&ccedil;&atilde;o | Qualidade |
+| --- | --- | --- | --- |
+| Pain&eacute;is, tabelas, filtros e fluxos | Rotas, valida&ccedil;&otilde;es e APIs REST | Reposit&oacute;rios por objetivo e tecnologia | Testes em projetos Node.js |
+| Interfaces responsivas | Regras de neg&oacute;cio e persist&ecirc;ncia | READMEs e comandos de execu&ccedil;&atilde;o | Tratamento de erros e estados |
+| Sistemas para vendas e opera&ccedil;&otilde;es | Integra&ccedil;&atilde;o entre tela e servidor | Evolu&ccedil;&atilde;o por complexidade | Estrutura de c&oacute;digo reutiliz&aacute;vel |
 
 ---
 
-## :bar_chart: Sinais do portf&oacute;lio
+## :repeat: Fluxo de desenvolvimento
 
-![Sinais do portf&oacute;lio](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/metrics-panel.svg)
+<table width="100%">
+  <tr>
+    <td align="center"><strong>1. Entender</strong><br>Objetivo, usu&aacute;rio e processo</td>
+    <td align="center"><strong>2. Estruturar</strong><br>Telas, dados e regras</td>
+    <td align="center"><strong>3. Construir</strong><br>Interface, servidor e API</td>
+    <td align="center"><strong>4. Validar</strong><br>Erros, testes e documenta&ccedil;&atilde;o</td>
+  </tr>
+</table>
 
 ---
 
 ## :rocket: Tecnologias
 
-![Matriz de tecnologias](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/skill-matrix.svg)
+<div align="center">
 
----
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=ffffff" alt="Node.js">
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express">
+<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=ffffff" alt="PHP">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=ffffff" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=ffffff" alt="CSS3">
 
-## :fire: Projetos principais
-
-<p align="center">
-  <strong>Clique nos cart&otilde;es para abrir os reposit&oacute;rios.</strong>
-</p>
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/erp-estoque-node">
-        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-erp.svg" alt="ERP Estoque Node" width="100%">
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">
-        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-helpdesk.svg" alt="Sistema de Chamados Node" width="100%">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">
-        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-dashboard.svg" alt="Painel de Vendas Pro" width="100%">
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/crm-pipeline-js">
-        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-crm.svg" alt="CRM Pipeline JS" width="100%">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/planner-pro-js">
-        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-planner.svg" alt="Planejador Pro JS" width="100%">
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/Kenjihidehira/encurtador-url-node">
-        <img src="https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/card-url.svg" alt="Encurtador URL Node" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-## :compass: Mapa do portf&oacute;lio
-
-![Mapa visual do portf&oacute;lio](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/portfolio-map.svg)
-
-<br>
-
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <h3>Sistemas completos</h3>
-      <p><a href="https://github.com/Kenjihidehira/erp-estoque-node">ERP Estoque Node</a></p>
-      <p><a href="https://github.com/Kenjihidehira/helpdesk-node-fullstack">Sistema de Chamados Node</a></p>
-      <p><a href="https://github.com/Kenjihidehira/encurtador-url-node">Encurtador URL Node</a></p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>APIs</h3>
-      <p><a href="https://github.com/Kenjihidehira/api-produtos-node">API Produtos Node</a></p>
-      <p><a href="https://github.com/Kenjihidehira/notas-api-node">Notas API Node</a></p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>Interfaces profissionais</h3>
-      <p><a href="https://github.com/Kenjihidehira/dashboard-vendas-pro">Painel de Vendas Pro</a></p>
-      <p><a href="https://github.com/Kenjihidehira/crm-pipeline-js">CRM Pipeline JS</a></p>
-      <p><a href="https://github.com/Kenjihidehira/planner-pro-js">Planejador Pro JS</a></p>
-    </td>
-    <td width="25%" valign="top">
-      <h3>PHP e base JS</h3>
-      <p><a href="https://github.com/Kenjihidehira/loja-php">Loja PHP</a></p>
-      <p><a href="https://github.com/Kenjihidehira/agenda-php">Agenda PHP</a></p>
-      <p><a href="https://github.com/Kenjihidehira/lista-tarefas">Lista de tarefas</a></p>
-    </td>
-  </tr>
-</table>
-
----
-
-## :checkered_flag: Plano t&eacute;cnico
-
-![Plano t&eacute;cnico](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/roadmap-panel.svg)
-
----
-
-## :chart_with_upwards_trend: Evolu&ccedil;&atilde;o por n&iacute;vel
-
-![Evolu&ccedil;&atilde;o por n&iacute;vel](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/level-strip.svg)
-
----
-
-## :mag: Leitura t&eacute;cnica do portf&oacute;lio
-
-| &Aacute;rea | O que j&aacute; aparece | Pr&oacute;ximo ajuste objetivo |
-| --- | --- | --- |
-| Produto | Projetos com tema real: CRM, ERP, sistema de chamados, vendas e planejador | Publicar online os melhores projetos |
-| Interface | Telas com cart&otilde;es, tabelas, filtros, pain&eacute;is e fluxos | Melhorar responsividade e acessibilidade |
-| Servidor e APIs | APIs REST, rotas, valida&ccedil;&otilde;es, persist&ecirc;ncia local e testes | Adicionar banco de dados real |
-| Qualidade | Reposit&oacute;rios separados, READMEs e testes em projetos Node | Padronizar documenta&ccedil;&atilde;o e comandos |
-| Evolu&ccedil;&atilde;o | Projetos simples, intermedi&aacute;rios e sistemas completos publicados | Criar autentica&ccedil;&atilde;o e ambiente em produ&ccedil;&atilde;o |
+</div>
 
 ---
 
 <details>
-  <summary><strong>Todos os reposit&oacute;rios importantes</strong></summary>
+  <summary><strong>:file_folder: Ver outros projetos do portf&oacute;lio</strong></summary>
 
 <br>
 
-| Projeto | Tecnologias | Link |
-| --- | --- | --- |
-| ERP Estoque Node | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/erp-estoque-node) |
-| Sistema de Chamados Node | Node.js, HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/helpdesk-node-fullstack) |
-| Painel de Vendas Pro | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/dashboard-vendas-pro) |
-| CRM Pipeline JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/crm-pipeline-js) |
-| Planejador Pro JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/planner-pro-js) |
-| Encurtador URL Node | Node.js, Express | [Abrir](https://github.com/Kenjihidehira/encurtador-url-node) |
-| API Produtos Node | Node.js, Express | [Abrir](https://github.com/Kenjihidehira/api-produtos-node) |
-| Notas API Node | Node.js | [Abrir](https://github.com/Kenjihidehira/notas-api-node) |
-| Loja PHP | PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/loja-php) |
-| Agenda PHP | PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/agenda-php) |
-| Lista de tarefas | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/lista-tarefas) |
-| Controle financeiro | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/controle-financeiro) |
-| Kanban Board | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/kanban-board) |
-| Pomodoro Foco | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/pomodoro-focus) |
-| Quiz Dev JS | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/quiz-dev-js) |
-| Cat&aacute;logo de Filmes | HTML, CSS, JS | [Abrir](https://github.com/Kenjihidehira/catalogo-filmes) |
+| Projeto | Categoria | Tecnologias | Link |
+| --- | --- | --- | --- |
+| API de Produtos | API | Node.js, Express | [Abrir](https://github.com/Kenjihidehira/api-produtos-node) |
+| API de Notas | API | Node.js | [Abrir](https://github.com/Kenjihidehira/notas-api-node) |
+| Loja em PHP | Sistema web | PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/loja-php) |
+| Agenda em PHP | Sistema web | PHP, HTML, CSS | [Abrir](https://github.com/Kenjihidehira/agenda-php) |
+| Lista de tarefas | Produtividade | HTML, CSS, JavaScript | [Abrir](https://github.com/Kenjihidehira/lista-tarefas) |
+| Controle financeiro | Finan&ccedil;as | HTML, CSS, JavaScript | [Abrir](https://github.com/Kenjihidehira/controle-financeiro) |
+| Quadro Kanban | Produtividade | HTML, CSS, JavaScript | [Abrir](https://github.com/Kenjihidehira/kanban-board) |
+| Pomodoro Foco | Produtividade | HTML, CSS, JavaScript | [Abrir](https://github.com/Kenjihidehira/pomodoro-focus) |
+| Quiz para desenvolvedores | Educa&ccedil;&atilde;o | HTML, CSS, JavaScript | [Abrir](https://github.com/Kenjihidehira/quiz-dev-js) |
+| Cat&aacute;logo de filmes | Entretenimento | HTML, CSS, JavaScript | [Abrir](https://github.com/Kenjihidehira/catalogo-filmes) |
 
 </details>
 
 ---
 
-![Portf&oacute;lio em evolu&ccedil;&atilde;o constante](https://cdn.jsdelivr.net/gh/Kenjihidehira/Kenjihidehira@main/assets/footer-panel.svg)
-
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira">
-  <img src="https://img.shields.io/badge/Abrir_perfil_no_GitHub-181717?style=for-the-badge&logo=github" alt="Abrir perfil no GitHub">
-</a>
+<h3>Portf&oacute;lio em evolu&ccedil;&atilde;o cont&iacute;nua</h3>
+
+<p>Projetos com foco em problemas reais, clareza de interface e crescimento t&eacute;cnico.</p>
+
+<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/Explorar_reposit%C3%B3rios-181717?style=for-the-badge&logo=github" alt="Explorar reposit&oacute;rios"></a>
 
 </div>
