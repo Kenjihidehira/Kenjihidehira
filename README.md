@@ -1,29 +1,29 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,50:1E3A8A,100:7C3AED&amp;height=210&amp;section=header&amp;text=Kenji%20Hidehira&amp;fontSize=48&amp;fontColor=22D3EE&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=Desenvolvedor%20Web%20%7C%20Sistemas%2C%20APIs%20e%20Automa%C3%A7%C3%B5es&amp;descAlignY=58&amp;descSize=18&amp;descColor=E2E8F0" alt="Banner de Kenji Hidehira">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:020617,35:0F172A,70:312E81,100:7C3AED&amp;height=220&amp;section=header&amp;text=Kenji%20Hidehira&amp;fontSize=50&amp;fontColor=67E8F9&amp;animation=fadeIn&amp;fontAlignY=38&amp;desc=SISTEMAS%20WEB%20%2F%2F%20APIs%20REST%20%2F%2F%20AUTOMA%C3%87%C3%95ES&amp;descAlignY=59&amp;descSize=17&amp;descColor=E2E8F0" alt="Banner futurista de Kenji Hidehira">
 
 </div>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/SISTEMAS_WEB-0EA5E9?style=flat-square" alt="Sistemas web">
-<img src="https://img.shields.io/badge/APIs_REST-7C3AED?style=flat-square" alt="APIs REST">
-<img src="https://img.shields.io/badge/AUTOMA%C3%87%C3%95ES-22C55E?style=flat-square" alt="Automa&ccedil;&otilde;es">
+<img src="https://img.shields.io/badge/STATUS-EM_EVOLU%C3%87%C3%83O-22C55E?style=for-the-badge" alt="Status: em evolu&ccedil;&atilde;o">
+<img src="https://img.shields.io/badge/FOCO-SISTEMAS_WEB-0EA5E9?style=for-the-badge" alt="Foco: sistemas web">
+<img src="https://img.shields.io/badge/BASE-BRASIL-7C3AED?style=for-the-badge" alt="Base: Brasil">
 
 </div>
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=22&amp;pause=1000&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Ol%C3%A1%2C+eu+sou+o+Kenji+%F0%9F%91%8B;Criando+sistemas+web+e+APIs+%F0%9F%9A%80;Foco+em+JavaScript%2C+Node.js+e+PHP+%E2%9A%A1;Transformando+ideias+em+solu%C3%A7%C3%B5es+reais+%F0%9F%92%BB" alt="Apresenta&ccedil;&atilde;o animada de Kenji Hidehira"></a>
+<a href="https://github.com/Kenjihidehira"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=21&amp;pause=900&amp;duration=2600&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=%3E+perfil_iniciado%3A+Kenji+Hidehira;%3E+sistemas_web+e+APIs+em+constru%C3%A7%C3%A3o;%3E+automa%C3%A7%C3%B5es+para+opera%C3%A7%C3%B5es+reais;%3E+entregas+orientadas+a+valor" alt="Terminal animado de apresenta&ccedil;&atilde;o de Kenji Hidehira"></a>
 
 </div>
 
 <div align="center">
 
-<a href="#sobre"><img src="https://img.shields.io/badge/SOBRE_MIM-0F172A?style=flat-square" alt="Ir para sobre mim"></a>
-<a href="#stack"><img src="https://img.shields.io/badge/STACK-1E3A8A?style=flat-square" alt="Ir para stack"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos"></a>
-<a href="#objetivos"><img src="https://img.shields.io/badge/OBJETIVOS-F97316?style=flat-square" alt="Ir para objetivos"></a>
+<a href="#sobre"><img src="https://img.shields.io/badge/01_SOBRE-0F172A?style=flat-square" alt="Ir para sobre mim"></a>
+<a href="#stack"><img src="https://img.shields.io/badge/02_STACK-1E3A8A?style=flat-square" alt="Ir para stack"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/03_PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos"></a>
+<a href="#objetivos"><img src="https://img.shields.io/badge/04_ROTA-F97316?style=flat-square" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
 
 </div>
 
@@ -36,14 +36,15 @@
 ## :man_technologist: Sobre mim
 
 ```javascript
-const kenji = {
+const perfil = Object.freeze({
   nome: "Wesley Kenji Ito Hidehira",
-  local: "Douradina, PR - Brasil",
+  base: "Douradina, PR - Brasil",
   papel: "Desenvolvedor web",
-  foco: ["JavaScript", "TypeScript", "Node.js", "PHP"],
-  construindo: ["Sistemas web", "APIs REST", "Automacoes"],
-  objetivo: "criar produtos web com valor real"
-};
+  especialidades: ["Sistemas web", "APIs REST", "Automacoes"],
+  stack: ["JavaScript", "TypeScript", "Node.js", "PHP"],
+  metodo: "entender -> construir -> validar -> publicar",
+  status: "evolucao continua"
+});
 ```
 
 - :computer: Construindo sistemas para opera&ccedil;&otilde;es, vendas, atendimento e produtividade.
@@ -220,14 +221,36 @@ const kenji = {
 
 ---
 
-## :dart: Objetivos atuais
+## :triangular_flag_on_post: Rota de evolu&ccedil;&atilde;o
 
-- [x] Construir projetos com JavaScript, TypeScript, Node.js e PHP.
-- [x] Organizar o portf&oacute;lio e a documenta&ccedil;&atilde;o em portugu&ecirc;s.
-- [x] Publicar um sistema com banco de dados, autentica&ccedil;&atilde;o e integra&ccedil;&atilde;o cont&iacute;nua.
-- [ ] Publicar demonstra&ccedil;&otilde;es online de mais projetos comerciais.
-- [ ] Consolidar TypeScript e integra&ccedil;&otilde;es com dados reais.
-- [ ] Ampliar testes automatizados e valida&ccedil;&otilde;es.
+<p align="center"><strong>Uma trilha objetiva para transformar estudo em entregas cada vez mais completas.</strong></p>
+
+<table width="100%">
+  <tr>
+    <td valign="top">
+      <sub><strong>FASE 01 // FUNDA&Ccedil;&Atilde;O T&Eacute;CNICA</strong></sub>
+      <h3>:white_check_mark: Base consolidada</h3>
+      <p>Portf&oacute;lio organizado em portugu&ecirc;s, projetos com JavaScript, TypeScript, Node.js e PHP, al&eacute;m de sistema com banco de dados, autentica&ccedil;&atilde;o e integra&ccedil;&atilde;o cont&iacute;nua.</p>
+      <p><img src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDA-22C55E?style=flat-square" alt="Status: conclu&iacute;da"></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>FASE 02 // PUBLICA&Ccedil;&Atilde;O E DADOS</strong></sub>
+      <h3>:satellite: Expans&atilde;o em andamento</h3>
+      <p>Publicar demonstra&ccedil;&otilde;es online, consolidar TypeScript e conectar aplica&ccedil;&otilde;es a dados reais.</p>
+      <p><img src="https://img.shields.io/badge/STATUS-EM_ANDAMENTO-0EA5E9?style=flat-square" alt="Status: em andamento"></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>FASE 03 // QUALIDADE EM ESCALA</strong></sub>
+      <h3>:test_tube: Pr&oacute;xima etapa</h3>
+      <p>Ampliar testes automatizados, valida&ccedil;&otilde;es e padr&otilde;es de qualidade para entregas mais confi&aacute;veis.</p>
+      <p><img src="https://img.shields.io/badge/STATUS-PR%C3%93XIMA_ETAPA-7C3AED?style=flat-square" alt="Status: pr&oacute;xima etapa"></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -242,8 +265,8 @@ const kenji = {
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F172A,50:1E3A8A,100:7C3AED&amp;height=110&amp;section=footer" alt="Rodap&eacute; ondulado">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:020617,35:0F172A,70:312E81,100:7C3AED&amp;height=120&amp;section=footer" alt="Rodap&eacute; futurista ondulado">
 
-<sub>:zap: Construindo projetos, aprendendo e evoluindo uma entrega por vez.</sub>
+<sub>:zap: PORTF&Oacute;LIO EM EVOLU&Ccedil;&Atilde;O // sistemas reais, aprendizado cont&iacute;nuo e entrega com prop&oacute;sito.</sub>
 
 </div>
