@@ -74,6 +74,18 @@ const perfil = Object.freeze({
 
 ## :rocket: Stack e tecnologias
 
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-mobile.png?v=20260817-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-desktop.png?v=20260817-1" alt="Mapa visual das camadas t&eacute;cnicas: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
+</picture>
+
+<br>
+
+<details>
+<summary><strong>:mag: Explorar tecnologias e ferramentas</strong></summary>
+
+<br>
+
 ### :fire: Foco principal
 
 <div>
@@ -110,6 +122,8 @@ const perfil = Object.freeze({
   <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&amp;logo=npm&amp;logoColor=ffffff" alt="NPM">
 </div>
 
+</details>
+
 <a id="painel"></a>
 
 <br>
@@ -120,14 +134,15 @@ const perfil = Object.freeze({
 
 <p align="center"><strong>Uma leitura t&eacute;cnica dos seis sistemas em destaque e das linguagens classificadas pelo GitHub.</strong></p>
 
-<div align="center">
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-mobile.png?v=20260817-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-desktop.png?v=20260817-1" alt="Central visual do portf&oacute;lio com seis projetos, linguagens e fluxo de entrega">
+</picture>
 
-<img src="https://img.shields.io/badge/PROJETOS_NO_PAINEL-6-7C3AED?style=for-the-badge" alt="6 projetos no painel">
-<img src="https://img.shields.io/badge/LINGUAGENS_PRINCIPAIS-6-0EA5E9?style=for-the-badge" alt="6 linguagens principais">
-<img src="https://img.shields.io/badge/TYPESCRIPT-6_DE_6-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript em 6 de 6 projetos">
-<img src="https://img.shields.io/badge/DOCKERFILE-5_DE_6-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=ffffff" alt="Dockerfile em 5 de 6 projetos">
+<br>
 
-</div>
+<details>
+<summary><strong>:mag: Explorar dados detalhados do painel</strong></summary>
 
 <br>
 
@@ -190,19 +205,7 @@ const perfil = Object.freeze({
 
 <p align="center"><sub>Distribui&ccedil;&atilde;o aproximada por volume de c&oacute;digo nos seis reposit&oacute;rios. Os valores acompanham a classifica&ccedil;&atilde;o atual de linguagens do GitHub.</sub></p>
 
-### :repeat: Fluxo de entrega
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/01-ENTENDER-0EA5E9?style=flat-square" alt="Etapa 1: entender">
-&rarr;
-<img src="https://img.shields.io/badge/02-CONSTRUIR-2563EB?style=flat-square" alt="Etapa 2: construir">
-&rarr;
-<img src="https://img.shields.io/badge/03-VALIDAR-7C3AED?style=flat-square" alt="Etapa 3: validar">
-&rarr;
-<img src="https://img.shields.io/badge/04-PUBLICAR-22C55E?style=flat-square" alt="Etapa 4: publicar">
-
-</div>
+</details>
 
 <a id="projetos"></a>
 

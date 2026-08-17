@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel visual do portf&oacute;lio</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #020617;
+      --surface: rgba(15, 23, 42, 0.84);
+      --surface-strong: rgba(20, 30, 56, 0.96);
+      --line: rgba(148, 163, 184, 0.18);
+      --cyan: #22d3ee;
+      --blue: #3b82f6;
+      --purple: #8b5cf6;
+      --green: #22c55e;
+      --orange: #f97316;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: transparent;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      display: grid;
+      gap: 48px;
+      place-items: start;
+      padding: 0;
+    }
+
+    .dashboard {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      color: var(--text);
+      border: 1px solid rgba(103, 232, 249, 0.28);
+      border-radius: 30px;
+      background:
+        radial-gradient(circle at 8% 0%, rgba(34, 211, 238, 0.18), transparent 30%),
+        radial-gradient(circle at 95% 5%, rgba(139, 92, 246, 0.22), transparent 34%),
+        linear-gradient(135deg, #020617 0%, #0b1228 52%, #160c32 100%);
+      box-shadow:
+        inset 0 1px 0 rgba(255, 255, 255, 0.06),
+        0 32px 90px rgba(2, 6, 23, 0.56);
+    }
+
+    .dashboard::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      opacity: 0.25;
+      background-image:
+        linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+      background-size: 38px 38px;
+      mask-image: linear-gradient(to bottom, black, transparent 88%);
+    }
+
+    .dashboard::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.07), transparent);
+      transform: translateX(-70%);
+    }
+
+    .desktop-dashboard {
+      width: 1400px;
+      height: 760px;
+      padding: 46px 52px 38px;
+    }
+
+    .mobile-dashboard {
+      width: 540px;
+      height: 1360px;
+      padding: 42px 38px 32px;
+    }
+
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 22px;
+    }
+
+    .system-id {
+      color: var(--cyan);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .live-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 14px;
+      color: #bbf7d0;
+      border: 1px solid rgba(34, 197, 94, 0.32);
+      border-radius: 999px;
+      background: rgba(34, 197, 94, 0.1);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+    }
+
+    .live-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 18px rgba(34, 197, 94, 0.92);
+    }
+
+    .hero-row {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 34px;
+      margin-bottom: 28px;
+    }
+
+    .hero-copy h1 {
+      margin: 0;
+      font-size: 52px;
+      line-height: 0.98;
+      letter-spacing: -0.045em;
+    }
+
+    .hero-copy h1 span {
+      color: var(--cyan);
+      text-shadow: 0 0 28px rgba(34, 211, 238, 0.32);
+    }
+
+    .hero-copy p {
+      max-width: 760px;
+      margin: 14px 0 0;
+      color: #cbd5e1;
+      font-size: 18px;
+      line-height: 1.45;
+    }
+
+    .build-tag {
+      flex: 0 0 auto;
+      padding: 12px 16px;
+      color: #ddd6fe;
+      border: 1px solid rgba(139, 92, 246, 0.32);
+      border-radius: 12px;
+      background: rgba(139, 92, 246, 0.1);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .metric {
+      min-height: 98px;
+      padding: 17px 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(145deg, rgba(30, 41, 59, 0.82), rgba(15, 23, 42, 0.72));
+    }
+
+    .metric-value {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--text);
+      font-size: 29px;
+      font-weight: 850;
+      line-height: 1;
+    }
+
+    .metric:nth-child(1) .metric-value { color: #c4b5fd; }
+    .metric:nth-child(2) .metric-value { color: #67e8f9; }
+    .metric:nth-child(3) .metric-value { color: #93c5fd; }
+    .metric:nth-child(4) .metric-value { color: #86efac; }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 750;
+      letter-spacing: 0.1em;
+      line-height: 1.35;
+      text-transform: uppercase;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 16px;
+    }
+
+    .panel {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: rgba(8, 15, 34, 0.7);
+    }
+
+    .panel-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+      color: #e2e8f0;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .panel-title small {
+      color: var(--cyan);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 9px;
+    }
+
+    .project {
+      display: grid;
+      grid-template-columns: 36px minmax(0, 1fr);
+      gap: 11px;
+      align-items: center;
+      min-height: 72px;
+      padding: 11px 12px;
+      border: 1px solid rgba(148, 163, 184, 0.13);
+      border-radius: 12px;
+      background: rgba(15, 23, 42, 0.66);
+    }
+
+    .project-index {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      color: var(--cyan);
+      border: 1px solid rgba(34, 211, 238, 0.22);
+      border-radius: 9px;
+      background: rgba(34, 211, 238, 0.07);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .project strong {
+      display: block;
+      overflow: hidden;
+      color: #f8fafc;
+      font-size: 14px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .project span {
+      display: block;
+      margin-top: 4px;
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 10px;
+      letter-spacing: 0.04em;
+      text-overflow: ellipsis;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .language-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .language-row {
+      display: grid;
+      grid-template-columns: 108px 1fr 50px;
+      gap: 10px;
+      align-items: center;
+      min-height: 31px;
+    }
+
+    .language-name,
+    .language-value {
+      color: #cbd5e1;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .language-value {
+      color: #f8fafc;
+      text-align: right;
+    }
+
+    .track {
+      height: 8px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.12);
+    }
+
+    .fill {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      box-shadow: 0 0 16px currentColor;
+    }
+
+    .ts { width: 100%; color: #60a5fa; background: #3178c6; }
+    .js { width: 56%; color: #fde047; background: #f7df1e; }
+    .css { width: 50%; color: #38bdf8; background: #1572b6; }
+    .sql { width: 47%; color: #93c5fd; background: #336791; }
+    .html { width: 8%; min-width: 8px; color: #fb923c; background: #e34f26; }
+    .php { width: 3%; min-width: 7px; color: #c4b5fd; background: #777bb4; }
+
+    .pipeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .pipeline-step {
+      position: relative;
+      padding: 10px 12px;
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.14);
+      border-radius: 11px;
+      background: rgba(15, 23, 42, 0.68);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-align: center;
+    }
+
+    .pipeline-step b { color: var(--cyan); }
+
+    .mobile-dashboard .topline { margin-bottom: 26px; }
+    .mobile-dashboard .system-id { font-size: 15px; }
+    .mobile-dashboard .live-status { padding: 10px 13px; font-size: 13px; }
+
+    .mobile-dashboard .hero-row {
+      display: block;
+      margin-bottom: 28px;
+    }
+
+    .mobile-dashboard .hero-copy h1 {
+      max-width: 600px;
+      font-size: 44px;
+      line-height: 1.02;
+    }
+
+    .mobile-dashboard .hero-copy p {
+      margin-top: 14px;
+      font-size: 18px;
+    }
+
+    .mobile-dashboard .build-tag {
+      display: inline-block;
+      margin-top: 18px;
+      font-size: 14px;
+    }
+
+    .mobile-dashboard .metrics {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .mobile-dashboard .metric {
+      min-height: 104px;
+      padding: 17px 18px;
+    }
+
+    .mobile-dashboard .metric-value { font-size: 31px; }
+    .mobile-dashboard .metric-label { font-size: 13px; }
+
+    .mobile-dashboard .content-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    .mobile-dashboard .panel { padding: 17px; }
+    .mobile-dashboard .panel-title { font-size: 15px; }
+    .mobile-dashboard .panel-title small { font-size: 12px; }
+    .mobile-dashboard .project-grid { gap: 9px; }
+    .mobile-dashboard .project { min-height: 77px; }
+    .mobile-dashboard .project strong { font-size: 15px; }
+    .mobile-dashboard .project span { font-size: 10px; }
+
+    .mobile-dashboard .language-list {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .mobile-dashboard .language-row {
+      grid-template-columns: 102px 1fr 52px;
+      gap: 9px;
+    }
+
+    .mobile-dashboard .language-name,
+    .mobile-dashboard .language-value { font-size: 13px; }
+
+    .mobile-dashboard .pipeline {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .mobile-dashboard .pipeline-step {
+      padding: 11px 10px;
+      font-size: 12px;
+    }
+
+    .stack-desktop {
+      width: 1400px;
+      height: 540px;
+      padding: 42px 52px 36px;
+    }
+
+    .stack-mobile {
+      width: 540px;
+      height: 1040px;
+      padding: 38px 34px 30px;
+    }
+
+    .stack-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 26px;
+    }
+
+    .stack-heading h2 {
+      margin: 0;
+      font-size: 43px;
+      line-height: 1;
+      letter-spacing: -0.035em;
+    }
+
+    .stack-heading h2 span { color: var(--cyan); }
+
+    .stack-heading p {
+      max-width: 650px;
+      margin: 11px 0 0;
+      color: #cbd5e1;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .stack-code {
+      padding: 11px 14px;
+      color: #bfdbfe;
+      border: 1px solid rgba(59, 130, 246, 0.28);
+      border-radius: 11px;
+      background: rgba(59, 130, 246, 0.08);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 12px;
+      letter-spacing: 0.07em;
+    }
+
+    .stack-modules {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 13px;
+    }
+
+    .stack-module {
+      position: relative;
+      min-height: 235px;
+      padding: 19px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 17px;
+      background: linear-gradient(145deg, rgba(24, 35, 62, 0.86), rgba(8, 15, 34, 0.84));
+    }
+
+    .stack-module::after {
+      content: "";
+      position: absolute;
+      inset: auto -20% -55% 25%;
+      height: 140px;
+      border-radius: 50%;
+      filter: blur(36px);
+      opacity: 0.18;
+      background: var(--module-color);
+    }
+
+    .module-interface { --module-color: var(--cyan); }
+    .module-app { --module-color: var(--blue); }
+    .module-data { --module-color: var(--purple); }
+    .module-delivery { --module-color: var(--green); }
+
+    .module-index {
+      display: inline-flex;
+      padding: 6px 9px;
+      color: var(--module-color);
+      border: 1px solid color-mix(in srgb, var(--module-color) 34%, transparent);
+      border-radius: 8px;
+      background: color-mix(in srgb, var(--module-color) 8%, transparent);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+    }
+
+    .stack-module h3 {
+      margin: 15px 0 7px;
+      color: #f8fafc;
+      font-size: 21px;
+    }
+
+    .stack-module p {
+      min-height: 36px;
+      margin: 0 0 15px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .chip {
+      padding: 7px 9px;
+      color: #e2e8f0;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 8px;
+      background: rgba(15, 23, 42, 0.84);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .stack-flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .stack-flow span {
+      padding: 10px;
+      color: #cbd5e1;
+      border-top: 1px solid rgba(34, 211, 238, 0.28);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+
+    .stack-flow b { color: var(--cyan); }
+
+    .stack-mobile .stack-heading {
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    .stack-mobile .stack-heading h2 {
+      max-width: 430px;
+      font-size: 42px;
+      line-height: 1.05;
+    }
+
+    .stack-mobile .stack-heading p {
+      margin-top: 13px;
+      font-size: 17px;
+    }
+
+    .stack-mobile .stack-code {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 12px;
+    }
+
+    .stack-mobile .stack-modules {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 11px;
+    }
+
+    .stack-mobile .stack-module {
+      min-height: 270px;
+      padding: 16px;
+    }
+
+    .stack-mobile .stack-module h3 { font-size: 19px; }
+    .stack-mobile .stack-module p { min-height: 49px; font-size: 11px; }
+    .stack-mobile .chip { padding: 6px 8px; font-size: 10px; }
+
+    .stack-mobile .stack-flow {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .stack-mobile .stack-flow span { font-size: 10px; }
+  </style>
+</head>
+<body>
+  <section class="dashboard desktop-dashboard" id="dashboard-desktop" aria-label="Painel do portf&oacute;lio para desktop">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // CENTRAL DE PROJETOS</div>
+      <div class="live-status"><span class="live-dot"></span>SISTEMA ATIVO</div>
+    </div>
+
+    <div class="hero-row">
+      <div class="hero-copy">
+        <h1>PORTF&Oacute;LIO <span>EM OPERA&Ccedil;&Atilde;O</span></h1>
+        <p>Sistemas web, APIs e automa&ccedil;&otilde;es constru&iacute;dos para opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento.</p>
+      </div>
+      <div class="build-tag">perfil://kenjihidehira</div>
+    </div>
+
+    <div class="metrics">
+      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Projetos em destaque</span></div>
+      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Linguagens principais</span></div>
+      <div class="metric"><span class="metric-value">6/6</span><span class="metric-label">Projetos com TypeScript</span></div>
+      <div class="metric"><span class="metric-value">5/6</span><span class="metric-label">Projetos com Dockerfile</span></div>
+    </div>
+
+    <div class="content-grid">
+      <div class="panel">
+        <div class="panel-title"><span>Mapa dos projetos</span><small>06 sistemas</small></div>
+        <div class="project-grid">
+          <div class="project"><div class="project-index">01</div><div><strong>Patrim&ocirc;nio</strong><span>Auditoria // TypeScript</span></div></div>
+          <div class="project"><div class="project-index">02</div><div><strong>CobreFlow</strong><span>Finan&ccedil;as // JavaScript</span></div></div>
+          <div class="project"><div class="project-index">03</div><div><strong>FieldOps</strong><span>Campo // PHP + TypeScript</span></div></div>
+          <div class="project"><div class="project-index">04</div><div><strong>LeadOps</strong><span>Marketing // JavaScript</span></div></div>
+          <div class="project"><div class="project-index">05</div><div><strong>ReturnOps</strong><span>RMA // JavaScript</span></div></div>
+          <div class="project"><div class="project-index">06</div><div><strong>ServiceHub</strong><span>CRM // JavaScript</span></div></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><span>Telemetria de linguagens</span><small>por volume</small></div>
+        <div class="language-list">
+          <div class="language-row"><span class="language-name">TypeScript</span><span class="track"><span class="fill ts"></span></span><span class="language-value">37,9%</span></div>
+          <div class="language-row"><span class="language-name">JavaScript</span><span class="track"><span class="fill js"></span></span><span class="language-value">21,2%</span></div>
+          <div class="language-row"><span class="language-name">CSS</span><span class="track"><span class="fill css"></span></span><span class="language-value">19,0%</span></div>
+          <div class="language-row"><span class="language-name">PLpgSQL</span><span class="track"><span class="fill sql"></span></span><span class="language-value">18,0%</span></div>
+          <div class="language-row"><span class="language-name">HTML</span><span class="track"><span class="fill html"></span></span><span class="language-value">3,0%</span></div>
+          <div class="language-row"><span class="language-name">PHP</span><span class="track"><span class="fill php"></span></span><span class="language-value">0,8%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipeline-step"><b>01</b> ENTENDER</div>
+      <div class="pipeline-step"><b>02</b> CONSTRUIR</div>
+      <div class="pipeline-step"><b>03</b> VALIDAR</div>
+      <div class="pipeline-step"><b>04</b> PUBLICAR</div>
+    </div>
+  </section>
+
+  <section class="dashboard mobile-dashboard" id="dashboard-mobile" aria-label="Painel do portf&oacute;lio para celular">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // PAINEL</div>
+      <div class="live-status"><span class="live-dot"></span>ATIVO</div>
+    </div>
+
+    <div class="hero-row">
+      <div class="hero-copy">
+        <h1>PORTF&Oacute;LIO <span>EM OPERA&Ccedil;&Atilde;O</span></h1>
+        <p>Sistemas web, APIs e automa&ccedil;&otilde;es para problemas reais.</p>
+      </div>
+      <div class="build-tag">perfil://kenjihidehira</div>
+    </div>
+
+    <div class="metrics">
+      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Projetos em destaque</span></div>
+      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Linguagens principais</span></div>
+      <div class="metric"><span class="metric-value">6/6</span><span class="metric-label">Com TypeScript</span></div>
+      <div class="metric"><span class="metric-value">5/6</span><span class="metric-label">Com Dockerfile</span></div>
+    </div>
+
+    <div class="content-grid">
+      <div class="panel">
+        <div class="panel-title"><span>Mapa dos projetos</span><small>06 sistemas</small></div>
+        <div class="project-grid">
+          <div class="project"><div class="project-index">01</div><div><strong>Patrim&ocirc;nio</strong><span>Auditoria</span></div></div>
+          <div class="project"><div class="project-index">02</div><div><strong>CobreFlow</strong><span>Finan&ccedil;as</span></div></div>
+          <div class="project"><div class="project-index">03</div><div><strong>FieldOps</strong><span>Campo</span></div></div>
+          <div class="project"><div class="project-index">04</div><div><strong>LeadOps</strong><span>Marketing</span></div></div>
+          <div class="project"><div class="project-index">05</div><div><strong>ReturnOps</strong><span>RMA</span></div></div>
+          <div class="project"><div class="project-index">06</div><div><strong>ServiceHub</strong><span>CRM</span></div></div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title"><span>Linguagens</span><small>por volume</small></div>
+        <div class="language-list">
+          <div class="language-row"><span class="language-name">TypeScript</span><span class="track"><span class="fill ts"></span></span><span class="language-value">37,9%</span></div>
+          <div class="language-row"><span class="language-name">JavaScript</span><span class="track"><span class="fill js"></span></span><span class="language-value">21,2%</span></div>
+          <div class="language-row"><span class="language-name">CSS</span><span class="track"><span class="fill css"></span></span><span class="language-value">19,0%</span></div>
+          <div class="language-row"><span class="language-name">PLpgSQL</span><span class="track"><span class="fill sql"></span></span><span class="language-value">18,0%</span></div>
+          <div class="language-row"><span class="language-name">HTML</span><span class="track"><span class="fill html"></span></span><span class="language-value">3,0%</span></div>
+          <div class="language-row"><span class="language-name">PHP</span><span class="track"><span class="fill php"></span></span><span class="language-value">0,8%</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pipeline">
+      <div class="pipeline-step"><b>01</b> ENTENDER</div>
+      <div class="pipeline-step"><b>02</b> CONSTRUIR</div>
+      <div class="pipeline-step"><b>03</b> VALIDAR</div>
+      <div class="pipeline-step"><b>04</b> PUBLICAR</div>
+    </div>
+  </section>
+
+  <section class="dashboard stack-desktop" id="stack-desktop" aria-label="Mapa visual da stack para desktop">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // ECOSSISTEMA T&Eacute;CNICO</div>
+      <div class="live-status"><span class="live-dot"></span>STACK CONECTADA</div>
+    </div>
+
+    <div class="stack-heading">
+      <div>
+        <h2>CAMADAS QUE <span>CONSTROEM PRODUTOS</span></h2>
+        <p>Interface, regra, dados e entrega organizados como um &uacute;nico fluxo de desenvolvimento.</p>
+      </div>
+      <div class="stack-code">arquitetura://web-fullstack</div>
+    </div>
+
+    <div class="stack-modules">
+      <article class="stack-module module-interface">
+        <span class="module-index">CAMADA 01</span>
+        <h3>Interfaces</h3>
+        <p>Experi&ecirc;ncias claras, responsivas e orientadas a fluxo.</p>
+        <div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Responsividade</span></div>
+      </article>
+      <article class="stack-module module-app">
+        <span class="module-index">CAMADA 02</span>
+        <h3>Aplica&ccedil;&otilde;es</h3>
+        <p>Regras de neg&oacute;cio, servi&ccedil;os e integra&ccedil;&otilde;es.</p>
+        <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">PHP</span></div>
+      </article>
+      <article class="stack-module module-data">
+        <span class="module-index">CAMADA 03</span>
+        <h3>Dados</h3>
+        <p>Persist&ecirc;ncia, acesso seguro e APIs conectadas.</p>
+        <div class="chips"><span class="chip">Supabase</span><span class="chip">PLpgSQL</span><span class="chip">Autentica&ccedil;&atilde;o</span><span class="chip">APIs REST</span></div>
+      </article>
+      <article class="stack-module module-delivery">
+        <span class="module-index">CAMADA 04</span>
+        <h3>Entrega</h3>
+        <p>Qualidade, rastreabilidade e publica&ccedil;&atilde;o cont&iacute;nua.</p>
+        <div class="chips"><span class="chip">GitHub</span><span class="chip">Testes</span><span class="chip">CI</span><span class="chip">Dockerfile</span></div>
+      </article>
+    </div>
+
+    <div class="stack-flow"><span><b>01</b> INTERFACE</span><span><b>02</b> REGRA</span><span><b>03</b> DADOS</span><span><b>04</b> PUBLICA&Ccedil;&Atilde;O</span></div>
+  </section>
+
+  <section class="dashboard stack-mobile" id="stack-mobile" aria-label="Mapa visual da stack para celular">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // STACK</div>
+      <div class="live-status"><span class="live-dot"></span>CONECTADA</div>
+    </div>
+
+    <div class="stack-heading">
+      <div>
+        <h2>CAMADAS QUE <span>CONSTROEM PRODUTOS</span></h2>
+        <p>Interface, regra, dados e entrega em um &uacute;nico fluxo.</p>
+      </div>
+      <div class="stack-code">arquitetura://web-fullstack</div>
+    </div>
+
+    <div class="stack-modules">
+      <article class="stack-module module-interface">
+        <span class="module-index">CAMADA 01</span><h3>Interfaces</h3><p>Experi&ecirc;ncias claras e responsivas.</p>
+        <div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Responsividade</span></div>
+      </article>
+      <article class="stack-module module-app">
+        <span class="module-index">CAMADA 02</span><h3>Aplica&ccedil;&otilde;es</h3><p>Regras, servi&ccedil;os e integra&ccedil;&otilde;es.</p>
+        <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">PHP</span></div>
+      </article>
+      <article class="stack-module module-data">
+        <span class="module-index">CAMADA 03</span><h3>Dados</h3><p>Persist&ecirc;ncia e acesso seguro.</p>
+        <div class="chips"><span class="chip">Supabase</span><span class="chip">PLpgSQL</span><span class="chip">Autentica&ccedil;&atilde;o</span><span class="chip">APIs REST</span></div>
+      </article>
+      <article class="stack-module module-delivery">
+        <span class="module-index">CAMADA 04</span><h3>Entrega</h3><p>Qualidade e publica&ccedil;&atilde;o cont&iacute;nua.</p>
+        <div class="chips"><span class="chip">GitHub</span><span class="chip">Testes</span><span class="chip">CI</span><span class="chip">Dockerfile</span></div>
+      </article>
+    </div>
+
+    <div class="stack-flow"><span><b>01</b> INTERFACE</span><span><b>02</b> REGRA</span><span><b>03</b> DADOS</span><span><b>04</b> PUBLICA&Ccedil;&Atilde;O</span></div>
+  </section>
+</body>
+</html>
