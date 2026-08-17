@@ -1452,6 +1452,519 @@
     }
 
     .showcase-v2.showcase-mobile .featured-footer { font-size: 7px; }
+
+    .identity-desktop {
+      width: 1400px;
+      height: 540px;
+      padding: 44px 52px 34px;
+    }
+
+    .identity-mobile {
+      width: 540px;
+      height: 790px;
+      padding: 38px 32px 28px;
+    }
+
+    .identity-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(380px, 0.75fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .identity-copy {
+      padding: 6px 0;
+    }
+
+    .identity-copy h1 {
+      margin: 0;
+      color: #f8fafc;
+      font-size: 58px;
+      line-height: 0.94;
+      letter-spacing: -0.055em;
+    }
+
+    .identity-copy h1 span {
+      display: block;
+      color: var(--cyan);
+      text-shadow: 0 0 28px rgba(34, 211, 238, 0.3);
+    }
+
+    .identity-role {
+      margin-top: 15px;
+      color: #c4b5fd;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.17em;
+      text-transform: uppercase;
+    }
+
+    .identity-copy p {
+      max-width: 760px;
+      margin: 11px 0 15px;
+      color: #cbd5e1;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .identity-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .identity-tags span {
+      padding: 7px 10px;
+      color: #dbeafe;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 8px;
+      background: rgba(15, 23, 42, 0.72);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .identity-console {
+      position: relative;
+      overflow: hidden;
+      padding: 20px;
+      border: 1px solid rgba(139, 92, 246, 0.25);
+      border-radius: 18px;
+      background:
+        radial-gradient(circle at 100% 0%, rgba(139, 92, 246, 0.17), transparent 42%),
+        rgba(8, 15, 34, 0.78);
+    }
+
+    .identity-console::after {
+      content: "</>";
+      position: absolute;
+      right: 18px;
+      bottom: 6px;
+      color: rgba(139, 92, 246, 0.09);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 82px;
+      font-weight: 900;
+    }
+
+    .console-label {
+      color: #a78bfa;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .identity-console h2 {
+      margin: 11px 0 15px;
+      color: #f8fafc;
+      font-size: 27px;
+      line-height: 1;
+    }
+
+    .console-list {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 8px;
+    }
+
+    .console-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 8px 10px;
+      border: 1px solid rgba(148, 163, 184, 0.11);
+      border-radius: 8px;
+      background: rgba(15, 23, 42, 0.58);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .console-row span { color: #64748b; }
+    .console-row b { color: #dbeafe; }
+    .console-row:last-child b { color: #86efac; }
+
+    .identity-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .identity-metric {
+      min-height: 68px;
+      padding: 12px 14px;
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 12px;
+      background: rgba(8, 15, 34, 0.68);
+    }
+
+    .identity-metric strong,
+    .identity-metric span {
+      display: block;
+      font-family: Consolas, "Courier New", monospace;
+      text-transform: uppercase;
+    }
+
+    .identity-metric strong {
+      color: #f8fafc;
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .identity-metric:nth-child(1) strong { color: #67e8f9; }
+    .identity-metric:nth-child(2) strong { color: #c4b5fd; }
+    .identity-metric:nth-child(3) strong { color: #93c5fd; }
+    .identity-metric:nth-child(4) strong { color: #86efac; }
+
+    .identity-metric span {
+      margin-top: 7px;
+      color: #64748b;
+      font-size: 8px;
+      font-weight: 900;
+      letter-spacing: 0.09em;
+    }
+
+    .identity-flow {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 9px;
+      margin-top: 12px;
+    }
+
+    .identity-flow span {
+      padding: 9px 10px;
+      color: #94a3b8;
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 9px;
+      background: rgba(15, 23, 42, 0.56);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 8px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .identity-flow b { color: var(--cyan); }
+
+    .identity-mobile .topline { margin-bottom: 22px; }
+    .identity-mobile .system-id { font-size: 12px; }
+    .identity-mobile .live-status { padding: 9px 11px; font-size: 10px; }
+
+    .identity-mobile .identity-layout {
+      display: block;
+    }
+
+    .identity-mobile .identity-copy { padding: 0; }
+
+    .identity-mobile .identity-copy h1 {
+      font-size: 45px;
+      line-height: 0.98;
+    }
+
+    .identity-mobile .identity-role {
+      margin-top: 14px;
+      font-size: 11px;
+    }
+
+    .identity-mobile .identity-copy p {
+      margin: 10px 0 13px;
+      font-size: 14px;
+    }
+
+    .identity-mobile .identity-tags { gap: 6px; }
+    .identity-mobile .identity-tags span { padding: 6px 8px; font-size: 8px; }
+
+    .identity-mobile .identity-console {
+      margin-top: 17px;
+      padding: 16px;
+    }
+
+    .identity-mobile .identity-console h2 {
+      margin: 9px 0 12px;
+      font-size: 22px;
+    }
+
+    .identity-mobile .console-row { padding: 7px 9px; font-size: 8px; }
+
+    .identity-mobile .identity-metrics {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .identity-mobile .identity-metric {
+      min-height: 64px;
+      padding: 11px 12px;
+    }
+
+    .identity-mobile .identity-metric strong { font-size: 16px; }
+
+    .identity-mobile .identity-flow {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .identity-mobile .identity-flow span { padding: 8px; font-size: 8px; }
+
+    .roadmap-desktop {
+      width: 1400px;
+      height: 570px;
+      padding: 44px 52px 34px;
+    }
+
+    .roadmap-mobile {
+      width: 540px;
+      height: 990px;
+      padding: 38px 32px 28px;
+    }
+
+    .roadmap-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 28px;
+      margin-bottom: 20px;
+    }
+
+    .roadmap-heading h2 {
+      margin: 0;
+      font-size: 45px;
+      line-height: 1;
+      letter-spacing: -0.045em;
+    }
+
+    .roadmap-heading h2 span {
+      color: var(--cyan);
+      text-shadow: 0 0 24px rgba(34, 211, 238, 0.28);
+    }
+
+    .roadmap-heading p {
+      max-width: 850px;
+      margin: 11px 0 0;
+      color: #cbd5e1;
+      font-size: 16px;
+      line-height: 1.42;
+    }
+
+    .roadmap-code {
+      flex: 0 0 auto;
+      padding: 11px 14px;
+      color: #ddd6fe;
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      border-radius: 10px;
+      background: rgba(139, 92, 246, 0.08);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+    }
+
+    .roadmap-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .roadmap-card {
+      --phase-color: var(--cyan);
+      position: relative;
+      min-height: 270px;
+      overflow: hidden;
+      padding: 20px;
+      border: 1px solid color-mix(in srgb, var(--phase-color) 25%, transparent);
+      border-radius: 18px;
+      background:
+        linear-gradient(145deg, color-mix(in srgb, var(--phase-color) 8%, transparent), transparent 52%),
+        rgba(8, 15, 34, 0.82);
+    }
+
+    .roadmap-card::after {
+      content: attr(data-phase);
+      position: absolute;
+      top: 24px;
+      right: 17px;
+      color: color-mix(in srgb, var(--phase-color) 12%, transparent);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 76px;
+      font-weight: 900;
+      line-height: 0.8;
+    }
+
+    .phase-complete { --phase-color: #22c55e; }
+    .phase-current { --phase-color: #22d3ee; }
+    .phase-next { --phase-color: #a78bfa; }
+
+    .phase-top {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .phase-label,
+    .phase-status {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 9px;
+      font-weight: 900;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+    }
+
+    .phase-label { color: var(--phase-color); }
+
+    .phase-status {
+      padding: 6px 8px;
+      color: #dbeafe;
+      border: 1px solid rgba(148, 163, 184, 0.14);
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.7);
+    }
+
+    .roadmap-card h3 {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      color: #f8fafc;
+      font-size: 25px;
+      line-height: 1.05;
+    }
+
+    .roadmap-card p {
+      position: relative;
+      z-index: 1;
+      min-height: 54px;
+      margin: 11px 0 15px;
+      color: #aebbd0;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .phase-deliverables {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 7px;
+    }
+
+    .phase-deliverables span {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 9px;
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.11);
+      border-radius: 8px;
+      background: rgba(15, 23, 42, 0.56);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 8px;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .phase-deliverables span::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      background: var(--phase-color);
+      box-shadow: 0 0 10px color-mix(in srgb, var(--phase-color) 70%, transparent);
+    }
+
+    .roadmap-loop {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 9px;
+      margin-top: 14px;
+    }
+
+    .roadmap-loop span {
+      padding: 10px;
+      color: #94a3b8;
+      border: 1px solid rgba(148, 163, 184, 0.12);
+      border-radius: 9px;
+      background: rgba(15, 23, 42, 0.58);
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 8px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .roadmap-loop b { color: var(--cyan); }
+
+    .roadmap-mobile .topline { margin-bottom: 22px; }
+    .roadmap-mobile .system-id { font-size: 12px; }
+    .roadmap-mobile .live-status { padding: 9px 11px; font-size: 10px; }
+
+    .roadmap-mobile .roadmap-heading {
+      display: block;
+      margin-bottom: 17px;
+    }
+
+    .roadmap-mobile .roadmap-heading h2 {
+      font-size: 38px;
+      line-height: 1.02;
+    }
+
+    .roadmap-mobile .roadmap-heading p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .roadmap-mobile .roadmap-code { display: none; }
+
+    .roadmap-mobile .roadmap-grid {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .roadmap-mobile .roadmap-card {
+      min-height: 215px;
+      padding: 17px 18px;
+    }
+
+    .roadmap-mobile .roadmap-card::after {
+      top: 25px;
+      right: 17px;
+      font-size: 66px;
+    }
+
+    .roadmap-mobile .phase-top { margin-bottom: 12px; }
+    .roadmap-mobile .roadmap-card h3 { font-size: 22px; }
+
+    .roadmap-mobile .roadmap-card p {
+      min-height: 0;
+      margin: 8px 0 11px;
+      font-size: 11px;
+    }
+
+    .roadmap-mobile .phase-deliverables { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+    .roadmap-mobile .phase-deliverables span { padding: 7px 8px; font-size: 7px; }
+
+    .roadmap-mobile .roadmap-loop {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 11px;
+    }
+
+    .roadmap-mobile .roadmap-loop span { padding: 8px; font-size: 8px; }
   </style>
 </head>
 <body>
@@ -1832,6 +2345,157 @@
     </div>
 
     <div class="showcase-signature"><span>SISTEMAS WEB // DADOS // AUTOMA&Ccedil;&Otilde;ES</span><span>KENJI.OS</span></div>
+  </section>
+
+  <section class="dashboard identity-desktop" id="identity-desktop" aria-label="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira para desktop">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // PERFIL PROFISSIONAL</div>
+      <div class="live-status"><span class="live-dot"></span>PORTF&Oacute;LIO ATIVO</div>
+    </div>
+
+    <div class="identity-layout">
+      <div class="identity-copy">
+        <h1>WESLEY KENJI <span>HIDEHIRA</span></h1>
+        <div class="identity-role">Desenvolvedor web // sistemas, APIs e automa&ccedil;&otilde;es</div>
+        <p>Transformo fluxos operacionais em produtos web claros, rastre&aacute;veis e preparados para evoluir.</p>
+        <div class="identity-tags"><span>JavaScript</span><span>TypeScript</span><span>Node.js</span><span>PHP</span><span>Supabase</span></div>
+      </div>
+
+      <aside class="identity-console">
+        <span class="console-label">Posicionamento</span>
+        <h2>PRODUTOS PARA OPERA&Ccedil;&Atilde;O</h2>
+        <div class="console-list">
+          <div class="console-row"><span>Foco</span><b>Sistemas web</b></div>
+          <div class="console-row"><span>M&eacute;todo</span><b>Ponta a ponta</b></div>
+          <div class="console-row"><span>Base</span><b>Douradina, PR</b></div>
+          <div class="console-row"><span>Estado</span><b>Evolu&ccedil;&atilde;o cont&iacute;nua</b></div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="identity-metrics">
+      <div class="identity-metric"><strong>06</strong><span>Projetos em destaque</span></div>
+      <div class="identity-metric"><strong>04</strong><span>Frentes de neg&oacute;cio</span></div>
+      <div class="identity-metric"><strong>06</strong><span>Linguagens principais</span></div>
+      <div class="identity-metric"><strong>PT-BR</strong><span>Portf&oacute;lio em portugu&ecirc;s</span></div>
+    </div>
+
+    <div class="identity-flow"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> PUBLICAR</span></div>
+  </section>
+
+  <section class="dashboard identity-mobile" id="identity-mobile" aria-label="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira para celular">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // PERFIL</div>
+      <div class="live-status"><span class="live-dot"></span>ATIVO</div>
+    </div>
+
+    <div class="identity-layout">
+      <div class="identity-copy">
+        <h1>WESLEY KENJI <span>HIDEHIRA</span></h1>
+        <div class="identity-role">Desenvolvedor web</div>
+        <p>Sistemas, APIs e automa&ccedil;&otilde;es para transformar fluxos operacionais em produtos claros.</p>
+        <div class="identity-tags"><span>JavaScript</span><span>TypeScript</span><span>Node.js</span><span>PHP</span><span>Supabase</span></div>
+      </div>
+
+      <aside class="identity-console">
+        <span class="console-label">Posicionamento</span>
+        <h2>PRODUTOS PARA OPERA&Ccedil;&Atilde;O</h2>
+        <div class="console-list">
+          <div class="console-row"><span>Foco</span><b>Sistemas web</b></div>
+          <div class="console-row"><span>M&eacute;todo</span><b>Ponta a ponta</b></div>
+          <div class="console-row"><span>Base</span><b>Douradina, PR</b></div>
+          <div class="console-row"><span>Estado</span><b>Evolu&ccedil;&atilde;o cont&iacute;nua</b></div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="identity-metrics">
+      <div class="identity-metric"><strong>06</strong><span>Projetos em destaque</span></div>
+      <div class="identity-metric"><strong>04</strong><span>Frentes de neg&oacute;cio</span></div>
+      <div class="identity-metric"><strong>06</strong><span>Linguagens principais</span></div>
+      <div class="identity-metric"><strong>PT-BR</strong><span>Portf&oacute;lio em portugu&ecirc;s</span></div>
+    </div>
+
+    <div class="identity-flow"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> PUBLICAR</span></div>
+  </section>
+
+  <section class="dashboard roadmap-desktop" id="roadmap-desktop" aria-label="Rota de evolu&ccedil;&atilde;o profissional para desktop">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // ROTA DE EVOLU&Ccedil;&Atilde;O</div>
+      <div class="live-status"><span class="live-dot"></span>TRILHA ATIVA</div>
+    </div>
+
+    <div class="roadmap-heading">
+      <div>
+        <h2>CONSTRUIR, VALIDAR E <span>ELEVAR A QUALIDADE</span></h2>
+        <p>Uma progress&atilde;o objetiva: consolidar a base, ampliar demonstra&ccedil;&otilde;es e aumentar a confiabilidade das entregas.</p>
+      </div>
+      <div class="roadmap-code">rota://produto-web-2026</div>
+    </div>
+
+    <div class="roadmap-grid">
+      <article class="roadmap-card phase-complete" data-phase="01">
+        <div class="phase-top"><span class="phase-label">Funda&ccedil;&atilde;o t&eacute;cnica</span><span class="phase-status">Conclu&iacute;da</span></div>
+        <h3>Base consolidada</h3>
+        <p>Projetos organizados com interface, regras de neg&oacute;cio, dados e publica&ccedil;&atilde;o.</p>
+        <div class="phase-deliverables"><span>Web + APIs</span><span>Banco e autentica&ccedil;&atilde;o</span><span>Integra&ccedil;&atilde;o cont&iacute;nua</span></div>
+      </article>
+
+      <article class="roadmap-card phase-current" data-phase="02">
+        <div class="phase-top"><span class="phase-label">Demonstra&ccedil;&otilde;es e dados</span><span class="phase-status">Em andamento</span></div>
+        <h3>Opera&ccedil;&atilde;o vis&iacute;vel</h3>
+        <p>Colocar experi&ecirc;ncias online, conectar dados reais e consolidar TypeScript.</p>
+        <div class="phase-deliverables"><span>Demonstra&ccedil;&otilde;es p&uacute;blicas</span><span>Dados reais</span><span>TypeScript consolidado</span></div>
+      </article>
+
+      <article class="roadmap-card phase-next" data-phase="03">
+        <div class="phase-top"><span class="phase-label">Qualidade em escala</span><span class="phase-status">Pr&oacute;xima etapa</span></div>
+        <h3>Entrega confi&aacute;vel</h3>
+        <p>Expandir testes, observa&ccedil;&atilde;o operacional e padr&otilde;es reutiliz&aacute;veis.</p>
+        <div class="phase-deliverables"><span>Cobertura de testes</span><span>Observabilidade</span><span>Padr&otilde;es reutiliz&aacute;veis</span></div>
+      </article>
+    </div>
+
+    <div class="roadmap-loop"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> MEDIR E EVOLUIR</span></div>
+  </section>
+
+  <section class="dashboard roadmap-mobile" id="roadmap-mobile" aria-label="Rota de evolu&ccedil;&atilde;o profissional para celular">
+    <div class="topline">
+      <div class="system-id">KENJI.OS // EVOLU&Ccedil;&Atilde;O</div>
+      <div class="live-status"><span class="live-dot"></span>ATIVA</div>
+    </div>
+
+    <div class="roadmap-heading">
+      <div>
+        <h2>CONSTRUIR, VALIDAR E <span>ELEVAR A QUALIDADE</span></h2>
+        <p>Base s&oacute;lida, demonstra&ccedil;&otilde;es vis&iacute;veis e entregas mais confi&aacute;veis.</p>
+      </div>
+    </div>
+
+    <div class="roadmap-grid">
+      <article class="roadmap-card phase-complete" data-phase="01">
+        <div class="phase-top"><span class="phase-label">Funda&ccedil;&atilde;o t&eacute;cnica</span><span class="phase-status">Conclu&iacute;da</span></div>
+        <h3>Base consolidada</h3>
+        <p>Interface, regras, dados e publica&ccedil;&atilde;o organizados.</p>
+        <div class="phase-deliverables"><span>Web + APIs</span><span>Autentica&ccedil;&atilde;o</span><span>Dados</span><span>Integra&ccedil;&atilde;o cont&iacute;nua</span></div>
+      </article>
+
+      <article class="roadmap-card phase-current" data-phase="02">
+        <div class="phase-top"><span class="phase-label">Demonstra&ccedil;&otilde;es e dados</span><span class="phase-status">Em andamento</span></div>
+        <h3>Opera&ccedil;&atilde;o vis&iacute;vel</h3>
+        <p>Experi&ecirc;ncias online, dados reais e TypeScript consolidado.</p>
+        <div class="phase-deliverables"><span>Demonstra&ccedil;&otilde;es</span><span>Dados reais</span><span>TypeScript</span><span>Publica&ccedil;&atilde;o</span></div>
+      </article>
+
+      <article class="roadmap-card phase-next" data-phase="03">
+        <div class="phase-top"><span class="phase-label">Qualidade em escala</span><span class="phase-status">Pr&oacute;xima etapa</span></div>
+        <h3>Entrega confi&aacute;vel</h3>
+        <p>Testes, observa&ccedil;&atilde;o operacional e padr&otilde;es reutiliz&aacute;veis.</p>
+        <div class="phase-deliverables"><span>Testes</span><span>Observabilidade</span><span>Padr&otilde;es</span><span>Confiabilidade</span></div>
+      </article>
+    </div>
+
+    <div class="roadmap-loop"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> EVOLUIR</span></div>
   </section>
 </body>
 </html>
