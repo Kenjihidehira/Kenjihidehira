@@ -10,6 +10,18 @@
 
 </div>
 
+<div align="center">
+
+<a href="#sobre"><img src="https://img.shields.io/badge/SOBRE_MIM-0F172A?style=flat-square" alt="Ir para sobre mim"></a>
+<a href="#stack"><img src="https://img.shields.io/badge/STACK-1E3A8A?style=flat-square" alt="Ir para stack"></a>
+<a href="#visao"><img src="https://img.shields.io/badge/VIS%C3%83O-0EA5E9?style=flat-square" alt="Ir para vis&atilde;o do portf&oacute;lio"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos"></a>
+<a href="#objetivos"><img src="https://img.shields.io/badge/OBJETIVOS-F97316?style=flat-square" alt="Ir para objetivos"></a>
+
+</div>
+
+<a id="sobre"></a>
+
 ---
 
 ## :man_technologist: Sobre mim
@@ -19,8 +31,8 @@ const kenji = {
   nome: "Wesley Kenji Ito Hidehira",
   local: "Douradina, PR - Brasil",
   papel: "Desenvolvedor web",
-  foco: ["JavaScript", "Node.js", "PHP"],
-  construindo: ["Sistemas web", "APIs REST", "Interfaces"],
+  foco: ["JavaScript", "TypeScript", "Node.js", "PHP"],
+  construindo: ["Sistemas web", "APIs REST", "Automacoes"],
   objetivo: "criar produtos web com valor real"
 };
 ```
@@ -30,6 +42,8 @@ const kenji = {
 - :dart: Foco em projetos claros, funcionais e organizados para evoluir.
 - :round_pushpin: Douradina, Paran&aacute; - Brasil.
 
+<a id="stack"></a>
+
 ---
 
 ## :rocket: Stack e tecnologias
@@ -38,6 +52,7 @@ const kenji = {
 
 <div>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=ffffff" alt="Node.js">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=ffffff" alt="PHP">
   <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&amp;logo=express&amp;logoColor=ffffff" alt="Express">
@@ -52,14 +67,24 @@ const kenji = {
   <img src="https://img.shields.io/badge/Responsividade-0EA5E9?style=for-the-badge" alt="Responsividade">
 </div>
 
-### :gear: Ferramentas e integra&ccedil;&otilde;es
+### :shield: Dados e qualidade
+
+<div>
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&amp;logo=supabase&amp;logoColor=ffffff" alt="Supabase">
+  <img src="https://img.shields.io/badge/Autentica%C3%A7%C3%A3o-7C3AED?style=for-the-badge" alt="Autentica&ccedil;&atilde;o">
+  <img src="https://img.shields.io/badge/Testes-0F172A?style=for-the-badge" alt="Testes">
+  <img src="https://img.shields.io/badge/Integra%C3%A7%C3%A3o_cont%C3%ADnua-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=ffffff" alt="Integra&ccedil;&atilde;o cont&iacute;nua">
+</div>
+
+### :gear: Ferramentas
 
 <div>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="GitHub">
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=ffffff" alt="Visual Studio Code">
   <img src="https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&amp;logo=npm&amp;logoColor=ffffff" alt="NPM">
-  <img src="https://img.shields.io/badge/APIs_REST-2563EB?style=for-the-badge" alt="APIs REST">
 </div>
+
+<a id="visao"></a>
 
 ---
 
@@ -87,33 +112,49 @@ const kenji = {
   </tr>
 </table>
 
+<a id="projetos"></a>
+
 ---
 
 ## :pushpin: Projetos em destaque
 
-### :package: [ERP Estoque Node](https://github.com/Kenjihidehira/erp-estoque-node)
+<p align="center"><strong>Seis sistemas orientados a problemas reais de opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento.</strong></p>
 
-Sistema de estoque com produtos, movimenta&ccedil;&otilde;es, indicadores, API REST e testes.
+### :office: [Controle Patrimonial](https://github.com/Kenjihidehira/patrimonio-ops-control)
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=ffffff" alt="Node.js"> <img src="https://img.shields.io/badge/API_REST-2563EB?style=flat-square" alt="API REST"> <img src="https://img.shields.io/badge/Testes-0F172A?style=flat-square" alt="Testes">
+Sistema de controle patrimonial por n&uacute;cleo com autentica&ccedil;&atilde;o, Supabase, auditoria, integra&ccedil;&atilde;o cont&iacute;nua e publica&ccedil;&atilde;o.
 
-### :headphones: [Sistema de Chamados Node](https://github.com/Kenjihidehira/helpdesk-node-fullstack)
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript"> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&amp;logo=supabase&amp;logoColor=ffffff" alt="Supabase"> <img src="https://img.shields.io/badge/Autentica%C3%A7%C3%A3o-7C3AED?style=flat-square" alt="Autentica&ccedil;&atilde;o">
 
-Atendimento com filas, prioridades, acompanhamento de status e painel operacional.
+### :moneybag: [CobreFlow | Opera&ccedil;&otilde;es Financeiras](https://github.com/Kenjihidehira/cobreflow-finance-ops)
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=ffffff" alt="Node.js"> <img src="https://img.shields.io/badge/Aplica%C3%A7%C3%A3o_completa-7C3AED?style=flat-square" alt="Aplica&ccedil;&atilde;o completa"> <img src="https://img.shields.io/badge/Opera%C3%A7%C3%B5es-F97316?style=flat-square" alt="Opera&ccedil;&otilde;es">
+Painel financeiro para concilia&ccedil;&atilde;o de receb&iacute;veis, cobran&ccedil;a ativa e automa&ccedil;&otilde;es comerciais.
 
-### :chart_with_upwards_trend: [Painel de Vendas Pro](https://github.com/Kenjihidehira/dashboard-vendas-pro)
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Financeiro-1E3A8A?style=flat-square" alt="Financeiro"> <img src="https://img.shields.io/badge/Automa%C3%A7%C3%B5es-7C3AED?style=flat-square" alt="Automa&ccedil;&otilde;es">
 
-Painel comercial com indicadores, filtros, metas e leitura r&aacute;pida de desempenho.
+### :wrench: [FieldOps | Controle de Margem](https://github.com/Kenjihidehira/fieldops-margin-control)
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Painel-0EA5E9?style=flat-square" alt="Painel"> <img src="https://img.shields.io/badge/Vendas-22C55E?style=flat-square" alt="Vendas">
+Painel em PHP e TypeScript para margem de servi&ccedil;os de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.
 
-### :handshake: [CRM de Funil Comercial](https://github.com/Kenjihidehira/crm-pipeline-js)
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&amp;logo=php&amp;logoColor=ffffff" alt="PHP"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript"> <img src="https://img.shields.io/badge/SLA-F97316?style=flat-square" alt="SLA">
 
-Funil comercial com oportunidades, etapas, valores e acompanhamento de convers&atilde;o.
+### :chart_with_upwards_trend: [LeadOps | Atribui&ccedil;&atilde;o de Campanhas](https://github.com/Kenjihidehira/leadops-campaign-attribution)
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/CRM-7C3AED?style=flat-square" alt="CRM"> <img src="https://img.shields.io/badge/Funil-F97316?style=flat-square" alt="Funil">
+Painel de atribui&ccedil;&atilde;o de campanhas, pontua&ccedil;&atilde;o de leads, retorno sobre investimento e automa&ccedil;&otilde;es comerciais.
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Retorno_sobre_investimento-22C55E?style=flat-square" alt="Retorno sobre investimento"> <img src="https://img.shields.io/badge/Automa%C3%A7%C3%B5es-7C3AED?style=flat-square" alt="Automa&ccedil;&otilde;es">
+
+### :arrows_counterclockwise: [ReturnOps | Central de RMA](https://github.com/Kenjihidehira/returnops-rma-command-center)
+
+Central de RMA para devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o de estoque e controle de SLA.
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/RMA-0EA5E9?style=flat-square" alt="RMA"> <img src="https://img.shields.io/badge/SLA-F97316?style=flat-square" alt="SLA">
+
+### :calendar: [ServiceHub | Agenda e CRM](https://github.com/Kenjihidehira/servicehub-agendamentos-crm)
+
+CRM operacional com agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para neg&oacute;cios de servi&ccedil;os.
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/CRM-7C3AED?style=flat-square" alt="CRM"> <img src="https://img.shields.io/badge/Agenda-22C55E?style=flat-square" alt="Agenda">
 
 <br>
 
@@ -123,15 +164,17 @@ Funil comercial com oportunidades, etapas, valores e acompanhamento de convers&a
 
 </div>
 
+<a id="objetivos"></a>
+
 ---
 
 ## :dart: Objetivos atuais
 
-- [x] Construir projetos com JavaScript, Node.js e PHP.
+- [x] Construir projetos com JavaScript, TypeScript, Node.js e PHP.
 - [x] Organizar o portf&oacute;lio e a documenta&ccedil;&atilde;o em portugu&ecirc;s.
-- [ ] Conectar os melhores sistemas a bancos de dados reais.
-- [ ] Adicionar autentica&ccedil;&atilde;o e controle de acesso.
-- [ ] Publicar demonstra&ccedil;&otilde;es online dos projetos principais.
+- [x] Publicar um sistema com banco de dados, autentica&ccedil;&atilde;o e integra&ccedil;&atilde;o cont&iacute;nua.
+- [ ] Publicar demonstra&ccedil;&otilde;es online de mais projetos comerciais.
+- [ ] Consolidar TypeScript e integra&ccedil;&otilde;es com dados reais.
 - [ ] Ampliar testes automatizados e valida&ccedil;&otilde;es.
 
 ---
