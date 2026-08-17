@@ -6,6 +6,14 @@
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/SISTEMAS_WEB-0EA5E9?style=flat-square" alt="Sistemas web">
+<img src="https://img.shields.io/badge/APIs_REST-7C3AED?style=flat-square" alt="APIs REST">
+<img src="https://img.shields.io/badge/AUTOMA%C3%87%C3%95ES-22C55E?style=flat-square" alt="Automa&ccedil;&otilde;es">
+
+</div>
+
+<div align="center">
+
 <a href="https://github.com/Kenjihidehira"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=22&amp;pause=1000&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Ol%C3%A1%2C+eu+sou+o+Kenji+%F0%9F%91%8B;Criando+sistemas+web+e+APIs+%F0%9F%9A%80;Foco+em+JavaScript%2C+Node.js+e+PHP+%E2%9A%A1;Transformando+ideias+em+solu%C3%A7%C3%B5es+reais+%F0%9F%92%BB" alt="Apresenta&ccedil;&atilde;o animada de Kenji Hidehira"></a>
 
 </div>
@@ -108,14 +116,28 @@ const kenji = {
 
 <table width="100%">
   <tr>
-    <td width="50%" align="center"><h3>Sistemas e opera&ccedil;&otilde;es</h3><p>ERP, chamados, produtividade e servi&ccedil;os web.</p></td>
-    <td width="50%" align="center"><h3>APIs e regras</h3><p>Rotas, valida&ccedil;&atilde;o, persist&ecirc;ncia e integra&ccedil;&otilde;es.</p></td>
+    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_01-SISTEMAS-0EA5E9?style=flat-square" alt="Frente 1: sistemas"><h3>Sistemas e opera&ccedil;&otilde;es</h3><p>ERP, chamados, produtividade e servi&ccedil;os web.</p></td>
+    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_02-APIs-7C3AED?style=flat-square" alt="Frente 2: APIs"><h3>APIs e regras</h3><p>Rotas, valida&ccedil;&atilde;o, persist&ecirc;ncia e integra&ccedil;&otilde;es.</p></td>
   </tr>
   <tr>
-    <td width="50%" align="center"><h3>Interfaces e pain&eacute;is</h3><p>Indicadores, filtros, formul&aacute;rios e fluxos responsivos.</p></td>
-    <td width="50%" align="center"><h3>Qualidade e evolu&ccedil;&atilde;o</h3><p>Documenta&ccedil;&atilde;o, testes e melhoria cont&iacute;nua.</p></td>
+    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_03-INTERFACES-2563EB?style=flat-square" alt="Frente 3: interfaces"><h3>Interfaces e pain&eacute;is</h3><p>Indicadores, filtros, formul&aacute;rios e fluxos responsivos.</p></td>
+    <td width="50%" align="center"><img src="https://img.shields.io/badge/FRENTE_04-QUALIDADE-22C55E?style=flat-square" alt="Frente 4: qualidade"><h3>Qualidade e evolu&ccedil;&atilde;o</h3><p>Documenta&ccedil;&atilde;o, testes e melhoria cont&iacute;nua.</p></td>
   </tr>
 </table>
+
+### :repeat: Fluxo de entrega
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/01-ENTENDER-0EA5E9?style=flat-square" alt="Etapa 1: entender">
+&rarr;
+<img src="https://img.shields.io/badge/02-CONSTRUIR-2563EB?style=flat-square" alt="Etapa 2: construir">
+&rarr;
+<img src="https://img.shields.io/badge/03-VALIDAR-7C3AED?style=flat-square" alt="Etapa 3: validar">
+&rarr;
+<img src="https://img.shields.io/badge/04-PUBLICAR-22C55E?style=flat-square" alt="Etapa 4: publicar">
+
+</div>
 
 <a id="projetos"></a>
 
@@ -127,41 +149,62 @@ const kenji = {
 
 <p align="center"><strong>Seis sistemas orientados a problemas reais de opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento.</strong></p>
 
-### :office: [Controle Patrimonial](https://github.com/Kenjihidehira/patrimonio-ops-control)
-
-Sistema de controle patrimonial por n&uacute;cleo com autentica&ccedil;&atilde;o, Supabase, auditoria, integra&ccedil;&atilde;o cont&iacute;nua e publica&ccedil;&atilde;o.
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript"> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&amp;logo=supabase&amp;logoColor=ffffff" alt="Supabase"> <img src="https://img.shields.io/badge/Autentica%C3%A7%C3%A3o-7C3AED?style=flat-square" alt="Autentica&ccedil;&atilde;o">
-
-### :moneybag: [CobreFlow | Opera&ccedil;&otilde;es Financeiras](https://github.com/Kenjihidehira/cobreflow-finance-ops)
-
-Painel financeiro para concilia&ccedil;&atilde;o de receb&iacute;veis, cobran&ccedil;a ativa e automa&ccedil;&otilde;es comerciais.
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Financeiro-1E3A8A?style=flat-square" alt="Financeiro"> <img src="https://img.shields.io/badge/Automa%C3%A7%C3%B5es-7C3AED?style=flat-square" alt="Automa&ccedil;&otilde;es">
-
-### :wrench: [FieldOps | Controle de Margem](https://github.com/Kenjihidehira/fieldops-margin-control)
-
-Painel em PHP e TypeScript para margem de servi&ccedil;os de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.
-
-<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&amp;logo=php&amp;logoColor=ffffff" alt="PHP"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript"> <img src="https://img.shields.io/badge/SLA-F97316?style=flat-square" alt="SLA">
-
-### :chart_with_upwards_trend: [LeadOps | Atribui&ccedil;&atilde;o de Campanhas](https://github.com/Kenjihidehira/leadops-campaign-attribution)
-
-Painel de atribui&ccedil;&atilde;o de campanhas, pontua&ccedil;&atilde;o de leads, retorno sobre investimento e automa&ccedil;&otilde;es comerciais.
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Retorno_sobre_investimento-22C55E?style=flat-square" alt="Retorno sobre investimento"> <img src="https://img.shields.io/badge/Automa%C3%A7%C3%B5es-7C3AED?style=flat-square" alt="Automa&ccedil;&otilde;es">
-
-### :arrows_counterclockwise: [ReturnOps | Central de RMA](https://github.com/Kenjihidehira/returnops-rma-command-center)
-
-Central de RMA para devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o de estoque e controle de SLA.
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/RMA-0EA5E9?style=flat-square" alt="RMA"> <img src="https://img.shields.io/badge/SLA-F97316?style=flat-square" alt="SLA">
-
-### :calendar: [ServiceHub | Agenda e CRM](https://github.com/Kenjihidehira/servicehub-agendamentos-crm)
-
-CRM operacional com agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para neg&oacute;cios de servi&ccedil;os.
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/CRM-7C3AED?style=flat-square" alt="CRM"> <img src="https://img.shields.io/badge/Agenda-22C55E?style=flat-square" alt="Agenda">
+<table width="100%">
+  <tr>
+    <td valign="top">
+      <sub><strong>01 // PATRIM&Ocirc;NIO E AUDITORIA</strong></sub>
+      <h3>:office: <a href="https://github.com/Kenjihidehira/patrimonio-ops-control">Controle Patrimonial</a></h3>
+      <p>Sistema de controle patrimonial por n&uacute;cleo com autentica&ccedil;&atilde;o, Supabase, auditoria, integra&ccedil;&atilde;o cont&iacute;nua e publica&ccedil;&atilde;o.</p>
+      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript"> <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&amp;logo=supabase&amp;logoColor=ffffff" alt="Supabase"> <img src="https://img.shields.io/badge/Autentica%C3%A7%C3%A3o-7C3AED?style=flat-square" alt="Autentica&ccedil;&atilde;o"></p>
+      <p><a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>02 // FINAN&Ccedil;AS E COBRAN&Ccedil;A</strong></sub>
+      <h3>:moneybag: <a href="https://github.com/Kenjihidehira/cobreflow-finance-ops">CobreFlow | Opera&ccedil;&otilde;es Financeiras</a></h3>
+      <p>Painel financeiro para concilia&ccedil;&atilde;o de receb&iacute;veis, cobran&ccedil;a ativa e automa&ccedil;&otilde;es comerciais.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Financeiro-1E3A8A?style=flat-square" alt="Financeiro"> <img src="https://img.shields.io/badge/Automa%C3%A7%C3%B5es-7C3AED?style=flat-square" alt="Automa&ccedil;&otilde;es"></p>
+      <p><a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>03 // CAMPO E MARGEM</strong></sub>
+      <h3>:wrench: <a href="https://github.com/Kenjihidehira/fieldops-margin-control">FieldOps | Controle de Margem</a></h3>
+      <p>Painel em PHP e TypeScript para margem de servi&ccedil;os de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.</p>
+      <p><img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&amp;logo=php&amp;logoColor=ffffff" alt="PHP"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=ffffff" alt="TypeScript"> <img src="https://img.shields.io/badge/SLA-F97316?style=flat-square" alt="SLA"></p>
+      <p><a href="https://github.com/Kenjihidehira/fieldops-margin-control"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>04 // MARKETING E ATRIBUI&Ccedil;&Atilde;O</strong></sub>
+      <h3>:chart_with_upwards_trend: <a href="https://github.com/Kenjihidehira/leadops-campaign-attribution">LeadOps | Atribui&ccedil;&atilde;o de Campanhas</a></h3>
+      <p>Painel de atribui&ccedil;&atilde;o de campanhas, pontua&ccedil;&atilde;o de leads, retorno sobre investimento e automa&ccedil;&otilde;es comerciais.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/Retorno_sobre_investimento-22C55E?style=flat-square" alt="Retorno sobre investimento"> <img src="https://img.shields.io/badge/Automa%C3%A7%C3%B5es-7C3AED?style=flat-square" alt="Automa&ccedil;&otilde;es"></p>
+      <p><a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>05 // DEVOLU&Ccedil;&Otilde;ES E SLA</strong></sub>
+      <h3>:arrows_counterclockwise: <a href="https://github.com/Kenjihidehira/returnops-rma-command-center">ReturnOps | Central de RMA</a></h3>
+      <p>Central de RMA para devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o de estoque e controle de SLA.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/RMA-0EA5E9?style=flat-square" alt="RMA"> <img src="https://img.shields.io/badge/SLA-F97316?style=flat-square" alt="SLA"></p>
+      <p><a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <sub><strong>06 // SERVI&Ccedil;OS E CRM</strong></sub>
+      <h3>:calendar: <a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm">ServiceHub | Agenda e CRM</a></h3>
+      <p>CRM operacional com agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para neg&oacute;cios de servi&ccedil;os.</p>
+      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=000000" alt="JavaScript"> <img src="https://img.shields.io/badge/CRM-7C3AED?style=flat-square" alt="CRM"> <img src="https://img.shields.io/badge/Agenda-22C55E?style=flat-square" alt="Agenda"></p>
+      <p><a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><strong>Abrir reposit&oacute;rio &rarr;</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
