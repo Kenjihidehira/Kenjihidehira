@@ -14,7 +14,6 @@
 
 <a href="#sobre"><img src="https://img.shields.io/badge/SOBRE_MIM-0F172A?style=flat-square" alt="Ir para sobre mim"></a>
 <a href="#stack"><img src="https://img.shields.io/badge/STACK-1E3A8A?style=flat-square" alt="Ir para stack"></a>
-<a href="#visao"><img src="https://img.shields.io/badge/VIS%C3%83O-0EA5E9?style=flat-square" alt="Ir para vis&atilde;o do portf&oacute;lio"></a>
 <a href="#projetos"><img src="https://img.shields.io/badge/PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos"></a>
 <a href="#objetivos"><img src="https://img.shields.io/badge/OBJETIVOS-F97316?style=flat-square" alt="Ir para objetivos"></a>
 
