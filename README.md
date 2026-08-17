@@ -14,7 +14,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=21&amp;pause=900&amp;duration=2600&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=760&amp;lines=%3E+perfil_iniciado%3A+Kenji+Hidehira;%3E+sistemas_web+e+APIs+em+constru%C3%A7%C3%A3o;%3E+automa%C3%A7%C3%B5es+para+opera%C3%A7%C3%B5es+reais;%3E+entregas+orientadas+a+valor" alt="Terminal animado de apresenta&ccedil;&atilde;o de Kenji Hidehira"></a>
+<a href="https://github.com/Kenjihidehira"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=20&amp;pause=900&amp;duration=2400&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=580&amp;lines=%3E+perfil%3A+Kenji+Hidehira;%3E+sistemas+web+em+constru%C3%A7%C3%A3o;%3E+APIs+REST+em+evolu%C3%A7%C3%A3o;%3E+automatizando+processos" alt="Terminal animado de apresenta&ccedil;&atilde;o de Kenji Hidehira"></a>
 
 </div>
 
@@ -40,9 +40,23 @@ const perfil = Object.freeze({
   nome: "Wesley Kenji Ito Hidehira",
   base: "Douradina, PR - Brasil",
   papel: "Desenvolvedor web",
-  especialidades: ["Sistemas web", "APIs REST", "Automacoes"],
-  stack: ["JavaScript", "TypeScript", "Node.js", "PHP"],
-  metodo: "entender -> construir -> validar -> publicar",
+  especialidades: [
+    "Sistemas web",
+    "APIs REST",
+    "Automacoes"
+  ],
+  stack: [
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "PHP"
+  ],
+  metodo: [
+    "entender",
+    "construir",
+    "validar",
+    "publicar"
+  ],
   status: "evolucao continua"
 });
 ```
