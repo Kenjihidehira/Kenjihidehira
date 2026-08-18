@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-mobile.png?v=20260818-2">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-desktop.png?v=20260818-2" alt="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira, desenvolvedor de sistemas web, APIs e automa&ccedil;&otilde;es">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-mobile.png?v=20260818-3">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-desktop.png?v=20260818-3" alt="Apresenta&ccedil;&atilde;o profissional de Kenji Hidehira, desenvolvedor de sistemas web, APIs e automa&ccedil;&otilde;es">
 </picture>
 
 </div>
@@ -11,11 +11,11 @@
 
 <div align="center">
 
-<a href="#visao"><img src="https://img.shields.io/badge/01_VIS%C3%83O-080D16?style=flat-square" alt="Ir para vis&atilde;o profissional"></a>
-<a href="#stack"><img src="https://img.shields.io/badge/02_STACK-6685FF?style=flat-square" alt="Ir para arquitetura t&eacute;cnica"></a>
-<a href="#painel"><img src="https://img.shields.io/badge/03_PAINEL-FF6948?style=flat-square" alt="Ir para painel do portf&oacute;lio"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/04_PROJETOS-080D16?style=flat-square" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
-<a href="#rota"><img src="https://img.shields.io/badge/05_ROTA-6685FF?style=flat-square" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
+<a href="#visao"><img src="https://img.shields.io/badge/01_VIS%C3%83O-080D16?style=for-the-badge" alt="Ir para vis&atilde;o profissional"></a>
+<a href="#stack"><img src="https://img.shields.io/badge/02_STACK-6685FF?style=for-the-badge" alt="Ir para arquitetura t&eacute;cnica"></a>
+<a href="#painel"><img src="https://img.shields.io/badge/03_PAINEL-FF6948?style=for-the-badge" alt="Ir para painel do portf&oacute;lio"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/04_PROJETOS-080D16?style=for-the-badge" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
+<a href="#rota"><img src="https://img.shields.io/badge/05_ROTA-6685FF?style=for-the-badge" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
 
 </div>
 
@@ -46,8 +46,8 @@
 <p align="center"><strong>Interface, aplica&ccedil;&atilde;o, dados e entrega conectados como um &uacute;nico sistema.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-mobile.png?v=20260818-2">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-desktop.png?v=20260818-2" alt="Mapa das camadas t&eacute;cnicas do portf&oacute;lio: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-mobile.png?v=20260818-3">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-desktop.png?v=20260818-3" alt="Mapa das camadas t&eacute;cnicas do portf&oacute;lio: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
 </picture>
 
 <br>
@@ -77,8 +77,8 @@
 <p align="center"><strong>Uma leitura consolidada dos projetos, linguagens e fluxo de entrega.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-mobile.png?v=20260818-2">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-desktop.png?v=20260818-2" alt="Painel geral do portf&oacute;lio com projetos, linguagens e processo de desenvolvimento">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-mobile.png?v=20260818-3">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-desktop.png?v=20260818-3" alt="Painel geral do portf&oacute;lio com projetos, linguagens e processo de desenvolvimento">
 </picture>
 
 <br>
@@ -119,8 +119,8 @@
 <p align="center"><strong>Seis sistemas organizados por problema, entrega central e capacidade t&eacute;cnica.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260818-2">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260818-2" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260818-3">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260818-3" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
 </picture>
 
 <p align="center"><sub>Os bot&otilde;es abaixo abrem diretamente cada reposit&oacute;rio.</sub></p>
@@ -165,8 +165,8 @@
 <p align="center"><strong>Uma progress&atilde;o objetiva entre base t&eacute;cnica, demonstra&ccedil;&otilde;es e qualidade.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-mobile.png?v=20260818-2">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-desktop.png?v=20260818-2" alt="Rota de evolu&ccedil;&atilde;o com funda&ccedil;&atilde;o conclu&iacute;da, demonstra&ccedil;&otilde;es em andamento e qualidade em escala">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-mobile.png?v=20260818-3">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-desktop.png?v=20260818-3" alt="Rota de evolu&ccedil;&atilde;o com funda&ccedil;&atilde;o conclu&iacute;da, demonstra&ccedil;&otilde;es em andamento e qualidade em escala">
 </picture>
 
 <a id="contato"></a>
@@ -192,6 +192,6 @@
 
 <div align="center">
 
-<sub><strong>WKH / PORTF&Oacute;LIO // SISTEMAS REAIS // APRENDIZADO CONT&Iacute;NUO // ENTREGA COM PROP&Oacute;SITO</strong></sub>
+<sub><strong>KH / PORTF&Oacute;LIO // SISTEMAS REAIS // APRENDIZADO CONT&Iacute;NUO // ENTREGA COM PROP&Oacute;SITO</strong></sub>
 
 </div>
