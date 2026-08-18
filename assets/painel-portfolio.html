@@ -3,19 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wesley Kenji Hidehira — Portfólio editorial</title>
+  <title>Wesley Kenji Hidehira — Portfólio editorial dark</title>
   <style>
     :root {
-      --paper: #f4f0e7;
-      --paper-2: #e9e4d8;
-      --ink: #10131a;
-      --muted: #62656d;
-      --line: #b8b4aa;
-      --blue: #2449e8;
-      --blue-dark: #1631a9;
-      --orange: #ff5b35;
-      --lime: #c9f04b;
-      --white: #fffdf8;
+      --paper: #080d16;
+      --paper-2: #151d2b;
+      --ink: #e8edf7;
+      --muted: #9ba7ba;
+      --line: #354158;
+      --blue: #6685ff;
+      --blue-dark: #2948d9;
+      --orange: #ff6948;
+      --lime: #c7f24b;
+      --white: #fffaf2;
+      --surface: #0f1623;
+      --surface-2: #141d2d;
+      --deep: #050810;
     }
 
     * { box-sizing: border-box; }
@@ -23,7 +26,7 @@
     html, body {
       margin: 0;
       min-height: 100%;
-      background: #d8d4ca;
+      background: #03060b;
       color: var(--ink);
       font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
@@ -39,12 +42,12 @@
       position: relative;
       overflow: hidden;
       background:
-        linear-gradient(rgba(16, 19, 26, .035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(16, 19, 26, .035) 1px, transparent 1px),
+        linear-gradient(rgba(142, 160, 196, .075) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(142, 160, 196, .075) 1px, transparent 1px),
         var(--paper);
       background-size: 28px 28px;
       border: 1px solid var(--ink);
-      box-shadow: 10px 10px 0 rgba(16, 19, 26, .18);
+      box-shadow: 10px 10px 0 rgba(31, 60, 130, .24);
       isolation: isolate;
     }
 
@@ -67,7 +70,7 @@
       display: flex;
       align-items: stretch;
       border-bottom: 1px solid var(--ink);
-      background: rgba(244, 240, 231, .96);
+      background: rgba(8, 13, 22, .96);
     }
 
     .brand {
@@ -87,7 +90,7 @@
       display: grid;
       place-items: center;
       color: var(--white);
-      background: var(--ink);
+      background: var(--blue);
       font-size: 10px;
       letter-spacing: 0;
     }
@@ -150,7 +153,7 @@
 
     .lede {
       margin: 0;
-      color: #353940;
+      color: var(--muted);
       font-size: 17px;
       line-height: 1.45;
     }
@@ -166,7 +169,7 @@
       padding: 0 9px;
       border: 1px solid var(--ink);
       color: var(--ink);
-      background: var(--white);
+      background: var(--surface-2);
       font: 800 10px/1 "Cascadia Code", Consolas, monospace;
       letter-spacing: .05em;
       text-transform: uppercase;
@@ -174,8 +177,8 @@
 
     .tag.blue { color: var(--white); background: var(--blue); border-color: var(--blue); }
     .tag.orange { color: var(--white); background: var(--orange); border-color: var(--orange); }
-    .tag.ink { color: var(--white); background: var(--ink); }
-    .tag.lime { background: var(--lime); }
+    .tag.ink { color: var(--ink); background: var(--deep); border-color: var(--line); }
+    .tag.lime { color: var(--deep); background: var(--lime); }
 
     .rule {
       height: 1px;
@@ -187,7 +190,7 @@
       right: 24px;
       bottom: 18px;
       z-index: -1;
-      color: rgba(16, 19, 26, .045);
+      color: rgba(232, 237, 247, .045);
       font-size: 170px;
       font-weight: 950;
       line-height: .8;
@@ -252,7 +255,7 @@
     .hero-side {
       display: grid;
       grid-template-rows: 1fr 132px;
-      background: var(--white);
+      background: var(--surface);
     }
 
     .hero-brief {
@@ -366,7 +369,7 @@
       margin-top: 24px;
       padding: 21px;
       border: 1px solid var(--ink);
-      background: var(--white);
+      background: var(--surface);
     }
 
     .mobile .hero-brief h2 {
@@ -435,7 +438,7 @@
       padding: 23px 21px 18px;
       overflow: hidden;
       border-right: 1px solid var(--ink);
-      background: rgba(255, 253, 248, .88);
+      background: var(--surface);
     }
 
     .layer:last-child { border-right: 0; }
@@ -454,7 +457,7 @@
       position: absolute;
       right: 12px;
       top: 19px;
-      color: rgba(16, 19, 26, .08);
+      color: rgba(232, 237, 247, .09);
       font-size: 73px;
       font-weight: 950;
       line-height: 1;
@@ -548,7 +551,7 @@
       min-height: 102px;
       padding: 16px 18px;
       border-right: 1px solid var(--ink);
-      background: var(--white);
+      background: var(--surface);
     }
 
     .metric:last-child { border-right: 0; }
@@ -579,7 +582,7 @@
 
     .data-card {
       border: 1px solid var(--ink);
-      background: rgba(255, 253, 248, .91);
+      background: var(--surface);
     }
 
     .data-title {
@@ -664,8 +667,8 @@
       align-items: stretch;
       margin: 19px 38px 0;
       border: 1px solid var(--ink);
-      background: var(--ink);
-      color: var(--white);
+      background: var(--deep);
+      color: var(--ink);
     }
 
     .process-label {
@@ -750,8 +753,8 @@
       border-right: 1px solid var(--ink);
       border-bottom: 1px solid var(--ink);
       border-left: 1px solid var(--ink);
-      background: var(--ink);
-      color: var(--white);
+      background: var(--deep);
+      color: var(--ink);
     }
 
     .flagship-main {
@@ -849,7 +852,7 @@
       overflow: hidden;
       border-right: 1px solid var(--ink);
       border-bottom: 1px solid var(--ink);
-      background: rgba(255,253,248,.93);
+      background: var(--surface);
     }
 
     .project-card:nth-child(4),
@@ -1018,7 +1021,7 @@
       min-height: 260px;
       padding: 25px 23px 20px;
       border: 1px solid var(--ink);
-      background: var(--white);
+      background: var(--surface);
     }
 
     .phase::before {
@@ -1124,6 +1127,30 @@
     .mobile .phase p { min-height: 0; margin-bottom: 11px; font-size: 12px; }
     .mobile .phase li { font-size: 9px; }
     .mobile .road-foot { margin: 14px 0 0 30px; font-size: 8px; }
+
+    /* DARK EDITORIAL / ACENTOS RECALIBRADOS */
+    .layer:nth-child(1) { --accent: var(--blue) !important; }
+    .layer:nth-child(2) { --accent: var(--orange) !important; }
+    .layer:nth-child(3) { --accent: var(--ink) !important; }
+    .layer:nth-child(4) { --accent: var(--lime) !important; }
+
+    .bar-row:nth-child(1), .index-item:nth-child(1) { --color: var(--blue) !important; }
+    .bar-row:nth-child(2), .index-item:nth-child(2) { --color: var(--orange) !important; }
+    .bar-row:nth-child(3), .index-item:nth-child(3) { --color: var(--ink) !important; }
+    .bar-row:nth-child(4), .index-item:nth-child(4) { --color: var(--lime) !important; }
+    .bar-row:nth-child(5), .index-item:nth-child(5) { --color: #9a7cff !important; }
+    .bar-row:nth-child(6) { --color: #d8977b !important; }
+    .index-item:nth-child(6) { --color: #2fd7aa !important; }
+
+    .project-card:nth-child(1) { --color: var(--orange) !important; }
+    .project-card:nth-child(2) { --color: var(--ink) !important; }
+    .project-card:nth-child(3) { --color: var(--lime) !important; }
+    .project-card:nth-child(4) { --color: #9a7cff !important; }
+    .project-card:nth-child(5) { --color: #2fd7aa !important; }
+
+    .phase:nth-child(1) { --status: var(--lime) !important; }
+    .phase:nth-child(2) { --status: var(--orange) !important; }
+    .phase:nth-child(3) { --status: var(--blue) !important; }
   </style>
 </head>
 <body>
