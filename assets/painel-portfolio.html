@@ -3,21 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Painel visual do portf&oacute;lio</title>
+  <title>Wesley Kenji Hidehira — Portfólio editorial</title>
   <style>
     :root {
-      color-scheme: dark;
-      --bg: #020617;
-      --surface: rgba(15, 23, 42, 0.84);
-      --surface-strong: rgba(20, 30, 56, 0.96);
-      --line: rgba(148, 163, 184, 0.18);
-      --cyan: #22d3ee;
-      --blue: #3b82f6;
-      --purple: #8b5cf6;
-      --green: #22c55e;
-      --orange: #f97316;
-      --text: #f8fafc;
-      --muted: #94a3b8;
+      --paper: #f4f0e7;
+      --paper-2: #e9e4d8;
+      --ink: #10131a;
+      --muted: #62656d;
+      --line: #b8b4aa;
+      --blue: #2449e8;
+      --blue-dark: #1631a9;
+      --orange: #ff5b35;
+      --lime: #c9f04b;
+      --white: #fffdf8;
     }
 
     * { box-sizing: border-box; }
@@ -25,2477 +23,1399 @@
     html, body {
       margin: 0;
       min-height: 100%;
-      background: transparent;
-      font-family: "Segoe UI", Arial, sans-serif;
+      background: #d8d4ca;
+      color: var(--ink);
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
     }
 
     body {
       display: grid;
-      gap: 48px;
-      place-items: start;
-      padding: 0;
-    }
-
-    .dashboard {
-      position: relative;
-      isolation: isolate;
-      overflow: hidden;
-      color: var(--text);
-      border: 1px solid rgba(103, 232, 249, 0.28);
-      border-radius: 30px;
-      background:
-        radial-gradient(circle at 8% 0%, rgba(34, 211, 238, 0.18), transparent 30%),
-        radial-gradient(circle at 95% 5%, rgba(139, 92, 246, 0.22), transparent 34%),
-        linear-gradient(135deg, #020617 0%, #0b1228 52%, #160c32 100%);
-      box-shadow:
-        inset 0 1px 0 rgba(255, 255, 255, 0.06),
-        0 32px 90px rgba(2, 6, 23, 0.56);
-    }
-
-    .dashboard::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      z-index: -2;
-      opacity: 0.25;
-      background-image:
-        linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
-      background-size: 38px 38px;
-      mask-image: linear-gradient(to bottom, black, transparent 88%);
-    }
-
-    .dashboard::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      z-index: -1;
-      pointer-events: none;
-      background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.07), transparent);
-      transform: translateX(-70%);
-    }
-
-    .desktop-dashboard {
-      width: 1400px;
-      height: 760px;
-      padding: 46px 52px 38px;
-    }
-
-    .mobile-dashboard {
-      width: 540px;
-      height: 1360px;
-      padding: 42px 38px 32px;
-    }
-
-    .topline {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      margin-bottom: 22px;
-    }
-
-    .system-id {
-      color: var(--cyan);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-    }
-
-    .live-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 9px 14px;
-      color: #bbf7d0;
-      border: 1px solid rgba(34, 197, 94, 0.32);
-      border-radius: 999px;
-      background: rgba(34, 197, 94, 0.1);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-    }
-
-    .live-dot {
-      width: 9px;
-      height: 9px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 18px rgba(34, 197, 94, 0.92);
-    }
-
-    .hero-row {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 34px;
-      margin-bottom: 28px;
-    }
-
-    .hero-copy h1 {
-      margin: 0;
-      font-size: 52px;
-      line-height: 0.98;
-      letter-spacing: -0.045em;
-    }
-
-    .hero-copy h1 span {
-      color: var(--cyan);
-      text-shadow: 0 0 28px rgba(34, 211, 238, 0.32);
-    }
-
-    .hero-copy p {
-      max-width: 760px;
-      margin: 14px 0 0;
-      color: #cbd5e1;
-      font-size: 18px;
-      line-height: 1.45;
-    }
-
-    .build-tag {
-      flex: 0 0 auto;
-      padding: 12px 16px;
-      color: #ddd6fe;
-      border: 1px solid rgba(139, 92, 246, 0.32);
-      border-radius: 12px;
-      background: rgba(139, 92, 246, 0.1);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 13px;
-      letter-spacing: 0.08em;
-    }
-
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 14px;
-      margin-bottom: 22px;
-    }
-
-    .metric {
-      min-height: 98px;
-      padding: 17px 18px;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      background: linear-gradient(145deg, rgba(30, 41, 59, 0.82), rgba(15, 23, 42, 0.72));
-    }
-
-    .metric-value {
-      display: block;
-      margin-bottom: 6px;
-      color: var(--text);
-      font-size: 29px;
-      font-weight: 850;
-      line-height: 1;
-    }
-
-    .metric:nth-child(1) .metric-value { color: #c4b5fd; }
-    .metric:nth-child(2) .metric-value { color: #67e8f9; }
-    .metric:nth-child(3) .metric-value { color: #93c5fd; }
-    .metric:nth-child(4) .metric-value { color: #86efac; }
-
-    .metric-label {
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 750;
-      letter-spacing: 0.1em;
-      line-height: 1.35;
-      text-transform: uppercase;
-    }
-
-    .content-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-      gap: 16px;
+      justify-content: center;
+      gap: 42px;
+      padding: 42px;
     }
 
     .panel {
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: rgba(8, 15, 34, 0.7);
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(rgba(16, 19, 26, .035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(16, 19, 26, .035) 1px, transparent 1px),
+        var(--paper);
+      background-size: 28px 28px;
+      border: 1px solid var(--ink);
+      box-shadow: 10px 10px 0 rgba(16, 19, 26, .18);
+      isolation: isolate;
     }
 
-    .panel-title {
+    .desktop { width: 1400px; }
+    .mobile { width: 540px; }
+
+    #identity-desktop { height: 540px; }
+    #identity-mobile { height: 790px; }
+    #stack-desktop { height: 540px; }
+    #stack-mobile { height: 1040px; }
+    #dashboard-desktop { height: 660px; }
+    #dashboard-mobile { height: 1060px; }
+    #showcase-desktop { height: 1040px; }
+    #showcase-mobile { height: 1740px; }
+    #roadmap-desktop { height: 570px; }
+    #roadmap-mobile { height: 990px; }
+
+    .masthead {
+      height: 54px;
+      display: flex;
+      align-items: stretch;
+      border-bottom: 1px solid var(--ink);
+      background: rgba(244, 240, 231, .96);
+    }
+
+    .brand {
+      width: 250px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 14px;
-      color: #e2e8f0;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 13px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .panel-title small {
-      color: var(--cyan);
-      font-size: 10px;
-      letter-spacing: 0.08em;
-    }
-
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 9px;
-    }
-
-    .project {
-      display: grid;
-      grid-template-columns: 36px minmax(0, 1fr);
-      gap: 11px;
-      align-items: center;
-      min-height: 72px;
-      padding: 11px 12px;
-      border: 1px solid rgba(148, 163, 184, 0.13);
-      border-radius: 12px;
-      background: rgba(15, 23, 42, 0.66);
-    }
-
-    .project-index {
-      display: grid;
-      width: 34px;
-      height: 34px;
-      place-items: center;
-      color: var(--cyan);
-      border: 1px solid rgba(34, 211, 238, 0.22);
-      border-radius: 9px;
-      background: rgba(34, 211, 238, 0.07);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 11px;
-      font-weight: 800;
-    }
-
-    .project strong {
-      display: block;
-      overflow: hidden;
-      color: #f8fafc;
-      font-size: 14px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    .project span {
-      display: block;
-      margin-top: 4px;
-      overflow: hidden;
-      color: var(--muted);
-      font-size: 10px;
-      letter-spacing: 0.04em;
-      text-overflow: ellipsis;
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-
-    .language-list {
-      display: grid;
-      gap: 9px;
-    }
-
-    .language-row {
-      display: grid;
-      grid-template-columns: 108px 1fr 50px;
-      gap: 10px;
-      align-items: center;
-      min-height: 31px;
-    }
-
-    .language-name,
-    .language-value {
-      color: #cbd5e1;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 11px;
-      font-weight: 700;
-    }
-
-    .language-value {
-      color: #f8fafc;
-      text-align: right;
-    }
-
-    .track {
-      height: 8px;
-      overflow: hidden;
-      border-radius: 999px;
-      background: rgba(148, 163, 184, 0.12);
-    }
-
-    .fill {
-      display: block;
-      height: 100%;
-      border-radius: inherit;
-      box-shadow: 0 0 16px currentColor;
-    }
-
-    .ts { width: 100%; color: #60a5fa; background: #3178c6; }
-    .js { width: 56%; color: #fde047; background: #f7df1e; }
-    .css { width: 50%; color: #38bdf8; background: #1572b6; }
-    .sql { width: 47%; color: #93c5fd; background: #336791; }
-    .html { width: 8%; min-width: 8px; color: #fb923c; background: #e34f26; }
-    .php { width: 3%; min-width: 7px; color: #c4b5fd; background: #777bb4; }
-
-    .pipeline {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 9px;
-      margin-top: 16px;
-    }
-
-    .pipeline-step {
-      position: relative;
-      padding: 10px 12px;
-      color: #cbd5e1;
-      border: 1px solid rgba(148, 163, 184, 0.14);
-      border-radius: 11px;
-      background: rgba(15, 23, 42, 0.68);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-      text-align: center;
-    }
-
-    .pipeline-step b { color: var(--cyan); }
-
-    .mobile-dashboard .topline { margin-bottom: 26px; }
-    .mobile-dashboard .system-id { font-size: 15px; }
-    .mobile-dashboard .live-status { padding: 10px 13px; font-size: 13px; }
-
-    .mobile-dashboard .hero-row {
-      display: block;
-      margin-bottom: 28px;
-    }
-
-    .mobile-dashboard .hero-copy h1 {
-      max-width: 600px;
-      font-size: 44px;
-      line-height: 1.02;
-    }
-
-    .mobile-dashboard .hero-copy p {
-      margin-top: 14px;
-      font-size: 18px;
-    }
-
-    .mobile-dashboard .build-tag {
-      display: inline-block;
-      margin-top: 18px;
-      font-size: 14px;
-    }
-
-    .mobile-dashboard .metrics {
-      grid-template-columns: repeat(2, 1fr);
       gap: 12px;
+      padding: 0 22px;
+      border-right: 1px solid var(--ink);
+      font: 800 13px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .13em;
+    }
+
+    .brand-mark {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--ink);
+      font-size: 10px;
+      letter-spacing: 0;
+    }
+
+    .edition {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      padding: 0 22px;
+      margin-left: auto;
+      font: 700 11px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .signal {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .signal::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--lime);
+      border: 1px solid var(--ink);
+    }
+
+    .section-no {
+      color: var(--blue);
+      font: 900 16px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: -.05em;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--blue);
+      font: 800 12px/1.2 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .display {
+      margin: 0;
+      font-size: 58px;
+      line-height: .94;
+      letter-spacing: -.065em;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: 44px;
+      line-height: .98;
+      letter-spacing: -.055em;
+      text-transform: uppercase;
+    }
+
+    .lede {
+      margin: 0;
+      color: #353940;
+      font-size: 17px;
+      line-height: 1.45;
+    }
+
+    .mono {
+      font-family: "Cascadia Code", Consolas, monospace;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 26px;
+      padding: 0 9px;
+      border: 1px solid var(--ink);
+      color: var(--ink);
+      background: var(--white);
+      font: 800 10px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+
+    .tag.blue { color: var(--white); background: var(--blue); border-color: var(--blue); }
+    .tag.orange { color: var(--white); background: var(--orange); border-color: var(--orange); }
+    .tag.ink { color: var(--white); background: var(--ink); }
+    .tag.lime { background: var(--lime); }
+
+    .rule {
+      height: 1px;
+      background: var(--ink);
+    }
+
+    .corner-index {
+      position: absolute;
+      right: 24px;
+      bottom: 18px;
+      z-index: -1;
+      color: rgba(16, 19, 26, .045);
+      font-size: 170px;
+      font-weight: 950;
+      line-height: .8;
+      letter-spacing: -.11em;
+    }
+
+    /* HERO */
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.42fr .78fr;
+      height: 486px;
+    }
+
+    .hero-main {
+      position: relative;
+      padding: 34px 42px 22px;
+      border-right: 1px solid var(--ink);
+    }
+
+    .hero-kicker {
+      display: flex;
+      align-items: center;
+      gap: 14px;
       margin-bottom: 18px;
     }
 
-    .mobile-dashboard .metric {
-      min-height: 104px;
-      padding: 17px 18px;
-    }
-
-    .mobile-dashboard .metric-value { font-size: 31px; }
-    .mobile-dashboard .metric-label { font-size: 13px; }
-
-    .mobile-dashboard .content-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 14px;
-    }
-
-    .mobile-dashboard .panel { padding: 17px; }
-    .mobile-dashboard .panel-title { font-size: 15px; }
-    .mobile-dashboard .panel-title small { font-size: 12px; }
-    .mobile-dashboard .project-grid { gap: 9px; }
-    .mobile-dashboard .project { min-height: 77px; }
-    .mobile-dashboard .project strong { font-size: 15px; }
-    .mobile-dashboard .project span { font-size: 10px; }
-
-    .mobile-dashboard .language-list {
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-
-    .mobile-dashboard .language-row {
-      grid-template-columns: 102px 1fr 52px;
-      gap: 9px;
-    }
-
-    .mobile-dashboard .language-name,
-    .mobile-dashboard .language-value { font-size: 13px; }
-
-    .mobile-dashboard .pipeline {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      margin-top: 15px;
-    }
-
-    .mobile-dashboard .pipeline-step {
-      padding: 11px 10px;
-      font-size: 12px;
-    }
-
-    .stack-desktop {
-      width: 1400px;
-      height: 540px;
-      padding: 42px 52px 36px;
-    }
-
-    .stack-mobile {
-      width: 540px;
-      height: 1040px;
-      padding: 38px 34px 30px;
-    }
-
-    .stack-heading {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 30px;
-      margin-bottom: 26px;
-    }
-
-    .stack-heading h2 {
+    .hero-name {
       margin: 0;
-      font-size: 43px;
-      line-height: 1;
-      letter-spacing: -0.035em;
-    }
-
-    .stack-heading h2 span { color: var(--cyan); }
-
-    .stack-heading p {
-      max-width: 650px;
-      margin: 11px 0 0;
-      color: #cbd5e1;
-      font-size: 16px;
-      line-height: 1.4;
-    }
-
-    .stack-code {
-      padding: 11px 14px;
-      color: #bfdbfe;
-      border: 1px solid rgba(59, 130, 246, 0.28);
-      border-radius: 11px;
-      background: rgba(59, 130, 246, 0.08);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 12px;
-      letter-spacing: 0.07em;
-    }
-
-    .stack-modules {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 13px;
-    }
-
-    .stack-module {
-      position: relative;
-      min-height: 235px;
-      padding: 19px;
-      overflow: hidden;
-      border: 1px solid var(--line);
-      border-radius: 17px;
-      background: linear-gradient(145deg, rgba(24, 35, 62, 0.86), rgba(8, 15, 34, 0.84));
-    }
-
-    .stack-module::after {
-      content: "";
-      position: absolute;
-      inset: auto -20% -55% 25%;
-      height: 140px;
-      border-radius: 50%;
-      filter: blur(36px);
-      opacity: 0.18;
-      background: var(--module-color);
-    }
-
-    .module-interface { --module-color: var(--cyan); }
-    .module-app { --module-color: var(--blue); }
-    .module-data { --module-color: var(--purple); }
-    .module-delivery { --module-color: var(--green); }
-
-    .module-index {
-      display: inline-flex;
-      padding: 6px 9px;
-      color: var(--module-color);
-      border: 1px solid color-mix(in srgb, var(--module-color) 34%, transparent);
-      border-radius: 8px;
-      background: color-mix(in srgb, var(--module-color) 8%, transparent);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.08em;
-    }
-
-    .stack-module h3 {
-      margin: 15px 0 7px;
-      color: #f8fafc;
-      font-size: 21px;
-    }
-
-    .stack-module p {
-      min-height: 36px;
-      margin: 0 0 15px;
-      color: var(--muted);
-      font-size: 11px;
-      line-height: 1.45;
-    }
-
-    .chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 7px;
-    }
-
-    .chip {
-      padding: 7px 9px;
-      color: #e2e8f0;
-      border: 1px solid rgba(148, 163, 184, 0.16);
-      border-radius: 8px;
-      background: rgba(15, 23, 42, 0.84);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 700;
-    }
-
-    .stack-flow {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-      margin-top: 16px;
-    }
-
-    .stack-flow span {
-      padding: 10px;
-      color: #cbd5e1;
-      border-top: 1px solid rgba(34, 211, 238, 0.28);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-      text-align: center;
-    }
-
-    .stack-flow b { color: var(--cyan); }
-
-    .stack-mobile .stack-heading {
-      display: block;
-      margin-bottom: 24px;
-    }
-
-    .stack-mobile .stack-heading h2 {
-      max-width: 430px;
-      font-size: 42px;
-      line-height: 1.05;
-    }
-
-    .stack-mobile .stack-heading p {
-      margin-top: 13px;
-      font-size: 17px;
-    }
-
-    .stack-mobile .stack-code {
-      display: inline-block;
-      margin-top: 16px;
-      font-size: 12px;
-    }
-
-    .stack-mobile .stack-modules {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 11px;
-    }
-
-    .stack-mobile .stack-module {
-      min-height: 270px;
-      padding: 16px;
-    }
-
-    .stack-mobile .stack-module h3 { font-size: 19px; }
-    .stack-mobile .stack-module p { min-height: 49px; font-size: 11px; }
-    .stack-mobile .chip { padding: 6px 8px; font-size: 10px; }
-
-    .stack-mobile .stack-flow {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 8px;
-      margin-top: 14px;
-    }
-
-    .stack-mobile .stack-flow span { font-size: 10px; }
-
-    .showcase-desktop {
-      width: 1400px;
-      height: 850px;
-      padding: 44px 52px 34px;
-    }
-
-    .showcase-mobile {
-      width: 540px;
-      height: 1540px;
-      padding: 38px 32px 28px;
-    }
-
-    .showcase-heading {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 34px;
-      margin-bottom: 20px;
-    }
-
-    .showcase-heading h2 {
-      margin: 0;
-      font-size: 46px;
-      line-height: 1;
-      letter-spacing: -0.045em;
-    }
-
-    .showcase-heading h2 span {
-      color: var(--cyan);
-      text-shadow: 0 0 28px rgba(34, 211, 238, 0.3);
-    }
-
-    .showcase-heading p {
-      max-width: 790px;
-      margin: 12px 0 0;
-      color: #cbd5e1;
-      font-size: 17px;
-      line-height: 1.45;
-    }
-
-    .showcase-counter {
-      flex: 0 0 auto;
-      color: #ddd6fe;
-      font-family: Consolas, "Courier New", monospace;
-      text-align: right;
-    }
-
-    .showcase-counter strong {
-      display: block;
-      color: #f8fafc;
-      font-size: 34px;
-      line-height: 1;
-    }
-
-    .showcase-counter span {
-      display: block;
-      margin-top: 7px;
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 0.14em;
+      font-size: 78px;
+      line-height: .78;
+      letter-spacing: -.075em;
       text-transform: uppercase;
     }
 
-    .showcase-command {
-      display: grid;
-      grid-template-columns: 1.25fr 0.9fr 0.9fr;
-      gap: 10px;
-      margin-bottom: 16px;
+    .hero-name span {
+      display: block;
     }
 
-    .command-cell {
+    .hero-name .middle { color: var(--blue); }
+
+    .hero-name .last {
+      width: max-content;
+      margin-top: 12px;
+      padding: 4px 12px 9px 8px;
+      color: var(--white);
+      background: var(--orange);
+      line-height: .82;
+      transform: translateX(-8px);
+    }
+
+    .hero-position {
+      max-width: 700px;
+      margin: 23px 0 0;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.28;
+      letter-spacing: -.02em;
+    }
+
+    .hero-position strong { color: var(--blue); }
+
+    .hero-side {
+      display: grid;
+      grid-template-rows: 1fr 132px;
+      background: var(--white);
+    }
+
+    .hero-brief {
+      padding: 30px 30px 20px;
+    }
+
+    .hero-brief-label {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--ink);
+      font: 800 11px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .hero-brief h2 {
+      margin: 22px 0 14px;
+      font-size: 31px;
+      line-height: 1;
+      letter-spacing: -.045em;
+      text-transform: uppercase;
+    }
+
+    .hero-brief p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .hero-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .hero-list div {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      min-height: 48px;
-      padding: 11px 15px;
-      color: #94a3b8;
-      border: 1px solid rgba(148, 163, 184, 0.16);
-      border-radius: 12px;
-      background: rgba(8, 15, 34, 0.66);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: 0.1em;
+      gap: 10px;
+      font: 700 12px/1.2 "Cascadia Code", Consolas, monospace;
+    }
+
+    .hero-list div::before {
+      content: "→";
+      color: var(--orange);
+      font-weight: 900;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--ink);
+    }
+
+    .hero-stat {
+      padding: 16px 12px 10px;
+      text-align: center;
+      border-right: 1px solid var(--ink);
+      background: var(--paper);
+    }
+
+    .hero-stat:last-child { border-right: 0; }
+
+    .hero-stat strong {
+      display: block;
+      color: var(--blue);
+      font-size: 26px;
+      line-height: 1;
+      letter-spacing: -.06em;
+    }
+
+    .hero-stat span {
+      display: block;
+      margin-top: 8px;
+      font: 700 9px/1.2 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .08em;
       text-transform: uppercase;
     }
 
-    .command-cell b {
-      color: #e2e8f0;
-      font-size: 12px;
+    .hero-mobile-body {
+      padding: 25px 24px 0;
     }
 
-    .command-cell:first-child b { color: var(--cyan); }
-    .command-cell:nth-child(2) b { color: #c4b5fd; }
-    .command-cell:nth-child(3) b { color: #86efac; }
+    .mobile .masthead { height: 54px; }
+    .mobile .brand { width: auto; flex: 1; padding: 0 16px; }
+    .mobile .edition { margin: 0; padding: 0 16px; border-left: 1px solid var(--ink); }
+    .mobile .edition .hide-mobile { display: none; }
 
-    .featured-grid {
+    .mobile .hero-name {
+      margin-top: 20px;
+      font-size: 61px;
+      line-height: .84;
+    }
+
+    .mobile .hero-name .last {
+      margin-top: 11px;
+      padding: 4px 10px 8px 6px;
+      transform: translateX(-6px);
+    }
+
+    .mobile .hero-position {
+      margin-top: 25px;
+      padding-left: 14px;
+      border-left: 6px solid var(--blue);
+      font-size: 19px;
+    }
+
+    .mobile .hero-brief {
+      margin-top: 24px;
+      padding: 21px;
+      border: 1px solid var(--ink);
+      background: var(--white);
+    }
+
+    .mobile .hero-brief h2 {
+      margin: 17px 0 11px;
+      font-size: 25px;
+    }
+
+    .mobile .hero-brief p { font-size: 14px; }
+    .mobile .hero-list { grid-template-columns: 1fr 1fr; gap: 10px 16px; }
+    .mobile .hero-list div { font-size: 10px; }
+
+    .mobile .hero-stats {
+      position: absolute;
+      right: 24px;
+      bottom: 22px;
+      left: 24px;
+      border: 1px solid var(--ink);
+    }
+
+    .mobile .hero-stat { padding: 14px 7px 10px; }
+    .mobile .hero-stat strong { font-size: 23px; }
+    .mobile .hero-stat span { font-size: 8px; }
+
+    /* STANDARD SECTION HEADER */
+    .section-head {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
+      grid-template-columns: 1.08fr .92fr;
+      align-items: end;
+      gap: 70px;
+      padding: 28px 38px 25px;
+      border-bottom: 1px solid var(--ink);
     }
 
-    .featured-card {
-      --card-accent: var(--cyan);
+    .section-head .lede {
+      padding-left: 20px;
+      border-left: 5px solid var(--orange);
+    }
+
+    .mobile .section-head {
+      display: block;
+      padding: 25px 24px 22px;
+    }
+
+    .mobile .section-title { font-size: 38px; }
+
+    .mobile .section-head .lede {
+      margin-top: 18px;
+      padding-left: 14px;
+      font-size: 14px;
+    }
+
+    /* STACK */
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      margin: 0 38px;
+      border-right: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      border-left: 1px solid var(--ink);
+    }
+
+    .layer {
       position: relative;
-      display: flex;
-      min-height: 248px;
+      min-height: 252px;
+      padding: 23px 21px 18px;
       overflow: hidden;
-      padding: 20px;
-      flex-direction: column;
-      border: 1px solid color-mix(in srgb, var(--card-accent) 28%, transparent);
-      border-radius: 18px;
-      background:
-        linear-gradient(145deg, color-mix(in srgb, var(--card-accent) 9%, transparent), transparent 48%),
-        rgba(8, 15, 34, 0.86);
-      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+      border-right: 1px solid var(--ink);
+      background: rgba(255, 253, 248, .88);
     }
 
-    .featured-card::before {
+    .layer:last-child { border-right: 0; }
+
+    .layer::before {
       content: "";
       position: absolute;
       top: 0;
       right: 0;
       left: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--card-accent), transparent 78%);
-      box-shadow: 0 0 22px color-mix(in srgb, var(--card-accent) 55%, transparent);
+      height: 8px;
+      background: var(--accent);
     }
 
-    .featured-card::after {
-      content: attr(data-index);
+    .layer-no {
       position: absolute;
-      top: 31px;
-      right: 18px;
-      color: color-mix(in srgb, var(--card-accent) 12%, transparent);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 72px;
-      font-weight: 900;
-      line-height: 0.82;
-      pointer-events: none;
+      right: 12px;
+      top: 19px;
+      color: rgba(16, 19, 26, .08);
+      font-size: 73px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: -.1em;
     }
 
-    .card-cyan { --card-accent: #22d3ee; }
-    .card-blue { --card-accent: #3b82f6; }
-    .card-orange { --card-accent: #f97316; }
-    .card-purple { --card-accent: #a78bfa; }
-    .card-sky { --card-accent: #38bdf8; }
-    .card-green { --card-accent: #4ade80; }
-
-    .featured-meta {
+    .layer h3 {
       position: relative;
-      z-index: 1;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 17px;
-    }
-
-    .featured-domain {
-      color: var(--card-accent);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 900;
-      letter-spacing: 0.13em;
-      text-transform: uppercase;
-    }
-
-    .featured-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      color: #86efac;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-    }
-
-    .featured-status::before {
-      content: "";
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: #22c55e;
-      box-shadow: 0 0 12px rgba(34, 197, 94, 0.86);
-    }
-
-    .featured-card h3 {
-      position: relative;
-      z-index: 1;
-      margin: 0;
-      color: #f8fafc;
+      margin: 18px 0 8px;
       font-size: 24px;
-      line-height: 1.05;
-      letter-spacing: -0.025em;
+      line-height: 1;
+      letter-spacing: -.04em;
+      text-transform: uppercase;
     }
 
-    .featured-card p {
+    .layer p {
       position: relative;
-      z-index: 1;
-      min-height: 44px;
-      margin: 11px 0 16px;
-      color: #aab8cc;
+      min-height: 46px;
+      margin: 0 0 16px;
+      color: var(--muted);
       font-size: 13px;
-      line-height: 1.45;
+      line-height: 1.35;
     }
 
-    .featured-tech {
+    .layer-tags {
       position: relative;
-      z-index: 1;
       display: flex;
-      gap: 7px;
       flex-wrap: wrap;
-      margin-top: auto;
+      gap: 6px;
     }
 
-    .featured-tech span {
-      padding: 6px 8px;
-      color: #dbeafe;
-      border: 1px solid rgba(148, 163, 184, 0.16);
-      border-radius: 7px;
-      background: rgba(15, 23, 42, 0.72);
-      font-family: Consolas, "Courier New", monospace;
+    .layer-tags .tag {
+      min-height: 23px;
       font-size: 9px;
-      font-weight: 800;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
     }
 
-    .featured-footer {
-      position: relative;
-      z-index: 1;
+    .stack-foot {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin: 17px 38px 0;
+      font: 800 11px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .stack-flow {
+      display: flex;
+      align-items: center;
       gap: 12px;
-      margin-top: 15px;
-      padding-top: 12px;
-      color: #64748b;
-      border-top: 1px solid rgba(148, 163, 184, 0.12);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
     }
 
-    .featured-footer b {
-      color: var(--card-accent);
-      font-size: 12px;
-    }
-
-    .showcase-signature {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      margin-top: 16px;
-      color: #64748b;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .showcase-signature span:last-child { color: #94a3b8; }
-
-    .showcase-mobile .topline { margin-bottom: 22px; }
-    .showcase-mobile .system-id { font-size: 13px; }
-    .showcase-mobile .live-status { padding: 9px 12px; font-size: 11px; }
-
-    .showcase-mobile .showcase-heading {
+    .stack-flow i {
       display: block;
-      margin-bottom: 18px;
+      width: 68px;
+      height: 2px;
+      background: var(--ink);
     }
 
-    .showcase-mobile .showcase-heading h2 {
-      max-width: 440px;
-      font-size: 39px;
-      line-height: 1.02;
+    .mobile .stack-grid {
+      display: block;
+      margin: 0 24px;
     }
 
-    .showcase-mobile .showcase-heading p {
-      margin-top: 12px;
-      font-size: 15px;
+    .mobile .layer {
+      min-height: 175px;
+      padding: 18px 19px 15px;
+      border-right: 0;
+      border-bottom: 1px solid var(--ink);
     }
 
-    .showcase-mobile .showcase-counter { display: none; }
+    .mobile .layer:last-child { border-bottom: 0; }
+    .mobile .layer::before { width: 8px; height: 100%; right: auto; }
+    .mobile .layer-no { top: 12px; font-size: 60px; }
+    .mobile .layer h3 { margin: 4px 0 7px 13px; font-size: 22px; }
+    .mobile .layer p { min-height: 0; margin: 0 70px 12px 13px; font-size: 12px; }
+    .mobile .layer-tags { margin-left: 13px; }
+    .mobile .stack-foot { margin: 17px 24px 0; font-size: 9px; }
+    .mobile .stack-flow i { width: 24px; }
 
-    .showcase-mobile .showcase-command {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-
-    .showcase-mobile .command-cell {
-      min-height: 44px;
-      padding: 10px 11px;
-      font-size: 8px;
-    }
-
-    .showcase-mobile .command-cell:first-child { grid-column: 1 / -1; }
-    .showcase-mobile .command-cell b { font-size: 10px; }
-
-    .showcase-mobile .featured-grid {
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-
-    .showcase-mobile .featured-card {
+    /* DASHBOARD */
+    .metric-strip {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      grid-template-rows: auto auto auto;
-      min-height: 182px;
-      padding: 17px 18px 15px;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 0 38px;
+      border: 1px solid var(--ink);
+      border-top: 0;
     }
 
-    .showcase-mobile .featured-card::after {
-      top: 27px;
-      right: 17px;
-      font-size: 61px;
+    .metric {
+      min-height: 102px;
+      padding: 16px 18px;
+      border-right: 1px solid var(--ink);
+      background: var(--white);
     }
 
-    .showcase-mobile .featured-meta,
-    .showcase-mobile .featured-card h3,
-    .showcase-mobile .featured-card p,
-    .showcase-mobile .featured-tech,
-    .showcase-mobile .featured-footer {
-      grid-column: 1 / -1;
+    .metric:last-child { border-right: 0; }
+
+    .metric strong {
+      display: block;
+      color: var(--blue);
+      font-size: 38px;
+      line-height: 1;
+      letter-spacing: -.07em;
     }
 
-    .showcase-mobile .featured-meta { margin-bottom: 11px; }
-    .showcase-mobile .featured-domain { font-size: 9px; }
-    .showcase-mobile .featured-status { font-size: 8px; }
-    .showcase-mobile .featured-card h3 { font-size: 22px; }
-
-    .showcase-mobile .featured-card p {
-      min-height: 0;
-      max-width: 390px;
-      margin: 8px 0 11px;
-      font-size: 12px;
+    .metric span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font: 800 10px/1.25 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .07em;
+      text-transform: uppercase;
     }
 
-    .showcase-mobile .featured-tech { gap: 6px; }
-    .showcase-mobile .featured-tech span { padding: 5px 7px; font-size: 8px; }
-
-    .showcase-mobile .featured-footer {
-      margin-top: 11px;
-      padding-top: 9px;
-      font-size: 8px;
+    .dashboard-body {
+      display: grid;
+      grid-template-columns: .88fr 1.12fr;
+      gap: 22px;
+      margin: 22px 38px 0;
     }
 
-    .showcase-mobile .showcase-signature {
-      margin-top: 13px;
-      font-size: 8px;
+    .data-card {
+      border: 1px solid var(--ink);
+      background: rgba(255, 253, 248, .91);
     }
 
-    .showcase-v2.showcase-desktop {
-      width: 1400px;
-      height: 1040px;
-      padding: 44px 52px 34px;
-    }
-
-    .showcase-v2.showcase-mobile {
-      width: 540px;
-      height: 1740px;
-      padding: 38px 32px 28px;
-    }
-
-    .showcase-v2 .topline { margin-bottom: 20px; }
-
-    .showcase-v2 .showcase-heading {
+    .data-title {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      margin-bottom: 18px;
+      min-height: 44px;
+      padding: 0 15px;
+      border-bottom: 1px solid var(--ink);
+      font: 800 11px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .08em;
+      text-transform: uppercase;
     }
 
-    .showcase-v2 .showcase-heading h2 {
-      max-width: 900px;
-      font-size: 48px;
-      line-height: 0.98;
-    }
-
-    .showcase-v2 .showcase-heading p {
-      max-width: 880px;
-      margin-top: 13px;
-      font-size: 17px;
-    }
-
-    .showcase-stamp {
+    .bars {
       display: grid;
-      min-width: 154px;
-      min-height: 86px;
-      padding: 14px 16px;
-      place-content: center;
-      border: 1px solid rgba(139, 92, 246, 0.3);
-      border-radius: 16px;
-      background: rgba(139, 92, 246, 0.08);
-      font-family: Consolas, "Courier New", monospace;
+      gap: 11px;
+      padding: 16px 16px 15px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 92px 1fr 48px;
+      align-items: center;
+      gap: 10px;
+      font: 700 10px/1 "Cascadia Code", Consolas, monospace;
+    }
+
+    .bar-track {
+      height: 12px;
+      border: 1px solid var(--ink);
+      background: var(--paper-2);
+    }
+
+    .bar-fill {
+      height: 100%;
+      background: var(--color);
+    }
+
+    .bar-row b { text-align: right; }
+
+    .project-index {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .index-item {
+      min-height: 84px;
+      padding: 13px 12px 10px;
+      border-right: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+    }
+
+    .index-item:nth-child(3n) { border-right: 0; }
+    .index-item:nth-last-child(-n+3) { border-bottom: 0; }
+
+    .index-item b {
+      display: block;
+      font-size: 13px;
+      line-height: 1.15;
+      text-transform: uppercase;
+    }
+
+    .index-item span {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font: 700 9px/1.25 "Cascadia Code", Consolas, monospace;
+    }
+
+    .index-item em {
+      display: block;
+      width: 34px;
+      height: 5px;
+      margin-bottom: 9px;
+      background: var(--color);
+    }
+
+    .process-strip {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      align-items: stretch;
+      margin: 19px 38px 0;
+      border: 1px solid var(--ink);
+      background: var(--ink);
+      color: var(--white);
+    }
+
+    .process-label {
+      display: grid;
+      place-items: center;
+      padding: 13px;
+      border-right: 1px solid var(--white);
+      color: var(--lime);
+      font: 900 10px/1.2 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .1em;
       text-align: center;
       text-transform: uppercase;
     }
 
-    .showcase-stamp span,
-    .showcase-stamp small {
-      color: #a78bfa;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.15em;
-    }
-
-    .showcase-stamp b {
-      margin: 3px 0;
-      color: #f8fafc;
-      font-size: 28px;
-      line-height: 1;
-    }
-
-    .signal-strip {
+    .process-flow {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 9px;
-      margin-bottom: 14px;
+      grid-template-columns: repeat(12, auto);
+      justify-content: space-around;
+      align-items: center;
+      min-height: 54px;
+      padding: 0 18px;
+      font: 800 10px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .05em;
+      text-transform: uppercase;
     }
 
-    .signal-cell {
-      position: relative;
-      min-height: 50px;
-      overflow: hidden;
-      padding: 10px 14px;
-      border: 1px solid rgba(148, 163, 184, 0.15);
-      border-radius: 12px;
-      background: rgba(8, 15, 34, 0.7);
+    .process-flow b { color: var(--orange); font-size: 17px; }
+
+    .mobile .metric-strip {
+      grid-template-columns: 1fr 1fr;
+      margin: 0 24px;
+      border-top: 0;
     }
 
-    .signal-cell::after {
-      content: "";
-      position: absolute;
-      right: -22px;
-      bottom: -30px;
-      width: 74px;
-      height: 74px;
-      border: 1px solid rgba(34, 211, 238, 0.12);
-      border-radius: 50%;
+    .mobile .metric {
+      min-height: 93px;
+      padding: 14px;
+      border-bottom: 1px solid var(--ink);
     }
 
-    .signal-cell small,
-    .signal-cell strong {
+    .mobile .metric:nth-child(2n) { border-right: 0; }
+    .mobile .metric:nth-last-child(-n+2) { border-bottom: 0; }
+    .mobile .metric strong { font-size: 32px; }
+
+    .mobile .dashboard-body {
       display: block;
-      font-family: Consolas, "Courier New", monospace;
-      text-transform: uppercase;
+      margin: 20px 24px 0;
     }
 
-    .signal-cell small {
-      margin-bottom: 5px;
-      color: #64748b;
+    .mobile .data-card + .data-card { margin-top: 18px; }
+    .mobile .bars { gap: 10px; padding: 15px; }
+    .mobile .bar-row { grid-template-columns: 82px 1fr 43px; }
+    .mobile .index-item { min-height: 77px; }
+
+    .mobile .process-strip {
+      display: block;
+      margin: 18px 24px 0;
+    }
+
+    .mobile .process-label {
+      min-height: 36px;
+      border-right: 0;
+      border-bottom: 1px solid var(--white);
+    }
+
+    .mobile .process-flow {
+      min-height: 74px;
+      padding: 0 12px;
+      grid-template-columns: repeat(8, auto);
       font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.12em;
     }
 
-    .signal-cell strong {
-      color: #e2e8f0;
-      font-size: 12px;
-      letter-spacing: 0.05em;
+    /* PROJECT SHOWCASE */
+    .showcase-wrap {
+      margin: 0 38px;
     }
 
-    .signal-cell:nth-child(1) strong { color: #67e8f9; }
-    .signal-cell:nth-child(2) strong { color: #c4b5fd; }
-    .signal-cell:nth-child(3) strong { color: #93c5fd; }
-    .signal-cell:nth-child(4) strong { color: #86efac; }
-
-    .showcase-v2 .featured-grid {
-      grid-template-columns: repeat(6, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .showcase-v2 .featured-card {
-      min-height: 0;
-      padding: 18px 19px 16px;
-      border-radius: 18px;
-      background:
-        radial-gradient(circle at 92% 8%, color-mix(in srgb, var(--card-accent) 10%, transparent), transparent 27%),
-        linear-gradient(145deg, color-mix(in srgb, var(--card-accent) 6%, transparent), transparent 48%),
-        rgba(8, 15, 34, 0.9);
-    }
-
-    .showcase-v2 .featured-card::after {
-      top: 26px;
-      right: 18px;
-      font-size: 62px;
-      opacity: 0.72;
-    }
-
-    .showcase-v2 .flagship-card {
+    .flagship {
       display: grid;
-      grid-column: 1 / -1;
-      grid-template-columns: minmax(0, 1.18fr) minmax(370px, 0.82fr);
-      gap: 24px;
+      grid-template-columns: 1.15fr .85fr;
       min-height: 226px;
-      padding: 22px 24px;
+      border-right: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      border-left: 1px solid var(--ink);
+      background: var(--ink);
+      color: var(--white);
     }
 
-    .showcase-v2 .flagship-card::after { display: none; }
-
-    .showcase-v2 .half-card {
-      grid-column: span 3;
-      min-height: 216px;
+    .flagship-main {
+      position: relative;
+      padding: 25px 27px 22px;
+      overflow: hidden;
+      border-right: 1px solid rgba(255, 255, 255, .4);
     }
 
-    .showcase-v2 .third-card {
-      grid-column: span 2;
-      min-height: 205px;
+    .flagship-main::after {
+      content: "01";
+      position: absolute;
+      right: 18px;
+      bottom: -20px;
+      color: rgba(255,255,255,.08);
+      font-size: 150px;
+      font-weight: 950;
+      line-height: 1;
+      letter-spacing: -.12em;
     }
 
-    .showcase-v2 .featured-meta {
-      margin-bottom: 12px;
-      padding-right: 58px;
-    }
-
-    .showcase-v2 .flagship-card .featured-meta { padding-right: 0; }
-
-    .showcase-v2 .featured-domain { font-size: 9px; }
-
-    .repo-id {
-      color: #64748b;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.1em;
+    .flagship h3 {
+      position: relative;
+      z-index: 1;
+      margin: 17px 0 11px;
+      font-size: 38px;
+      line-height: 1;
+      letter-spacing: -.055em;
       text-transform: uppercase;
     }
 
-    .showcase-v2 .featured-card h3 {
-      max-width: calc(100% - 58px);
-      font-size: 25px;
-    }
-
-    .showcase-v2 .flagship-card h3 {
-      max-width: none;
-      font-size: 32px;
-    }
-
-    .showcase-v2 .featured-card p {
-      min-height: 0;
-      margin: 9px 0 12px;
-      color: #b7c4d6;
-      font-size: 13px;
+    .flagship p {
+      position: relative;
+      z-index: 1;
+      max-width: 650px;
+      margin: 0;
+      color: #d8d9dd;
+      font-size: 14px;
       line-height: 1.42;
     }
 
-    .showcase-v2 .flagship-card p {
-      max-width: 720px;
-      font-size: 15px;
-    }
-
-    .showcase-v2 .featured-tech { margin-top: 0; }
-
-    .showcase-v2 .featured-tech span {
-      padding: 5px 8px;
-      font-size: 8px;
-    }
-
-    .proof-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 8px;
-      margin-top: 14px;
-    }
-
-    .proof-grid div {
-      padding: 9px 10px;
-      border: 1px solid rgba(148, 163, 184, 0.12);
-      border-radius: 9px;
-      background: rgba(15, 23, 42, 0.58);
-    }
-
-    .proof-grid small,
-    .proof-grid strong {
-      display: block;
-      font-family: Consolas, "Courier New", monospace;
-      text-transform: uppercase;
-    }
-
-    .proof-grid small {
-      margin-bottom: 4px;
-      color: #64748b;
-      font-size: 7px;
-      font-weight: 900;
-      letter-spacing: 0.1em;
-    }
-
-    .proof-grid strong {
-      color: #dbeafe;
-      font-size: 10px;
-    }
-
-    .system-map {
-      position: relative;
-      z-index: 2;
-      padding: 16px;
-      border: 1px solid rgba(34, 211, 238, 0.18);
-      border-radius: 14px;
-      background: rgba(2, 6, 23, 0.48);
-    }
-
-    .system-map-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 14px;
-      color: #94a3b8;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .system-map-header b { color: #67e8f9; }
-
-    .system-flow {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 7px;
-    }
-
-    .flow-node {
-      position: relative;
-      display: grid;
-      min-height: 66px;
-      padding: 9px 7px;
-      place-content: center;
-      border: 1px solid rgba(148, 163, 184, 0.13);
-      border-radius: 10px;
-      background: rgba(15, 23, 42, 0.78);
-      font-family: Consolas, "Courier New", monospace;
-      text-align: center;
-      text-transform: uppercase;
-    }
-
-    .flow-node:not(:last-child)::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      right: -8px;
-      z-index: 3;
-      width: 9px;
-      height: 1px;
-      background: #22d3ee;
-      box-shadow: 0 0 8px rgba(34, 211, 238, 0.72);
-    }
-
-    .flow-node b {
-      margin-bottom: 5px;
-      color: #67e8f9;
-      font-size: 12px;
-    }
-
-    .flow-node span {
-      color: #94a3b8;
-      font-size: 7px;
-      font-weight: 900;
-      letter-spacing: 0.06em;
-    }
-
-    .map-footer {
-      display: flex;
-      justify-content: space-between;
-      gap: 12px;
-      margin-top: 12px;
-      padding-top: 10px;
-      color: #64748b;
-      border-top: 1px solid rgba(148, 163, 184, 0.1);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .map-footer b { color: #86efac; }
-
-    .project-outcome {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-top: auto;
-      padding: 9px 10px;
-      border-left: 2px solid var(--card-accent);
-      background: color-mix(in srgb, var(--card-accent) 6%, transparent);
-      font-family: Consolas, "Courier New", monospace;
-      text-transform: uppercase;
-    }
-
-    .project-outcome span {
-      color: #64748b;
-      font-size: 7px;
-      font-weight: 900;
-      letter-spacing: 0.09em;
-    }
-
-    .project-outcome strong {
-      color: #dbeafe;
-      font-size: 9px;
-      letter-spacing: 0.04em;
-      text-align: right;
-    }
-
-    .showcase-v2 .featured-footer {
-      margin-top: 10px;
-      padding-top: 9px;
-      font-size: 8px;
-    }
-
-    .showcase-v2 .featured-footer b {
-      color: var(--card-accent);
-      font-size: 8px;
-      letter-spacing: 0.08em;
-    }
-
-    .showcase-v2 .showcase-signature {
-      margin-top: 14px;
-      font-size: 8px;
-    }
-
-    .showcase-v2.showcase-mobile .topline { margin-bottom: 20px; }
-
-    .showcase-v2.showcase-mobile .showcase-heading {
-      display: block;
-      margin-bottom: 16px;
-    }
-
-    .showcase-v2.showcase-mobile .showcase-heading h2 {
-      max-width: 450px;
-      font-size: 39px;
-      line-height: 1.02;
-    }
-
-    .showcase-v2.showcase-mobile .showcase-heading p {
-      max-width: 440px;
-      font-size: 14px;
-    }
-
-    .showcase-v2.showcase-mobile .showcase-stamp { display: none; }
-
-    .showcase-v2.showcase-mobile .signal-strip {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-
-    .showcase-v2.showcase-mobile .signal-cell {
-      min-height: 46px;
-      padding: 9px 11px;
-    }
-
-    .showcase-v2.showcase-mobile .signal-cell strong { font-size: 10px; }
-
-    .showcase-v2.showcase-mobile .featured-grid {
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-
-    .showcase-v2.showcase-mobile .featured-card,
-    .showcase-v2.showcase-mobile .half-card,
-    .showcase-v2.showcase-mobile .third-card {
-      display: flex;
-      grid-column: 1;
-      min-height: 194px;
-      padding: 16px 18px 14px;
-    }
-
-    .showcase-v2.showcase-mobile .flagship-card {
-      display: block;
-      min-height: 304px;
-      padding: 18px;
-    }
-
-    .showcase-v2.showcase-mobile .featured-card::after {
-      top: 27px;
-      right: 17px;
-      font-size: 58px;
-    }
-
-    .showcase-v2.showcase-mobile .featured-meta { margin-bottom: 10px; }
-    .showcase-v2.showcase-mobile .featured-card h3 { font-size: 22px; }
-    .showcase-v2.showcase-mobile .flagship-card h3 { font-size: 25px; }
-
-    .showcase-v2.showcase-mobile .featured-card p,
-    .showcase-v2.showcase-mobile .flagship-card p {
-      max-width: 390px;
-      margin: 7px 0 10px;
-      font-size: 11px;
-    }
-
-    .showcase-v2.showcase-mobile .proof-grid {
-      gap: 6px;
-      margin-top: 10px;
-    }
-
-    .showcase-v2.showcase-mobile .proof-grid div { padding: 7px; }
-    .showcase-v2.showcase-mobile .proof-grid strong { font-size: 8px; }
-
-    .showcase-v2.showcase-mobile .system-map {
-      margin-top: 10px;
-      padding: 12px;
-    }
-
-    .showcase-v2.showcase-mobile .system-map-header { margin-bottom: 10px; }
-    .showcase-v2.showcase-mobile .flow-node { min-height: 51px; padding: 7px 4px; }
-    .showcase-v2.showcase-mobile .flow-node b { font-size: 10px; }
-    .showcase-v2.showcase-mobile .flow-node span { font-size: 6px; }
-    .showcase-v2.showcase-mobile .map-footer { margin-top: 8px; padding-top: 8px; font-size: 7px; }
-
-    .showcase-v2.showcase-mobile .project-outcome {
-      margin-top: auto;
-      padding: 8px 9px;
-    }
-
-    .showcase-v2.showcase-mobile .featured-footer { font-size: 7px; }
-
-    .identity-desktop {
-      width: 1400px;
-      height: 540px;
-      padding: 44px 52px 34px;
-    }
-
-    .identity-mobile {
-      width: 540px;
-      height: 790px;
-      padding: 38px 32px 28px;
-    }
-
-    .identity-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1.25fr) minmax(380px, 0.75fr);
-      gap: 22px;
-      align-items: stretch;
-    }
-
-    .identity-copy {
-      padding: 6px 0;
-    }
-
-    .identity-copy h1 {
-      margin: 0;
-      color: #f8fafc;
-      font-size: 58px;
-      line-height: 0.94;
-      letter-spacing: -0.055em;
-    }
-
-    .identity-copy h1 span {
-      display: block;
-      color: var(--cyan);
-      text-shadow: 0 0 28px rgba(34, 211, 238, 0.3);
-    }
-
-    .identity-role {
-      margin-top: 15px;
-      color: #c4b5fd;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 13px;
-      font-weight: 900;
-      letter-spacing: 0.17em;
-      text-transform: uppercase;
-    }
-
-    .identity-copy p {
-      max-width: 760px;
-      margin: 11px 0 15px;
-      color: #cbd5e1;
-      font-size: 17px;
-      line-height: 1.45;
-    }
-
-    .identity-tags {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .identity-tags span {
-      padding: 7px 10px;
-      color: #dbeafe;
-      border: 1px solid rgba(148, 163, 184, 0.16);
-      border-radius: 8px;
-      background: rgba(15, 23, 42, 0.72);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-
-    .identity-console {
-      position: relative;
-      overflow: hidden;
-      padding: 20px;
-      border: 1px solid rgba(139, 92, 246, 0.25);
-      border-radius: 18px;
-      background:
-        radial-gradient(circle at 100% 0%, rgba(139, 92, 246, 0.17), transparent 42%),
-        rgba(8, 15, 34, 0.78);
-    }
-
-    .identity-console::after {
-      content: "</>";
-      position: absolute;
-      right: 18px;
-      bottom: 6px;
-      color: rgba(139, 92, 246, 0.09);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 82px;
-      font-weight: 900;
-    }
-
-    .console-label {
-      color: #a78bfa;
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
-
-    .identity-console h2 {
-      margin: 11px 0 15px;
-      color: #f8fafc;
-      font-size: 27px;
-      line-height: 1;
-    }
-
-    .console-list {
+    .flagship-tags {
       position: relative;
       z-index: 1;
-      display: grid;
-      gap: 8px;
-    }
-
-    .console-row {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 8px 10px;
-      border: 1px solid rgba(148, 163, 184, 0.11);
-      border-radius: 8px;
-      background: rgba(15, 23, 42, 0.58);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-
-    .console-row span { color: #64748b; }
-    .console-row b { color: #dbeafe; }
-    .console-row:last-child b { color: #86efac; }
-
-    .identity-metrics {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 10px;
+      flex-wrap: wrap;
+      gap: 7px;
       margin-top: 18px;
     }
 
-    .identity-metric {
-      min-height: 68px;
-      padding: 12px 14px;
-      border: 1px solid rgba(148, 163, 184, 0.15);
-      border-radius: 12px;
-      background: rgba(8, 15, 34, 0.68);
-    }
-
-    .identity-metric strong,
-    .identity-metric span {
-      display: block;
-      font-family: Consolas, "Courier New", monospace;
-      text-transform: uppercase;
-    }
-
-    .identity-metric strong {
-      color: #f8fafc;
-      font-size: 18px;
-      line-height: 1;
-    }
-
-    .identity-metric:nth-child(1) strong { color: #67e8f9; }
-    .identity-metric:nth-child(2) strong { color: #c4b5fd; }
-    .identity-metric:nth-child(3) strong { color: #93c5fd; }
-    .identity-metric:nth-child(4) strong { color: #86efac; }
-
-    .identity-metric span {
-      margin-top: 7px;
-      color: #64748b;
-      font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.09em;
-    }
-
-    .identity-flow {
+    .flagship-side {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 9px;
-      margin-top: 12px;
+      grid-template-rows: 1fr auto;
+      padding: 26px;
+      background: var(--blue);
     }
 
-    .identity-flow span {
-      padding: 9px 10px;
-      color: #94a3b8;
-      border: 1px solid rgba(148, 163, 184, 0.12);
-      border-radius: 9px;
-      background: rgba(15, 23, 42, 0.56);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-align: center;
+    .flagship-side .mini-label {
+      color: var(--lime);
+      font: 800 10px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .12em;
       text-transform: uppercase;
     }
 
-    .identity-flow b { color: var(--cyan); }
-
-    .identity-mobile .topline { margin-bottom: 22px; }
-    .identity-mobile .system-id { font-size: 12px; }
-    .identity-mobile .live-status { padding: 9px 11px; font-size: 10px; }
-
-    .identity-mobile .identity-layout {
+    .flagship-side strong {
       display: block;
-    }
-
-    .identity-mobile .identity-copy { padding: 0; }
-
-    .identity-mobile .identity-copy h1 {
-      font-size: 45px;
-      line-height: 0.98;
-    }
-
-    .identity-mobile .identity-role {
+      max-width: 360px;
       margin-top: 14px;
-      font-size: 11px;
+      font-size: 23px;
+      line-height: 1.12;
+      letter-spacing: -.03em;
     }
 
-    .identity-mobile .identity-copy p {
-      margin: 10px 0 13px;
-      font-size: 14px;
-    }
-
-    .identity-mobile .identity-tags { gap: 6px; }
-    .identity-mobile .identity-tags span { padding: 6px 8px; font-size: 8px; }
-
-    .identity-mobile .identity-console {
-      margin-top: 17px;
-      padding: 16px;
-    }
-
-    .identity-mobile .identity-console h2 {
-      margin: 9px 0 12px;
-      font-size: 22px;
-    }
-
-    .identity-mobile .console-row { padding: 7px 9px; font-size: 8px; }
-
-    .identity-mobile .identity-metrics {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-      margin-top: 14px;
-    }
-
-    .identity-mobile .identity-metric {
-      min-height: 64px;
-      padding: 11px 12px;
-    }
-
-    .identity-mobile .identity-metric strong { font-size: 16px; }
-
-    .identity-mobile .identity-flow {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-      margin-top: 10px;
-    }
-
-    .identity-mobile .identity-flow span { padding: 8px; font-size: 8px; }
-
-    .roadmap-desktop {
-      width: 1400px;
-      height: 570px;
-      padding: 44px 52px 34px;
-    }
-
-    .roadmap-mobile {
-      width: 540px;
-      height: 990px;
-      padding: 38px 32px 28px;
-    }
-
-    .roadmap-heading {
+    .flowline {
       display: flex;
-      align-items: end;
+      align-items: center;
+      gap: 9px;
+      font: 800 10px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+
+    .flowline b { color: var(--lime); font-size: 18px; }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-left: 1px solid var(--ink);
+    }
+
+    .project-card {
+      position: relative;
+      min-height: 261px;
+      padding: 23px 22px 19px;
+      overflow: hidden;
+      border-right: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      background: rgba(255,253,248,.93);
+    }
+
+    .project-card:nth-child(4),
+    .project-card:nth-child(5) { min-height: 238px; }
+
+    .project-card:nth-child(4) { grid-column: 1 / 2; grid-row: 2; }
+    .project-card:nth-child(5) { grid-column: 2 / 3; grid-row: 2; }
+
+    .project-accent {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 7px;
+      background: var(--color);
+    }
+
+    .project-card-head {
+      display: flex;
       justify-content: space-between;
-      gap: 28px;
-      margin-bottom: 20px;
+      align-items: center;
+      margin-top: 5px;
+      color: var(--muted);
+      font: 800 10px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .09em;
+      text-transform: uppercase;
     }
 
-    .roadmap-heading h2 {
-      margin: 0;
-      font-size: 45px;
+    .project-card h3 {
+      margin: 18px 0 9px;
+      font-size: 26px;
       line-height: 1;
-      letter-spacing: -0.045em;
+      letter-spacing: -.045em;
+      text-transform: uppercase;
     }
 
-    .roadmap-heading h2 span {
-      color: var(--cyan);
-      text-shadow: 0 0 24px rgba(34, 211, 238, 0.28);
-    }
-
-    .roadmap-heading p {
-      max-width: 850px;
-      margin: 11px 0 0;
-      color: #cbd5e1;
-      font-size: 16px;
+    .project-card p {
+      min-height: 57px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
       line-height: 1.42;
     }
 
-    .roadmap-code {
-      flex: 0 0 auto;
-      padding: 11px 14px;
-      color: #ddd6fe;
-      border: 1px solid rgba(139, 92, 246, 0.3);
-      border-radius: 10px;
-      background: rgba(139, 92, 246, 0.08);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 10px;
-      font-weight: 900;
-      letter-spacing: 0.08em;
+    .project-output {
+      margin: 15px 0 14px;
+      padding: 10px 11px;
+      border-left: 4px solid var(--color);
+      background: var(--paper-2);
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.28;
     }
 
-    .roadmap-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .roadmap-card {
-      --phase-color: var(--cyan);
-      position: relative;
-      min-height: 270px;
-      overflow: hidden;
-      padding: 20px;
-      border: 1px solid color-mix(in srgb, var(--phase-color) 25%, transparent);
-      border-radius: 18px;
-      background:
-        linear-gradient(145deg, color-mix(in srgb, var(--phase-color) 8%, transparent), transparent 52%),
-        rgba(8, 15, 34, 0.82);
-    }
-
-    .roadmap-card::after {
-      content: attr(data-phase);
-      position: absolute;
-      top: 24px;
-      right: 17px;
-      color: color-mix(in srgb, var(--phase-color) 12%, transparent);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 76px;
-      font-weight: 900;
-      line-height: 0.8;
-    }
-
-    .phase-complete { --phase-color: #22c55e; }
-    .phase-current { --phase-color: #22d3ee; }
-    .phase-next { --phase-color: #a78bfa; }
-
-    .phase-top {
-      position: relative;
-      z-index: 1;
+    .project-tech {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 6px;
     }
 
-    .phase-label,
-    .phase-status {
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 9px;
-      font-weight: 900;
-      letter-spacing: 0.11em;
+    .project-tech .tag {
+      min-height: 22px;
+      font-size: 8px;
+    }
+
+    .project-closing {
+      grid-column: 3 / 4;
+      grid-row: 2;
+      min-height: 238px;
+      display: grid;
+      align-content: center;
+      padding: 28px;
+      border-right: 1px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      background: var(--orange);
+      color: var(--white);
+    }
+
+    .project-closing strong {
+      font-size: 31px;
+      line-height: 1;
+      letter-spacing: -.05em;
       text-transform: uppercase;
     }
 
-    .phase-label { color: var(--phase-color); }
-
-    .phase-status {
-      padding: 6px 8px;
-      color: #dbeafe;
-      border: 1px solid rgba(148, 163, 184, 0.14);
-      border-radius: 999px;
-      background: rgba(15, 23, 42, 0.7);
+    .project-closing span {
+      margin-top: 14px;
+      font: 800 10px/1.4 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .07em;
+      text-transform: uppercase;
     }
 
-    .roadmap-card h3 {
+    .mobile .showcase-wrap { margin: 0 24px; }
+
+    .mobile .flagship {
+      display: block;
+      min-height: 271px;
+    }
+
+    .mobile .flagship-main {
+      min-height: 171px;
+      padding: 19px;
+      border-right: 0;
+      border-bottom: 1px solid rgba(255,255,255,.4);
+    }
+
+    .mobile .flagship-main::after { font-size: 112px; bottom: -15px; }
+    .mobile .flagship h3 { margin: 13px 0 8px; font-size: 30px; }
+    .mobile .flagship p { font-size: 12px; }
+    .mobile .flagship-tags { margin-top: 12px; }
+
+    .mobile .flagship-side {
+      min-height: 100px;
+      grid-template-columns: 1fr auto;
+      grid-template-rows: auto;
+      align-items: center;
+      padding: 16px 18px;
+    }
+
+    .mobile .flagship-side strong { margin-top: 7px; font-size: 16px; }
+    .mobile .flowline { max-width: 135px; justify-content: flex-end; font-size: 8px; }
+
+    .mobile .project-grid { display: block; }
+    .mobile .project-card,
+    .mobile .project-card:nth-child(4),
+    .mobile .project-card:nth-child(5) {
+      min-height: 220px;
+      padding: 19px 18px 16px;
+    }
+
+    .mobile .project-card h3 { margin: 13px 0 7px; font-size: 23px; }
+    .mobile .project-card p { min-height: 0; font-size: 12px; }
+    .mobile .project-output { margin: 10px 0; padding: 8px 9px; font-size: 10px; }
+    .mobile .project-closing {
+      min-height: 116px;
+      padding: 22px;
+      border-left: 0;
+    }
+    .mobile .project-closing strong { font-size: 26px; }
+
+    /* ROADMAP */
+    .roadmap-wrap {
+      margin: 0 38px;
+    }
+
+    .road-track {
       position: relative;
-      z-index: 1;
-      margin: 0;
-      color: #f8fafc;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      padding-top: 35px;
+    }
+
+    .road-track::before {
+      content: "";
+      position: absolute;
+      top: 19px;
+      right: 8%;
+      left: 8%;
+      height: 3px;
+      background: var(--ink);
+    }
+
+    .phase {
+      position: relative;
+      min-height: 260px;
+      padding: 25px 23px 20px;
+      border: 1px solid var(--ink);
+      background: var(--white);
+    }
+
+    .phase::before {
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      width: 16px;
+      height: 16px;
+      transform: translateX(-50%);
+      border: 3px solid var(--ink);
+      border-radius: 50%;
+      background: var(--status);
+    }
+
+    .phase-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .phase-head b {
+      color: var(--blue);
+      font: 900 12px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .07em;
+    }
+
+    .phase h3 {
+      margin: 20px 0 9px;
       font-size: 25px;
-      line-height: 1.05;
+      line-height: 1;
+      letter-spacing: -.04em;
+      text-transform: uppercase;
     }
 
-    .roadmap-card p {
-      position: relative;
-      z-index: 1;
+    .phase p {
       min-height: 54px;
-      margin: 11px 0 15px;
-      color: #aebbd0;
+      margin: 0 0 14px;
+      color: var(--muted);
       font-size: 13px;
-      line-height: 1.45;
+      line-height: 1.4;
     }
 
-    .phase-deliverables {
-      position: relative;
-      z-index: 1;
+    .phase ul {
       display: grid;
       gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
     }
 
-    .phase-deliverables span {
+    .phase li {
       display: flex;
-      align-items: center;
       gap: 8px;
-      padding: 8px 9px;
-      color: #cbd5e1;
-      border: 1px solid rgba(148, 163, 184, 0.11);
-      border-radius: 8px;
-      background: rgba(15, 23, 42, 0.56);
-      font-family: Consolas, "Courier New", monospace;
+      font: 700 10px/1.25 "Cascadia Code", Consolas, monospace;
+    }
+
+    .phase li::before {
+      content: "■";
+      color: var(--status);
       font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.05em;
+    }
+
+    .road-foot {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 18px;
+      padding-top: 13px;
+      border-top: 1px solid var(--ink);
+      font: 800 10px/1 "Cascadia Code", Consolas, monospace;
+      letter-spacing: .08em;
       text-transform: uppercase;
     }
 
-    .phase-deliverables span::before {
-      content: "";
-      width: 6px;
-      height: 6px;
-      flex: 0 0 auto;
-      border-radius: 50%;
-      background: var(--phase-color);
-      box-shadow: 0 0 10px color-mix(in srgb, var(--phase-color) 70%, transparent);
-    }
+    .mobile .roadmap-wrap { margin: 0 24px; }
 
-    .roadmap-loop {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 9px;
-      margin-top: 14px;
-    }
-
-    .roadmap-loop span {
-      padding: 10px;
-      color: #94a3b8;
-      border: 1px solid rgba(148, 163, 184, 0.12);
-      border-radius: 9px;
-      background: rgba(15, 23, 42, 0.58);
-      font-family: Consolas, "Courier New", monospace;
-      font-size: 8px;
-      font-weight: 900;
-      letter-spacing: 0.08em;
-      text-align: center;
-      text-transform: uppercase;
-    }
-
-    .roadmap-loop b { color: var(--cyan); }
-
-    .roadmap-mobile .topline { margin-bottom: 22px; }
-    .roadmap-mobile .system-id { font-size: 12px; }
-    .roadmap-mobile .live-status { padding: 9px 11px; font-size: 10px; }
-
-    .roadmap-mobile .roadmap-heading {
+    .mobile .road-track {
       display: block;
-      margin-bottom: 17px;
+      padding: 0 0 0 30px;
     }
 
-    .roadmap-mobile .roadmap-heading h2 {
-      font-size: 38px;
-      line-height: 1.02;
+    .mobile .road-track::before {
+      top: 18px;
+      bottom: 18px;
+      left: 8px;
+      width: 3px;
+      height: auto;
     }
 
-    .roadmap-mobile .roadmap-heading p {
-      margin-top: 10px;
-      font-size: 14px;
+    .mobile .phase {
+      min-height: 203px;
+      margin-bottom: 16px;
+      padding: 19px 18px 16px;
     }
 
-    .roadmap-mobile .roadmap-code { display: none; }
-
-    .roadmap-mobile .roadmap-grid {
-      grid-template-columns: 1fr;
-      gap: 10px;
+    .mobile .phase::before {
+      top: 50%;
+      left: -31px;
+      transform: translateY(-50%);
     }
 
-    .roadmap-mobile .roadmap-card {
-      min-height: 215px;
-      padding: 17px 18px;
-    }
-
-    .roadmap-mobile .roadmap-card::after {
-      top: 25px;
-      right: 17px;
-      font-size: 66px;
-    }
-
-    .roadmap-mobile .phase-top { margin-bottom: 12px; }
-    .roadmap-mobile .roadmap-card h3 { font-size: 22px; }
-
-    .roadmap-mobile .roadmap-card p {
-      min-height: 0;
-      margin: 8px 0 11px;
-      font-size: 11px;
-    }
-
-    .roadmap-mobile .phase-deliverables { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
-    .roadmap-mobile .phase-deliverables span { padding: 7px 8px; font-size: 7px; }
-
-    .roadmap-mobile .roadmap-loop {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-      margin-top: 11px;
-    }
-
-    .roadmap-mobile .roadmap-loop span { padding: 8px; font-size: 8px; }
+    .mobile .phase h3 { margin: 13px 0 7px; font-size: 22px; }
+    .mobile .phase p { min-height: 0; margin-bottom: 11px; font-size: 12px; }
+    .mobile .phase li { font-size: 9px; }
+    .mobile .road-foot { margin: 14px 0 0 30px; font-size: 8px; }
   </style>
 </head>
 <body>
-  <section class="dashboard desktop-dashboard" id="dashboard-desktop" aria-label="Painel do portf&oacute;lio para desktop">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // CENTRAL DE PROJETOS</div>
-      <div class="live-status"><span class="live-dot"></span>SISTEMA ATIVO</div>
-    </div>
-
-    <div class="hero-row">
-      <div class="hero-copy">
-        <h1>PORTF&Oacute;LIO <span>EM OPERA&Ccedil;&Atilde;O</span></h1>
-        <p>Sistemas web, APIs e automa&ccedil;&otilde;es constru&iacute;dos para opera&ccedil;&otilde;es, finan&ccedil;as, vendas e atendimento.</p>
-      </div>
-      <div class="build-tag">perfil://kenjihidehira</div>
-    </div>
-
-    <div class="metrics">
-      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Projetos em destaque</span></div>
-      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Linguagens principais</span></div>
-      <div class="metric"><span class="metric-value">6/6</span><span class="metric-label">Projetos com TypeScript</span></div>
-      <div class="metric"><span class="metric-value">5/6</span><span class="metric-label">Projetos com Dockerfile</span></div>
-    </div>
-
-    <div class="content-grid">
-      <div class="panel">
-        <div class="panel-title"><span>Mapa dos projetos</span><small>06 sistemas</small></div>
-        <div class="project-grid">
-          <div class="project"><div class="project-index">01</div><div><strong>Patrim&ocirc;nio</strong><span>Auditoria // TypeScript</span></div></div>
-          <div class="project"><div class="project-index">02</div><div><strong>CobreFlow</strong><span>Finan&ccedil;as // JavaScript</span></div></div>
-          <div class="project"><div class="project-index">03</div><div><strong>FieldOps</strong><span>Campo // PHP + TypeScript</span></div></div>
-          <div class="project"><div class="project-index">04</div><div><strong>LeadOps</strong><span>Marketing // JavaScript</span></div></div>
-          <div class="project"><div class="project-index">05</div><div><strong>ReturnOps</strong><span>RMA // JavaScript</span></div></div>
-          <div class="project"><div class="project-index">06</div><div><strong>ServiceHub</strong><span>CRM // JavaScript</span></div></div>
-        </div>
-      </div>
-
-      <div class="panel">
-        <div class="panel-title"><span>Telemetria de linguagens</span><small>por volume</small></div>
-        <div class="language-list">
-          <div class="language-row"><span class="language-name">TypeScript</span><span class="track"><span class="fill ts"></span></span><span class="language-value">37,9%</span></div>
-          <div class="language-row"><span class="language-name">JavaScript</span><span class="track"><span class="fill js"></span></span><span class="language-value">21,2%</span></div>
-          <div class="language-row"><span class="language-name">CSS</span><span class="track"><span class="fill css"></span></span><span class="language-value">19,0%</span></div>
-          <div class="language-row"><span class="language-name">PLpgSQL</span><span class="track"><span class="fill sql"></span></span><span class="language-value">18,0%</span></div>
-          <div class="language-row"><span class="language-name">HTML</span><span class="track"><span class="fill html"></span></span><span class="language-value">3,0%</span></div>
-          <div class="language-row"><span class="language-name">PHP</span><span class="track"><span class="fill php"></span></span><span class="language-value">0,8%</span></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pipeline">
-      <div class="pipeline-step"><b>01</b> ENTENDER</div>
-      <div class="pipeline-step"><b>02</b> CONSTRUIR</div>
-      <div class="pipeline-step"><b>03</b> VALIDAR</div>
-      <div class="pipeline-step"><b>04</b> PUBLICAR</div>
-    </div>
-  </section>
-
-  <section class="dashboard mobile-dashboard" id="dashboard-mobile" aria-label="Painel do portf&oacute;lio para celular">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // PAINEL</div>
-      <div class="live-status"><span class="live-dot"></span>ATIVO</div>
-    </div>
-
-    <div class="hero-row">
-      <div class="hero-copy">
-        <h1>PORTF&Oacute;LIO <span>EM OPERA&Ccedil;&Atilde;O</span></h1>
-        <p>Sistemas web, APIs e automa&ccedil;&otilde;es para problemas reais.</p>
-      </div>
-      <div class="build-tag">perfil://kenjihidehira</div>
-    </div>
-
-    <div class="metrics">
-      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Projetos em destaque</span></div>
-      <div class="metric"><span class="metric-value">06</span><span class="metric-label">Linguagens principais</span></div>
-      <div class="metric"><span class="metric-value">6/6</span><span class="metric-label">Com TypeScript</span></div>
-      <div class="metric"><span class="metric-value">5/6</span><span class="metric-label">Com Dockerfile</span></div>
-    </div>
-
-    <div class="content-grid">
-      <div class="panel">
-        <div class="panel-title"><span>Mapa dos projetos</span><small>06 sistemas</small></div>
-        <div class="project-grid">
-          <div class="project"><div class="project-index">01</div><div><strong>Patrim&ocirc;nio</strong><span>Auditoria</span></div></div>
-          <div class="project"><div class="project-index">02</div><div><strong>CobreFlow</strong><span>Finan&ccedil;as</span></div></div>
-          <div class="project"><div class="project-index">03</div><div><strong>FieldOps</strong><span>Campo</span></div></div>
-          <div class="project"><div class="project-index">04</div><div><strong>LeadOps</strong><span>Marketing</span></div></div>
-          <div class="project"><div class="project-index">05</div><div><strong>ReturnOps</strong><span>RMA</span></div></div>
-          <div class="project"><div class="project-index">06</div><div><strong>ServiceHub</strong><span>CRM</span></div></div>
-        </div>
-      </div>
-
-      <div class="panel">
-        <div class="panel-title"><span>Linguagens</span><small>por volume</small></div>
-        <div class="language-list">
-          <div class="language-row"><span class="language-name">TypeScript</span><span class="track"><span class="fill ts"></span></span><span class="language-value">37,9%</span></div>
-          <div class="language-row"><span class="language-name">JavaScript</span><span class="track"><span class="fill js"></span></span><span class="language-value">21,2%</span></div>
-          <div class="language-row"><span class="language-name">CSS</span><span class="track"><span class="fill css"></span></span><span class="language-value">19,0%</span></div>
-          <div class="language-row"><span class="language-name">PLpgSQL</span><span class="track"><span class="fill sql"></span></span><span class="language-value">18,0%</span></div>
-          <div class="language-row"><span class="language-name">HTML</span><span class="track"><span class="fill html"></span></span><span class="language-value">3,0%</span></div>
-          <div class="language-row"><span class="language-name">PHP</span><span class="track"><span class="fill php"></span></span><span class="language-value">0,8%</span></div>
-        </div>
-      </div>
-    </div>
-
-    <div class="pipeline">
-      <div class="pipeline-step"><b>01</b> ENTENDER</div>
-      <div class="pipeline-step"><b>02</b> CONSTRUIR</div>
-      <div class="pipeline-step"><b>03</b> VALIDAR</div>
-      <div class="pipeline-step"><b>04</b> PUBLICAR</div>
-    </div>
-  </section>
-
-  <section class="dashboard stack-desktop" id="stack-desktop" aria-label="Mapa visual da stack para desktop">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // ECOSSISTEMA T&Eacute;CNICO</div>
-      <div class="live-status"><span class="live-dot"></span>STACK CONECTADA</div>
-    </div>
-
-    <div class="stack-heading">
-      <div>
-        <h2>CAMADAS QUE <span>CONSTROEM PRODUTOS</span></h2>
-        <p>Interface, regra, dados e entrega organizados como um &uacute;nico fluxo de desenvolvimento.</p>
-      </div>
-      <div class="stack-code">arquitetura://web-fullstack</div>
-    </div>
-
-    <div class="stack-modules">
-      <article class="stack-module module-interface">
-        <span class="module-index">CAMADA 01</span>
-        <h3>Interfaces</h3>
-        <p>Experi&ecirc;ncias claras, responsivas e orientadas a fluxo.</p>
-        <div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Responsividade</span></div>
-      </article>
-      <article class="stack-module module-app">
-        <span class="module-index">CAMADA 02</span>
-        <h3>Aplica&ccedil;&otilde;es</h3>
-        <p>Regras de neg&oacute;cio, servi&ccedil;os e integra&ccedil;&otilde;es.</p>
-        <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">PHP</span></div>
-      </article>
-      <article class="stack-module module-data">
-        <span class="module-index">CAMADA 03</span>
-        <h3>Dados</h3>
-        <p>Persist&ecirc;ncia, acesso seguro e APIs conectadas.</p>
-        <div class="chips"><span class="chip">Supabase</span><span class="chip">PLpgSQL</span><span class="chip">Autentica&ccedil;&atilde;o</span><span class="chip">APIs REST</span></div>
-      </article>
-      <article class="stack-module module-delivery">
-        <span class="module-index">CAMADA 04</span>
-        <h3>Entrega</h3>
-        <p>Qualidade, rastreabilidade e publica&ccedil;&atilde;o cont&iacute;nua.</p>
-        <div class="chips"><span class="chip">GitHub</span><span class="chip">Testes</span><span class="chip">CI</span><span class="chip">Dockerfile</span></div>
-      </article>
-    </div>
-
-    <div class="stack-flow"><span><b>01</b> INTERFACE</span><span><b>02</b> REGRA</span><span><b>03</b> DADOS</span><span><b>04</b> PUBLICA&Ccedil;&Atilde;O</span></div>
-  </section>
-
-  <section class="dashboard stack-mobile" id="stack-mobile" aria-label="Mapa visual da stack para celular">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // STACK</div>
-      <div class="live-status"><span class="live-dot"></span>CONECTADA</div>
-    </div>
-
-    <div class="stack-heading">
-      <div>
-        <h2>CAMADAS QUE <span>CONSTROEM PRODUTOS</span></h2>
-        <p>Interface, regra, dados e entrega em um &uacute;nico fluxo.</p>
-      </div>
-      <div class="stack-code">arquitetura://web-fullstack</div>
-    </div>
-
-    <div class="stack-modules">
-      <article class="stack-module module-interface">
-        <span class="module-index">CAMADA 01</span><h3>Interfaces</h3><p>Experi&ecirc;ncias claras e responsivas.</p>
-        <div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">Responsividade</span></div>
-      </article>
-      <article class="stack-module module-app">
-        <span class="module-index">CAMADA 02</span><h3>Aplica&ccedil;&otilde;es</h3><p>Regras, servi&ccedil;os e integra&ccedil;&otilde;es.</p>
-        <div class="chips"><span class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">PHP</span></div>
-      </article>
-      <article class="stack-module module-data">
-        <span class="module-index">CAMADA 03</span><h3>Dados</h3><p>Persist&ecirc;ncia e acesso seguro.</p>
-        <div class="chips"><span class="chip">Supabase</span><span class="chip">PLpgSQL</span><span class="chip">Autentica&ccedil;&atilde;o</span><span class="chip">APIs REST</span></div>
-      </article>
-      <article class="stack-module module-delivery">
-        <span class="module-index">CAMADA 04</span><h3>Entrega</h3><p>Qualidade e publica&ccedil;&atilde;o cont&iacute;nua.</p>
-        <div class="chips"><span class="chip">GitHub</span><span class="chip">Testes</span><span class="chip">CI</span><span class="chip">Dockerfile</span></div>
-      </article>
-    </div>
-
-    <div class="stack-flow"><span><b>01</b> INTERFACE</span><span><b>02</b> REGRA</span><span><b>03</b> DADOS</span><span><b>04</b> PUBLICA&Ccedil;&Atilde;O</span></div>
-  </section>
-
-  <section class="dashboard showcase-desktop showcase-v2" id="showcase-desktop" aria-label="Vitrine visual dos projetos em destaque para desktop">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // LABORAT&Oacute;RIO DE PRODUTOS</div>
-      <div class="live-status"><span class="live-dot"></span>06 REPOSIT&Oacute;RIOS ATIVOS</div>
-    </div>
-
-    <div class="showcase-heading">
-      <div>
-        <h2>PROJETOS QUE <span>ENTRAM EM OPERA&Ccedil;&Atilde;O</span></h2>
-        <p>Do fluxo ao painel: sistemas completos para patrim&ocirc;nio, finan&ccedil;as, campo, marketing, devolu&ccedil;&otilde;es e atendimento.</p>
-      </div>
-      <div class="showcase-stamp"><span>Portf&oacute;lio</span><b>2026</b><small>em evolu&ccedil;&atilde;o</small></div>
-    </div>
-
-    <div class="signal-strip">
-      <div class="signal-cell"><small>Escopo atual</small><strong>06 sistemas</strong></div>
-      <div class="signal-cell"><small>Cobertura</small><strong>04 frentes</strong></div>
-      <div class="signal-cell"><small>Arquitetura</small><strong>Ponta a ponta</strong></div>
-      <div class="signal-cell"><small>Entrega</small><strong>Documentada</strong></div>
-    </div>
-
-    <div class="featured-grid">
-      <article class="featured-card flagship-card card-cyan" data-index="01">
-        <div class="flagship-main">
-          <div class="featured-meta"><span class="featured-domain">Projeto principal // Auditoria patrimonial</span><span class="repo-id">Repo 01</span></div>
-          <h3>Patrim&ocirc;nio Ops</h3>
-          <p>Controle patrimonial por n&uacute;cleo com rastreabilidade, autentica&ccedil;&atilde;o, auditoria e vis&atilde;o operacional.</p>
-          <div class="featured-tech"><span>TypeScript</span><span>Supabase</span><span>Autentica&ccedil;&atilde;o</span><span>Integra&ccedil;&atilde;o cont&iacute;nua</span></div>
-          <div class="proof-grid">
-            <div><small>Controle</small><strong>Por n&uacute;cleo</strong></div>
-            <div><small>Governan&ccedil;a</small><strong>Audit&aacute;vel</strong></div>
-            <div><small>Opera&ccedil;&atilde;o</small><strong>Centralizada</strong></div>
+  <!-- 01 / IDENTIDADE — DESKTOP -->
+  <section class="panel desktop" id="identity-desktop">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> PORTFÓLIO / 2026</div>
+      <div class="edition"><span>EDIÇÃO 01</span><span class="signal">DISPONÍVEL PARA EVOLUIR</span><span>DOURADINA / PR</span></div>
+    </header>
+    <div class="hero-grid">
+      <main class="hero-main">
+        <div class="hero-kicker"><span class="section-no">00</span><span class="eyebrow" style="margin:0">Identidade profissional</span></div>
+        <h1 class="hero-name"><span>Wesley</span><span class="middle">Kenji</span><span class="last">Hidehira</span></h1>
+        <p class="hero-position">Desenvolvedor de sistemas web que transforma <strong>rotinas operacionais</strong> em produtos claros, rastreáveis e preparados para crescer.</p>
+      </main>
+      <aside class="hero-side">
+        <div class="hero-brief">
+          <div class="hero-brief-label"><span>Atuação</span><span>BR / PT</span></div>
+          <h2>Sistemas que organizam a operação.</h2>
+          <p>Do entendimento do problema à publicação: interface, aplicação, dados e validação no mesmo fluxo.</p>
+          <div class="hero-list">
+            <div>Painéis e controles</div>
+            <div>APIs e integrações</div>
+            <div>Dados e automações</div>
           </div>
         </div>
-        <div class="system-map">
-          <div class="system-map-header"><span>Fluxo operacional</span><b>4 CAMADAS</b></div>
-          <div class="system-flow">
-            <div class="flow-node"><b>01</b><span>Cadastros</span></div>
-            <div class="flow-node"><b>02</b><span>Dados</span></div>
-            <div class="flow-node"><b>03</b><span>Auditoria</span></div>
-            <div class="flow-node"><b>04</b><span>Decis&atilde;o</span></div>
-          </div>
-          <div class="map-footer"><span>Estrutura completa</span><b>Interface + regra + dados</b></div>
-        </div>
-      </article>
-
-      <article class="featured-card half-card card-blue" data-index="02">
-        <div class="featured-meta"><span class="featured-domain">Finan&ccedil;as e cobran&ccedil;a</span><span class="repo-id">Repo 02</span></div>
-        <h3>CobreFlow</h3>
-        <p>Painel para concilia&ccedil;&atilde;o de receb&iacute;veis, cobran&ccedil;a ativa e automa&ccedil;&otilde;es financeiras.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>Receb&iacute;veis</span><span>Automa&ccedil;&atilde;o</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>Concilia&ccedil;&atilde;o + cobran&ccedil;a</strong></div>
-        <div class="featured-footer"><span>C&oacute;digo e documenta&ccedil;&atilde;o no GitHub</span><b>REPOSIT&Oacute;RIO 02</b></div>
-      </article>
-
-      <article class="featured-card half-card card-orange" data-index="03">
-        <div class="featured-meta"><span class="featured-domain">Campo e margem</span><span class="repo-id">Repo 03</span></div>
-        <h3>FieldOps</h3>
-        <p>Controle de margem de servi&ccedil;os de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.</p>
-        <div class="featured-tech"><span>PHP</span><span>TypeScript</span><span>SLA</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>Margem + risco de SLA</strong></div>
-        <div class="featured-footer"><span>C&oacute;digo e documenta&ccedil;&atilde;o no GitHub</span><b>REPOSIT&Oacute;RIO 03</b></div>
-      </article>
-
-      <article class="featured-card third-card card-purple" data-index="04">
-        <div class="featured-meta"><span class="featured-domain">Marketing e atribui&ccedil;&atilde;o</span><span class="repo-id">04</span></div>
-        <h3>LeadOps</h3>
-        <p>Atribui&ccedil;&atilde;o de campanhas, pontua&ccedil;&atilde;o de leads e retorno por canal.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>Marketing</span><span>ROI</span></div>
-        <div class="project-outcome"><span>Foco</span><strong>Atribui&ccedil;&atilde;o + ROI</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 04</b></div>
-      </article>
-
-      <article class="featured-card third-card card-sky" data-index="05">
-        <div class="featured-meta"><span class="featured-domain">Devolu&ccedil;&otilde;es e SLA</span><span class="repo-id">05</span></div>
-        <h3>ReturnOps</h3>
-        <p>Devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o de estoque e controle de SLA.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>RMA</span><span>Estoque</span></div>
-        <div class="project-outcome"><span>Foco</span><strong>RMA + reposi&ccedil;&atilde;o</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 05</b></div>
-      </article>
-
-      <article class="featured-card third-card card-green" data-index="06">
-        <div class="featured-meta"><span class="featured-domain">Servi&ccedil;os e CRM</span><span class="repo-id">06</span></div>
-        <h3>ServiceHub</h3>
-        <p>Agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para opera&ccedil;&otilde;es de servi&ccedil;os.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>CRM</span><span>Agenda</span></div>
-        <div class="project-outcome"><span>Foco</span><strong>Agenda + funil CRM</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 06</b></div>
-      </article>
-    </div>
-
-    <div class="showcase-signature"><span>SISTEMAS WEB // AUTOMA&Ccedil;&Otilde;ES // DADOS // ENTREGA CONT&Iacute;NUA</span><span>perfil://kenjihidehira</span></div>
-  </section>
-
-  <section class="dashboard showcase-mobile showcase-v2" id="showcase-mobile" aria-label="Vitrine visual dos projetos em destaque para celular">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // PRODUTOS</div>
-      <div class="live-status"><span class="live-dot"></span>06 ATIVOS</div>
-    </div>
-
-    <div class="showcase-heading">
-      <div>
-        <h2>PROJETOS QUE <span>ENTRAM EM OPERA&Ccedil;&Atilde;O</span></h2>
-        <p>Sistemas completos para problemas reais de neg&oacute;cio.</p>
-      </div>
-    </div>
-
-    <div class="signal-strip">
-      <div class="signal-cell"><small>Escopo atual</small><strong>06 sistemas</strong></div>
-      <div class="signal-cell"><small>Cobertura</small><strong>04 frentes</strong></div>
-      <div class="signal-cell"><small>Arquitetura</small><strong>Ponta a ponta</strong></div>
-      <div class="signal-cell"><small>Entrega</small><strong>Documentada</strong></div>
-    </div>
-
-    <div class="featured-grid">
-      <article class="featured-card flagship-card card-cyan" data-index="01">
-        <div class="flagship-main">
-          <div class="featured-meta"><span class="featured-domain">Projeto principal // Auditoria</span><span class="repo-id">Repo 01</span></div>
-          <h3>Patrim&ocirc;nio Ops</h3>
-          <p>Controle por n&uacute;cleo, rastreabilidade, autentica&ccedil;&atilde;o e auditoria operacional.</p>
-          <div class="featured-tech"><span>TypeScript</span><span>Supabase</span><span>Autentica&ccedil;&atilde;o</span></div>
-          <div class="proof-grid">
-            <div><small>Controle</small><strong>Por n&uacute;cleo</strong></div>
-            <div><small>Governan&ccedil;a</small><strong>Audit&aacute;vel</strong></div>
-            <div><small>Opera&ccedil;&atilde;o</small><strong>Centralizada</strong></div>
-          </div>
-        </div>
-        <div class="system-map">
-          <div class="system-map-header"><span>Fluxo operacional</span><b>4 CAMADAS</b></div>
-          <div class="system-flow">
-            <div class="flow-node"><b>01</b><span>Cadastro</span></div>
-            <div class="flow-node"><b>02</b><span>Dados</span></div>
-            <div class="flow-node"><b>03</b><span>Auditoria</span></div>
-            <div class="flow-node"><b>04</b><span>Decis&atilde;o</span></div>
-          </div>
-          <div class="map-footer"><span>Estrutura completa</span><b>Ponta a ponta</b></div>
-        </div>
-      </article>
-
-      <article class="featured-card half-card card-blue" data-index="02">
-        <div class="featured-meta"><span class="featured-domain">Finan&ccedil;as e cobran&ccedil;a</span><span class="repo-id">Repo 02</span></div>
-        <h3>CobreFlow</h3>
-        <p>Concilia&ccedil;&atilde;o de receb&iacute;veis, cobran&ccedil;a ativa e automa&ccedil;&otilde;es financeiras.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>Receb&iacute;veis</span><span>Automa&ccedil;&atilde;o</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>Concilia&ccedil;&atilde;o + cobran&ccedil;a</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 02</b></div>
-      </article>
-
-      <article class="featured-card half-card card-orange" data-index="03">
-        <div class="featured-meta"><span class="featured-domain">Campo e margem</span><span class="repo-id">Repo 03</span></div>
-        <h3>FieldOps</h3>
-        <p>Margem de servi&ccedil;os de campo, risco de SLA e automa&ccedil;&atilde;o de cobran&ccedil;a.</p>
-        <div class="featured-tech"><span>PHP</span><span>TypeScript</span><span>SLA</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>Margem + risco de SLA</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 03</b></div>
-      </article>
-
-      <article class="featured-card third-card card-purple" data-index="04">
-        <div class="featured-meta"><span class="featured-domain">Marketing e atribui&ccedil;&atilde;o</span><span class="repo-id">Repo 04</span></div>
-        <h3>LeadOps</h3>
-        <p>Atribui&ccedil;&atilde;o de campanhas, pontua&ccedil;&atilde;o de leads e retorno por canal.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>Marketing</span><span>ROI</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>Atribui&ccedil;&atilde;o + ROI</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 04</b></div>
-      </article>
-
-      <article class="featured-card third-card card-sky" data-index="05">
-        <div class="featured-meta"><span class="featured-domain">Devolu&ccedil;&otilde;es e SLA</span><span class="repo-id">Repo 05</span></div>
-        <h3>ReturnOps</h3>
-        <p>Devolu&ccedil;&otilde;es, reembolsos, reposi&ccedil;&atilde;o de estoque e controle de SLA.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>RMA</span><span>Estoque</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>RMA + reposi&ccedil;&atilde;o</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 05</b></div>
-      </article>
-
-      <article class="featured-card third-card card-green" data-index="06">
-        <div class="featured-meta"><span class="featured-domain">Servi&ccedil;os e CRM</span><span class="repo-id">Repo 06</span></div>
-        <h3>ServiceHub</h3>
-        <p>Agenda, funil, cobran&ccedil;as e automa&ccedil;&otilde;es para opera&ccedil;&otilde;es de servi&ccedil;os.</p>
-        <div class="featured-tech"><span>JavaScript</span><span>CRM</span><span>Agenda</span></div>
-        <div class="project-outcome"><span>Entrega central</span><strong>Agenda + funil CRM</strong></div>
-        <div class="featured-footer"><span>Dispon&iacute;vel no GitHub</span><b>REPO 06</b></div>
-      </article>
-    </div>
-
-    <div class="showcase-signature"><span>SISTEMAS WEB // DADOS // AUTOMA&Ccedil;&Otilde;ES</span><span>KENJI.OS</span></div>
-  </section>
-
-  <section class="dashboard identity-desktop" id="identity-desktop" aria-label="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira para desktop">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // PERFIL PROFISSIONAL</div>
-      <div class="live-status"><span class="live-dot"></span>PORTF&Oacute;LIO ATIVO</div>
-    </div>
-
-    <div class="identity-layout">
-      <div class="identity-copy">
-        <h1>WESLEY KENJI <span>HIDEHIRA</span></h1>
-        <div class="identity-role">Desenvolvedor web // sistemas, APIs e automa&ccedil;&otilde;es</div>
-        <p>Transformo fluxos operacionais em produtos web claros, rastre&aacute;veis e preparados para evoluir.</p>
-        <div class="identity-tags"><span>JavaScript</span><span>TypeScript</span><span>Node.js</span><span>PHP</span><span>Supabase</span></div>
-      </div>
-
-      <aside class="identity-console">
-        <span class="console-label">Posicionamento</span>
-        <h2>PRODUTOS PARA OPERA&Ccedil;&Atilde;O</h2>
-        <div class="console-list">
-          <div class="console-row"><span>Foco</span><b>Sistemas web</b></div>
-          <div class="console-row"><span>M&eacute;todo</span><b>Ponta a ponta</b></div>
-          <div class="console-row"><span>Base</span><b>Douradina, PR</b></div>
-          <div class="console-row"><span>Estado</span><b>Evolu&ccedil;&atilde;o cont&iacute;nua</b></div>
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>06</strong><span>projetos</span></div>
+          <div class="hero-stat"><strong>04</strong><span>camadas</span></div>
+          <div class="hero-stat"><strong>06</strong><span>linguagens</span></div>
+          <div class="hero-stat"><strong>100%</strong><span>pt-br</span></div>
         </div>
       </aside>
     </div>
-
-    <div class="identity-metrics">
-      <div class="identity-metric"><strong>06</strong><span>Projetos em destaque</span></div>
-      <div class="identity-metric"><strong>04</strong><span>Frentes de neg&oacute;cio</span></div>
-      <div class="identity-metric"><strong>06</strong><span>Linguagens principais</span></div>
-      <div class="identity-metric"><strong>PT-BR</strong><span>Portf&oacute;lio em portugu&ecirc;s</span></div>
-    </div>
-
-    <div class="identity-flow"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> PUBLICAR</span></div>
   </section>
 
-  <section class="dashboard identity-mobile" id="identity-mobile" aria-label="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira para celular">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // PERFIL</div>
-      <div class="live-status"><span class="live-dot"></span>ATIVO</div>
-    </div>
-
-    <div class="identity-layout">
-      <div class="identity-copy">
-        <h1>WESLEY KENJI <span>HIDEHIRA</span></h1>
-        <div class="identity-role">Desenvolvedor web</div>
-        <p>Sistemas, APIs e automa&ccedil;&otilde;es para transformar fluxos operacionais em produtos claros.</p>
-        <div class="identity-tags"><span>JavaScript</span><span>TypeScript</span><span>Node.js</span><span>PHP</span><span>Supabase</span></div>
-      </div>
-
-      <aside class="identity-console">
-        <span class="console-label">Posicionamento</span>
-        <h2>PRODUTOS PARA OPERA&Ccedil;&Atilde;O</h2>
-        <div class="console-list">
-          <div class="console-row"><span>Foco</span><b>Sistemas web</b></div>
-          <div class="console-row"><span>M&eacute;todo</span><b>Ponta a ponta</b></div>
-          <div class="console-row"><span>Base</span><b>Douradina, PR</b></div>
-          <div class="console-row"><span>Estado</span><b>Evolu&ccedil;&atilde;o cont&iacute;nua</b></div>
+  <!-- 01 / IDENTIDADE — MOBILE -->
+  <section class="panel mobile" id="identity-mobile">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> PORTFÓLIO</div>
+      <div class="edition"><span>2026</span></div>
+    </header>
+    <div class="hero-mobile-body">
+      <div class="hero-kicker"><span class="section-no">00</span><span class="eyebrow" style="margin:0">Identidade profissional</span></div>
+      <h1 class="hero-name"><span>Wesley</span><span class="middle">Kenji</span><span class="last">Hidehira</span></h1>
+      <p class="hero-position">Desenvolvedor de sistemas web para <strong>operações mais claras</strong>, rastreáveis e preparadas para crescer.</p>
+      <div class="hero-brief">
+        <div class="hero-brief-label"><span>Atuação</span><span class="signal">em evolução</span></div>
+        <h2>Problema → sistema → resultado.</h2>
+        <p>Interface, aplicação, dados e validação no mesmo fluxo de entrega.</p>
+        <div class="hero-list">
+          <div>Painéis</div>
+          <div>APIs</div>
+          <div>Dados</div>
+          <div>Automações</div>
         </div>
-      </aside>
-    </div>
-
-    <div class="identity-metrics">
-      <div class="identity-metric"><strong>06</strong><span>Projetos em destaque</span></div>
-      <div class="identity-metric"><strong>04</strong><span>Frentes de neg&oacute;cio</span></div>
-      <div class="identity-metric"><strong>06</strong><span>Linguagens principais</span></div>
-      <div class="identity-metric"><strong>PT-BR</strong><span>Portf&oacute;lio em portugu&ecirc;s</span></div>
-    </div>
-
-    <div class="identity-flow"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> PUBLICAR</span></div>
-  </section>
-
-  <section class="dashboard roadmap-desktop" id="roadmap-desktop" aria-label="Rota de evolu&ccedil;&atilde;o profissional para desktop">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // ROTA DE EVOLU&Ccedil;&Atilde;O</div>
-      <div class="live-status"><span class="live-dot"></span>TRILHA ATIVA</div>
-    </div>
-
-    <div class="roadmap-heading">
-      <div>
-        <h2>CONSTRUIR, VALIDAR E <span>ELEVAR A QUALIDADE</span></h2>
-        <p>Uma progress&atilde;o objetiva: consolidar a base, ampliar demonstra&ccedil;&otilde;es e aumentar a confiabilidade das entregas.</p>
       </div>
-      <div class="roadmap-code">rota://produto-web-2026</div>
-    </div>
-
-    <div class="roadmap-grid">
-      <article class="roadmap-card phase-complete" data-phase="01">
-        <div class="phase-top"><span class="phase-label">Funda&ccedil;&atilde;o t&eacute;cnica</span><span class="phase-status">Conclu&iacute;da</span></div>
-        <h3>Base consolidada</h3>
-        <p>Projetos organizados com interface, regras de neg&oacute;cio, dados e publica&ccedil;&atilde;o.</p>
-        <div class="phase-deliverables"><span>Web + APIs</span><span>Banco e autentica&ccedil;&atilde;o</span><span>Integra&ccedil;&atilde;o cont&iacute;nua</span></div>
-      </article>
-
-      <article class="roadmap-card phase-current" data-phase="02">
-        <div class="phase-top"><span class="phase-label">Demonstra&ccedil;&otilde;es e dados</span><span class="phase-status">Em andamento</span></div>
-        <h3>Opera&ccedil;&atilde;o vis&iacute;vel</h3>
-        <p>Colocar experi&ecirc;ncias online, conectar dados reais e consolidar TypeScript.</p>
-        <div class="phase-deliverables"><span>Demonstra&ccedil;&otilde;es p&uacute;blicas</span><span>Dados reais</span><span>TypeScript consolidado</span></div>
-      </article>
-
-      <article class="roadmap-card phase-next" data-phase="03">
-        <div class="phase-top"><span class="phase-label">Qualidade em escala</span><span class="phase-status">Pr&oacute;xima etapa</span></div>
-        <h3>Entrega confi&aacute;vel</h3>
-        <p>Expandir testes, observa&ccedil;&atilde;o operacional e padr&otilde;es reutiliz&aacute;veis.</p>
-        <div class="phase-deliverables"><span>Cobertura de testes</span><span>Observabilidade</span><span>Padr&otilde;es reutiliz&aacute;veis</span></div>
-      </article>
-    </div>
-
-    <div class="roadmap-loop"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> MEDIR E EVOLUIR</span></div>
-  </section>
-
-  <section class="dashboard roadmap-mobile" id="roadmap-mobile" aria-label="Rota de evolu&ccedil;&atilde;o profissional para celular">
-    <div class="topline">
-      <div class="system-id">KENJI.OS // EVOLU&Ccedil;&Atilde;O</div>
-      <div class="live-status"><span class="live-dot"></span>ATIVA</div>
-    </div>
-
-    <div class="roadmap-heading">
-      <div>
-        <h2>CONSTRUIR, VALIDAR E <span>ELEVAR A QUALIDADE</span></h2>
-        <p>Base s&oacute;lida, demonstra&ccedil;&otilde;es vis&iacute;veis e entregas mais confi&aacute;veis.</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>06</strong><span>projetos</span></div>
+        <div class="hero-stat"><strong>04</strong><span>camadas</span></div>
+        <div class="hero-stat"><strong>06</strong><span>linguagens</span></div>
+        <div class="hero-stat"><strong>BR</strong><span>português</span></div>
       </div>
     </div>
+  </section>
 
-    <div class="roadmap-grid">
-      <article class="roadmap-card phase-complete" data-phase="01">
-        <div class="phase-top"><span class="phase-label">Funda&ccedil;&atilde;o t&eacute;cnica</span><span class="phase-status">Conclu&iacute;da</span></div>
-        <h3>Base consolidada</h3>
-        <p>Interface, regras, dados e publica&ccedil;&atilde;o organizados.</p>
-        <div class="phase-deliverables"><span>Web + APIs</span><span>Autentica&ccedil;&atilde;o</span><span>Dados</span><span>Integra&ccedil;&atilde;o cont&iacute;nua</span></div>
-      </article>
-
-      <article class="roadmap-card phase-current" data-phase="02">
-        <div class="phase-top"><span class="phase-label">Demonstra&ccedil;&otilde;es e dados</span><span class="phase-status">Em andamento</span></div>
-        <h3>Opera&ccedil;&atilde;o vis&iacute;vel</h3>
-        <p>Experi&ecirc;ncias online, dados reais e TypeScript consolidado.</p>
-        <div class="phase-deliverables"><span>Demonstra&ccedil;&otilde;es</span><span>Dados reais</span><span>TypeScript</span><span>Publica&ccedil;&atilde;o</span></div>
-      </article>
-
-      <article class="roadmap-card phase-next" data-phase="03">
-        <div class="phase-top"><span class="phase-label">Qualidade em escala</span><span class="phase-status">Pr&oacute;xima etapa</span></div>
-        <h3>Entrega confi&aacute;vel</h3>
-        <p>Testes, observa&ccedil;&atilde;o operacional e padr&otilde;es reutiliz&aacute;veis.</p>
-        <div class="phase-deliverables"><span>Testes</span><span>Observabilidade</span><span>Padr&otilde;es</span><span>Confiabilidade</span></div>
-      </article>
+  <!-- 02 / STACK — DESKTOP -->
+  <section class="panel desktop" id="stack-desktop">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> ARQUITETURA</div>
+      <div class="edition"><span>SEÇÃO 02 / 06</span><span class="signal">FLUXO CONECTADO</span></div>
+    </header>
+    <div class="section-head">
+      <div><p class="eyebrow">Mapa técnico / quatro camadas</p><h2 class="section-title">Da interface<br>até a entrega.</h2></div>
+      <p class="lede">Tecnologia só gera valor quando as camadas trabalham juntas. Esta é a arquitetura recorrente dos projetos do portfólio.</p>
     </div>
+    <div class="stack-grid">
+      <article class="layer" style="--accent:#2449e8"><span class="layer-no">01</span><h3>Interfaces</h3><p>Experiências claras, responsivas e orientadas à tarefa.</p><div class="layer-tags"><span class="tag blue">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span></div></article>
+      <article class="layer" style="--accent:#ff5b35"><span class="layer-no">02</span><h3>Aplicações</h3><p>Regras, serviços, integrações e fluxos de negócio.</p><div class="layer-tags"><span class="tag orange">TypeScript</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PHP</span></div></article>
+      <article class="layer" style="--accent:#10131a"><span class="layer-no">03</span><h3>Dados</h3><p>Persistência, acesso seguro e rastreabilidade operacional.</p><div class="layer-tags"><span class="tag ink">Supabase</span><span class="tag">PLpgSQL</span><span class="tag">APIs REST</span><span class="tag">Autenticação</span></div></article>
+      <article class="layer" style="--accent:#c9f04b"><span class="layer-no">04</span><h3>Entrega</h3><p>Qualidade, documentação e publicação verificável.</p><div class="layer-tags"><span class="tag lime">GitHub</span><span class="tag">Testes</span><span class="tag">Dockerfile</span><span class="tag">Integração contínua</span></div></article>
+    </div>
+    <div class="stack-foot"><span>ENTRADA / PROBLEMA REAL</span><span class="stack-flow"><i></i> CONSTRUIR <b>→</b> VALIDAR <b>→</b> PUBLICAR <i></i></span><span>SAÍDA / SISTEMA UTILIZÁVEL</span></div>
+  </section>
 
-    <div class="roadmap-loop"><span><b>01</b> ENTENDER</span><span><b>02</b> CONSTRUIR</span><span><b>03</b> VALIDAR</span><span><b>04</b> EVOLUIR</span></div>
+  <!-- 02 / STACK — MOBILE -->
+  <section class="panel mobile" id="stack-mobile">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> ARQUITETURA</div>
+      <div class="edition"><span>02 / 06</span></div>
+    </header>
+    <div class="section-head">
+      <p class="eyebrow">Mapa técnico / quatro camadas</p>
+      <h2 class="section-title">Da interface<br>até a entrega.</h2>
+      <p class="lede">Camadas conectadas para transformar uma rotina real em um sistema utilizável.</p>
+    </div>
+    <div class="stack-grid">
+      <article class="layer" style="--accent:#2449e8"><span class="layer-no">01</span><h3>Interfaces</h3><p>Experiências claras e responsivas.</p><div class="layer-tags"><span class="tag blue">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span></div></article>
+      <article class="layer" style="--accent:#ff5b35"><span class="layer-no">02</span><h3>Aplicações</h3><p>Regras, serviços e integrações.</p><div class="layer-tags"><span class="tag orange">TypeScript</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PHP</span></div></article>
+      <article class="layer" style="--accent:#10131a"><span class="layer-no">03</span><h3>Dados</h3><p>Persistência, acesso e rastreabilidade.</p><div class="layer-tags"><span class="tag ink">Supabase</span><span class="tag">PLpgSQL</span><span class="tag">APIs REST</span></div></article>
+      <article class="layer" style="--accent:#c9f04b"><span class="layer-no">04</span><h3>Entrega</h3><p>Qualidade e publicação verificável.</p><div class="layer-tags"><span class="tag lime">GitHub</span><span class="tag">Testes</span><span class="tag">Dockerfile</span></div></article>
+    </div>
+    <div class="stack-foot"><span>PROBLEMA</span><span class="stack-flow"><i></i> CONSTRUIR <b>→</b> VALIDAR <i></i></span><span>ENTREGA</span></div>
+  </section>
+
+  <!-- 03 / PAINEL — DESKTOP -->
+  <section class="panel desktop" id="dashboard-desktop">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> TELEMETRIA</div>
+      <div class="edition"><span>SEÇÃO 03 / 06</span><span class="signal">PORTFÓLIO EM OPERAÇÃO</span></div>
+    </header>
+    <div class="section-head">
+      <div><p class="eyebrow">Painel do portfólio</p><h2 class="section-title">O trabalho<br>em números.</h2></div>
+      <p class="lede">Projetos, linguagens e método reunidos em uma leitura objetiva — sem métricas decorativas.</p>
+    </div>
+    <div class="metric-strip">
+      <div class="metric"><strong>06</strong><span>projetos em destaque</span></div>
+      <div class="metric"><strong>06/06</strong><span>projetos com TypeScript</span></div>
+      <div class="metric"><strong>05/06</strong><span>projetos com Dockerfile</span></div>
+      <div class="metric"><strong>06</strong><span>linguagens principais</span></div>
+    </div>
+    <div class="dashboard-body">
+      <section class="data-card">
+        <div class="data-title"><span>Distribuição por código</span><span>≈ %</span></div>
+        <div class="bars">
+          <div class="bar-row"><span>TypeScript</span><div class="bar-track"><div class="bar-fill" style="--color:#2449e8;width:37.9%"></div></div><b>37,9</b></div>
+          <div class="bar-row"><span>JavaScript</span><div class="bar-track"><div class="bar-fill" style="--color:#ff5b35;width:21.2%"></div></div><b>21,2</b></div>
+          <div class="bar-row"><span>CSS</span><div class="bar-track"><div class="bar-fill" style="--color:#10131a;width:19%"></div></div><b>19,0</b></div>
+          <div class="bar-row"><span>PLpgSQL</span><div class="bar-track"><div class="bar-fill" style="--color:#c9f04b;width:18%"></div></div><b>18,0</b></div>
+          <div class="bar-row"><span>HTML</span><div class="bar-track"><div class="bar-fill" style="--color:#6f75ff;width:3%"></div></div><b>3,0</b></div>
+          <div class="bar-row"><span>PHP</span><div class="bar-track"><div class="bar-fill" style="--color:#8b5b47;width:.8%"></div></div><b>0,8</b></div>
+        </div>
+      </section>
+      <section class="data-card">
+        <div class="data-title"><span>Índice de sistemas</span><span>06 unidades</span></div>
+        <div class="project-index">
+          <div class="index-item" style="--color:#2449e8"><em></em><b>Patrimônio Ops</b><span>Ativos / auditoria</span></div>
+          <div class="index-item" style="--color:#ff5b35"><em></em><b>CobreFlow</b><span>Recebíveis / cobrança</span></div>
+          <div class="index-item" style="--color:#10131a"><em></em><b>FieldOps</b><span>Margem / SLA</span></div>
+          <div class="index-item" style="--color:#c9f04b"><em></em><b>LeadOps</b><span>Campanhas / retorno</span></div>
+          <div class="index-item" style="--color:#6f75ff"><em></em><b>ReturnOps</b><span>Devoluções / RMA</span></div>
+          <div class="index-item" style="--color:#00a681"><em></em><b>ServiceHub</b><span>Agenda / CRM</span></div>
+        </div>
+      </section>
+    </div>
+    <div class="process-strip"><div class="process-label">MÉTODO DE ENTREGA</div><div class="process-flow"><span>Entender</span><b>→</b><span>Modelar</span><b>→</b><span>Construir</span><b>→</b><span>Validar</span><b>→</b><span>Documentar</span><b>→</b><span>Publicar</span><b>✓</b></div></div>
+  </section>
+
+  <!-- 03 / PAINEL — MOBILE -->
+  <section class="panel mobile" id="dashboard-mobile">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> TELEMETRIA</div>
+      <div class="edition"><span>03 / 06</span></div>
+    </header>
+    <div class="section-head">
+      <p class="eyebrow">Painel do portfólio</p>
+      <h2 class="section-title">O trabalho<br>em números.</h2>
+      <p class="lede">Projetos, linguagens e método em uma leitura objetiva.</p>
+    </div>
+    <div class="metric-strip">
+      <div class="metric"><strong>06</strong><span>projetos em destaque</span></div>
+      <div class="metric"><strong>06/06</strong><span>com TypeScript</span></div>
+      <div class="metric"><strong>05/06</strong><span>com Dockerfile</span></div>
+      <div class="metric"><strong>06</strong><span>linguagens principais</span></div>
+    </div>
+    <div class="dashboard-body">
+      <section class="data-card">
+        <div class="data-title"><span>Distribuição por código</span><span>≈ %</span></div>
+        <div class="bars">
+          <div class="bar-row"><span>TypeScript</span><div class="bar-track"><div class="bar-fill" style="--color:#2449e8;width:37.9%"></div></div><b>37,9</b></div>
+          <div class="bar-row"><span>JavaScript</span><div class="bar-track"><div class="bar-fill" style="--color:#ff5b35;width:21.2%"></div></div><b>21,2</b></div>
+          <div class="bar-row"><span>CSS</span><div class="bar-track"><div class="bar-fill" style="--color:#10131a;width:19%"></div></div><b>19,0</b></div>
+          <div class="bar-row"><span>PLpgSQL</span><div class="bar-track"><div class="bar-fill" style="--color:#c9f04b;width:18%"></div></div><b>18,0</b></div>
+          <div class="bar-row"><span>HTML</span><div class="bar-track"><div class="bar-fill" style="--color:#6f75ff;width:3%"></div></div><b>3,0</b></div>
+          <div class="bar-row"><span>PHP</span><div class="bar-track"><div class="bar-fill" style="--color:#8b5b47;width:.8%"></div></div><b>0,8</b></div>
+        </div>
+      </section>
+      <section class="data-card">
+        <div class="data-title"><span>Índice de sistemas</span><span>06</span></div>
+        <div class="project-index">
+          <div class="index-item" style="--color:#2449e8"><em></em><b>Patrimônio</b><span>Ativos / auditoria</span></div>
+          <div class="index-item" style="--color:#ff5b35"><em></em><b>CobreFlow</b><span>Recebíveis</span></div>
+          <div class="index-item" style="--color:#10131a"><em></em><b>FieldOps</b><span>Margem / SLA</span></div>
+          <div class="index-item" style="--color:#c9f04b"><em></em><b>LeadOps</b><span>Campanhas</span></div>
+          <div class="index-item" style="--color:#6f75ff"><em></em><b>ReturnOps</b><span>Devoluções</span></div>
+          <div class="index-item" style="--color:#00a681"><em></em><b>ServiceHub</b><span>Agenda / CRM</span></div>
+        </div>
+      </section>
+    </div>
+    <div class="process-strip"><div class="process-label">MÉTODO DE ENTREGA</div><div class="process-flow"><span>Entender</span><b>→</b><span>Modelar</span><b>→</b><span>Construir</span><b>→</b><span>Validar</span><b>✓</b></div></div>
+  </section>
+
+  <!-- 04 / PROJETOS — DESKTOP -->
+  <section class="panel desktop" id="showcase-desktop">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> PROJETOS</div>
+      <div class="edition"><span>SEÇÃO 04 / 06</span><span class="signal">06 SISTEMAS DOCUMENTADOS</span></div>
+    </header>
+    <div class="section-head">
+      <div><p class="eyebrow">Projetos em operação</p><h2 class="section-title">Problemas reais.<br>Entregas concretas.</h2></div>
+      <p class="lede">Cada projeto parte de uma rotina operacional específica e explicita a entrega central — não apenas a lista de tecnologias.</p>
+    </div>
+    <div class="showcase-wrap">
+      <article class="flagship">
+        <div class="flagship-main">
+          <span class="tag lime">PROJETO PRINCIPAL / 01</span>
+          <h3>Patrimônio Ops</h3>
+          <p>Controle operacional para inventário, movimentações, rastreabilidade e auditoria de ativos.</p>
+          <div class="flagship-tags"><span class="tag">TypeScript</span><span class="tag">Supabase</span><span class="tag">Autenticação</span><span class="tag">Auditoria</span></div>
+        </div>
+        <div class="flagship-side">
+          <div><span class="mini-label">Entrega central</span><strong>Uma base patrimonial confiável, rastreável e pronta para operação.</strong></div>
+          <div class="flowline"><span>Inventariar</span><b>→</b><span>Rastrear</span><b>→</b><span>Auditar</span></div>
+        </div>
+      </article>
+      <div class="project-grid">
+        <article class="project-card" style="--color:#ff5b35"><div class="project-accent"></div><div class="project-card-head"><span>02 / FINANÇAS</span><span>ATIVO</span></div><h3>CobreFlow</h3><p>Conciliação de recebíveis e organização da cobrança ativa.</p><div class="project-output">ENTREGA: visão de pendências, prioridades e recuperação.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Automações</span></div></article>
+        <article class="project-card" style="--color:#10131a"><div class="project-accent"></div><div class="project-card-head"><span>03 / CAMPO</span><span>ATIVO</span></div><h3>FieldOps</h3><p>Controle da margem de serviços externos e exposição ao SLA.</p><div class="project-output">ENTREGA: margem, custo e risco reunidos por operação.</div><div class="project-tech"><span class="tag">PHP</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span></div></article>
+        <article class="project-card" style="--color:#c9f04b"><div class="project-accent"></div><div class="project-card-head"><span>04 / MARKETING</span><span>ATIVO</span></div><h3>LeadOps</h3><p>Atribuição de campanhas e análise do retorno por canal.</p><div class="project-output">ENTREGA: origem, conversão e retorno na mesma leitura.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Marketing</span></div></article>
+        <article class="project-card" style="--color:#6f75ff"><div class="project-accent"></div><div class="project-card-head"><span>05 / PÓS-VENDA</span><span>ATIVO</span></div><h3>ReturnOps</h3><p>Coordenação de devoluções, reembolsos e reposições.</p><div class="project-output">ENTREGA: fila RMA com contexto e andamento visível.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">RMA</span></div></article>
+        <article class="project-card" style="--color:#00a681"><div class="project-accent"></div><div class="project-card-head"><span>06 / SERVIÇOS</span><span>ATIVO</span></div><h3>ServiceHub</h3><p>Agenda, funil comercial e automações para operações de serviço.</p><div class="project-output">ENTREGA: atendimento e oportunidade em um fluxo único.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">CRM</span></div></article>
+        <aside class="project-closing"><strong>06 projetos.<br>01 princípio.</strong><span>O sistema precisa explicar o problema que resolve.</span></aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 / PROJETOS — MOBILE -->
+  <section class="panel mobile" id="showcase-mobile">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> PROJETOS</div>
+      <div class="edition"><span>04 / 06</span></div>
+    </header>
+    <div class="section-head">
+      <p class="eyebrow">Projetos em operação</p>
+      <h2 class="section-title">Problemas reais.<br>Entregas concretas.</h2>
+      <p class="lede">Seis sistemas organizados pelo problema e pela entrega central.</p>
+    </div>
+    <div class="showcase-wrap">
+      <article class="flagship">
+        <div class="flagship-main"><span class="tag lime">PRINCIPAL / 01</span><h3>Patrimônio Ops</h3><p>Inventário, movimentações, rastreabilidade e auditoria de ativos.</p><div class="flagship-tags"><span class="tag">TypeScript</span><span class="tag">Supabase</span><span class="tag">Auditoria</span></div></div>
+        <div class="flagship-side"><div><span class="mini-label">Entrega central</span><strong>Base patrimonial confiável.</strong></div><div class="flowline"><span>Rastrear</span><b>→</b><span>Auditar</span></div></div>
+      </article>
+      <div class="project-grid">
+        <article class="project-card" style="--color:#ff5b35"><div class="project-accent"></div><div class="project-card-head"><span>02 / FINANÇAS</span><span>ATIVO</span></div><h3>CobreFlow</h3><p>Conciliação de recebíveis e cobrança ativa.</p><div class="project-output">Pendências, prioridades e recuperação.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Automações</span></div></article>
+        <article class="project-card" style="--color:#10131a"><div class="project-accent"></div><div class="project-card-head"><span>03 / CAMPO</span><span>ATIVO</span></div><h3>FieldOps</h3><p>Margem de serviços externos e risco de SLA.</p><div class="project-output">Margem, custo e risco por operação.</div><div class="project-tech"><span class="tag">PHP</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span></div></article>
+        <article class="project-card" style="--color:#c9f04b"><div class="project-accent"></div><div class="project-card-head"><span>04 / MARKETING</span><span>ATIVO</span></div><h3>LeadOps</h3><p>Atribuição de campanhas e retorno por canal.</p><div class="project-output">Origem, conversão e retorno.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">Marketing</span></div></article>
+        <article class="project-card" style="--color:#6f75ff"><div class="project-accent"></div><div class="project-card-head"><span>05 / PÓS-VENDA</span><span>ATIVO</span></div><h3>ReturnOps</h3><p>Devoluções, reembolsos e reposições.</p><div class="project-output">Fila RMA com andamento visível.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">RMA</span></div></article>
+        <article class="project-card" style="--color:#00a681"><div class="project-accent"></div><div class="project-card-head"><span>06 / SERVIÇOS</span><span>ATIVO</span></div><h3>ServiceHub</h3><p>Agenda, funil e automações para serviços.</p><div class="project-output">Atendimento e oportunidade em um fluxo.</div><div class="project-tech"><span class="tag">JavaScript</span><span class="tag">TypeScript</span><span class="tag">CRM</span></div></article>
+        <aside class="project-closing"><strong>06 projetos. 01 princípio.</strong><span>Explicar claramente o problema resolvido.</span></aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 / ROTA — DESKTOP -->
+  <section class="panel desktop" id="roadmap-desktop">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> EVOLUÇÃO</div>
+      <div class="edition"><span>SEÇÃO 05 / 06</span><span class="signal">ROTA ATIVA</span></div>
+    </header>
+    <div class="section-head">
+      <div><p class="eyebrow">Rota de evolução</p><h2 class="section-title">Construir.<br>Demonstrar. Escalar.</h2></div>
+      <p class="lede">A progressão técnica está organizada em três frentes verificáveis, com estágio e próximo movimento explícitos.</p>
+    </div>
+    <div class="roadmap-wrap">
+      <div class="road-track">
+        <article class="phase" style="--status:#c9f04b"><div class="phase-head"><b>FASE 01</b><span class="tag lime">CONCLUÍDA</span></div><h3>Fundação</h3><p>Projetos funcionais, documentação clara e estrutura de portfólio.</p><ul><li>Problemas operacionais definidos</li><li>Repositórios organizados</li><li>Fluxos principais implementados</li></ul></article>
+        <article class="phase" style="--status:#ff5b35"><div class="phase-head"><b>FASE 02</b><span class="tag orange">EM CURSO</span></div><h3>Demonstrações</h3><p>Produtos acessíveis, dados realistas e evidência visual das entregas.</p><ul><li>Demonstrações online</li><li>Cenários de uso completos</li><li>Dados e métricas verificáveis</li></ul></article>
+        <article class="phase" style="--status:#2449e8"><div class="phase-head"><b>FASE 03</b><span class="tag blue">PRÓXIMA</span></div><h3>Qualidade em escala</h3><p>Testes, observabilidade e automações para sustentar evolução contínua.</p><ul><li>Testes de integração</li><li>Monitoramento operacional</li><li>Entrega contínua madura</li></ul></article>
+      </div>
+      <div class="road-foot"><span>PONTO DE PARTIDA / BASE FUNCIONAL</span><span>MOVIMENTO CONTÍNUO → PRODUTOS MAIS CONFIÁVEIS</span></div>
+    </div>
+  </section>
+
+  <!-- 05 / ROTA — MOBILE -->
+  <section class="panel mobile" id="roadmap-mobile">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark">WKH</span> EVOLUÇÃO</div>
+      <div class="edition"><span>05 / 06</span></div>
+    </header>
+    <div class="section-head">
+      <p class="eyebrow">Rota de evolução</p>
+      <h2 class="section-title">Construir.<br>Demonstrar.<br>Escalar.</h2>
+      <p class="lede">Três frentes verificáveis, com estágio e próximo movimento explícitos.</p>
+    </div>
+    <div class="roadmap-wrap">
+      <div class="road-track">
+        <article class="phase" style="--status:#c9f04b"><div class="phase-head"><b>FASE 01</b><span class="tag lime">CONCLUÍDA</span></div><h3>Fundação</h3><p>Projetos funcionais e documentação clara.</p><ul><li>Problemas definidos</li><li>Repositórios organizados</li><li>Fluxos implementados</li></ul></article>
+        <article class="phase" style="--status:#ff5b35"><div class="phase-head"><b>FASE 02</b><span class="tag orange">EM CURSO</span></div><h3>Demonstrações</h3><p>Produtos acessíveis e evidência visual.</p><ul><li>Demonstrações online</li><li>Cenários completos</li><li>Métricas verificáveis</li></ul></article>
+        <article class="phase" style="--status:#2449e8"><div class="phase-head"><b>FASE 03</b><span class="tag blue">PRÓXIMA</span></div><h3>Qualidade em escala</h3><p>Testes e automações para evolução contínua.</p><ul><li>Testes de integração</li><li>Monitoramento</li><li>Entrega contínua</li></ul></article>
+      </div>
+      <div class="road-foot"><span>BASE FUNCIONAL</span><span>→ PRODUTOS CONFIÁVEIS</span></div>
+    </div>
   </section>
 </body>
 </html>

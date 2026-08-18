@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-mobile.png?v=20260817-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-desktop.png?v=20260817-4" alt="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira, desenvolvedor de sistemas web, APIs e automa&ccedil;&otilde;es">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-mobile.png?v=20260818-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-hero-desktop.png?v=20260818-1" alt="Apresenta&ccedil;&atilde;o profissional de Wesley Kenji Hidehira, desenvolvedor de sistemas web, APIs e automa&ccedil;&otilde;es">
 </picture>
 
 </div>
@@ -11,11 +11,11 @@
 
 <div align="center">
 
-<a href="#visao"><img src="https://img.shields.io/badge/01_VIS%C3%83O-0F172A?style=flat-square" alt="Ir para vis&atilde;o profissional"></a>
-<a href="#stack"><img src="https://img.shields.io/badge/02_STACK-1E3A8A?style=flat-square" alt="Ir para arquitetura t&eacute;cnica"></a>
-<a href="#painel"><img src="https://img.shields.io/badge/03_PAINEL-0891B2?style=flat-square" alt="Ir para painel do portf&oacute;lio"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/04_PROJETOS-7C3AED?style=flat-square" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
-<a href="#rota"><img src="https://img.shields.io/badge/05_ROTA-16A34A?style=flat-square" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
+<a href="#visao"><img src="https://img.shields.io/badge/01_VIS%C3%83O-10131A?style=flat-square" alt="Ir para vis&atilde;o profissional"></a>
+<a href="#stack"><img src="https://img.shields.io/badge/02_STACK-2449E8?style=flat-square" alt="Ir para arquitetura t&eacute;cnica"></a>
+<a href="#painel"><img src="https://img.shields.io/badge/03_PAINEL-FF5B35?style=flat-square" alt="Ir para painel do portf&oacute;lio"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/04_PROJETOS-10131A?style=flat-square" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
+<a href="#rota"><img src="https://img.shields.io/badge/05_ROTA-2449E8?style=flat-square" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
 
 </div>
 
@@ -46,8 +46,8 @@
 <p align="center"><strong>Interface, aplica&ccedil;&atilde;o, dados e entrega conectados como um &uacute;nico sistema.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-mobile.png?v=20260817-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-desktop.png?v=20260817-4" alt="Mapa das camadas t&eacute;cnicas do portf&oacute;lio: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-mobile.png?v=20260818-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-desktop.png?v=20260818-1" alt="Mapa das camadas t&eacute;cnicas do portf&oacute;lio: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
 </picture>
 
 <br>
@@ -77,8 +77,8 @@
 <p align="center"><strong>Uma leitura consolidada dos projetos, linguagens e fluxo de entrega.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-mobile.png?v=20260817-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-desktop.png?v=20260817-4" alt="Painel geral do portf&oacute;lio com projetos, linguagens e processo de desenvolvimento">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-mobile.png?v=20260818-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-desktop.png?v=20260818-1" alt="Painel geral do portf&oacute;lio com projetos, linguagens e processo de desenvolvimento">
 </picture>
 
 <br>
@@ -119,20 +119,20 @@
 <p align="center"><strong>Seis sistemas organizados por problema, entrega central e capacidade t&eacute;cnica.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260817-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260817-4" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-mobile.png?v=20260818-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260818-1" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
 </picture>
 
 <p align="center"><sub>Os bot&otilde;es abaixo abrem diretamente cada reposit&oacute;rio.</sub></p>
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/01_PATRIM%C3%94NIO_OPS-0891B2?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://img.shields.io/badge/02_COBREFLOW-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir CobreFlow"></a>
-<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://img.shields.io/badge/03_FIELDOPS-EA580C?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir FieldOps"></a>
-<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://img.shields.io/badge/04_LEADOPS-7C3AED?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir LeadOps"></a>
-<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://img.shields.io/badge/05_RETURNOPS-0284C7?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ReturnOps"></a>
-<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://img.shields.io/badge/06_SERVICEHUB-16A34A?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/01_PATRIM%C3%94NIO_OPS-2449E8?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://img.shields.io/badge/02_COBREFLOW-FF5B35?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://img.shields.io/badge/03_FIELDOPS-10131A?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://img.shields.io/badge/04_LEADOPS-76911A?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://img.shields.io/badge/05_RETURNOPS-6257D9?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://img.shields.io/badge/06_SERVICEHUB-008F70?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ServiceHub"></a>
 
 </div>
 
@@ -165,8 +165,8 @@
 <p align="center"><strong>Uma progress&atilde;o objetiva entre base t&eacute;cnica, demonstra&ccedil;&otilde;es e qualidade.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-mobile.png?v=20260817-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-desktop.png?v=20260817-4" alt="Rota de evolu&ccedil;&atilde;o com funda&ccedil;&atilde;o conclu&iacute;da, demonstra&ccedil;&otilde;es em andamento e qualidade em escala">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-mobile.png?v=20260818-1">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/rota-evolucao-desktop.png?v=20260818-1" alt="Rota de evolu&ccedil;&atilde;o com funda&ccedil;&atilde;o conclu&iacute;da, demonstra&ccedil;&otilde;es em andamento e qualidade em escala">
 </picture>
 
 <a id="contato"></a>
@@ -182,7 +182,7 @@
 <div align="center">
 
 <a href="https://github.com/Kenjihidehira"><img src="https://img.shields.io/badge/GITHUB-KENJIHIDEHIRA-181717?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir perfil de Kenji Hidehira no GitHub"></a>
-<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/EXPLORAR-REPOSIT%C3%93RIOS-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Explorar todos os reposit&oacute;rios"></a>
+<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/EXPLORAR-REPOSIT%C3%93RIOS-2449E8?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Explorar todos os reposit&oacute;rios"></a>
 
 </div>
 
@@ -192,6 +192,6 @@
 
 <div align="center">
 
-<sub><strong>KENJI.OS // SISTEMAS REAIS // APRENDIZADO CONT&Iacute;NUO // ENTREGA COM PROP&Oacute;SITO</strong></sub>
+<sub><strong>WKH / PORTF&Oacute;LIO // SISTEMAS REAIS // APRENDIZADO CONT&Iacute;NUO // ENTREGA COM PROP&Oacute;SITO</strong></sub>
 
 </div>
