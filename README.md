@@ -18,11 +18,13 @@
 
 <div align="center">
 
-<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260826-7" alt="Ir para vis&atilde;o profissional"></a>
-<a href="#stack"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-02.svg?v=20260826-7" alt="Ir para arquitetura t&eacute;cnica"></a>
-<a href="#painel"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-03.svg?v=20260826-7" alt="Ir para painel do portf&oacute;lio"></a>
-<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260826-7" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
-<a href="#rota"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260826-7" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
+<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260826-8" alt="Ir para vis&atilde;o profissional"></a>
+<a href="#stack"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-02.svg?v=20260826-8" alt="Ir para arquitetura t&eacute;cnica"></a>
+<a href="#painel"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-03.svg?v=20260826-8" alt="Ir para painel do portf&oacute;lio"></a>
+<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260826-8" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
+<a href="#servicos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260826-8" alt="Ir para especialidades e servi&ccedil;os"></a>
+<a href="#evidencias"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-06.svg?v=20260826-8" alt="Ir para evid&ecirc;ncias de engenharia"></a>
+<a href="#rota"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-07.svg?v=20260826-8" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
 
 </div>
 
@@ -357,13 +359,65 @@
 
 </details>
 
+<a id="servicos"></a>
+
+<br>
+
+---
+
+## 05 // Especialidades e servi&ccedil;os
+
+<p align="center"><strong>Solu&ccedil;&otilde;es web orientadas a processos, decis&atilde;o e rastreabilidade.</strong></p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-services-mobile.svg?v=20260826-8">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-services-desktop.svg?v=20260826-8" alt="Especialidades de Kenji Hidehira: controles operacionais, pain&eacute;is de gest&atilde;o, APIs, integra&ccedil;&otilde;es e automa&ccedil;&otilde;es">
+</picture>
+
+### Entregas que consigo desenvolver
+
+- **Controles operacionais:** invent&aacute;rio, filas, SLA, auditoria, cust&oacute;dia e acompanhamento de tarefas.
+- **Pain&eacute;is de gest&atilde;o:** indicadores, margem, risco, receita, capacidade e prioriza&ccedil;&atilde;o.
+- **APIs e integra&ccedil;&otilde;es:** autentica&ccedil;&atilde;o, valida&ccedil;&atilde;o, persist&ecirc;ncia e comunica&ccedil;&atilde;o entre sistemas.
+- **Automa&ccedil;&otilde;es:** alertas, cobran&ccedil;as, lembretes, importa&ccedil;&otilde;es e rotinas recorrentes.
+
+<a id="evidencias"></a>
+
+<br>
+
+---
+
+## 06 // Evid&ecirc;ncias de engenharia
+
+<p align="center"><strong>Cada projeto precisa apresentar sinais verific&aacute;veis de qualidade e entrega.</strong></p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-evidence-mobile.svg?v=20260826-8">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-evidence-desktop.svg?v=20260826-8" alt="Evid&ecirc;ncias de engenharia do portf&oacute;lio: testes, integra&ccedil;&atilde;o cont&iacute;nua, deploy, demonstra&ccedil;&otilde;es e documenta&ccedil;&atilde;o">
+</picture>
+
+<details>
+<summary><strong>:white_check_mark: Consultar crit&eacute;rios de qualidade</strong></summary>
+
+<br>
+
+| Crit&eacute;rio | Evid&ecirc;ncia apresentada |
+|:--|:--|
+| **Regras de neg&oacute;cio** | Testes de dom&iacute;nio e cen&aacute;rios automatizados |
+| **Integra&ccedil;&atilde;o cont&iacute;nua** | Pipelines de CI aprovados nos seis projetos destacados |
+| **Persist&ecirc;ncia** | Supabase no projeto principal e D1 isolado nas demonstra&ccedil;&otilde;es comerciais |
+| **Arquitetura** | Documenta&ccedil;&atilde;o t&eacute;cnica vinculada a cada reposit&oacute;rio |
+| **Disponibilidade** | Seis demonstra&ccedil;&otilde;es p&uacute;blicas verificadas |
+
+</details>
+
 <a id="rota"></a>
 
 <br>
 
 ---
 
-## 05 // Rota de evolu&ccedil;&atilde;o
+## 07 // Rota de evolu&ccedil;&atilde;o
 
 <p align="center"><strong>Uma progress&atilde;o objetiva entre base t&eacute;cnica, demonstra&ccedil;&otilde;es e qualidade.</strong></p>
 
@@ -378,7 +432,7 @@
 
 ---
 
-## 06 // Reposit&oacute;rios e contato
+## 08 // Reposit&oacute;rios e contato
 
 <p>Todo o c&oacute;digo p&uacute;blico, a documenta&ccedil;&atilde;o e a evolu&ccedil;&atilde;o dos projetos est&atilde;o centralizados no GitHub.</p>
 

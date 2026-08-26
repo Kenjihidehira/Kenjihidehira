@@ -489,6 +489,170 @@ function mobileMatrix() {
   </svg>`;
 }
 
+const serviceLines = [
+  ["01", "CONTROLES OPERACIONAIS", "Inventário, filas, SLA e auditoria", "ROTINA RASTREÁVEL", colors.green],
+  ["02", "PAINÉIS DE GESTÃO", "Indicadores, margem, risco e receita", "DECISÃO MAIS RÁPIDA", colors.blue],
+  ["03", "APIS E INTEGRAÇÕES", "REST, autenticação, validação e dados", "FLUXO CONECTADO", colors.cyan],
+  ["04", "AUTOMAÇÕES", "Alertas, cobranças, lembretes e rotinas", "EXECUÇÃO CONSISTENTE", colors.coral],
+];
+
+function desktopServices() {
+  const rows = serviceLines.map(([number, title, note, outcome, accent], index) => {
+    const y = 112 + index * 72;
+    return `<rect x="24" y="${y}" width="852" height="60" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+      <rect x="24" y="${y}" width="5" height="60" rx="2.5" fill="${accent}"/>
+      <circle cx="55" cy="${y + 30}" r="15" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.55"/>
+      ${text({ x: 55, y: y + 34, value: number, fill: accent, size: 8.5, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: 84, y: y + 25, value: title, size: 12.5, weight: 950 })}
+      ${text({ x: 84, y: y + 44, value: note, fill: colors.muted, size: 9.5, weight: 700 })}
+      <path d="M510 ${y + 30}H590" stroke="${accent}" stroke-opacity="0.42" stroke-width="1.5"/>
+      <path d="M585 ${y + 25}L591 ${y + 30}L585 ${y + 35}" stroke="${accent}" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="616" y="${y + 17}" width="232" height="27" rx="13.5" fill="${accent}" fill-opacity="0.11" stroke="${accent}" stroke-opacity="0.46"/>
+      <circle cx="633" cy="${y + 30.5}" r="3" fill="${accent}" filter="url(#glow)"/>
+      ${text({ x: 645, y: y + 34, value: outcome, fill: colors.text, size: 8.2, weight: 900, mono: true })}`;
+  }).join("");
+
+  return `<svg width="900" height="438" viewBox="0 0 900 438" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(900, 438, colors.cyan)}
+  ${text({ x: 26, y: 30, value: "PORTFÓLIO / ESPECIALIDADES", fill: colors.cyan, size: 10.5, weight: 900, mono: true })}
+  ${text({ x: 26, y: 64, value: "Sistemas para organizar e decidir.", size: 22, weight: 950 })}
+  ${text({ x: 26, y: 88, value: "Do problema operacional ao resultado verificável.", fill: colors.muted, size: 11.5, weight: 650 })}
+  ${rows}
+  <rect x="24" y="406" width="852" height="20" rx="10" fill="${colors.cyan}" fill-opacity="0.08" stroke="${colors.border}"/>
+  ${text({ x: 450, y: 420, value: "DIAGNÓSTICO  →  FLUXO  →  SISTEMA  →  EVIDÊNCIA", fill: colors.muted, size: 8.3, weight: 850, mono: true, anchor: "middle" })}
+  </svg>`;
+}
+
+function mobileServices() {
+  const rows = serviceLines.map(([number, title, note, outcome, accent], index) => {
+    const y = 118 + index * 122;
+    return `<rect x="16" y="${y}" width="328" height="108" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+      <rect x="16" y="${y}" width="5" height="108" rx="2.5" fill="${accent}"/>
+      <circle cx="42" cy="${y + 28}" r="12" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.55"/>
+      ${text({ x: 42, y: y + 32, value: number, fill: accent, size: 7.5, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: 64, y: y + 32, value: title, size: 10.5, weight: 950 })}
+      ${text({ x: 30, y: y + 59, value: note, fill: colors.muted, size: 9.2, weight: 680 })}
+      <rect x="30" y="${y + 72}" width="298" height="24" rx="12" fill="${accent}" fill-opacity="0.1" stroke="${accent}" stroke-opacity="0.42"/>
+      <circle cx="44" cy="${y + 84}" r="2.8" fill="${accent}" filter="url(#glow)"/>
+      ${text({ x: 56, y: y + 87.5, value: outcome, fill: colors.text, size: 7.4, weight: 900, mono: true })}`;
+  }).join("");
+
+  return `<svg width="360" height="650" viewBox="0 0 360 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(360, 650, colors.cyan)}
+  ${text({ x: 18, y: 29, value: "PORTFÓLIO / ESPECIALIDADES", fill: colors.cyan, size: 8.8, weight: 900, mono: true })}
+  ${text({ x: 18, y: 62, value: "Sistemas para organizar", size: 18, weight: 950 })}
+  ${text({ x: 18, y: 84, value: "e decidir.", size: 18, weight: 950 })}
+  ${text({ x: 18, y: 104, value: "Problema → sistema → resultado.", fill: colors.muted, size: 9.5, weight: 680 })}
+  ${rows}
+  ${text({ x: 180, y: 630, value: "DIAGNÓSTICO  →  FLUXO  →  ENTREGA", fill: colors.muted, size: 7.5, weight: 850, mono: true, anchor: "middle" })}
+  </svg>`;
+}
+
+const evidenceKpis = [
+  ["06/06", "DEMOS ONLINE", colors.green],
+  ["06/06", "CI APROVADO", colors.blue],
+  ["153", "TESTES / PRINCIPAL", colors.yellow],
+  ["05/06", "COM DOCKER", colors.coral],
+];
+
+const evidenceFlow = ["REGRAS", "TESTES", "CI", "DEPLOY", "DEMO"];
+
+function desktopEvidence() {
+  const kpis = evidenceKpis.map(([value, label, accent], index) => {
+    const x = 24 + index * 216;
+    return `<rect x="${x}" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+      <rect x="${x}" y="82" width="204" height="3" rx="1.5" fill="${accent}"/>
+      ${text({ x: x + 18, y: 116, value, fill: accent, size: 21, weight: 950 })}
+      ${text({ x: x + 18, y: 138, value: label, fill: colors.muted, size: 7.8, weight: 850, mono: true })}
+      <circle cx="${x + 176}" cy="108" r="9" fill="${accent}" fill-opacity="0.1" stroke="${accent}" stroke-opacity="0.38"/>
+      <circle cx="${x + 176}" cy="108" r="2.7" fill="${accent}" filter="url(#glow)"/>`;
+  }).join("");
+
+  const flow = evidenceFlow.map((step, index) => {
+    const x = 42 + index * 168;
+    const accent = [colors.green, colors.yellow, colors.blue, colors.coral, colors.cyan][index];
+    const arrow = index < evidenceFlow.length - 1 ? `<path d="M${x + 120} 211H${x + 150}" stroke="${accent}" stroke-opacity="0.55"/><path d="M${x + 145} 207L${x + 151} 211L${x + 145} 215" stroke="${accent}" fill="none"/>` : "";
+    return `<circle cx="${x}" cy="211" r="17" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.56"/>
+      ${text({ x, y: 215, value: String(index + 1).padStart(2, "0"), fill: accent, size: 7.5, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: x + 29, y: 215, value: step, fill: colors.text, size: 9, weight: 900, mono: true })}${arrow}`;
+  }).join("");
+
+  const notes = [
+    ["REGRAS E TESTES", "Domínio isolado e cenários automatizados.", colors.yellow],
+    ["CI E PUBLICAÇÃO", "Pipelines aprovados e demonstrações acessíveis.", colors.green],
+    ["DADOS E ARQUITETURA", "Supabase ou D1 com documentação por sistema.", colors.cyan],
+  ].map(([title, note, accent], index) => {
+    const x = 24 + index * 288;
+    return `<rect x="${x}" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="${colors.border}"/>
+      <rect x="${x}" y="278" width="5" height="96" rx="2.5" fill="${accent}"/>
+      ${text({ x: x + 18, y: 306, value: title, fill: accent, size: 8.4, weight: 900, mono: true })}
+      ${text({ x: x + 18, y: 334, value: note, fill: colors.text, size: 9.4, weight: 720 })}
+      ${text({ x: x + 18, y: 354, value: index === 0 ? "VALIDAÇÃO" : index === 1 ? "ENTREGA" : "RASTREABILIDADE", fill: colors.quiet, size: 7.4, weight: 850, mono: true })}`;
+  }).join("");
+
+  return `<svg width="900" height="405" viewBox="0 0 900 405" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(900, 405, colors.green)}
+  ${text({ x: 26, y: 30, value: "PORTFÓLIO / EVIDÊNCIAS DE ENGENHARIA", fill: colors.green, size: 10.5, weight: 900, mono: true })}
+  ${text({ x: 26, y: 63, value: "Qualidade que pode ser conferida.", size: 21, weight: 950 })}
+  ${kpis}
+  <rect x="24" y="174" width="852" height="74" rx="9" fill="url(#panel)" stroke="${colors.border}"/>
+  ${flow}
+  ${notes}
+  ${text({ x: 26, y: 393, value: "EVIDÊNCIAS LIGADAS AOS REPOSITÓRIOS, PIPELINES E DEMONSTRAÇÕES PÚBLICAS", fill: colors.quiet, size: 7.8, weight: 800, mono: true })}
+  </svg>`;
+}
+
+function mobileEvidence() {
+  const kpis = evidenceKpis.map(([value, label, accent], index) => {
+    const column = index % 2;
+    const row = Math.floor(index / 2);
+    const x = 16 + column * 166;
+    const y = 92 + row * 68;
+    return `<rect x="${x}" y="${y}" width="156" height="58" rx="8" fill="url(#panel)" stroke="${colors.border}"/>
+      <rect x="${x}" y="${y}" width="156" height="3" rx="1.5" fill="${accent}"/>
+      ${text({ x: x + 14, y: y + 29, value, fill: accent, size: 16.5, weight: 950 })}
+      ${text({ x: x + 14, y: y + 47, value: label, fill: colors.muted, size: 6.7, weight: 850, mono: true })}`;
+  }).join("");
+
+  const flow = evidenceFlow.map((step, index) => {
+    const y = 250 + index * 54;
+    const accent = [colors.green, colors.yellow, colors.blue, colors.coral, colors.cyan][index];
+    return `<rect x="18" y="${y}" width="324" height="44" rx="8" fill="url(#panel)" stroke="${colors.border}"/>
+      <circle cx="40" cy="${y + 22}" r="11" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.5"/>
+      ${text({ x: 40, y: y + 25.5, value: String(index + 1).padStart(2, "0"), fill: accent, size: 6.5, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: 62, y: y + 26, value: step, size: 9, weight: 900, mono: true })}
+      ${text({ x: 326, y: y + 26, value: index === 4 ? "ONLINE" : "PASS", fill: accent, size: 7.2, weight: 900, mono: true, anchor: "end" })}`;
+  }).join("");
+
+  const notes = [
+    ["TESTES", "Domínio e cenários automatizados", colors.yellow],
+    ["ENTREGA", "CI aprovado e demos acessíveis", colors.green],
+    ["DADOS", "Supabase ou D1 + documentação", colors.cyan],
+  ].map(([title, note, accent], index) => {
+    const y = 536 + index * 57;
+    return `<rect x="18" y="${y}" width="324" height="47" rx="8" fill="url(#panel)" stroke="${colors.border}"/>
+      <rect x="18" y="${y}" width="5" height="47" rx="2.5" fill="${accent}"/>
+      ${text({ x: 34, y: y + 20, value: title, fill: accent, size: 7.5, weight: 900, mono: true })}
+      ${text({ x: 34, y: y + 37, value: note, fill: colors.muted, size: 8.3, weight: 700 })}`;
+  }).join("");
+
+  return `<svg width="360" height="725" viewBox="0 0 360 725" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(360, 725, colors.green)}
+  ${text({ x: 18, y: 29, value: "PORTFÓLIO / EVIDÊNCIAS", fill: colors.green, size: 8.8, weight: 900, mono: true })}
+  ${text({ x: 18, y: 61, value: "Qualidade que pode", size: 17.5, weight: 950 })}
+  ${text({ x: 18, y: 82, value: "ser conferida.", size: 17.5, weight: 950 })}
+  ${kpis}
+  ${text({ x: 18, y: 235, value: "FLUXO DE VALIDAÇÃO", fill: colors.quiet, size: 7.8, weight: 850, mono: true })}
+  ${flow}
+  ${notes}
+  ${text({ x: 18, y: 712, value: "REPOSITÓRIOS / PIPELINES / DEMOS", fill: colors.quiet, size: 7.2, weight: 800, mono: true })}
+  </svg>`;
+}
+
 function compactButton(width, label, marker, accent, primary = false) {
   const textColor = primary ? colors.background : colors.text;
   const markerColor = primary ? colors.background : accent;
@@ -564,7 +728,9 @@ const navigationButtons = [
   ["profile-nav-02.svg", 126, "STACK", "02", colors.blue],
   ["profile-nav-03.svg", 136, "PAINEL", "03", colors.coral],
   ["profile-nav-04.svg", 152, "PROJETOS", "04", colors.yellow],
-  ["profile-nav-05.svg", 122, "ROTA", "05", colors.blue],
+  ["profile-nav-05.svg", 148, "SERVIÇOS", "05", colors.cyan],
+  ["profile-nav-06.svg", 158, "EVIDÊNCIAS", "06", colors.green],
+  ["profile-nav-07.svg", 122, "ROTA", "07", colors.blue],
 ];
 for (const [filename, width, label, marker, accent] of navigationButtons) {
   outputs.push([filename, compactButton(width, label, marker, accent)]);
@@ -589,6 +755,10 @@ for (const project of projects) {
   outputs.push([`project-toggle-${project.id}-desktop.svg`, desktopToggle(project)]);
   outputs.push([`project-toggle-${project.id}-mobile.svg`, mobileToggle(project)]);
 }
+outputs.push(["profile-services-desktop.svg", desktopServices()]);
+outputs.push(["profile-services-mobile.svg", mobileServices()]);
+outputs.push(["profile-evidence-desktop.svg", desktopEvidence()]);
+outputs.push(["profile-evidence-mobile.svg", mobileEvidence()]);
 
 await Promise.all(outputs.map(([filename, content]) => writeFile(resolve(assetsDir, filename), `${content}\n`, "utf8")));
 
