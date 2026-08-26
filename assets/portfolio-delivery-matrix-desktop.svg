@@ -1,17 +1,147 @@
-<svg width="900" height="454" viewBox="0 0 900 454" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="490" viewBox="0 0 900 490" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
-  <rect x="1" y="1" width="898" height="452" rx="8" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
-  <rect x="0" y="0" width="8" height="454" rx="4" fill="#6F9EFF"/>
-  <text x="26" y="28" fill="#6F9EFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="850" text-anchor="start">PORTF&#211;LIO / MATRIZ DE ENTREGA</text>
-  <text x="26" y="56" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="950" text-anchor="start">Seis sistemas. Evid&#234;ncias compar&#225;veis.</text>
-  <rect x="24" y="67" width="204" height="72" rx="6" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="24" y="67" width="5" height="72" rx="2.5" fill="#35C99A"/><text x="42" y="101" fill="#35C99A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">06 / 06</text><text x="42" y="123" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="800" text-anchor="start">DEMOS ONLINE</text><rect x="240" y="67" width="204" height="72" rx="6" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="240" y="67" width="5" height="72" rx="2.5" fill="#6F9EFF"/><text x="258" y="101" fill="#6F9EFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">06 / 06</text><text x="258" y="123" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="800" text-anchor="start">CI APROVADO</text><rect x="456" y="67" width="204" height="72" rx="6" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="456" y="67" width="5" height="72" rx="2.5" fill="#F2C14E"/><text x="474" y="101" fill="#F2C14E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">06 / 06</text><text x="474" y="123" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="800" text-anchor="start">COM TYPESCRIPT</text><rect x="672" y="67" width="204" height="72" rx="6" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="672" y="67" width="5" height="72" rx="2.5" fill="#FF6B4A"/><text x="690" y="101" fill="#FF6B4A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">05 / 06</text><text x="690" y="123" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="800" text-anchor="start">COM DOCKER</text>
-  <rect x="24" y="156" width="852" height="30" rx="3" fill="#101713" stroke="#2A3930" stroke-width="1"/>
-  <text x="38" y="176" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">PROJETO</text>
-  <text x="270" y="176" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">DOM&#205;NIO</text>
-  <text x="410" y="176" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">API</text>
-  <text x="545" y="176" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">DADOS</text>
-  <text x="660" y="176" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">CI</text>
-  <text x="750" y="176" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">DEMO</text>
-  <rect x="24" y="194" width="852" height="34" rx="3" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="24" y="194" width="4" height="34" rx="2" fill="#F2C14E"/><text x="38" y="216" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="900" text-anchor="start">PATRIM&#212;NIO OPS</text><text x="270" y="216" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">PATRIM&#212;NIO</text><text x="410" y="216" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">NEXT / REST</text><text x="545" y="216" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">SUPABASE</text><text x="660" y="216" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PASS</text><text x="750" y="216" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="233" width="852" height="34" rx="3" fill="#151F19" stroke="#2A3930" stroke-width="1"/><rect x="24" y="233" width="4" height="34" rx="2" fill="#FF6B4A"/><text x="38" y="255" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="900" text-anchor="start">COBREFLOW</text><text x="270" y="255" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">FINANCEIRO</text><text x="410" y="255" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">NODE / REST</text><text x="545" y="255" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">D1</text><text x="660" y="255" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PASS</text><text x="750" y="255" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="272" width="852" height="34" rx="3" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="24" y="272" width="4" height="34" rx="2" fill="#35C99A"/><text x="38" y="294" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="900" text-anchor="start">FIELDOPS</text><text x="270" y="294" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">CAMPO</text><text x="410" y="294" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">PHP / REST</text><text x="545" y="294" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">D1</text><text x="660" y="294" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PASS</text><text x="750" y="294" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="311" width="852" height="34" rx="3" fill="#151F19" stroke="#2A3930" stroke-width="1"/><rect x="24" y="311" width="4" height="34" rx="2" fill="#F2C14E"/><text x="38" y="333" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="900" text-anchor="start">LEADOPS</text><text x="270" y="333" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">MARKETING</text><text x="410" y="333" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">NODE / REST</text><text x="545" y="333" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">D1</text><text x="660" y="333" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PASS</text><text x="750" y="333" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="350" width="852" height="34" rx="3" fill="#101713" stroke="#2A3930" stroke-width="1"/><rect x="24" y="350" width="4" height="34" rx="2" fill="#6F9EFF"/><text x="38" y="372" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="900" text-anchor="start">RETURNOPS</text><text x="270" y="372" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">P&#211;S-VENDA</text><text x="410" y="372" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">NODE / REST</text><text x="545" y="372" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">D1</text><text x="660" y="372" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PASS</text><text x="750" y="372" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="389" width="852" height="34" rx="3" fill="#151F19" stroke="#2A3930" stroke-width="1"/><rect x="24" y="389" width="4" height="34" rx="2" fill="#35C99A"/><text x="38" y="411" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.5" font-weight="900" text-anchor="start">SERVICEHUB</text><text x="270" y="411" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">SERVI&#199;OS</text><text x="410" y="411" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">NODE / REST</text><text x="545" y="411" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" text-anchor="start">D1</text><text x="660" y="411" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PASS</text><text x="750" y="411" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">ONLINE</text>
-  <text x="26" y="442" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="750" text-anchor="start">LEITURA ATUAL: APIs DOCUMENTADAS / PERSIST&#202;NCIA ISOLADA / PIPELINES VERIFICADOS</text>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070C15"/>
+      <stop offset="0.55" stop-color="#09111D"/>
+      <stop offset="1" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111B2B"/>
+      <stop offset="1" stop-color="#0A111D"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7197FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#111B2A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7197FF" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#7197FF"/>
+      <stop offset="0.78" stop-color="#42D8FF"/>
+      <stop offset="1" stop-color="#42D8FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
+      <stop stop-color="#7197FF" stop-opacity="0.18"/>
+      <stop offset="0.58" stop-color="#7197FF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#7197FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="micro-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#152238" stroke-width="0.7"/>
+      <circle cx="1" cy="1" r="0.8" fill="#687994" fill-opacity="0.32"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="488" rx="12" fill="url(#background)" stroke="#263651" stroke-width="2"/>
+  <rect x="2" y="2" width="896" height="486" rx="11" fill="url(#micro-grid)" opacity="0.62"/>
+  <rect x="2" y="2" width="896" height="486" rx="11" fill="url(#accent-glow)"/>
+  <rect x="22" y="1" width="856" height="3" rx="1.5" fill="url(#accent-line)" filter="url(#glow)"/>
+  <path d="M18 26V16H28M882 26V16H872M18 464V474H28M882 464V474H872" stroke="#7197FF" stroke-opacity="0.58" stroke-width="1.2"/>
+  <circle cx="876" cy="468" r="2.5" fill="#7197FF" filter="url(#glow)"/>
+  <text x="26" y="30" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">PORTF&#211;LIO / MATRIZ DE ENTREGA</text>
+  <rect x="707" y="15" width="169" height="26" rx="13" fill="url(#chip)" stroke="#39E6B0" stroke-opacity="0.45"/>
+  <circle cx="722" cy="28" r="3.5" fill="#39E6B0" filter="url(#glow)"/>
+  <text x="734" y="32" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8" font-weight="850" text-anchor="start">PORTF&#211;LIO VERIFICADO</text>
+  <text x="26" y="63" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">Seis sistemas. Evid&#234;ncias compar&#225;veis.</text>
+  <rect x="24" y="82" width="204" height="76" rx="9" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+        <rect x="24" y="82" width="204" height="3" rx="1.5" fill="#39E6B0"/>
+        <circle cx="200" cy="108" r="13" fill="#39E6B0" fill-opacity="0.1" stroke="#39E6B0" stroke-opacity="0.36"/>
+        <circle cx="200" cy="108" r="3.2" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="42" y="119" fill="#39E6B0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">06 / 06</text>
+        <text x="42" y="141" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="850" text-anchor="start">DEMOS ONLINE</text><rect x="240" y="82" width="204" height="76" rx="9" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+        <rect x="240" y="82" width="204" height="3" rx="1.5" fill="#7197FF"/>
+        <circle cx="416" cy="108" r="13" fill="#7197FF" fill-opacity="0.1" stroke="#7197FF" stroke-opacity="0.36"/>
+        <circle cx="416" cy="108" r="3.2" fill="#7197FF" filter="url(#glow)"/>
+        <text x="258" y="119" fill="#7197FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">06 / 06</text>
+        <text x="258" y="141" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="850" text-anchor="start">CI APROVADO</text><rect x="456" y="82" width="204" height="76" rx="9" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+        <rect x="456" y="82" width="204" height="3" rx="1.5" fill="#FFC857"/>
+        <circle cx="632" cy="108" r="13" fill="#FFC857" fill-opacity="0.1" stroke="#FFC857" stroke-opacity="0.36"/>
+        <circle cx="632" cy="108" r="3.2" fill="#FFC857" filter="url(#glow)"/>
+        <text x="474" y="119" fill="#FFC857" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">06 / 06</text>
+        <text x="474" y="141" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="850" text-anchor="start">COM TYPESCRIPT</text><rect x="672" y="82" width="204" height="76" rx="9" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+        <rect x="672" y="82" width="204" height="3" rx="1.5" fill="#FF705C"/>
+        <circle cx="848" cy="108" r="13" fill="#FF705C" fill-opacity="0.1" stroke="#FF705C" stroke-opacity="0.36"/>
+        <circle cx="848" cy="108" r="3.2" fill="#FF705C" filter="url(#glow)"/>
+        <text x="690" y="119" fill="#FF705C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">05 / 06</text>
+        <text x="690" y="141" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="850" text-anchor="start">COM DOCKER</text>
+  <rect x="24" y="177" width="852" height="31" rx="6" fill="url(#panel)" stroke="#263651"/>
+  <text x="38" y="198" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">PROJETO</text>
+  <text x="270" y="198" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">DOM&#205;NIO</text>
+  <text x="410" y="198" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">API</text>
+  <text x="545" y="198" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">DADOS</text>
+  <text x="660" y="198" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">CI</text>
+  <text x="750" y="198" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">DEMO</text>
+  <rect x="24" y="217" width="852" height="35" rx="6" fill="#0D1624" stroke="#263651"/>
+        <rect x="24" y="217" width="5" height="35" rx="2.5" fill="#FFC857"/>
+        <text x="38" y="240" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.3" font-weight="900" text-anchor="start">PATRIM&#212;NIO OPS</text>
+        <text x="270" y="240" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.7" font-weight="800" text-anchor="start">PATRIM&#212;NIO</text>
+        <text x="410" y="240" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">NEXT / REST</text>
+        <text x="545" y="240" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">SUPABASE</text>
+        <rect x="650" y="225" width="66" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="661" cy="234.5" r="2.6" fill="#39E6B0"/>
+        <text x="669" y="237.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">PASS</text>
+        <rect x="742" y="225" width="112" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="754" cy="234.5" r="2.6" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="763" y="237.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="257" width="852" height="35" rx="6" fill="#101A2A" stroke="#263651"/>
+        <rect x="24" y="257" width="5" height="35" rx="2.5" fill="#FF705C"/>
+        <text x="38" y="280" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.3" font-weight="900" text-anchor="start">COBREFLOW</text>
+        <text x="270" y="280" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.7" font-weight="800" text-anchor="start">FINANCEIRO</text>
+        <text x="410" y="280" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">NODE / REST</text>
+        <text x="545" y="280" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">D1</text>
+        <rect x="650" y="265" width="66" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="661" cy="274.5" r="2.6" fill="#39E6B0"/>
+        <text x="669" y="277.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">PASS</text>
+        <rect x="742" y="265" width="112" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="754" cy="274.5" r="2.6" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="763" y="277.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="297" width="852" height="35" rx="6" fill="#0D1624" stroke="#263651"/>
+        <rect x="24" y="297" width="5" height="35" rx="2.5" fill="#39E6B0"/>
+        <text x="38" y="320" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.3" font-weight="900" text-anchor="start">FIELDOPS</text>
+        <text x="270" y="320" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.7" font-weight="800" text-anchor="start">CAMPO</text>
+        <text x="410" y="320" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">PHP / REST</text>
+        <text x="545" y="320" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">D1</text>
+        <rect x="650" y="305" width="66" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="661" cy="314.5" r="2.6" fill="#39E6B0"/>
+        <text x="669" y="317.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">PASS</text>
+        <rect x="742" y="305" width="112" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="754" cy="314.5" r="2.6" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="763" y="317.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="337" width="852" height="35" rx="6" fill="#101A2A" stroke="#263651"/>
+        <rect x="24" y="337" width="5" height="35" rx="2.5" fill="#FFC857"/>
+        <text x="38" y="360" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.3" font-weight="900" text-anchor="start">LEADOPS</text>
+        <text x="270" y="360" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.7" font-weight="800" text-anchor="start">MARKETING</text>
+        <text x="410" y="360" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">NODE / REST</text>
+        <text x="545" y="360" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">D1</text>
+        <rect x="650" y="345" width="66" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="661" cy="354.5" r="2.6" fill="#39E6B0"/>
+        <text x="669" y="357.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">PASS</text>
+        <rect x="742" y="345" width="112" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="754" cy="354.5" r="2.6" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="763" y="357.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="377" width="852" height="35" rx="6" fill="#0D1624" stroke="#263651"/>
+        <rect x="24" y="377" width="5" height="35" rx="2.5" fill="#7197FF"/>
+        <text x="38" y="400" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.3" font-weight="900" text-anchor="start">RETURNOPS</text>
+        <text x="270" y="400" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.7" font-weight="800" text-anchor="start">P&#211;S-VENDA</text>
+        <text x="410" y="400" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">NODE / REST</text>
+        <text x="545" y="400" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">D1</text>
+        <rect x="650" y="385" width="66" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="661" cy="394.5" r="2.6" fill="#39E6B0"/>
+        <text x="669" y="397.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">PASS</text>
+        <rect x="742" y="385" width="112" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="754" cy="394.5" r="2.6" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="763" y="397.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">ONLINE</text><rect x="24" y="417" width="852" height="35" rx="6" fill="#101A2A" stroke="#263651"/>
+        <rect x="24" y="417" width="5" height="35" rx="2.5" fill="#39E6B0"/>
+        <text x="38" y="440" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.3" font-weight="900" text-anchor="start">SERVICEHUB</text>
+        <text x="270" y="440" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.7" font-weight="800" text-anchor="start">SERVI&#199;OS</text>
+        <text x="410" y="440" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">NODE / REST</text>
+        <text x="545" y="440" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.8" font-weight="800" text-anchor="start">D1</text>
+        <rect x="650" y="425" width="66" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="661" cy="434.5" r="2.6" fill="#39E6B0"/>
+        <text x="669" y="437.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">PASS</text>
+        <rect x="742" y="425" width="112" height="19" rx="9.5" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.48"/>
+        <circle cx="754" cy="434.5" r="2.6" fill="#39E6B0" filter="url(#glow)"/>
+        <text x="763" y="437.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">ONLINE</text>
+  <text x="26" y="476" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="800" text-anchor="start">LEITURA ATUAL: APIs DOCUMENTADAS / PERSIST&#202;NCIA ISOLADA / PIPELINES VERIFICADOS</text>
   </svg>

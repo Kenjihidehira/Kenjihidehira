@@ -6,18 +6,19 @@ const here = dirname(fileURLToPath(import.meta.url));
 const assetsDir = resolve(here, "..", "assets");
 
 const colors = {
-  background: "#080C0A",
-  surface: "#101713",
-  surfaceAlt: "#151F19",
-  border: "#2A3930",
-  grid: "#1A241E",
-  text: "#F4F7F2",
-  muted: "#9FB0A5",
-  quiet: "#65736A",
-  green: "#35C99A",
-  blue: "#6F9EFF",
-  yellow: "#F2C14E",
-  coral: "#FF6B4A",
+  background: "#060A12",
+  surface: "#0D1420",
+  surfaceAlt: "#111B2A",
+  border: "#263651",
+  grid: "#152238",
+  text: "#F4F7FF",
+  muted: "#A7B4C9",
+  quiet: "#687994",
+  green: "#39E6B0",
+  blue: "#7197FF",
+  yellow: "#FFC857",
+  coral: "#FF705C",
+  cyan: "#42D8FF",
 };
 
 const projects = [
@@ -144,12 +145,64 @@ function rect({ x, y, width, height, fill = colors.surface, stroke = colors.bord
   return `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${radius}" fill="${fill}" stroke="${stroke}" stroke-width="${strokeWidth}"/>`;
 }
 
+function visualDefs(accent) {
+  return `<defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070C15"/>
+      <stop offset="0.55" stop-color="#09111D"/>
+      <stop offset="1" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111B2B"/>
+      <stop offset="1" stop-color="#0A111D"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="${accent}" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#111B2A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="${accent}" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="${accent}"/>
+      <stop offset="0.78" stop-color="${colors.cyan}"/>
+      <stop offset="1" stop-color="${colors.cyan}" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
+      <stop stop-color="${accent}" stop-opacity="0.18"/>
+      <stop offset="0.58" stop-color="${accent}" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="${accent}" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="micro-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="${colors.grid}" stroke-width="0.7"/>
+      <circle cx="1" cy="1" r="0.8" fill="${colors.quiet}" fill-opacity="0.32"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>`;
+}
+
+function backdrop(width, height, accent) {
+  return `${visualDefs(accent)}
+  <rect x="1" y="1" width="${width - 2}" height="${height - 2}" rx="12" fill="url(#background)" stroke="${colors.border}" stroke-width="2"/>
+  <rect x="2" y="2" width="${width - 4}" height="${height - 4}" rx="11" fill="url(#micro-grid)" opacity="0.62"/>
+  <rect x="2" y="2" width="${width - 4}" height="${height - 4}" rx="11" fill="url(#accent-glow)"/>
+  <rect x="22" y="1" width="${width - 44}" height="3" rx="1.5" fill="url(#accent-line)" filter="url(#glow)"/>
+  <path d="M18 26V16H28M${width - 18} 26V16H${width - 28}M18 ${height - 26}V${height - 16}H28M${width - 18} ${height - 26}V${height - 16}H${width - 28}" stroke="${accent}" stroke-opacity="0.58" stroke-width="1.2"/>
+  <circle cx="${width - 24}" cy="${height - 22}" r="2.5" fill="${accent}" filter="url(#glow)"/>`;
+}
+
 function chip(label, x, y, accent, compact = false) {
-  const width = Math.max(compact ? 54 : 66, label.length * (compact ? 5.2 : 6.15) + (compact ? 18 : 24));
-  const height = compact ? 22 : 28;
+  const width = Math.max(compact ? 58 : 70, label.length * (compact ? 5.05 : 5.9) + (compact ? 27 : 34));
+  const height = compact ? 23 : 28;
   return {
     width,
-    svg: `${rect({ x, y, width, height, fill: colors.surfaceAlt, stroke: accent, radius: 4 })}${text({ x: x + width / 2, y: y + (compact ? 15 : 19), value: label, fill: colors.text, size: compact ? 8 : 9.5, weight: 850, mono: true, anchor: "middle" })}`,
+    svg: `<rect x="${x}" y="${y}" width="${width}" height="${height}" rx="${height / 2}" fill="url(#chip)" stroke="${accent}" stroke-opacity="0.58"/>
+      <circle cx="${x + (compact ? 10 : 12)}" cy="${y + height / 2}" r="${compact ? 2.5 : 3}" fill="${accent}" filter="url(#glow)"/>
+      ${text({ x: x + (compact ? 18 : 22), y: y + (compact ? 15.5 : 18.5), value: label, fill: colors.text, size: compact ? 7.8 : 9, weight: 850, mono: true })}`,
   };
 }
 
@@ -161,56 +214,70 @@ function desktopDetail(project) {
     .map((step, index) => {
       const x = flowStart + index * (flowWidth + flowGap);
       const arrow = index < project.flow.length - 1
-        ? `${text({ x: x + flowWidth + 9, y: 171, value: "→", fill: project.accent, size: 14, weight: 900, mono: true, anchor: "middle" })}`
+        ? `<path d="M${x + flowWidth + 4} 177H${x + flowWidth + 14}" stroke="${project.accent}" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M${x + flowWidth + 11} 173L${x + flowWidth + 15} 177L${x + flowWidth + 11} 181" stroke="${project.accent}" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
         : "";
-      return `${rect({ x, y: 147, width: flowWidth, height: 42, fill: colors.background, stroke: colors.border, radius: 4 })}${text({ x: x + flowWidth / 2, y: 172, value: step, fill: index === project.flow.length - 1 ? project.accent : colors.text, size: 7.7, weight: 850, mono: true, anchor: "middle" })}${arrow}`;
+      return `<rect x="${x}" y="151" width="${flowWidth}" height="54" rx="7" fill="url(#chip)" stroke="${index === project.flow.length - 1 ? project.accent : colors.border}" stroke-opacity="${index === project.flow.length - 1 ? 0.92 : 1}"/>
+        <circle cx="${x + 13}" cy="165" r="7" fill="${project.accent}" fill-opacity="0.18" stroke="${project.accent}" stroke-opacity="0.6"/>
+        ${text({ x: x + 13, y: 168, value: String(index + 1).padStart(2, "0"), fill: project.accent, size: 6.5, weight: 900, mono: true, anchor: "middle" })}
+        ${text({ x: x + flowWidth / 2, y: 190, value: step, fill: index === project.flow.length - 1 ? project.accent : colors.text, size: 7.3, weight: 850, mono: true, anchor: "middle" })}${arrow}`;
     })
     .join("");
 
   const evidence = project.evidence
     .map(([value, label], index) => {
-      const y = 148 + index * 30;
-      return `${text({ x: 690, y, value, fill: index === 0 ? project.accent : colors.text, size: 13, weight: 950, mono: index > 0 })}${text({ x: 790, y, value: label, fill: colors.muted, size: 9, weight: 750, mono: true })}`;
+      const x = 678 + index * 62;
+      const valueSize = value.length > 5 ? 8.6 : 11;
+      return `<rect x="${x}" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="${project.accent}" stroke-opacity="${index === 0 ? 0.7 : 0.34}"/>
+        ${text({ x: x + 28, y: 178, value, fill: index === 0 ? project.accent : colors.text, size: valueSize, weight: 950, mono: true, anchor: "middle" })}
+        ${text({ x: x + 28, y: 198, value: label, fill: colors.muted, size: 7, weight: 800, mono: true, anchor: "middle" })}`;
     })
     .join("");
 
-  let chipX = 44;
+  let chipX = 42;
   const chips = project.stack
     .map((label) => {
-      const current = chip(label, chipX, 272, project.accent);
-      chipX += current.width + 10;
+      const current = chip(label, chipX, 287, project.accent);
+      chipX += current.width + 9;
       return current.svg;
     })
     .join("");
 
-  return `<svg width="900" height="332" viewBox="0 0 900 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const statusWidth = project.status === "PROJETO PRINCIPAL" ? 158 : 146;
+  const statusX = 876 - statusWidth;
+
+  return `<svg width="900" height="350" viewBox="0 0 900 350" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
-  ${rect({ x: 1, y: 1, width: 898, height: 330, fill: colors.background, stroke: colors.border, radius: 8, strokeWidth: 2 })}
-  <rect x="0" y="0" width="8" height="332" rx="4" fill="${project.accent}"/>
-  <path d="M28 46H876M28 236H876" stroke="${colors.grid}"/>
-  ${text({ x: 26, y: 29, value: `${project.id} / FICHA DE SISTEMA`, fill: project.accent, size: 10.5, weight: 850, mono: true })}
-  ${text({ x: 874, y: 29, value: project.status, fill: colors.muted, size: 10, weight: 750, mono: true, anchor: "end" })}
-  ${text({ x: 26, y: 79, value: project.title, size: 28, weight: 950 })}
-  ${text({ x: 874, y: 76, value: project.domain, fill: colors.muted, size: 11, weight: 800, mono: true, anchor: "end" })}
+  ${backdrop(900, 350, project.accent)}
+  ${text({ x: 26, y: 31, value: `${project.id} / FICHA DE SISTEMA`, fill: project.accent, size: 10.5, weight: 900, mono: true })}
+  <rect x="${statusX}" y="15" width="${statusWidth}" height="26" rx="13" fill="url(#chip)" stroke="${project.accent}" stroke-opacity="0.5"/>
+  <circle cx="${statusX + 14}" cy="28" r="3.5" fill="${colors.green}" filter="url(#glow)"/>
+  ${text({ x: statusX + 26, y: 32, value: project.status, fill: colors.text, size: 8.5, weight: 850, mono: true })}
+  <path d="M24 50H876" stroke="${colors.border}"/>
+  ${text({ x: 26, y: 83, value: project.title, size: 29, weight: 950 })}
+  ${text({ x: 874, y: 80, value: project.domain, fill: colors.muted, size: 10.5, weight: 850, mono: true, anchor: "end" })}
 
-  ${rect({ x: 24, y: 98, width: 258, height: 126, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 40, y: 121, value: "PROBLEMA", fill: project.accent, size: 9.5, weight: 850, mono: true })}
-  ${text({ x: 40, y: 147, value: project.problem[0], size: 12.5, weight: 800 })}
-  ${text({ x: 40, y: 166, value: project.problem[1], size: 12.5, weight: 800 })}
-  <path d="M40 180H264" stroke="${colors.border}"/>
-  ${text({ x: 40, y: 199, value: project.delivery[0], fill: colors.muted, size: 10.5, weight: 650 })}
-  ${text({ x: 40, y: 215, value: project.delivery[1], fill: colors.muted, size: 10.5, weight: 650 })}
+  <rect x="24" y="102" width="258" height="136" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  <rect x="24" y="102" width="5" height="136" rx="2.5" fill="${project.accent}"/>
+  ${text({ x: 42, y: 127, value: "PROBLEMA", fill: project.accent, size: 9, weight: 900, mono: true })}
+  ${text({ x: 42, y: 151, value: project.problem[0], size: 12.2, weight: 820 })}
+  ${text({ x: 42, y: 170, value: project.problem[1], size: 12.2, weight: 820 })}
+  <path d="M42 184H264" stroke="${colors.border}"/>
+  ${text({ x: 42, y: 202, value: "ENTREGA", fill: colors.quiet, size: 7.5, weight: 850, mono: true })}
+  ${text({ x: 42, y: 220, value: project.delivery[0], fill: colors.muted, size: 10.2, weight: 680 })}
+  ${text({ x: 42, y: 234, value: project.delivery[1], fill: colors.muted, size: 10.2, weight: 680 })}
 
-  ${rect({ x: 296, y: 98, width: 354, height: 126, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 312, y: 121, value: "FLUXO OPERACIONAL", fill: project.accent, size: 9.5, weight: 850, mono: true })}
+  <rect x="296" y="102" width="354" height="136" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  ${text({ x: 312, y: 127, value: "FLUXO OPERACIONAL", fill: project.accent, size: 9, weight: 900, mono: true })}
+  <path d="M322 177H626" stroke="${project.accent}" stroke-opacity="0.2" stroke-width="2"/>
   ${flow}
 
-  ${rect({ x: 664, y: 98, width: 212, height: 126, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 680, y: 121, value: "EVIDÊNCIAS", fill: project.accent, size: 9.5, weight: 850, mono: true })}
+  <rect x="664" y="102" width="212" height="136" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  ${text({ x: 680, y: 127, value: "EVIDÊNCIAS", fill: project.accent, size: 9, weight: 900, mono: true })}
   ${evidence}
 
-  ${rect({ x: 24, y: 248, width: 852, height: 68, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 40, y: 265, value: "ARQUITETURA E ENTREGA", fill: colors.muted, size: 8.5, weight: 800, mono: true })}
+  <rect x="24" y="252" width="852" height="76" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  ${text({ x: 42, y: 274, value: "ARQUITETURA E ENTREGA", fill: colors.muted, size: 8.2, weight: 850, mono: true })}
   ${chips}
   </svg>`;
 }
@@ -223,27 +290,34 @@ function mobileDetail(project) {
     .map((step, index) => {
       const x = flowStart + index * (flowWidth + flowGap);
       const arrow = index < project.flow.length - 1
-        ? text({ x: x + flowWidth + 8, y: 320, value: "→", fill: project.accent, size: 11, weight: 900, mono: true, anchor: "middle" })
+        ? `<path d="M${x + flowWidth + 3} 341H${x + flowWidth + 12}" stroke="${project.accent}" stroke-width="1.2"/>
+          <path d="M${x + flowWidth + 9} 338L${x + flowWidth + 13} 341L${x + flowWidth + 9} 344" stroke="${project.accent}" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
         : "";
-      return `${rect({ x, y: 298, width: flowWidth, height: 38, fill: colors.background, stroke: colors.border, radius: 4 })}${text({ x: x + flowWidth / 2, y: 321, value: step, fill: index === 3 ? project.accent : colors.text, size: 6.9, weight: 850, mono: true, anchor: "middle" })}${arrow}`;
+      return `<rect x="${x}" y="318" width="${flowWidth}" height="48" rx="7" fill="url(#chip)" stroke="${index === 3 ? project.accent : colors.border}"/>
+        <circle cx="${x + 12}" cy="330" r="6" fill="${project.accent}" fill-opacity="0.18" stroke="${project.accent}" stroke-opacity="0.62"/>
+        ${text({ x: x + 12, y: 333, value: String(index + 1).padStart(2, "0"), fill: project.accent, size: 5.8, weight: 900, mono: true, anchor: "middle" })}
+        ${text({ x: x + flowWidth / 2, y: 356, value: step, fill: index === 3 ? project.accent : colors.text, size: 6.5, weight: 850, mono: true, anchor: "middle" })}${arrow}`;
     })
     .join("");
 
   const evidence = project.evidence
     .map(([value, label], index) => {
-      const x = 27 + index * 108;
-      return `${text({ x, y: 401, value, fill: index === 0 ? project.accent : colors.text, size: 13, weight: 950, mono: index > 0 })}${text({ x, y: 420, value: label, fill: colors.muted, size: 8, weight: 750, mono: true })}`;
+      const x = 26 + index * 106;
+      const valueSize = value.length > 5 ? 9.4 : 12;
+      return `<rect x="${x}" y="425" width="96" height="48" rx="7" fill="url(#chip)" stroke="${project.accent}" stroke-opacity="${index === 0 ? 0.7 : 0.32}"/>
+        ${text({ x: x + 48, y: 447, value, fill: index === 0 ? project.accent : colors.text, size: valueSize, weight: 950, mono: true, anchor: "middle" })}
+        ${text({ x: x + 48, y: 463, value: label, fill: colors.muted, size: 7, weight: 800, mono: true, anchor: "middle" })}`;
     })
     .join("");
 
   let chipX = 26;
-  let chipY = 479;
+  let chipY = 527;
   const chips = project.stack
     .map((label) => {
       let current = chip(label, chipX, chipY, project.accent, true);
       if (chipX + current.width > 336) {
         chipX = 26;
-        chipY += 28;
+        chipY += 29;
         current = chip(label, chipX, chipY, project.accent, true);
       }
       chipX += current.width + 7;
@@ -251,34 +325,41 @@ function mobileDetail(project) {
     })
     .join("");
 
-  return `<svg width="360" height="542" viewBox="0 0 360 542" fill="none" xmlns="http://www.w3.org/2000/svg">
+  const statusWidth = project.status === "PROJETO PRINCIPAL" ? 135 : 126;
+  const statusX = 342 - statusWidth;
+
+  return `<svg width="360" height="598" viewBox="0 0 360 598" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
-  ${rect({ x: 1, y: 1, width: 358, height: 540, fill: colors.background, stroke: colors.border, radius: 8, strokeWidth: 2 })}
-  <rect x="0" y="0" width="7" height="542" rx="3.5" fill="${project.accent}"/>
-  ${text({ x: 18, y: 28, value: `${project.id} / FICHA DE SISTEMA`, fill: project.accent, size: 9, weight: 850, mono: true })}
-  ${text({ x: 342, y: 28, value: project.status, fill: colors.muted, size: 8, weight: 750, mono: true, anchor: "end" })}
-  <path d="M18 43H342" stroke="${colors.grid}"/>
-  ${text({ x: 18, y: 76, value: project.title, size: 23, weight: 950 })}
-  ${text({ x: 18, y: 98, value: project.domain, fill: colors.muted, size: 9, weight: 800, mono: true })}
+  ${backdrop(360, 598, project.accent)}
+  ${text({ x: 18, y: 30, value: `${project.id} / FICHA DE SISTEMA`, fill: project.accent, size: 8.5, weight: 900, mono: true })}
+  <rect x="${statusX}" y="14" width="${statusWidth}" height="25" rx="12.5" fill="url(#chip)" stroke="${project.accent}" stroke-opacity="0.5"/>
+  <circle cx="${statusX + 12}" cy="26.5" r="3" fill="${colors.green}" filter="url(#glow)"/>
+  ${text({ x: statusX + 22, y: 30, value: project.status, fill: colors.text, size: 7.1, weight: 850, mono: true })}
+  <path d="M18 48H342" stroke="${colors.border}"/>
+  ${text({ x: 18, y: 82, value: project.title, size: 23.5, weight: 950 })}
+  ${text({ x: 18, y: 104, value: project.domain, fill: colors.muted, size: 8.7, weight: 850, mono: true })}
 
-  ${rect({ x: 16, y: 112, width: 328, height: 132, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 28, y: 134, value: "PROBLEMA", fill: project.accent, size: 8.5, weight: 850, mono: true })}
-  ${text({ x: 28, y: 160, value: project.problem[0], size: 12.5, weight: 800 })}
-  ${text({ x: 28, y: 180, value: project.problem[1], size: 12.5, weight: 800 })}
-  <path d="M28 194H332" stroke="${colors.border}"/>
-  ${text({ x: 28, y: 215, value: project.delivery[0], fill: colors.muted, size: 10.5, weight: 650 })}
-  ${text({ x: 28, y: 232, value: project.delivery[1], fill: colors.muted, size: 10.5, weight: 650 })}
+  <rect x="16" y="119" width="328" height="146" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  <rect x="16" y="119" width="5" height="146" rx="2.5" fill="${project.accent}"/>
+  ${text({ x: 30, y: 143, value: "PROBLEMA", fill: project.accent, size: 8.5, weight: 900, mono: true })}
+  ${text({ x: 30, y: 169, value: project.problem[0], size: 12.2, weight: 820 })}
+  ${text({ x: 30, y: 189, value: project.problem[1], size: 12.2, weight: 820 })}
+  <path d="M30 203H332" stroke="${colors.border}"/>
+  ${text({ x: 30, y: 222, value: "ENTREGA", fill: colors.quiet, size: 7.3, weight: 850, mono: true })}
+  ${text({ x: 30, y: 241, value: project.delivery[0], fill: colors.muted, size: 10.2, weight: 680 })}
+  ${text({ x: 30, y: 257, value: project.delivery[1], fill: colors.muted, size: 10.2, weight: 680 })}
 
-  ${rect({ x: 16, y: 256, width: 328, height: 92, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 28, y: 280, value: "FLUXO OPERACIONAL", fill: project.accent, size: 8.5, weight: 850, mono: true })}
+  <rect x="16" y="278" width="328" height="102" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  ${text({ x: 28, y: 303, value: "FLUXO OPERACIONAL", fill: project.accent, size: 8.5, weight: 900, mono: true })}
+  <path d="M36 341H326" stroke="${project.accent}" stroke-opacity="0.2" stroke-width="2"/>
   ${flow}
 
-  ${rect({ x: 16, y: 360, width: 328, height: 78, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 28, y: 382, value: "EVIDÊNCIAS", fill: project.accent, size: 8.5, weight: 850, mono: true })}
+  <rect x="16" y="392" width="328" height="93" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  ${text({ x: 28, y: 415, value: "EVIDÊNCIAS", fill: project.accent, size: 8.5, weight: 900, mono: true })}
   ${evidence}
 
-  ${rect({ x: 16, y: 450, width: 328, height: 76, fill: colors.surface, stroke: colors.border, radius: 6 })}
-  ${text({ x: 28, y: 469, value: "ARQUITETURA E ENTREGA", fill: colors.muted, size: 8, weight: 800, mono: true })}
+  <rect x="16" y="497" width="328" height="84" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+  ${text({ x: 28, y: 518, value: "ARQUITETURA E ENTREGA", fill: colors.muted, size: 7.8, weight: 850, mono: true })}
   ${chips}
   </svg>`;
 }
@@ -301,36 +382,53 @@ function desktopMatrix() {
   ]
     .map(([value, label, accent], index) => {
       const x = 24 + index * 216;
-      return `${rect({ x, y: 67, width: 204, height: 72, fill: colors.surface, stroke: colors.border, radius: 6 })}<rect x="${x}" y="67" width="5" height="72" rx="2.5" fill="${accent}"/>${text({ x: x + 18, y: 101, value, fill: accent, size: 22, weight: 950 })}${text({ x: x + 18, y: 123, value: label, fill: colors.muted, size: 8.5, weight: 800, mono: true })}`;
+      return `<rect x="${x}" y="82" width="204" height="76" rx="9" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+        <rect x="${x}" y="82" width="204" height="3" rx="1.5" fill="${accent}"/>
+        <circle cx="${x + 176}" cy="108" r="13" fill="${accent}" fill-opacity="0.1" stroke="${accent}" stroke-opacity="0.36"/>
+        <circle cx="${x + 176}" cy="108" r="3.2" fill="${accent}" filter="url(#glow)"/>
+        ${text({ x: x + 18, y: 119, value, fill: accent, size: 22, weight: 950 })}
+        ${text({ x: x + 18, y: 141, value: label, fill: colors.muted, size: 8.3, weight: 850, mono: true })}`;
     })
     .join("");
 
   const columns = [24, 270, 410, 545, 660, 750];
   const rows = matrixRows
     .map((row, index) => {
-      const y = 194 + index * 39;
-      const fill = index % 2 === 0 ? colors.surface : colors.surfaceAlt;
+      const y = 217 + index * 40;
       const accent = projects[index].accent;
-      return `${rect({ x: 24, y, width: 852, height: 34, fill, stroke: colors.border, radius: 3 })}<rect x="24" y="${y}" width="4" height="34" rx="2" fill="${accent}"/>${text({ x: columns[0] + 14, y: y + 22, value: row[0], fill: colors.text, size: 10.5, weight: 900 })}${text({ x: columns[1], y: y + 22, value: row[1], fill: colors.muted, size: 9, weight: 750, mono: true })}${text({ x: columns[2], y: y + 22, value: row[2], fill: colors.text, size: 9, weight: 750, mono: true })}${text({ x: columns[3], y: y + 22, value: row[3], fill: colors.text, size: 9, weight: 750, mono: true })}${text({ x: columns[4], y: y + 22, value: row[4], fill: colors.green, size: 9, weight: 900, mono: true })}${text({ x: columns[5], y: y + 22, value: row[5], fill: colors.green, size: 9, weight: 900, mono: true })}`;
+      return `<rect x="24" y="${y}" width="852" height="35" rx="6" fill="${index % 2 === 0 ? "#0D1624" : "#101A2A"}" stroke="${colors.border}"/>
+        <rect x="24" y="${y}" width="5" height="35" rx="2.5" fill="${accent}"/>
+        ${text({ x: columns[0] + 14, y: y + 23, value: row[0], fill: colors.text, size: 10.3, weight: 900 })}
+        ${text({ x: columns[1], y: y + 23, value: row[1], fill: colors.muted, size: 8.7, weight: 800, mono: true })}
+        ${text({ x: columns[2], y: y + 23, value: row[2], fill: colors.text, size: 8.8, weight: 800, mono: true })}
+        ${text({ x: columns[3], y: y + 23, value: row[3], fill: colors.text, size: 8.8, weight: 800, mono: true })}
+        <rect x="650" y="${y + 8}" width="66" height="19" rx="9.5" fill="${colors.green}" fill-opacity="0.12" stroke="${colors.green}" stroke-opacity="0.48"/>
+        <circle cx="661" cy="${y + 17.5}" r="2.6" fill="${colors.green}"/>
+        ${text({ x: 669, y: y + 20.5, value: row[4], fill: colors.green, size: 7.6, weight: 900, mono: true })}
+        <rect x="742" y="${y + 8}" width="112" height="19" rx="9.5" fill="${colors.green}" fill-opacity="0.12" stroke="${colors.green}" stroke-opacity="0.48"/>
+        <circle cx="754" cy="${y + 17.5}" r="2.6" fill="${colors.green}" filter="url(#glow)"/>
+        ${text({ x: 763, y: y + 20.5, value: row[5], fill: colors.green, size: 7.6, weight: 900, mono: true })}`;
     })
     .join("");
 
-  return `<svg width="900" height="454" viewBox="0 0 900 454" fill="none" xmlns="http://www.w3.org/2000/svg">
+  return `<svg width="900" height="490" viewBox="0 0 900 490" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
-  ${rect({ x: 1, y: 1, width: 898, height: 452, fill: colors.background, stroke: colors.border, radius: 8, strokeWidth: 2 })}
-  <rect x="0" y="0" width="8" height="454" rx="4" fill="${colors.blue}"/>
-  ${text({ x: 26, y: 28, value: "PORTFÓLIO / MATRIZ DE ENTREGA", fill: colors.blue, size: 10.5, weight: 850, mono: true })}
-  ${text({ x: 26, y: 56, value: "Seis sistemas. Evidências comparáveis.", size: 20, weight: 950 })}
+  ${backdrop(900, 490, colors.blue)}
+  ${text({ x: 26, y: 30, value: "PORTFÓLIO / MATRIZ DE ENTREGA", fill: colors.blue, size: 10.5, weight: 900, mono: true })}
+  <rect x="707" y="15" width="169" height="26" rx="13" fill="url(#chip)" stroke="${colors.green}" stroke-opacity="0.45"/>
+  <circle cx="722" cy="28" r="3.5" fill="${colors.green}" filter="url(#glow)"/>
+  ${text({ x: 734, y: 32, value: "PORTFÓLIO VERIFICADO", fill: colors.text, size: 8, weight: 850, mono: true })}
+  ${text({ x: 26, y: 63, value: "Seis sistemas. Evidências comparáveis.", size: 21, weight: 950 })}
   ${kpis}
-  ${rect({ x: 24, y: 156, width: 852, height: 30, fill: colors.surface, stroke: colors.border, radius: 3 })}
-  ${text({ x: 38, y: 176, value: "PROJETO", fill: colors.quiet, size: 8.5, weight: 850, mono: true })}
-  ${text({ x: 270, y: 176, value: "DOMÍNIO", fill: colors.quiet, size: 8.5, weight: 850, mono: true })}
-  ${text({ x: 410, y: 176, value: "API", fill: colors.quiet, size: 8.5, weight: 850, mono: true })}
-  ${text({ x: 545, y: 176, value: "DADOS", fill: colors.quiet, size: 8.5, weight: 850, mono: true })}
-  ${text({ x: 660, y: 176, value: "CI", fill: colors.quiet, size: 8.5, weight: 850, mono: true })}
-  ${text({ x: 750, y: 176, value: "DEMO", fill: colors.quiet, size: 8.5, weight: 850, mono: true })}
+  <rect x="24" y="177" width="852" height="31" rx="6" fill="url(#panel)" stroke="${colors.border}"/>
+  ${text({ x: 38, y: 198, value: "PROJETO", fill: colors.quiet, size: 8.3, weight: 900, mono: true })}
+  ${text({ x: 270, y: 198, value: "DOMÍNIO", fill: colors.quiet, size: 8.3, weight: 900, mono: true })}
+  ${text({ x: 410, y: 198, value: "API", fill: colors.quiet, size: 8.3, weight: 900, mono: true })}
+  ${text({ x: 545, y: 198, value: "DADOS", fill: colors.quiet, size: 8.3, weight: 900, mono: true })}
+  ${text({ x: 660, y: 198, value: "CI", fill: colors.quiet, size: 8.3, weight: 900, mono: true })}
+  ${text({ x: 750, y: 198, value: "DEMO", fill: colors.quiet, size: 8.3, weight: 900, mono: true })}
   ${rows}
-  ${text({ x: 26, y: 442, value: "LEITURA ATUAL: APIs DOCUMENTADAS / PERSISTÊNCIA ISOLADA / PIPELINES VERIFICADOS", fill: colors.quiet, size: 8.5, weight: 750, mono: true })}
+  ${text({ x: 26, y: 476, value: "LEITURA ATUAL: APIs DOCUMENTADAS / PERSISTÊNCIA ISOLADA / PIPELINES VERIFICADOS", fill: colors.quiet, size: 8.2, weight: 800, mono: true })}
   </svg>`;
 }
 
@@ -345,29 +443,43 @@ function mobileMatrix() {
       const column = index % 2;
       const row = Math.floor(index / 2);
       const x = 16 + column * 166;
-      const y = 77 + row * 64;
-      return `${rect({ x, y, width: 156, height: 54, fill: colors.surface, stroke: colors.border, radius: 5 })}<rect x="${x}" y="${y}" width="4" height="54" rx="2" fill="${accent}"/>${text({ x: x + 14, y: y + 27, value, fill: accent, size: 17, weight: 950 })}${text({ x: x + 14, y: y + 44, value: label, fill: colors.muted, size: 7.5, weight: 800, mono: true })}`;
+      const y = 88 + row * 67;
+      return `<rect x="${x}" y="${y}" width="156" height="58" rx="8" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+        <rect x="${x}" y="${y}" width="156" height="3" rx="1.5" fill="${accent}"/>
+        <circle cx="${x + 133}" cy="${y + 20}" r="8" fill="${accent}" fill-opacity="0.1" stroke="${accent}" stroke-opacity="0.38"/>
+        <circle cx="${x + 133}" cy="${y + 20}" r="2.4" fill="${accent}" filter="url(#glow)"/>
+        ${text({ x: x + 14, y: y + 29, value, fill: accent, size: 17, weight: 950 })}
+        ${text({ x: x + 14, y: y + 47, value: label, fill: colors.muted, size: 7.3, weight: 850, mono: true })}`;
     })
     .join("");
 
   const cards = matrixRows
     .map((row, index) => {
-      const y = 228 + index * 73;
+      const y = 252 + index * 74;
       const accent = projects[index].accent;
-      return `${rect({ x: 16, y, width: 328, height: 62, fill: index % 2 === 0 ? colors.surface : colors.surfaceAlt, stroke: colors.border, radius: 5 })}<rect x="16" y="${y}" width="5" height="62" rx="2.5" fill="${accent}"/>${text({ x: 30, y: y + 23, value: row[0], size: 13, weight: 950 })}${text({ x: 330, y: y + 22, value: row[1], fill: colors.muted, size: 7.5, weight: 800, mono: true, anchor: "end" })}${text({ x: 30, y: y + 46, value: `${row[2]}  /  ${row[3]}`, fill: colors.muted, size: 8.5, weight: 750, mono: true })}${text({ x: 330, y: y + 46, value: "CI PASS  •  ONLINE", fill: colors.green, size: 8, weight: 900, mono: true, anchor: "end" })}`;
+      return `<rect x="16" y="${y}" width="328" height="64" rx="8" fill="${index % 2 === 0 ? "#0D1624" : "#101A2A"}" stroke="${colors.border}" filter="url(#shadow)"/>
+        <rect x="16" y="${y}" width="5" height="64" rx="2.5" fill="${accent}"/>
+        ${text({ x: 30, y: y + 24, value: row[0], size: 12.6, weight: 950 })}
+        ${text({ x: 330, y: y + 22, value: row[1], fill: colors.muted, size: 7.2, weight: 850, mono: true, anchor: "end" })}
+        ${text({ x: 30, y: y + 48, value: `${row[2]}  /  ${row[3]}`, fill: colors.muted, size: 8, weight: 800, mono: true })}
+        <rect x="244" y="${y + 35}" width="86" height="19" rx="9.5" fill="${colors.green}" fill-opacity="0.12" stroke="${colors.green}" stroke-opacity="0.48"/>
+        <circle cx="255" cy="${y + 44.5}" r="2.6" fill="${colors.green}" filter="url(#glow)"/>
+        ${text({ x: 263, y: y + 47.5, value: "CI PASS", fill: colors.green, size: 7.3, weight: 900, mono: true })}`;
     })
     .join("");
 
-  return `<svg width="360" height="692" viewBox="0 0 360 692" fill="none" xmlns="http://www.w3.org/2000/svg">
+  return `<svg width="360" height="724" viewBox="0 0 360 724" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
-  ${rect({ x: 1, y: 1, width: 358, height: 690, fill: colors.background, stroke: colors.border, radius: 8, strokeWidth: 2 })}
-  <rect x="0" y="0" width="7" height="692" rx="3.5" fill="${colors.blue}"/>
-  ${text({ x: 18, y: 27, value: "PORTFÓLIO / MATRIZ DE ENTREGA", fill: colors.blue, size: 9, weight: 850, mono: true })}
-  ${text({ x: 18, y: 57, value: "Seis sistemas. Evidências comparáveis.", size: 15.5, weight: 950 })}
+  ${backdrop(360, 724, colors.blue)}
+  ${text({ x: 18, y: 29, value: "PORTFÓLIO / MATRIZ DE ENTREGA", fill: colors.blue, size: 8.8, weight: 900, mono: true })}
+  <rect x="227" y="14" width="115" height="25" rx="12.5" fill="url(#chip)" stroke="${colors.green}" stroke-opacity="0.45"/>
+  <circle cx="239" cy="26.5" r="3" fill="${colors.green}" filter="url(#glow)"/>
+  ${text({ x: 249, y: 30, value: "VERIFICADO", fill: colors.text, size: 7.2, weight: 850, mono: true })}
+  ${text({ x: 18, y: 65, value: "Seis sistemas. Evidências comparáveis.", size: 15.5, weight: 950 })}
   ${kpis}
-  ${text({ x: 18, y: 214, value: "PROJETOS / ARQUITETURA / ESTADO", fill: colors.quiet, size: 8.5, weight: 800, mono: true })}
+  ${text({ x: 18, y: 238, value: "PROJETOS / ARQUITETURA / ESTADO", fill: colors.quiet, size: 8.2, weight: 850, mono: true })}
   ${cards}
-  ${text({ x: 18, y: 682, value: "DADOS VERIFICADOS NOS REPOSITÓRIOS PÚBLICOS", fill: colors.quiet, size: 7.8, weight: 750, mono: true })}
+  ${text({ x: 18, y: 711, value: "DADOS VERIFICADOS NOS REPOSITÓRIOS PÚBLICOS", fill: colors.quiet, size: 7.5, weight: 800, mono: true })}
   </svg>`;
 }
 

@@ -142,8 +142,8 @@
 <p align="center">Uma leitura direta de arquitetura, persist&ecirc;ncia, CI e disponibilidade das demonstra&ccedil;&otilde;es.</p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/portfolio-delivery-matrix-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/portfolio-delivery-matrix-desktop.svg?v=20260826-5" alt="Matriz comparativa dos seis projetos com dom&iacute;nio, API, persist&ecirc;ncia, CI aprovado e demonstra&ccedil;&atilde;o online">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/portfolio-delivery-matrix-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/portfolio-delivery-matrix-desktop.svg?v=20260826-6" alt="Matriz comparativa dos seis projetos com dom&iacute;nio, API, persist&ecirc;ncia, CI aprovado e demonstra&ccedil;&atilde;o online">
 </picture>
 
 <p align="center"><sub>Estado verificado nos reposit&oacute;rios e nas demonstra&ccedil;&otilde;es p&uacute;blicas em agosto de 2026.</sub></p>
@@ -189,8 +189,8 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-01-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-01-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do Patrim&ocirc;nio Ops com problema, fluxo operacional, evid&ecirc;ncias e arquitetura">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-01-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-01-desktop.svg?v=20260826-6" alt="Ficha t&eacute;cnica do Patrim&ocirc;nio Ops com problema, fluxo operacional, evid&ecirc;ncias e arquitetura">
 </picture>
 
 **Capacidades demonstradas**
@@ -221,8 +221,8 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-02-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-02-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do CobreFlow com problema financeiro, fluxo de cobran&ccedil;a, evid&ecirc;ncias e arquitetura">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-02-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-02-desktop.svg?v=20260826-6" alt="Ficha t&eacute;cnica do CobreFlow com problema financeiro, fluxo de cobran&ccedil;a, evid&ecirc;ncias e arquitetura">
 </picture>
 
 **Capacidades demonstradas**
@@ -253,8 +253,8 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-03-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-03-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do FieldOps com problema de margem, fluxo de campo, evid&ecirc;ncias e arquitetura">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-03-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-03-desktop.svg?v=20260826-6" alt="Ficha t&eacute;cnica do FieldOps com problema de margem, fluxo de campo, evid&ecirc;ncias e arquitetura">
 </picture>
 
 **Capacidades demonstradas**
@@ -285,8 +285,8 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-04-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-04-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do LeadOps com atribui&ccedil;&atilde;o, scoring, ROI, evid&ecirc;ncias e arquitetura">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-04-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-04-desktop.svg?v=20260826-6" alt="Ficha t&eacute;cnica do LeadOps com atribui&ccedil;&atilde;o, scoring, ROI, evid&ecirc;ncias e arquitetura">
 </picture>
 
 **Capacidades demonstradas**
@@ -317,8 +317,8 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-05-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-05-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do ReturnOps com fluxo de RMA, risco de SLA, evid&ecirc;ncias e arquitetura">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-05-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-05-desktop.svg?v=20260826-6" alt="Ficha t&eacute;cnica do ReturnOps com fluxo de RMA, risco de SLA, evid&ecirc;ncias e arquitetura">
 </picture>
 
 **Capacidades demonstradas**
@@ -349,8 +349,8 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-06-mobile.svg?v=20260826-5">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-06-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do ServiceHub com agenda, funil, cobran&ccedil;a, evid&ecirc;ncias e arquitetura">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-06-mobile.svg?v=20260826-6">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-06-desktop.svg?v=20260826-6" alt="Ficha t&eacute;cnica do ServiceHub com agenda, funil, cobran&ccedil;a, evid&ecirc;ncias e arquitetura">
 </picture>
 
 **Capacidades demonstradas**
