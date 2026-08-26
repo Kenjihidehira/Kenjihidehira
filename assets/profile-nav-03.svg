@@ -1,4 +1,4 @@
-<svg width="900" height="84" viewBox="0 0 900 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="136" height="48" viewBox="0 0 136 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
@@ -37,18 +37,10 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="898" height="82" rx="11" fill="url(#background)" stroke="#263651" stroke-width="2"/>
-  <rect x="2" y="2" width="896" height="80" rx="10" fill="url(#micro-grid)" opacity="0.42"/>
-  <rect x="1" y="1" width="6" height="82" rx="3" fill="#FF705C"/>
-  <rect x="22" y="1" width="850" height="2.5" rx="1.25" fill="url(#accent-line)"/>
-  <circle cx="34" cy="42" r="17" fill="#FF705C" fill-opacity="0.12" stroke="#FF705C" stroke-opacity="0.58"/>
-  <text x="34" y="46" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="middle">02</text>
-  <text x="66" y="36" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="950" text-anchor="start">COBREFLOW</text>
-  <text x="66" y="58" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">RECEB&#205;VEIS / RISCO / CONCILIA&#199;&#195;O</text>
-  <rect x="682" y="29" width="122" height="26" rx="13" fill="url(#chip)" stroke="#FF705C" stroke-opacity="0.52"/>
-  <circle cx="696" cy="42" r="3.2" fill="#39E6B0" filter="url(#glow)"/>
-  <text x="707" y="46" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.6" font-weight="900" text-anchor="start">DEMO ONLINE</text>
-  <text x="826" y="39" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="850" text-anchor="start">ABRIR</text>
-  <text x="826" y="53" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">FICHA</text>
-  <path d="M872 35L879 42L872 49" stroke="#FF705C" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1" y="1" width="134" height="46" rx="10" fill="url(#panel)" stroke="#FF705C" stroke-opacity="0.58" stroke-width="2"/>
+  <rect x="12" y="1" width="112" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+  <circle cx="22" cy="24" r="10" fill="#FF705C" fill-opacity="0.13" stroke="#FF705C" stroke-opacity="0.65"/>
+  <text x="22" y="27.5" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="950" text-anchor="middle">03</text>
+  <text x="41" y="29" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9.2" font-weight="900" text-anchor="start">PAINEL</text>
+  <path d="M115 20L119 24L115 28" stroke="#FF705C" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>

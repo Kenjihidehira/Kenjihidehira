@@ -18,11 +18,11 @@
 
 <div align="center">
 
-<a href="#visao"><img src="https://img.shields.io/badge/01_VIS%C3%83O-080D16?style=for-the-badge" alt="Ir para vis&atilde;o profissional"></a>
-<a href="#stack"><img src="https://img.shields.io/badge/02_STACK-6685FF?style=for-the-badge" alt="Ir para arquitetura t&eacute;cnica"></a>
-<a href="#painel"><img src="https://img.shields.io/badge/03_PAINEL-FF6948?style=for-the-badge" alt="Ir para painel do portf&oacute;lio"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/04_PROJETOS-080D16?style=for-the-badge" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
-<a href="#rota"><img src="https://img.shields.io/badge/05_ROTA-6685FF?style=for-the-badge" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
+<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260826-7" alt="Ir para vis&atilde;o profissional"></a>
+<a href="#stack"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-02.svg?v=20260826-7" alt="Ir para arquitetura t&eacute;cnica"></a>
+<a href="#painel"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-03.svg?v=20260826-7" alt="Ir para painel do portf&oacute;lio"></a>
+<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260826-7" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
+<a href="#rota"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260826-7" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
 
 </div>
 
@@ -34,9 +34,9 @@
 
 <br><br>
 
-<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://img.shields.io/badge/ABRIR_SISTEMA_PRINCIPAL-FFC400?style=for-the-badge&amp;logo=vercel&amp;logoColor=080D16" alt="Abrir Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/EXAMINAR_C%C3%93DIGO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
-<a href="#projetos"><img src="https://img.shields.io/badge/EXPLORAR_PROJETOS-FF6948?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Explorar projetos do portf&oacute;lio"></a>
+<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-system.svg?v=20260826-7" alt="Abrir Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-code.svg?v=20260826-7" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
+<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-projects.svg?v=20260826-7" alt="Explorar projetos do portf&oacute;lio"></a>
 
 <br><br>
 
@@ -163,26 +163,13 @@
   <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260818-3" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
 </picture>
 
-<p align="center"><sub>Abra um reposit&oacute;rio pelos bot&otilde;es ou expanda uma barra para consultar a ficha t&eacute;cnica, demo, arquitetura e CI.</sub></p>
-
-<div align="center">
-
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/01_PATRIM%C3%94NIO_OPS-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://img.shields.io/badge/02_COBREFLOW-FF6948?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir CobreFlow"></a>
-<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://img.shields.io/badge/03_FIELDOPS-080D16?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir FieldOps"></a>
-<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://img.shields.io/badge/04_LEADOPS-7A9918?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir LeadOps"></a>
-<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://img.shields.io/badge/05_RETURNOPS-7D6FF5?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ReturnOps"></a>
-<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://img.shields.io/badge/06_SERVICEHUB-00A981?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir ServiceHub"></a>
-
-</div>
-
-<br>
+<p align="center"><sub>Expanda uma barra para consultar a ficha t&eacute;cnica, demonstra&ccedil;&atilde;o, arquitetura, reposit&oacute;rio e CI.</sub></p>
 
 <details open>
 <summary>
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-01-mobile.svg?v=20260826-4">
-  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-01-desktop.svg?v=20260826-4" alt="Expandir Patrim&ocirc;nio Ops, projeto principal">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-01-mobile.svg?v=20260826-7">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-01-desktop.svg?v=20260826-7" alt="Expandir Patrim&ocirc;nio Ops, projeto principal">
 </picture>
 </summary>
 
@@ -201,10 +188,10 @@
 
 <div align="center">
 
-<a href="https://patrimonio-ops-control.vercel.app/demo"><img src="https://img.shields.io/badge/ABRIR_DEMO-FFC400?style=for-the-badge&amp;logo=vercel&amp;logoColor=080D16" alt="Abrir demonstra&ccedil;&atilde;o do Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do Patrim&ocirc;nio Ops"></a>
+<a href="https://patrimonio-ops-control.vercel.app/demo"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-demo.svg?v=20260826-7" alt="Abrir demonstra&ccedil;&atilde;o do Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-repo.svg?v=20260826-7" alt="Ver reposit&oacute;rio Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-architecture.svg?v=20260826-7" alt="Ler arquitetura do Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-ci.svg?v=20260826-7" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do Patrim&ocirc;nio Ops"></a>
 
 </div>
 
@@ -213,8 +200,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-02-mobile.svg?v=20260826-4">
-  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-02-desktop.svg?v=20260826-4" alt="Expandir CobreFlow, opera&ccedil;&otilde;es financeiras">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-02-mobile.svg?v=20260826-7">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-02-desktop.svg?v=20260826-7" alt="Expandir CobreFlow, opera&ccedil;&otilde;es financeiras">
 </picture>
 </summary>
 
@@ -233,10 +220,10 @@
 
 <div align="center">
 
-<a href="https://cobreflow-finance.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-FF6948?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do CobreFlow"></a>
-<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio CobreFlow"></a>
-<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do CobreFlow"></a>
-<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do CobreFlow"></a>
+<a href="https://cobreflow-finance.dadosepesquisa.chatgpt.site"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-demo.svg?v=20260826-7" alt="Abrir demonstra&ccedil;&atilde;o do CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-repo.svg?v=20260826-7" alt="Ver reposit&oacute;rio CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops/blob/main/docs/architecture.md"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-architecture.svg?v=20260826-7" alt="Ler arquitetura do CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-ci.svg?v=20260826-7" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do CobreFlow"></a>
 
 </div>
 
@@ -245,8 +232,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-03-mobile.svg?v=20260826-4">
-  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-03-desktop.svg?v=20260826-4" alt="Expandir FieldOps, margem e servi&ccedil;os de campo">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-03-mobile.svg?v=20260826-7">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-03-desktop.svg?v=20260826-7" alt="Expandir FieldOps, margem e servi&ccedil;os de campo">
 </picture>
 </summary>
 
@@ -265,10 +252,10 @@
 
 <div align="center">
 
-<a href="https://fieldops-margin.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-00A981?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do FieldOps"></a>
-<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio FieldOps"></a>
-<a href="https://github.com/Kenjihidehira/fieldops-margin-control/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do FieldOps"></a>
-<a href="https://github.com/Kenjihidehira/fieldops-margin-control/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do FieldOps"></a>
+<a href="https://fieldops-margin.dadosepesquisa.chatgpt.site"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-demo.svg?v=20260826-7" alt="Abrir demonstra&ccedil;&atilde;o do FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-repo.svg?v=20260826-7" alt="Ver reposit&oacute;rio FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control/blob/main/docs/architecture.md"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-architecture.svg?v=20260826-7" alt="Ler arquitetura do FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-ci.svg?v=20260826-7" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do FieldOps"></a>
 
 </div>
 
@@ -277,8 +264,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-04-mobile.svg?v=20260826-4">
-  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-04-desktop.svg?v=20260826-4" alt="Expandir LeadOps, campanhas e atribui&ccedil;&atilde;o">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-04-mobile.svg?v=20260826-7">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-04-desktop.svg?v=20260826-7" alt="Expandir LeadOps, campanhas e atribui&ccedil;&atilde;o">
 </picture>
 </summary>
 
@@ -297,10 +284,10 @@
 
 <div align="center">
 
-<a href="https://leadops-attribution.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-F2C14E?style=for-the-badge&amp;logo=icloud&amp;logoColor=080D16" alt="Abrir demonstra&ccedil;&atilde;o do LeadOps"></a>
-<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio LeadOps"></a>
-<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do LeadOps"></a>
-<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do LeadOps"></a>
+<a href="https://leadops-attribution.dadosepesquisa.chatgpt.site"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-demo.svg?v=20260826-7" alt="Abrir demonstra&ccedil;&atilde;o do LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-repo.svg?v=20260826-7" alt="Ver reposit&oacute;rio LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution/blob/main/docs/architecture.md"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-architecture.svg?v=20260826-7" alt="Ler arquitetura do LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-ci.svg?v=20260826-7" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do LeadOps"></a>
 
 </div>
 
@@ -309,8 +296,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-05-mobile.svg?v=20260826-4">
-  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-05-desktop.svg?v=20260826-4" alt="Expandir ReturnOps, devolu&ccedil;&otilde;es e RMA">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-05-mobile.svg?v=20260826-7">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-05-desktop.svg?v=20260826-7" alt="Expandir ReturnOps, devolu&ccedil;&otilde;es e RMA">
 </picture>
 </summary>
 
@@ -329,10 +316,10 @@
 
 <div align="center">
 
-<a href="https://returnops-rma-control.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-6F9EFF?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do ReturnOps"></a>
-<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio ReturnOps"></a>
-<a href="https://github.com/Kenjihidehira/returnops-rma-command-center/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do ReturnOps"></a>
-<a href="https://github.com/Kenjihidehira/returnops-rma-command-center/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do ReturnOps"></a>
+<a href="https://returnops-rma-control.dadosepesquisa.chatgpt.site"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-demo.svg?v=20260826-7" alt="Abrir demonstra&ccedil;&atilde;o do ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-repo.svg?v=20260826-7" alt="Ver reposit&oacute;rio ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center/blob/main/docs/architecture.md"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-architecture.svg?v=20260826-7" alt="Ler arquitetura do ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-ci.svg?v=20260826-7" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do ReturnOps"></a>
 
 </div>
 
@@ -341,8 +328,8 @@
 <details>
 <summary>
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-06-mobile.svg?v=20260826-4">
-  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-06-desktop.svg?v=20260826-4" alt="Expandir ServiceHub, agenda e CRM">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-06-mobile.svg?v=20260826-7">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-06-desktop.svg?v=20260826-7" alt="Expandir ServiceHub, agenda e CRM">
 </picture>
 </summary>
 
@@ -361,10 +348,10 @@
 
 <div align="center">
 
-<a href="https://servicehub-crm-ops.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-00A981?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do ServiceHub"></a>
-<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio ServiceHub"></a>
-<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do ServiceHub"></a>
-<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do ServiceHub"></a>
+<a href="https://servicehub-crm-ops.dadosepesquisa.chatgpt.site"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-demo.svg?v=20260826-7" alt="Abrir demonstra&ccedil;&atilde;o do ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-repo.svg?v=20260826-7" alt="Ver reposit&oacute;rio ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm/blob/main/docs/architecture.md"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-architecture.svg?v=20260826-7" alt="Ler arquitetura do ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm/actions/workflows/ci.yml"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-action-ci.svg?v=20260826-7" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do ServiceHub"></a>
 
 </div>
 
@@ -397,8 +384,8 @@
 
 <div align="center">
 
-<a href="https://github.com/Kenjihidehira"><img src="https://img.shields.io/badge/GITHUB-KENJIHIDEHIRA-181717?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Abrir perfil de Kenji Hidehira no GitHub"></a>
-<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://img.shields.io/badge/EXPLORAR-REPOSIT%C3%93RIOS-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Explorar todos os reposit&oacute;rios"></a>
+<a href="https://github.com/Kenjihidehira"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-footer-github.svg?v=20260826-7" alt="Abrir perfil de Kenji Hidehira no GitHub"></a>
+<a href="https://github.com/Kenjihidehira?tab=repositories"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-footer-repositories.svg?v=20260826-7" alt="Explorar todos os reposit&oacute;rios"></a>
 
 </div>
 
