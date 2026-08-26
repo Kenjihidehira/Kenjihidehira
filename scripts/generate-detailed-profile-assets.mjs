@@ -26,6 +26,7 @@ const projects = [
     id: "01",
     title: "PATRIMÔNIO OPS",
     domain: "GESTÃO PATRIMONIAL",
+    summary: "CONTROLE / CUSTÓDIA / AUDITORIA",
     accent: colors.yellow,
     status: "PROJETO PRINCIPAL",
     problem: ["Inventário, custódia e auditoria", "fragmentados entre núcleos."],
@@ -42,6 +43,7 @@ const projects = [
     id: "02",
     title: "COBREFLOW",
     domain: "OPERAÇÕES FINANCEIRAS",
+    summary: "RECEBÍVEIS / RISCO / CONCILIAÇÃO",
     accent: colors.coral,
     status: "DEMO COMERCIAL",
     problem: ["Recebíveis e cobranças sem", "prioridade ou conciliação única."],
@@ -58,6 +60,7 @@ const projects = [
     id: "03",
     title: "FIELDOPS",
     domain: "SERVIÇOS DE CAMPO",
+    summary: "MARGEM / CAMPO / FATURAMENTO",
     accent: colors.green,
     status: "DEMO COMERCIAL",
     problem: ["Custos, equipes, materiais e SLA", "ocultam a margem real do projeto."],
@@ -74,6 +77,7 @@ const projects = [
     id: "04",
     title: "LEADOPS",
     domain: "MARKETING E VENDAS",
+    summary: "CAMPANHAS / SCORE / ROI",
     accent: colors.yellow,
     status: "DEMO COMERCIAL",
     problem: ["Investimento em campanhas sem", "atribuição e prioridade comercial."],
@@ -90,6 +94,7 @@ const projects = [
     id: "05",
     title: "RETURNOPS",
     domain: "PÓS-VENDA E RMA",
+    summary: "RMA / SLA / REPOSIÇÃO",
     accent: colors.blue,
     status: "DEMO COMERCIAL",
     problem: ["Devoluções dispersas atrasam", "reembolso, SLA e retorno ao estoque."],
@@ -106,6 +111,7 @@ const projects = [
     id: "06",
     title: "SERVICEHUB",
     domain: "AGENDA E CRM",
+    summary: "AGENDA / FUNIL / COBRANÇA",
     accent: colors.green,
     status: "DEMO COMERCIAL",
     problem: ["Agenda, vendas e cobranças", "desconectadas reduzem receita."],
@@ -483,6 +489,66 @@ function mobileMatrix() {
   </svg>`;
 }
 
+function compactButton(width, label, marker, accent, primary = false) {
+  const textColor = primary ? colors.background : colors.text;
+  const markerColor = primary ? colors.background : accent;
+  return `<svg width="${width}" height="48" viewBox="0 0 ${width} 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${visualDefs(accent)}
+  <rect x="1" y="1" width="${width - 2}" height="46" rx="10" fill="${primary ? accent : "url(#panel)"}" stroke="${accent}" stroke-opacity="${primary ? 1 : 0.58}" stroke-width="2"/>
+  <rect x="12" y="1" width="${width - 24}" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+  <circle cx="22" cy="24" r="10" fill="${primary ? colors.background : accent}" fill-opacity="${primary ? 0.14 : 0.13}" stroke="${markerColor}" stroke-opacity="0.65"/>
+  ${text({ x: 22, y: 27.5, value: marker, fill: markerColor, size: 7.2, weight: 950, mono: true, anchor: "middle" })}
+  ${text({ x: 41, y: 29, value: label, fill: textColor, size: 9.2, weight: 900, mono: true })}
+  <path d="M${width - 21} 20L${width - 17} 24L${width - 21} 28" stroke="${markerColor}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+}
+
+function desktopToggle(project) {
+  const statusLabel = project.id === "01" ? "PRINCIPAL" : "DEMO ONLINE";
+  const statusWidth = project.id === "01" ? 112 : 122;
+  const statusX = 682;
+  return `<svg width="900" height="84" viewBox="0 0 900 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${visualDefs(project.accent)}
+  <rect x="1" y="1" width="898" height="82" rx="11" fill="url(#background)" stroke="${colors.border}" stroke-width="2"/>
+  <rect x="2" y="2" width="896" height="80" rx="10" fill="url(#micro-grid)" opacity="0.42"/>
+  <rect x="1" y="1" width="6" height="82" rx="3" fill="${project.accent}"/>
+  <rect x="22" y="1" width="850" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+  <circle cx="34" cy="42" r="17" fill="${project.accent}" fill-opacity="0.12" stroke="${project.accent}" stroke-opacity="0.58"/>
+  ${text({ x: 34, y: 46, value: project.id, fill: project.accent, size: 9, weight: 950, mono: true, anchor: "middle" })}
+  ${text({ x: 66, y: 36, value: project.title, size: 17, weight: 950 })}
+  ${text({ x: 66, y: 58, value: project.summary, fill: colors.muted, size: 8.5, weight: 850, mono: true })}
+  <rect x="${statusX}" y="29" width="${statusWidth}" height="26" rx="13" fill="url(#chip)" stroke="${project.accent}" stroke-opacity="0.52"/>
+  <circle cx="${statusX + 14}" cy="42" r="3.2" fill="${colors.green}" filter="url(#glow)"/>
+  ${text({ x: statusX + 25, y: 46, value: statusLabel, fill: colors.text, size: 7.6, weight: 900, mono: true })}
+  ${text({ x: 826, y: 39, value: "ABRIR", fill: colors.quiet, size: 7, weight: 850, mono: true })}
+  ${text({ x: 826, y: 53, value: "FICHA", fill: colors.text, size: 8.5, weight: 900, mono: true })}
+  <path d="M872 35L879 42L872 49" stroke="${project.accent}" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+}
+
+function mobileToggle(project) {
+  const statusLabel = project.id === "01" ? "PRINCIPAL" : "ONLINE";
+  const statusWidth = project.id === "01" ? 103 : 82;
+  const statusX = 342 - statusWidth;
+  return `<svg width="360" height="98" viewBox="0 0 360 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${visualDefs(project.accent)}
+  <rect x="1" y="1" width="358" height="96" rx="11" fill="url(#background)" stroke="${colors.border}" stroke-width="2"/>
+  <rect x="2" y="2" width="356" height="94" rx="10" fill="url(#micro-grid)" opacity="0.42"/>
+  <rect x="1" y="1" width="6" height="96" rx="3" fill="${project.accent}"/>
+  <rect x="18" y="1" width="324" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+  ${text({ x: 18, y: 25, value: `${project.id} / SISTEMA`, fill: project.accent, size: 7.5, weight: 900, mono: true })}
+  <rect x="${statusX}" y="12" width="${statusWidth}" height="23" rx="11.5" fill="url(#chip)" stroke="${project.accent}" stroke-opacity="0.5"/>
+  <circle cx="${statusX + 12}" cy="23.5" r="2.8" fill="${colors.green}" filter="url(#glow)"/>
+  ${text({ x: statusX + 22, y: 27, value: statusLabel, fill: colors.text, size: 6.8, weight: 900, mono: true })}
+  ${text({ x: 18, y: 57, value: project.title, size: 17.5, weight: 950 })}
+  ${text({ x: 18, y: 79, value: project.summary, fill: colors.muted, size: 7.5, weight: 850, mono: true })}
+  <path d="M330 62L337 69L330 76" stroke="${project.accent}" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+}
+
 await mkdir(assetsDir, { recursive: true });
 
 const outputs = [];
@@ -492,6 +558,37 @@ for (const project of projects) {
 }
 outputs.push(["portfolio-delivery-matrix-desktop.svg", desktopMatrix()]);
 outputs.push(["portfolio-delivery-matrix-mobile.svg", mobileMatrix()]);
+
+const navigationButtons = [
+  ["profile-nav-01.svg", 126, "VISÃO", "01", colors.green],
+  ["profile-nav-02.svg", 126, "STACK", "02", colors.blue],
+  ["profile-nav-03.svg", 136, "PAINEL", "03", colors.coral],
+  ["profile-nav-04.svg", 152, "PROJETOS", "04", colors.yellow],
+  ["profile-nav-05.svg", 122, "ROTA", "05", colors.blue],
+];
+for (const [filename, width, label, marker, accent] of navigationButtons) {
+  outputs.push([filename, compactButton(width, label, marker, accent)]);
+}
+
+const quickActions = [
+  ["profile-quick-system.svg", 216, "ABRIR SISTEMA", "01", colors.yellow, true],
+  ["profile-quick-code.svg", 218, "EXAMINAR CÓDIGO", "02", colors.blue, false],
+  ["profile-quick-projects.svg", 222, "EXPLORAR PROJETOS", "03", colors.coral, false],
+  ["project-action-demo.svg", 154, "ABRIR DEMO", "01", colors.yellow, true],
+  ["project-action-repo.svg", 176, "REPOSITÓRIO", "02", colors.blue, false],
+  ["project-action-architecture.svg", 188, "ARQUITETURA", "03", colors.cyan, false],
+  ["project-action-ci.svg", 158, "CI APROVADO", "04", colors.green, false],
+  ["profile-footer-github.svg", 184, "PERFIL GITHUB", "GH", colors.blue, false],
+  ["profile-footer-repositories.svg", 224, "TODOS OS REPOSITÓRIOS", "↗", colors.coral, false],
+];
+for (const [filename, width, label, marker, accent, primary] of quickActions) {
+  outputs.push([filename, compactButton(width, label, marker, accent, primary)]);
+}
+
+for (const project of projects) {
+  outputs.push([`project-toggle-${project.id}-desktop.svg`, desktopToggle(project)]);
+  outputs.push([`project-toggle-${project.id}-mobile.svg`, mobileToggle(project)]);
+}
 
 await Promise.all(outputs.map(([filename, content]) => writeFile(resolve(assetsDir, filename), `${content}\n`, "utf8")));
 

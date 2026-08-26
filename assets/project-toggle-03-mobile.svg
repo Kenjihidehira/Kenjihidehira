@@ -1,11 +1,51 @@
-<svg width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="360" height="98" viewBox="0 0 360 98" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>text{letter-spacing:0}</style>
-  <rect x="1" y="1" width="358" height="94" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
-     <rect x="0" y="0" width="7" height="96" rx="3.5" fill="#35C99A"/>
-     <text x="18" y="24" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" letter-spacing="0" >03 / CAMPO</text>
-     <text x="18" y="54" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="950" letter-spacing="0" >FIELDOPS</text>
-     <text x="18" y="78" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="0" >SERVI&#199;OS DE CAMPO</text>
-     <rect x="258" y="19" width="84" height="30" rx="4" fill="#123B2F" stroke="#35C99A"/>
-     <text x="269" y="39" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" letter-spacing="0" >EXPANDIR</text>
-     <path d="M234 28l7 7 7-7" stroke="#35C99A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070C15"/>
+      <stop offset="0.55" stop-color="#09111D"/>
+      <stop offset="1" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111B2B"/>
+      <stop offset="1" stop-color="#0A111D"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#39E6B0" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#111B2A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#39E6B0" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#39E6B0"/>
+      <stop offset="0.78" stop-color="#42D8FF"/>
+      <stop offset="1" stop-color="#42D8FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
+      <stop stop-color="#39E6B0" stop-opacity="0.18"/>
+      <stop offset="0.58" stop-color="#39E6B0" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#39E6B0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="micro-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#152238" stroke-width="0.7"/>
+      <circle cx="1" cy="1" r="0.8" fill="#687994" fill-opacity="0.32"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="358" height="96" rx="11" fill="url(#background)" stroke="#263651" stroke-width="2"/>
+  <rect x="2" y="2" width="356" height="94" rx="10" fill="url(#micro-grid)" opacity="0.42"/>
+  <rect x="1" y="1" width="6" height="96" rx="3" fill="#39E6B0"/>
+  <rect x="18" y="1" width="324" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+  <text x="18" y="25" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">03 / SISTEMA</text>
+  <rect x="260" y="12" width="82" height="23" rx="11.5" fill="url(#chip)" stroke="#39E6B0" stroke-opacity="0.5"/>
+  <circle cx="272" cy="23.5" r="2.8" fill="#39E6B0" filter="url(#glow)"/>
+  <text x="282" y="27" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="900" text-anchor="start">ONLINE</text>
+  <text x="18" y="57" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17.5" font-weight="950" text-anchor="start">FIELDOPS</text>
+  <text x="18" y="79" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="850" text-anchor="start">MARGEM / CAMPO / FATURAMENTO</text>
+  <path d="M330 62L337 69L330 76" stroke="#39E6B0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
