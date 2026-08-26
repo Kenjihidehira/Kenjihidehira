@@ -32,13 +32,13 @@
 
 <strong>ACESSO R&Aacute;PIDO</strong>
 
-<br><br>
+<br>
 
 <a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-system.svg?v=20260826-7" alt="Abrir Patrim&ocirc;nio Ops"></a>
 <a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-code.svg?v=20260826-7" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
 <a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-projects.svg?v=20260826-7" alt="Explorar projetos do portf&oacute;lio"></a>
 
-<br><br>
+<br>
 
 <sub>Use os pain&eacute;is expans&iacute;veis para consultar problema, fluxo, arquitetura, evid&ecirc;ncias, demo e c&oacute;digo de cada projeto.</sub>
 
