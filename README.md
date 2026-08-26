@@ -40,7 +40,7 @@
 
 <br><br>
 
-<sub>Use os pain&eacute;is expans&iacute;veis para consultar problema, entrega, stack e acesso de cada projeto.</sub>
+<sub>Use os pain&eacute;is expans&iacute;veis para consultar problema, fluxo, arquitetura, evid&ecirc;ncias, demo e c&oacute;digo de cada projeto.</sub>
 
 </div>
 
@@ -116,22 +116,37 @@
 | Indicador | Leitura atual |
 |:--|--:|
 | Projetos em destaque | **6** |
+| Demos p&uacute;blicas verificadas | **6 de 6** |
+| Pipelines de CI aprovados | **6 de 6** |
 | Projetos com TypeScript | **6 de 6** |
 | Projetos com Dockerfile | **5 de 6** |
 | Linguagens principais | **6** |
 
 | Linguagem | Participa&ccedil;&atilde;o aproximada |
 |:--|--:|
-| TypeScript | **37,9%** |
-| JavaScript | **21,2%** |
-| CSS | **19,0%** |
-| PLpgSQL | **18,0%** |
-| HTML | **3,0%** |
+| TypeScript | **37,1%** |
+| JavaScript | **21,5%** |
+| CSS | **20,8%** |
+| PLpgSQL | **16,9%** |
+| HTML | **2,8%** |
 | PHP | **0,8%** |
 
-<sub>Distribui&ccedil;&atilde;o aproximada por volume de c&oacute;digo nos seis projetos destacados.</sub>
+<sub>Distribui&ccedil;&atilde;o calculada pela API de linguagens do GitHub nos seis projetos destacados.</sub>
 
 </details>
+
+<br>
+
+### Matriz comparativa de entrega
+
+<p align="center">Uma leitura direta de arquitetura, persist&ecirc;ncia, CI e disponibilidade das demonstra&ccedil;&otilde;es.</p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/portfolio-delivery-matrix-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/portfolio-delivery-matrix-desktop.svg?v=20260826-5" alt="Matriz comparativa dos seis projetos com dom&iacute;nio, API, persist&ecirc;ncia, CI aprovado e demonstra&ccedil;&atilde;o online">
+</picture>
+
+<p align="center"><sub>Estado verificado nos reposit&oacute;rios e nas demonstra&ccedil;&otilde;es p&uacute;blicas em agosto de 2026.</sub></p>
 
 <a id="projetos"></a>
 
@@ -148,7 +163,7 @@
   <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260818-3" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
 </picture>
 
-<p align="center"><sub>Abra um reposit&oacute;rio pelos bot&otilde;es ou expanda uma barra para consultar a ficha do projeto.</sub></p>
+<p align="center"><sub>Abra um reposit&oacute;rio pelos bot&otilde;es ou expanda uma barra para consultar a ficha t&eacute;cnica, demo, arquitetura e CI.</sub></p>
 
 <div align="center">
 
@@ -174,16 +189,22 @@
 <br>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/patrimonio-evidence-mobile.svg?v=20260826-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/patrimonio-evidence-desktop.svg?v=20260826-4" alt="Evid&ecirc;ncias do Patrim&ocirc;nio Ops: vers&atilde;o 0.10.0, 153 testes, oito m&oacute;dulos e integra&ccedil;&atilde;o cont&iacute;nua aprovada">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-01-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-01-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do Patrim&ocirc;nio Ops com problema, fluxo operacional, evid&ecirc;ncias e arquitetura">
 </picture>
 
-**O que pode ser explorado:** dashboard executivo, invent&aacute;rio, opera&ccedil;&otilde;es, n&uacute;cleos, colaboradores, importa&ccedil;&otilde;es, auditoria, ambientes e comandos r&aacute;pidos por teclado.
+**Capacidades demonstradas**
+
+- Invent&aacute;rio com identificadores oficiais, aliases, incorpora&ccedil;&otilde;es, leitura por c&acirc;mera ou bipador e importa&ccedil;&atilde;o Sabium.
+- Campanhas de invent&aacute;rio, termos de cust&oacute;dia, opera&ccedil;&otilde;es por n&uacute;cleo, exporta&ccedil;&atilde;o XLSX e trilha de auditoria.
+- Gateway autenticado, RLS, documentos privados, concorr&ecirc;ncia otimista e prote&ccedil;&atilde;o contra sobrescrita de fontes oficiais.
 
 <div align="center">
 
-<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://img.shields.io/badge/ABRIR_APLICA%C3%87%C3%83O-FFC400?style=for-the-badge&amp;logo=vercel&amp;logoColor=080D16" alt="Abrir aplica&ccedil;&atilde;o Patrim&ocirc;nio Ops"></a>
+<a href="https://patrimonio-ops-control.vercel.app/demo"><img src="https://img.shields.io/badge/ABRIR_DEMO-FFC400?style=for-the-badge&amp;logo=vercel&amp;logoColor=080D16" alt="Abrir demonstra&ccedil;&atilde;o do Patrim&ocirc;nio Ops"></a>
 <a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do Patrim&ocirc;nio Ops"></a>
 
 </div>
 
@@ -199,11 +220,25 @@
 
 <br>
 
-| Problema | Entrega central | Stack |
-|:--|:--|:--|
-| Concilia&ccedil;&atilde;o de receb&iacute;veis e cobran&ccedil;a ativa | Carteira priorizada, acompanhamento e automa&ccedil;&otilde;es financeiras | JavaScript, TypeScript, regras operacionais |
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-02-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-02-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do CobreFlow com problema financeiro, fluxo de cobran&ccedil;a, evid&ecirc;ncias e arquitetura">
+</picture>
 
-**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/cobreflow-finance-ops)**
+**Capacidades demonstradas**
+
+- KPIs de entrada prevista, vencidos, concilia&ccedil;&atilde;o e carteira de a&ccedil;&otilde;es priorit&aacute;rias.
+- Pontua&ccedil;&atilde;o de risco por saldo, atraso, contato recente e promessa de pagamento.
+- API REST em Node.js nativo, testes de dom&iacute;nio, automa&ccedil;&otilde;es simuladas e persist&ecirc;ncia D1 isolada por usu&aacute;rio.
+
+<div align="center">
+
+<a href="https://cobreflow-finance.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-FF6948?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do CobreFlow"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do CobreFlow"></a>
+
+</div>
 
 </details>
 
@@ -217,11 +252,25 @@
 
 <br>
 
-| Problema | Entrega central | Stack |
-|:--|:--|:--|
-| Margem de servi&ccedil;os, materiais e risco de SLA | Painel para acompanhar custo, execu&ccedil;&atilde;o e faturamento | PHP, TypeScript, JavaScript |
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-03-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-03-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do FieldOps com problema de margem, fluxo de campo, evid&ecirc;ncias e arquitetura">
+</picture>
 
-**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/fieldops-margin-control)**
+**Capacidades demonstradas**
+
+- Margem prevista e em risco, utiliza&ccedil;&atilde;o das equipes, impacto de materiais, SLA e prontid&atilde;o de faturamento.
+- API PHP organizada em controle, servi&ccedil;o e reposit&oacute;rio, consumida por uma interface TypeScript.
+- Automa&ccedil;&otilde;es operacionais audit&aacute;veis, testes de regras de neg&oacute;cio e persist&ecirc;ncia D1 por usu&aacute;rio.
+
+<div align="center">
+
+<a href="https://fieldops-margin.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-00A981?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do FieldOps"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do FieldOps"></a>
+
+</div>
 
 </details>
 
@@ -235,11 +284,25 @@
 
 <br>
 
-| Problema | Entrega central | Stack |
-|:--|:--|:--|
-| Origem dos leads e retorno por canal | ROI, atribui&ccedil;&atilde;o, pontua&ccedil;&atilde;o e automa&ccedil;&otilde;es comerciais | JavaScript, TypeScript, analytics |
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-04-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-04-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do LeadOps com atribui&ccedil;&atilde;o, scoring, ROI, evid&ecirc;ncias e arquitetura">
+</picture>
 
-**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/leadops-campaign-attribution)**
+**Capacidades demonstradas**
+
+- ROI, custo por lead, uso do or&ccedil;amento e desempenho compar&aacute;vel entre campanhas.
+- Motor de scoring com ader&ecirc;ncia, valor, urg&ecirc;ncia e rec&ecirc;ncia, conectado a um funil ponderado.
+- Realoca&ccedil;&atilde;o validada de verba, API em Node.js nativo, testes e workspace D1 isolado.
+
+<div align="center">
+
+<a href="https://leadops-attribution.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-F2C14E?style=for-the-badge&amp;logo=icloud&amp;logoColor=080D16" alt="Abrir demonstra&ccedil;&atilde;o do LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do LeadOps"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do LeadOps"></a>
+
+</div>
 
 </details>
 
@@ -253,11 +316,25 @@
 
 <br>
 
-| Problema | Entrega central | Stack |
-|:--|:--|:--|
-| Devolu&ccedil;&otilde;es, reembolsos e reposi&ccedil;&atilde;o com risco de prazo | Central operacional de RMA e prioriza&ccedil;&atilde;o de SLA | JavaScript, TypeScript, Node.js |
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-05-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-05-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do ReturnOps com fluxo de RMA, risco de SLA, evid&ecirc;ncias e arquitetura">
+</picture>
 
-**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/returnops-rma-command-center)**
+**Capacidades demonstradas**
+
+- KPIs de RMAs abertos, SLA vencido, risco do dia e exposi&ccedil;&atilde;o financeira.
+- Fila priorizada com pr&oacute;xima a&ccedil;&atilde;o, playbooks de automa&ccedil;&atilde;o e exporta&ccedil;&atilde;o CSV.
+- API REST documentada, a&ccedil;&otilde;es de estado validadas, testes HTTP e persist&ecirc;ncia D1 por usu&aacute;rio.
+
+<div align="center">
+
+<a href="https://returnops-rma-control.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-6F9EFF?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do ReturnOps"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do ReturnOps"></a>
+
+</div>
 
 </details>
 
@@ -271,11 +348,25 @@
 
 <br>
 
-| Problema | Entrega central | Stack |
-|:--|:--|:--|
-| Agenda, clientes, funil e cobran&ccedil;as desconectados | CRM operacional para servi&ccedil;os com automa&ccedil;&otilde;es | JavaScript, TypeScript, Node.js |
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-06-mobile.svg?v=20260826-5">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-detail-06-desktop.svg?v=20260826-5" alt="Ficha t&eacute;cnica do ServiceHub com agenda, funil, cobran&ccedil;a, evid&ecirc;ncias e arquitetura">
+</picture>
 
-**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/servicehub-agendamentos-crm)**
+**Capacidades demonstradas**
+
+- Previs&atilde;o de receita, ocupa&ccedil;&atilde;o semanal, agendamentos, pend&ecirc;ncias e cobran&ccedil;as em atraso.
+- Agenda operacional, funil comercial ponderado, ROI por canal e fila simulada de lembretes.
+- API REST para cria&ccedil;&atilde;o e atualiza&ccedil;&atilde;o de agendamentos, testes automatizados e D1 isolado.
+
+<div align="center">
+
+<a href="https://servicehub-crm-ops.dadosepesquisa.chatgpt.site"><img src="https://img.shields.io/badge/ABRIR_DEMO-00A981?style=for-the-badge&amp;logo=icloud&amp;logoColor=ffffff" alt="Abrir demonstra&ccedil;&atilde;o do ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm/blob/main/docs/architecture.md"><img src="https://img.shields.io/badge/LER_ARQUITETURA-080D16?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=ffffff" alt="Ler arquitetura do ServiceHub"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm/actions/workflows/ci.yml"><img src="https://img.shields.io/badge/CI_APROVADO-35C99A?style=for-the-badge&amp;logo=githubactions&amp;logoColor=080D16" alt="Ver integra&ccedil;&atilde;o cont&iacute;nua do ServiceHub"></a>
+
+</div>
 
 </details>
 
