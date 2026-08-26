@@ -19,6 +19,24 @@
 
 </div>
 
+<br>
+
+<div align="center">
+
+<strong>ACESSO R&Aacute;PIDO</strong>
+
+<br><br>
+
+<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://img.shields.io/badge/ABRIR_SISTEMA_PRINCIPAL-FFC400?style=for-the-badge&amp;logo=vercel&amp;logoColor=080D16" alt="Abrir Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/EXAMINAR_C%C3%93DIGO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
+<a href="#projetos"><img src="https://img.shields.io/badge/EXPLORAR_PROJETOS-FF6948?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Explorar projetos do portf&oacute;lio"></a>
+
+<br><br>
+
+<sub>Use os pain&eacute;is expans&iacute;veis para consultar problema, entrega, stack e acesso de cada projeto.</sub>
+
+</div>
+
 <a id="visao"></a>
 
 <br>
@@ -138,19 +156,88 @@
 
 <br>
 
-<details>
-<summary><strong>:card_file_box: Consultar fichas resumidas dos projetos</strong></summary>
+<details open>
+<summary><strong>&#127942; 01 // Patrim&ocirc;nio Ops &mdash; projeto principal</strong></summary>
 
 <br>
 
-| Projeto | Problema central | Tecnologias principais |
+| Papel no portf&oacute;lio | Problema resolvido | Evid&ecirc;ncias t&eacute;cnicas |
 |:--|:--|:--|
-| [**Patrim&ocirc;nio Ops**](https://github.com/Kenjihidehira/patrimonio-ops-control) | Controle, rastreabilidade e auditoria patrimonial | TypeScript, Supabase, autentica&ccedil;&atilde;o |
-| [**CobreFlow**](https://github.com/Kenjihidehira/cobreflow-finance-ops) | Concilia&ccedil;&atilde;o de receb&iacute;veis e cobran&ccedil;a ativa | JavaScript, TypeScript, automa&ccedil;&otilde;es |
-| [**FieldOps**](https://github.com/Kenjihidehira/fieldops-margin-control) | Margem de servi&ccedil;os de campo e risco de SLA | PHP, TypeScript, JavaScript |
-| [**LeadOps**](https://github.com/Kenjihidehira/leadops-campaign-attribution) | Atribui&ccedil;&atilde;o de campanhas e retorno por canal | JavaScript, TypeScript, marketing |
-| [**ReturnOps**](https://github.com/Kenjihidehira/returnops-rma-command-center) | Devolu&ccedil;&otilde;es, reembolsos e reposi&ccedil;&atilde;o | JavaScript, TypeScript, RMA |
-| [**ServiceHub**](https://github.com/Kenjihidehira/servicehub-agendamentos-crm) | Agenda, funil e automa&ccedil;&otilde;es para servi&ccedil;os | JavaScript, TypeScript, CRM |
+| **Sistema mais completo e mais trabalhado** | Controle, rastreabilidade, cust&oacute;dia e auditoria patrimonial por departamento | **v0.10.0**, 153 testes, CI, autentica&ccedil;&atilde;o, Supabase e deploy Vercel |
+
+**O que pode ser explorado:** dashboard executivo, invent&aacute;rio, opera&ccedil;&otilde;es, n&uacute;cleos, colaboradores, importa&ccedil;&otilde;es, auditoria, ambientes e comandos r&aacute;pidos por teclado.
+
+<div align="center">
+
+<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://img.shields.io/badge/ABRIR_APLICA%C3%87%C3%83O-FFC400?style=for-the-badge&amp;logo=vercel&amp;logoColor=080D16" alt="Abrir aplica&ccedil;&atilde;o Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://img.shields.io/badge/VER_REPOSIT%C3%93RIO-6685FF?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="Ver reposit&oacute;rio Patrim&ocirc;nio Ops"></a>
+
+</div>
+
+</details>
+
+<details>
+<summary><strong>&#128176; 02 // CobreFlow &mdash; opera&ccedil;&otilde;es financeiras</strong></summary>
+
+<br>
+
+| Problema | Entrega central | Stack |
+|:--|:--|:--|
+| Concilia&ccedil;&atilde;o de receb&iacute;veis e cobran&ccedil;a ativa | Carteira priorizada, acompanhamento e automa&ccedil;&otilde;es financeiras | JavaScript, TypeScript, regras operacionais |
+
+**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/cobreflow-finance-ops)**
+
+</details>
+
+<details>
+<summary><strong>&#128736;&#65039; 03 // FieldOps &mdash; margem e servi&ccedil;os de campo</strong></summary>
+
+<br>
+
+| Problema | Entrega central | Stack |
+|:--|:--|:--|
+| Margem de servi&ccedil;os, materiais e risco de SLA | Painel para acompanhar custo, execu&ccedil;&atilde;o e faturamento | PHP, TypeScript, JavaScript |
+
+**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/fieldops-margin-control)**
+
+</details>
+
+<details>
+<summary><strong>&#127919; 04 // LeadOps &mdash; campanhas e atribui&ccedil;&atilde;o</strong></summary>
+
+<br>
+
+| Problema | Entrega central | Stack |
+|:--|:--|:--|
+| Origem dos leads e retorno por canal | ROI, atribui&ccedil;&atilde;o, pontua&ccedil;&atilde;o e automa&ccedil;&otilde;es comerciais | JavaScript, TypeScript, analytics |
+
+**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/leadops-campaign-attribution)**
+
+</details>
+
+<details>
+<summary><strong>&#128230; 05 // ReturnOps &mdash; devolu&ccedil;&otilde;es e RMA</strong></summary>
+
+<br>
+
+| Problema | Entrega central | Stack |
+|:--|:--|:--|
+| Devolu&ccedil;&otilde;es, reembolsos e reposi&ccedil;&atilde;o com risco de prazo | Central operacional de RMA e prioriza&ccedil;&atilde;o de SLA | JavaScript, TypeScript, Node.js |
+
+**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/returnops-rma-command-center)**
+
+</details>
+
+<details>
+<summary><strong>&#128197; 06 // ServiceHub &mdash; agenda e CRM</strong></summary>
+
+<br>
+
+| Problema | Entrega central | Stack |
+|:--|:--|:--|
+| Agenda, clientes, funil e cobran&ccedil;as desconectados | CRM operacional para servi&ccedil;os com automa&ccedil;&otilde;es | JavaScript, TypeScript, Node.js |
+
+**[Abrir reposit&oacute;rio &rarr;](https://github.com/Kenjihidehira/servicehub-agendamentos-crm)**
 
 </details>
 
