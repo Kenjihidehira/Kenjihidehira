@@ -1,0 +1,32 @@
+<svg width="360" height="408" viewBox="0 0 360 408" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <rect x="1" y="1" width="358" height="406" rx="8" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+   <rect x="0" y="0" width="7" height="408" rx="3.5" fill="#F2C14E"/>
+   <text x="18" y="28" fill="#F2C14E" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" letter-spacing="0" >PROJETO PRINCIPAL / EVID&#202;NCIAS</text>
+   <text x="18" y="62" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="950" letter-spacing="0" >PATRIM&#212;NIO OPS</text>
+   <g transform="translate(18 86)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="85" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="16" y="38" fill="#6F9EFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="950" letter-spacing="0" >v0.10.0</text><text x="16" y="64" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >RELEASE ATUAL</text>
+  </g>
+   <g transform="translate(186 86)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="85" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="16" y="38" fill="#35C99A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="950" letter-spacing="0" >153</text><text x="16" y="64" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >TESTES APROVADOS</text>
+  </g>
+   <g transform="translate(18 184)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="85" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="16" y="38" fill="#F2C14E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="950" letter-spacing="0" >08</text><text x="16" y="64" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >M&#211;DULOS</text>
+  </g>
+   <g transform="translate(186 184)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="85" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="16" y="38" fill="#FF6B4A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="950" letter-spacing="0" >CI / PASS</text><text x="16" y="64" fill="#9FB0A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="750" letter-spacing="0" >ENTREGA</text>
+  </g>
+   <g transform="translate(18 286)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="323" height="97" rx="5" fill="#101713" stroke="#2A3930" />
+
+    <text x="16" y="25" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="800" letter-spacing="0" >AUTENTICA&#199;&#195;O  &#8594;  DADOS</text><text x="16" y="52" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="800" letter-spacing="0" >OPERA&#199;&#195;O       &#8594;  AUDITORIA</text><text x="16" y="79" fill="#F2C14E" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="800" letter-spacing="0" >RASTREABILIDADE  &#8594;  DECIS&#195;O</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="900" height="78" viewBox="0 0 900 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <rect x="1" y="1" width="898" height="76" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+     <rect x="0" y="0" width="8" height="78" rx="4" fill="#F2C14E"/>
+     <text x="24" y="26" fill="#F2C14E" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="850" letter-spacing="0" >04 / MARKETING</text>
+     <text x="24" y="56" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" letter-spacing="0" >LEADOPS</text>
+     <text x="288" y="53" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="0" >ATRIBUI&#199;&#195;O / ROI / FUNIL</text>
+     <rect x="782" y="20" width="92" height="36" rx="4" fill="#4A3C18" stroke="#F2C14E"/>
+     <text x="796" y="43" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10" font-weight="900" letter-spacing="0" >EXPANDIR</text>
+     <path d="M754 31l8 8 8-8" stroke="#F2C14E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

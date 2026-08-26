@@ -9,6 +9,13 @@
 
 <br>
 
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-status-mobile.svg?v=20260826-4">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-status-desktop.svg?v=20260826-4" alt="Status do portf&oacute;lio: sistema online, 29 reposit&oacute;rios p&uacute;blicos, Patrim&ocirc;nio Ops como projeto principal, 153 testes e integra&ccedil;&atilde;o cont&iacute;nua aprovada">
+</picture>
+
+<br>
+
 <div align="center">
 
 <a href="#visao"><img src="https://img.shields.io/badge/01_VIS%C3%83O-080D16?style=for-the-badge" alt="Ir para vis&atilde;o profissional"></a>
@@ -141,7 +148,7 @@
   <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/vitrine-projetos-desktop.png?v=20260818-3" alt="Vitrine de seis projetos com fluxo operacional, tecnologias e entregas centrais">
 </picture>
 
-<p align="center"><sub>Os bot&otilde;es abaixo abrem diretamente cada reposit&oacute;rio.</sub></p>
+<p align="center"><sub>Abra um reposit&oacute;rio pelos bot&otilde;es ou expanda uma barra para consultar a ficha do projeto.</sub></p>
 
 <div align="center">
 
@@ -157,13 +164,19 @@
 <br>
 
 <details open>
-<summary><strong>&#127942; 01 // Patrim&ocirc;nio Ops &mdash; projeto principal</strong></summary>
+<summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-01-mobile.svg?v=20260826-4">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-01-desktop.svg?v=20260826-4" alt="Expandir Patrim&ocirc;nio Ops, projeto principal">
+</picture>
+</summary>
 
 <br>
 
-| Papel no portf&oacute;lio | Problema resolvido | Evid&ecirc;ncias t&eacute;cnicas |
-|:--|:--|:--|
-| **Sistema mais completo e mais trabalhado** | Controle, rastreabilidade, cust&oacute;dia e auditoria patrimonial por departamento | **v0.10.0**, 153 testes, CI, autentica&ccedil;&atilde;o, Supabase e deploy Vercel |
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/patrimonio-evidence-mobile.svg?v=20260826-4">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/patrimonio-evidence-desktop.svg?v=20260826-4" alt="Evid&ecirc;ncias do Patrim&ocirc;nio Ops: vers&atilde;o 0.10.0, 153 testes, oito m&oacute;dulos e integra&ccedil;&atilde;o cont&iacute;nua aprovada">
+</picture>
 
 **O que pode ser explorado:** dashboard executivo, invent&aacute;rio, opera&ccedil;&otilde;es, n&uacute;cleos, colaboradores, importa&ccedil;&otilde;es, auditoria, ambientes e comandos r&aacute;pidos por teclado.
 
@@ -177,7 +190,12 @@
 </details>
 
 <details>
-<summary><strong>&#128176; 02 // CobreFlow &mdash; opera&ccedil;&otilde;es financeiras</strong></summary>
+<summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-02-mobile.svg?v=20260826-4">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-02-desktop.svg?v=20260826-4" alt="Expandir CobreFlow, opera&ccedil;&otilde;es financeiras">
+</picture>
+</summary>
 
 <br>
 
@@ -190,7 +208,12 @@
 </details>
 
 <details>
-<summary><strong>&#128736;&#65039; 03 // FieldOps &mdash; margem e servi&ccedil;os de campo</strong></summary>
+<summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-03-mobile.svg?v=20260826-4">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-03-desktop.svg?v=20260826-4" alt="Expandir FieldOps, margem e servi&ccedil;os de campo">
+</picture>
+</summary>
 
 <br>
 
@@ -203,7 +226,12 @@
 </details>
 
 <details>
-<summary><strong>&#127919; 04 // LeadOps &mdash; campanhas e atribui&ccedil;&atilde;o</strong></summary>
+<summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-04-mobile.svg?v=20260826-4">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-04-desktop.svg?v=20260826-4" alt="Expandir LeadOps, campanhas e atribui&ccedil;&atilde;o">
+</picture>
+</summary>
 
 <br>
 
@@ -216,7 +244,12 @@
 </details>
 
 <details>
-<summary><strong>&#128230; 05 // ReturnOps &mdash; devolu&ccedil;&otilde;es e RMA</strong></summary>
+<summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-05-mobile.svg?v=20260826-4">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-05-desktop.svg?v=20260826-4" alt="Expandir ReturnOps, devolu&ccedil;&otilde;es e RMA">
+</picture>
+</summary>
 
 <br>
 
@@ -229,7 +262,12 @@
 </details>
 
 <details>
-<summary><strong>&#128197; 06 // ServiceHub &mdash; agenda e CRM</strong></summary>
+<summary>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-06-mobile.svg?v=20260826-4">
+  <img width="96%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/project-toggle-06-desktop.svg?v=20260826-4" alt="Expandir ServiceHub, agenda e CRM">
+</picture>
+</summary>
 
 <br>
 

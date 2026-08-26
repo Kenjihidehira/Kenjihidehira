@@ -1,0 +1,11 @@
+<svg width="360" height="96" viewBox="0 0 360 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <rect x="1" y="1" width="358" height="94" rx="7" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+     <rect x="0" y="0" width="7" height="96" rx="3.5" fill="#FF6B4A"/>
+     <text x="18" y="24" fill="#FF6B4A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" letter-spacing="0" >02 / FINANCEIRO</text>
+     <text x="18" y="54" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="950" letter-spacing="0" >COBREFLOW</text>
+     <text x="18" y="78" fill="#9FB0A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="0" >OPERA&#199;&#213;ES FINANCEIRAS</text>
+     <rect x="258" y="19" width="84" height="30" rx="4" fill="#54261C" stroke="#FF6B4A"/>
+     <text x="269" y="39" fill="#F4F7F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" letter-spacing="0" >EXPANDIR</text>
+     <path d="M234 28l7 7 7-7" stroke="#FF6B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
