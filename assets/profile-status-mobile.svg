@@ -1,0 +1,30 @@
+<svg width="360" height="246" viewBox="0 0 360 246" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <rect x="1" y="1" width="358" height="244" rx="8" fill="#080C0A" stroke="#2A3930" stroke-width="2"/>
+   <rect x="0" y="0" width="7" height="246" rx="3.5" fill="#35C99A"/>
+   <g transform="translate(18 16)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="323" height="71" rx="6" fill="#101713" stroke="#2A3930" />
+
+    <text x="16" y="23" fill="#35C99A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" letter-spacing="0" >PORTF&#211;LIO / STATUS</text><text x="16" y="50" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="950" letter-spacing="0" >SISTEMA ONLINE</text><circle cx="296" cy="35" r="7" fill="#35C99A"/>
+  </g>
+   <g transform="translate(18 100)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="63" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="14" y="22" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" letter-spacing="0" >REPOSIT&#211;RIOS</text><text x="14" y="48" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="0" >29 P&#218;BLICOS</text><circle cx="138" cy="18" r="5" fill="#6F9EFF"/>
+  </g>
+   <g transform="translate(186 100)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="63" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="14" y="22" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" letter-spacing="0" >PRINCIPAL</text><text x="14" y="48" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="0" >PATRIM&#212;NIO</text><circle cx="138" cy="18" r="5" fill="#F2C14E"/>
+  </g>
+   <g transform="translate(18 176)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="63" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="14" y="22" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" letter-spacing="0" >VALIDA&#199;&#195;O</text><text x="14" y="48" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="0" >153 TESTES</text><circle cx="138" cy="18" r="5" fill="#35C99A"/>
+  </g>
+   <g transform="translate(186 176)" data-box="true">
+    <rect data-bound="true" x="0.5" y="0.5" width="155" height="63" rx="5" fill="#151F19" stroke="#2A3930" />
+
+    <text x="14" y="22" fill="#65736A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="750" letter-spacing="0" >ENTREGA</text><text x="14" y="48" fill="#F4F7F2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" letter-spacing="0" >CI / PASS</text><circle cx="138" cy="18" r="5" fill="#FF6B4A"/>
+  </g>
+</svg>
