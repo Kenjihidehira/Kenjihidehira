@@ -668,6 +668,33 @@ function compactButton(width, label, marker, accent, primary = false) {
   </svg>`;
 }
 
+const solutionRoutes = [
+  ["01", "PATRIMÔNIO OPS", "Rastrear ativos e auditorias", "PROJETO PRINCIPAL", colors.yellow],
+  ["02", "COBREFLOW", "Priorizar cobranças e caixa", "FINANÇAS", colors.coral],
+  ["03", "FIELDOPS", "Proteger margem em campo", "OPERAÇÃO", colors.green],
+  ["04", "LEADOPS", "Decidir por score e ROI", "VENDAS", colors.yellow],
+  ["05", "RETURNOPS", "Controlar RMA e SLA", "PÓS-VENDA", colors.blue],
+  ["06", "SERVICEHUB", "Unir agenda, funil e receita", "CRM", colors.green],
+];
+
+function solutionRoute(marker, title, note, domain, accent) {
+  return `<svg width="276" height="94" viewBox="0 0 276 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${visualDefs(accent)}
+  <rect x="1" y="1" width="274" height="92" rx="10" fill="url(#background)" stroke="${colors.border}" stroke-width="2"/>
+  <rect x="2" y="2" width="272" height="90" rx="9" fill="url(#micro-grid)" opacity="0.42"/>
+  <rect x="1" y="1" width="5" height="92" rx="2.5" fill="${accent}"/>
+  <rect x="18" y="1" width="240" height="2.5" rx="1.25" fill="url(#accent-line)"/>
+  <circle cx="27" cy="28" r="12" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.58"/>
+  ${text({ x: 27, y: 32, value: marker, fill: accent, size: 7.5, weight: 950, mono: true, anchor: "middle" })}
+  ${text({ x: 48, y: 26, value: title, size: 10.5, weight: 950, mono: true })}
+  ${text({ x: 48, y: 42, value: domain, fill: accent, size: 7, weight: 900, mono: true })}
+  ${text({ x: 18, y: 68, value: note, fill: colors.muted, size: 9.2, weight: 720 })}
+  ${text({ x: 18, y: 84, value: "ABRIR REPOSITÓRIO", fill: colors.text, size: 6.9, weight: 900, mono: true })}
+  <path d="M249 74L257 81L249 88" stroke="${accent}" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>`;
+}
+
 function desktopToggle(project) {
   const statusLabel = project.id === "01" ? "PRINCIPAL" : "DEMO ONLINE";
   const statusWidth = project.id === "01" ? 112 : 122;
@@ -754,6 +781,9 @@ for (const [filename, width, label, marker, accent, primary] of quickActions) {
 for (const project of projects) {
   outputs.push([`project-toggle-${project.id}-desktop.svg`, desktopToggle(project)]);
   outputs.push([`project-toggle-${project.id}-mobile.svg`, mobileToggle(project)]);
+}
+for (const [marker, title, note, domain, accent] of solutionRoutes) {
+  outputs.push([`profile-solution-${marker}.svg`, solutionRoute(marker, title, note, domain, accent)]);
 }
 outputs.push(["profile-services-desktop.svg", desktopServices()]);
 outputs.push(["profile-services-mobile.svg", mobileServices()]);

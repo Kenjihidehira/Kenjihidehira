@@ -374,12 +374,32 @@
   <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-services-desktop.svg?v=20260826-8" alt="Especialidades de Kenji Hidehira: controles operacionais, pain&eacute;is de gest&atilde;o, APIs, integra&ccedil;&otilde;es e automa&ccedil;&otilde;es">
 </picture>
 
-### Entregas que consigo desenvolver
+### Escolha pelo resultado que precisa
+
+<p align="center"><strong>Cada caminho abre um reposit&oacute;rio que demonstra a capacidade na pr&aacute;tica.</strong></p>
+
+<div align="center">
+
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-solution-01.svg?v=20260826-9" alt="Abrir Patrim&ocirc;nio Ops para rastrear ativos e auditorias"></a>
+<a href="https://github.com/Kenjihidehira/cobreflow-finance-ops"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-solution-02.svg?v=20260826-9" alt="Abrir CobreFlow para priorizar cobran&ccedil;as e caixa"></a>
+<a href="https://github.com/Kenjihidehira/fieldops-margin-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-solution-03.svg?v=20260826-9" alt="Abrir FieldOps para proteger margem em campo"></a>
+<a href="https://github.com/Kenjihidehira/leadops-campaign-attribution"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-solution-04.svg?v=20260826-9" alt="Abrir LeadOps para decidir por score e ROI"></a>
+<a href="https://github.com/Kenjihidehira/returnops-rma-command-center"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-solution-05.svg?v=20260826-9" alt="Abrir ReturnOps para controlar RMA e SLA"></a>
+<a href="https://github.com/Kenjihidehira/servicehub-agendamentos-crm"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-solution-06.svg?v=20260826-9" alt="Abrir ServiceHub para unir agenda, funil e receita"></a>
+
+</div>
+
+<details>
+<summary><strong>:gear: Consultar escopo das entregas</strong></summary>
+
+<br>
 
 - **Controles operacionais:** invent&aacute;rio, filas, SLA, auditoria, cust&oacute;dia e acompanhamento de tarefas.
 - **Pain&eacute;is de gest&atilde;o:** indicadores, margem, risco, receita, capacidade e prioriza&ccedil;&atilde;o.
 - **APIs e integra&ccedil;&otilde;es:** autentica&ccedil;&atilde;o, valida&ccedil;&atilde;o, persist&ecirc;ncia e comunica&ccedil;&atilde;o entre sistemas.
 - **Automa&ccedil;&otilde;es:** alertas, cobran&ccedil;as, lembretes, importa&ccedil;&otilde;es e rotinas recorrentes.
+
+</details>
 
 <a id="evidencias"></a>
 
@@ -404,9 +424,9 @@
 | Crit&eacute;rio | Evid&ecirc;ncia apresentada |
 |:--|:--|
 | **Regras de neg&oacute;cio** | Testes de dom&iacute;nio e cen&aacute;rios automatizados |
-| **Integra&ccedil;&atilde;o cont&iacute;nua** | Pipelines de CI aprovados nos seis projetos destacados |
+| **Integra&ccedil;&atilde;o cont&iacute;nua** | Pipelines aprovados; [consultar CI do projeto principal](https://github.com/Kenjihidehira/patrimonio-ops-control/actions/workflows/ci.yml) |
 | **Persist&ecirc;ncia** | Supabase no projeto principal e D1 isolado nas demonstra&ccedil;&otilde;es comerciais |
-| **Arquitetura** | Documenta&ccedil;&atilde;o t&eacute;cnica vinculada a cada reposit&oacute;rio |
+| **Arquitetura** | [Documenta&ccedil;&atilde;o t&eacute;cnica do Patrim&ocirc;nio Ops](https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md) e documentos vinculados aos demais projetos |
 | **Disponibilidade** | Seis demonstra&ccedil;&otilde;es p&uacute;blicas verificadas |
 
 </details>
