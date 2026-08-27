@@ -1,0 +1,76 @@
+<svg width="360" height="560" viewBox="0 0 360 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      rect { rx: 0; ry: 0; }
+      text { font-kerning: normal; }
+    </style>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080D12"/>
+      <stop offset="0.62" stop-color="#091119"/>
+      <stop offset="1" stop-color="#060A0E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0D171F"/>
+      <stop offset="1" stop-color="#081016"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#C8F33D" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#0A1117" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#C8F33D"/>
+      <stop offset="0.72" stop-color="#87B9F4"/>
+      <stop offset="1" stop-color="#87B9F4" stop-opacity="0.18"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
+      <stop stop-color="#C8F33D" stop-opacity="0.05"/>
+      <stop offset="0.58" stop-color="#C8F33D" stop-opacity="0.015"/>
+      <stop offset="1" stop-color="#C8F33D" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="micro-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#173047" stroke-width="0.65"/>
+      <path d="M12 0V24M0 12H24" fill="none" stroke="#173047" stroke-width="0.25" stroke-opacity="0.55"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="358" height="558" fill="url(#background)" stroke="#36536D" stroke-width="2"/>
+  <rect x="2" y="2" width="356" height="556" fill="url(#micro-grid)" opacity="0.78"/>
+  <rect x="2" y="2" width="356" height="556" fill="url(#accent-glow)"/>
+  <rect x="24" y="1" width="312" height="2" fill="url(#accent-line)"/>
+  <path d="M18 34V16H36M342 34V16H324M18 526V544H36M342 526V544H324" stroke="#C8F33D" stroke-opacity="0.72" stroke-width="1.25"/>
+  <path d="M12 52H24M12 64H20M348 52H336M348 64H340" stroke="#87B9F4" stroke-opacity="0.48"/>
+  <circle cx="337" cy="539" r="2.3" fill="#C8F33D"/>
+  <text x="18" y="30" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="900" text-anchor="start">SISTEMA PRINCIPAL / 01</text>
+  <text x="18" y="69" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="22" font-weight="950" text-anchor="start">PATRIM&#212;NIO OPS</text>
+  <text x="18" y="94" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="760" text-anchor="start">Gest&#227;o patrimonial com rastreabilidade</text>
+  <text x="18" y="112" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="760" text-anchor="start">e intelig&#234;ncia operacional.</text>
+  <rect x="18" y="137" width="324" height="82" fill="#0A1117" stroke="#36536D"/>
+  <text x="32" y="160" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">INVENT&#193;RIO &#8226; CUST&#211;DIA &#8226; AUDITORIA</text>
+  <text x="32" y="183" fill="#87B9F4" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="900" text-anchor="start">IMPORTA&#199;&#195;O &#8226; RLS &#8226; CONTROLE DE ACESSO</text>
+  <text x="32" y="204" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">153 TESTES / CI APROVADO / DEMO ONLINE</text>
+  <text x="18" y="239" fill="#87B9F4" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">FLUXO OPERACIONAL</text>
+  <circle cx="44" cy="252" r="13" fill="#C8F33D" fill-opacity="0.04" stroke="#C8F33D"/>
+      <text x="44" y="255" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="950" text-anchor="middle">01</text>
+      <text x="70" y="256" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">CADASTRO</text>
+      <path d="M44 265V287" stroke="#C8F33D" stroke-opacity="0.58"/><circle cx="44" cy="300" r="13" fill="#C8F33D" fill-opacity="0.04" stroke="#C8F33D"/>
+      <text x="44" y="303" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="950" text-anchor="middle">02</text>
+      <text x="70" y="304" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">IDENTIFICA&#199;&#195;O</text>
+      <path d="M44 313V335" stroke="#C8F33D" stroke-opacity="0.58"/><circle cx="44" cy="348" r="13" fill="#C8F33D" fill-opacity="0.04" stroke="#C8F33D"/>
+      <text x="44" y="351" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="950" text-anchor="middle">03</text>
+      <text x="70" y="352" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">MOVIMENTA&#199;&#195;O</text>
+      <path d="M44 361V383" stroke="#C8F33D" stroke-opacity="0.58"/><circle cx="44" cy="396" r="13" fill="#C8F33D" fill-opacity="0.04" stroke="#C8F33D"/>
+      <text x="44" y="399" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="950" text-anchor="middle">04</text>
+      <text x="70" y="400" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">AN&#193;LISE</text>
+      <path d="M44 409V431" stroke="#C8F33D" stroke-opacity="0.58"/><circle cx="44" cy="444" r="13" fill="#C8F33D" fill-opacity="0.04" stroke="#C8F33D"/>
+      <text x="44" y="447" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="950" text-anchor="middle">05</text>
+      <text x="70" y="448" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">AUDITORIA</text>
+      <path d="M44 457V479" stroke="#C8F33D" stroke-opacity="0"/>
+  <rect x="18" y="500" width="324" height="35" fill="#C8F33D" fill-opacity="0.07" stroke="#C8F33D"/>
+  <text x="180" y="522" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="middle">v0.10.0  /  SUPABASE  /  PLPGSQL</text>
+  </svg>
