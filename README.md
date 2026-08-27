@@ -9,42 +9,23 @@
 
 <br>
 
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control">
 <picture>
   <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-status-mobile.svg?v=20260826-4">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-status-desktop.svg?v=20260826-4" alt="Status do portf&oacute;lio: sistema online, 29 reposit&oacute;rios p&uacute;blicos, Patrim&ocirc;nio Ops como projeto principal, 153 testes e integra&ccedil;&atilde;o cont&iacute;nua aprovada">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-status-desktop.svg?v=20260826-4" alt="Abrir Patrim&ocirc;nio Ops, projeto principal do portf&oacute;lio com 153 testes e integra&ccedil;&atilde;o cont&iacute;nua aprovada">
 </picture>
+</a>
 
 <br>
 
-<div align="center">
-
-<strong>CENTRAL DE COMANDO</strong>
-
-<br>
-
-<sub>Navega&ccedil;&atilde;o essencial e acesso direto ao projeto principal.</sub>
-
-<br><br>
-
-<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260827-10" alt="Ir para perfil profissional"></a>
-<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260827-10" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
-<a href="#servicos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260827-10" alt="Ir para especialidades e servi&ccedil;os"></a>
-<a href="#evidencias"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-06.svg?v=20260827-10" alt="Ir para evid&ecirc;ncias de engenharia"></a>
-
-<br><br>
-
-<sub><strong>PATRIM&Ocirc;NIO OPS / PROJETO PRINCIPAL</strong></sub>
-
-<br><br>
-
-<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-system.svg?v=20260827-10" alt="Abrir sistema Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-code.svg?v=20260827-10" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
-
-<br>
-
-<sub>Use os pain&eacute;is expans&iacute;veis para consultar problema, fluxo, arquitetura, evid&ecirc;ncias, demo e c&oacute;digo de cada projeto.</sub>
-
-</div>
+<p align="center">
+<strong>CENTRAL DE COMANDO</strong><br>
+<sub>Navega&ccedil;&atilde;o essencial e acesso direto ao projeto principal.</sub><br><br>
+<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260827-10" alt="Ir para perfil profissional"></a> <a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260827-10" alt="Ir para projetos em opera&ccedil;&atilde;o"></a> <a href="#servicos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260827-10" alt="Ir para especialidades e servi&ccedil;os"></a> <a href="#evidencias"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-06.svg?v=20260827-10" alt="Ir para evid&ecirc;ncias de engenharia"></a><br><br>
+<sub><strong>PATRIM&Ocirc;NIO OPS / PROJETO PRINCIPAL</strong></sub><br>
+<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-system.svg?v=20260827-10" alt="Abrir sistema Patrim&ocirc;nio Ops"></a> <a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-code.svg?v=20260827-10" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a><br>
+<sub>Consulte problema, fluxo, arquitetura, evid&ecirc;ncias, demonstra&ccedil;&atilde;o e c&oacute;digo em cada projeto.</sub>
+</p>
 
 <a id="visao"></a>
 
