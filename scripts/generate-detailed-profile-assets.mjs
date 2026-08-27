@@ -489,6 +489,70 @@ function mobileMatrix() {
   </svg>`;
 }
 
+const directionSteps = [
+  ["01", "DIAGNÓSTICO", "Entender rotina, regra e risco.", "Problema antes da interface.", colors.green],
+  ["02", "CONSTRUÇÃO", "Conectar interface, lógica e dados.", "Fluxo claro e responsabilidade definida.", colors.cyan],
+  ["03", "EVIDÊNCIA", "Testar, documentar e publicar.", "Qualidade que pode ser conferida.", colors.blue],
+];
+
+function desktopDirection() {
+  const steps = directionSteps.map(([number, title, note, detail, accent], index) => {
+    const x = 28 + index * 290;
+    return `<rect x="${x}" y="104" width="264" height="88" rx="9" fill="url(#panel)" stroke="${accent}" stroke-opacity="0.55"/>
+      <circle cx="${x + 28}" cy="132" r="13" fill="${accent}" fill-opacity="0.12" stroke="${accent}"/>
+      ${text({ x: x + 28, y: 136, value: number, fill: accent, size: 8, weight: 900, mono: true, anchor: "middle" })}
+      ${text({ x: x + 50, y: 130, value: title, fill: accent, size: 8, weight: 800, mono: true })}
+      ${text({ x: x + 18, y: 161, value: note, size: 11, weight: 850 })}
+      ${text({ x: x + 18, y: 179, value: detail, fill: colors.muted, size: 9, weight: 650 })}`;
+  }).join("");
+
+  return `<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(900, 300, colors.cyan)}
+  ${text({ x: 28, y: 30, value: "DIREÇÃO / PROCESSO", fill: colors.cyan, size: 10, weight: 850, mono: true })}
+  ${text({ x: 28, y: 61, value: "Problemas operacionais viram sistemas rastreáveis.", size: 22, weight: 950 })}
+  ${text({ x: 28, y: 82, value: "Diagnóstico, fluxo, aplicação, dados e validação na mesma entrega.", fill: colors.muted, size: 11, weight: 650 })}
+  ${steps}
+  <rect x="28" y="216" width="844" height="56" rx="9" fill="url(#panel)" stroke="${colors.border}"/>
+  <rect x="28" y="216" width="5" height="56" rx="2.5" fill="${colors.green}"/>
+  ${text({ x: 50, y: 240, value: "PRODUTOS WEB", fill: colors.green, size: 8, weight: 850, mono: true })}
+  ${text({ x: 50, y: 258, value: "Painéis, CRMs e controles", size: 9, weight: 700 })}
+  ${text({ x: 330, y: 240, value: "INTEGRAÇÕES", fill: colors.cyan, size: 8, weight: 850, mono: true })}
+  ${text({ x: 330, y: 258, value: "APIs, autenticação e dados", size: 9, weight: 700 })}
+  ${text({ x: 612, y: 240, value: "ENTREGA", fill: colors.blue, size: 8, weight: 850, mono: true })}
+  ${text({ x: 612, y: 258, value: "Testes, CI e demonstrações", size: 9, weight: 700 })}
+  </svg>`;
+}
+
+function mobileDirection() {
+  const steps = directionSteps.map(([number, title, note, detail, accent], index) => {
+    const y = 118 + index * 78;
+    return `<rect x="18" y="${y}" width="324" height="68" rx="8" fill="url(#panel)" stroke="${accent}" stroke-opacity="0.55"/>
+      <circle cx="44" cy="${y + 24}" r="11" fill="${accent}" fill-opacity="0.12" stroke="${accent}"/>
+      ${text({ x: 44, y: y + 27, value: number, fill: accent, size: 7, weight: 900, mono: true, anchor: "middle" })}
+      ${text({ x: 66, y: y + 22, value: title, fill: accent, size: 7, weight: 850, mono: true })}
+      ${text({ x: 66, y: y + 41, value: note, size: 10, weight: 850 })}
+      ${text({ x: 66, y: y + 57, value: detail, fill: colors.muted, size: 8, weight: 650 })}`;
+  }).join("");
+
+  return `<svg width="360" height="440" viewBox="0 0 360 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(360, 440, colors.cyan)}
+  ${text({ x: 18, y: 28, value: "DIREÇÃO / PROCESSO", fill: colors.cyan, size: 8, weight: 850, mono: true })}
+  ${text({ x: 18, y: 57, value: "Problemas operacionais viram", size: 17, weight: 950 })}
+  ${text({ x: 18, y: 78, value: "sistemas rastreáveis.", size: 17, weight: 950 })}
+  ${text({ x: 18, y: 99, value: "Diagnóstico, fluxo, aplicação, dados e validação.", fill: colors.muted, size: 9, weight: 650 })}
+  ${steps}
+  <rect x="18" y="360" width="324" height="58" rx="8" fill="url(#panel)" stroke="${colors.border}"/>
+  ${text({ x: 32, y: 380, value: "PRODUTOS", fill: colors.green, size: 6.5, weight: 850, mono: true })}
+  ${text({ x: 32, y: 397, value: "Painéis e CRMs", size: 7.5, weight: 700 })}
+  ${text({ x: 133, y: 380, value: "INTEGRAÇÕES", fill: colors.cyan, size: 6.5, weight: 850, mono: true })}
+  ${text({ x: 133, y: 397, value: "APIs e dados", size: 7.5, weight: 700 })}
+  ${text({ x: 247, y: 380, value: "ENTREGA", fill: colors.blue, size: 6.5, weight: 850, mono: true })}
+  ${text({ x: 247, y: 397, value: "Testes e CI", size: 7.5, weight: 700 })}
+  </svg>`;
+}
+
 const serviceLines = [
   ["01", "CONTROLES OPERACIONAIS", "Inventário, filas, SLA e auditoria", "ROTINA RASTREÁVEL", colors.green],
   ["02", "PAINÉIS DE GESTÃO", "Indicadores, margem, risco e receita", "DECISÃO MAIS RÁPIDA", colors.blue],
@@ -785,6 +849,8 @@ for (const project of projects) {
 for (const [marker, title, note, domain, accent] of solutionRoutes) {
   outputs.push([`profile-solution-${marker}.svg`, solutionRoute(marker, title, note, domain, accent)]);
 }
+outputs.push(["profile-direction-desktop.svg", desktopDirection()]);
+outputs.push(["profile-direction-mobile.svg", mobileDirection()]);
 outputs.push(["profile-services-desktop.svg", desktopServices()]);
 outputs.push(["profile-services-mobile.svg", mobileServices()]);
 outputs.push(["profile-evidence-desktop.svg", desktopEvidence()]);
