@@ -553,6 +553,158 @@ function mobileDirection() {
   </svg>`;
 }
 
+const architectureLayers = [
+  ["01", "INTERFACES", "HTML5 / CSS3 / JAVASCRIPT", "Experiências claras e responsivas.", colors.blue],
+  ["02", "APLICAÇÕES", "TYPESCRIPT / NODE.JS / EXPRESS / PHP", "Regras, serviços e integrações.", colors.coral],
+  ["03", "DADOS", "SUPABASE / PLPGSQL / AUTENTICAÇÃO", "Persistência e acesso seguro.", colors.cyan],
+  ["04", "ENTREGA", "GITHUB / TESTES / CI / DOCKER", "Qualidade e publicação rastreável.", colors.green],
+];
+
+function desktopArchitecture() {
+  const layers = architectureLayers.map(([number, title, stack, note, accent], index) => {
+    const x = 24 + index * 216;
+    const connector = index < architectureLayers.length - 1
+      ? `<path d="M${x + 198} 202H${x + 216}" stroke="${accent}" stroke-width="1.5" stroke-opacity="0.72"/>
+        <path d="M${x + 211} 198L${x + 217} 202L${x + 211} 206" stroke="${accent}" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
+      : "";
+    return `<rect x="${x}" y="106" width="204" height="190" rx="10" fill="url(#panel)" stroke="${colors.border}" filter="url(#shadow)"/>
+      <rect x="${x}" y="106" width="204" height="4" rx="2" fill="${accent}"/>
+      <circle cx="${x + 28}" cy="139" r="14" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.64"/>
+      ${text({ x: x + 28, y: 143, value: number, fill: accent, size: 8, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: x + 52, y: 144, value: title, size: 12.5, weight: 950 })}
+      <path d="M${x + 18} 165H${x + 186}" stroke="${colors.border}"/>
+      ${text({ x: x + 18, y: 189, value: note, fill: colors.text, size: 9.5, weight: 720 })}
+      <rect x="${x + 18}" y="213" width="168" height="50" rx="7" fill="${accent}" fill-opacity="0.08" stroke="${accent}" stroke-opacity="0.34"/>
+      ${text({ x: x + 30, y: 234, value: stack.split(" / ").slice(0, 2).join(" / "), fill: accent, size: 7.3, weight: 900, mono: true })}
+      ${text({ x: x + 30, y: 251, value: stack.split(" / ").slice(2).join(" / "), fill: colors.muted, size: 7.1, weight: 850, mono: true })}
+      ${connector}`;
+  }).join("");
+
+  return `<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(900, 360, colors.blue)}
+  ${text({ x: 26, y: 30, value: "ARQUITETURA / QUATRO CAMADAS", fill: colors.blue, size: 10.5, weight: 900, mono: true })}
+  ${text({ x: 26, y: 63, value: "Da interface até a entrega.", size: 22, weight: 950 })}
+  ${text({ x: 26, y: 86, value: "Cada camada tem uma função clara e se conecta à próxima.", fill: colors.muted, size: 11, weight: 650 })}
+  ${layers}
+  <rect x="24" y="315" width="852" height="25" rx="12.5" fill="url(#panel)" stroke="${colors.border}"/>
+  ${text({ x: 450, y: 332, value: "PROBLEMA  →  INTERFACE  →  APLICAÇÃO  →  DADOS  →  ENTREGA VERIFICÁVEL", fill: colors.muted, size: 8.4, weight: 850, mono: true, anchor: "middle" })}
+  </svg>`;
+}
+
+function mobileArchitecture() {
+  const layers = architectureLayers.map(([number, title, stack, note, accent], index) => {
+    const y = 108 + index * 96;
+    return `<rect x="18" y="${y}" width="324" height="82" rx="9" fill="url(#panel)" stroke="${colors.border}"/>
+      <rect x="18" y="${y}" width="5" height="82" rx="2.5" fill="${accent}"/>
+      <circle cx="45" cy="${y + 25}" r="11" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.62"/>
+      ${text({ x: 45, y: y + 29, value: number, fill: accent, size: 7, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: 65, y: y + 29, value: title, size: 11.5, weight: 950 })}
+      ${text({ x: 65, y: y + 48, value: note, fill: colors.muted, size: 8.6, weight: 680 })}
+      ${text({ x: 65, y: y + 67, value: stack, fill: accent, size: 6.6, weight: 880, mono: true })}`;
+  }).join("");
+
+  return `<svg width="360" height="535" viewBox="0 0 360 535" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(360, 535, colors.blue)}
+  ${text({ x: 18, y: 29, value: "ARQUITETURA / QUATRO CAMADAS", fill: colors.blue, size: 8.5, weight: 900, mono: true })}
+  ${text({ x: 18, y: 61, value: "Da interface até", size: 18, weight: 950 })}
+  ${text({ x: 18, y: 83, value: "a entrega.", size: 18, weight: 950 })}
+  ${text({ x: 18, y: 100, value: "Camadas conectadas, responsabilidade clara.", fill: colors.muted, size: 8.4, weight: 650 })}
+  ${layers}
+  <rect x="18" y="498" width="324" height="20" rx="10" fill="url(#panel)" stroke="${colors.border}"/>
+  ${text({ x: 180, y: 512, value: "INTERFACE → APLICAÇÃO → DADOS → ENTREGA", fill: colors.muted, size: 6.5, weight: 850, mono: true, anchor: "middle" })}
+  </svg>`;
+}
+
+const portfolioDomains = [
+  ["01", "PATRIMÔNIO OPS", "Ativos, custódia e auditoria", "PRINCIPAL", colors.yellow],
+  ["02", "COBREFLOW", "Recebíveis e cobrança", "FINANÇAS", colors.coral],
+  ["03", "FIELDOPS", "Margem e operação em campo", "CAMPO", colors.green],
+  ["04", "LEADOPS", "Campanhas, score e ROI", "VENDAS", colors.yellow],
+  ["05", "RETURNOPS", "Devoluções, RMA e SLA", "PÓS-VENDA", colors.blue],
+  ["06", "SERVICEHUB", "Agenda, funil e receita", "CRM", colors.cyan],
+];
+
+const portfolioStack = [
+  ["APLICAÇÃO", "TypeScript / JavaScript / PHP", colors.blue],
+  ["SERVIÇOS", "Node.js / Express / APIs REST", colors.coral],
+  ["DADOS", "Supabase / SQL / PLpgSQL", colors.cyan],
+  ["INTERFACE", "HTML5 / CSS3 / React", colors.green],
+];
+
+function desktopPortfolioOverview() {
+  const domains = portfolioDomains.map(([number, title, note, label, accent], index) => {
+    const y = 111 + index * 38;
+    const principal = index === 0;
+    return `<rect x="24" y="${y}" width="520" height="31" rx="7" fill="${principal ? accent : colors.surface}" fill-opacity="${principal ? 0.12 : 0.88}" stroke="${principal ? accent : colors.border}" stroke-opacity="${principal ? 0.66 : 1}"/>
+      <circle cx="43" cy="${y + 15.5}" r="9" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.55"/>
+      ${text({ x: 43, y: y + 18.5, value: number, fill: accent, size: 6, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: 61, y: y + 19, value: title, size: 9, weight: 950, mono: true })}
+      ${text({ x: 216, y: y + 19, value: note, fill: colors.muted, size: 8.3, weight: 680 })}
+      ${text({ x: 526, y: y + 19, value: label, fill: accent, size: 6.6, weight: 900, mono: true, anchor: "end" })}`;
+  }).join("");
+
+  const stack = portfolioStack.map(([label, technologies, accent], index) => {
+    const y = 113 + index * 52;
+    return `<rect x="566" y="${y}" width="310" height="42" rx="8" fill="url(#panel)" stroke="${colors.border}"/>
+      <rect x="566" y="${y}" width="4" height="42" rx="2" fill="${accent}"/>
+      ${text({ x: 582, y: y + 17, value: label, fill: accent, size: 7.2, weight: 900, mono: true })}
+      ${text({ x: 582, y: y + 33, value: technologies, fill: colors.text, size: 8.6, weight: 730 })}`;
+  }).join("");
+
+  return `<svg width="900" height="390" viewBox="0 0 900 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(900, 390, colors.coral)}
+  ${text({ x: 26, y: 30, value: "PORTFÓLIO / MAPA DE SISTEMAS", fill: colors.coral, size: 10.5, weight: 900, mono: true })}
+  ${text({ x: 26, y: 63, value: "Sistemas para operações reais.", size: 22, weight: 950 })}
+  ${text({ x: 26, y: 86, value: "Seis produtos, diferentes domínios e uma base técnica consistente.", fill: colors.muted, size: 11, weight: 650 })}
+  ${text({ x: 24, y: 103, value: "DOMÍNIOS E PRODUTOS", fill: colors.quiet, size: 7.4, weight: 850, mono: true })}
+  ${text({ x: 566, y: 103, value: "BASE TÉCNICA", fill: colors.quiet, size: 7.4, weight: 850, mono: true })}
+  ${domains}
+  ${stack}
+  <rect x="566" y="329" width="310" height="16" rx="8" fill="${colors.yellow}" fill-opacity="0.08" stroke="${colors.yellow}" stroke-opacity="0.34"/>
+  ${text({ x: 721, y: 340.5, value: "PATRIMÔNIO OPS DEFINE O PADRÃO", fill: colors.yellow, size: 6.6, weight: 900, mono: true, anchor: "middle" })}
+  <rect x="24" y="352" width="852" height="22" rx="11" fill="url(#panel)" stroke="${colors.border}"/>
+  ${text({ x: 450, y: 367, value: "PROBLEMA  →  FLUXO  →  SISTEMA  →  TESTES  →  DEMONSTRAÇÃO", fill: colors.muted, size: 8, weight: 850, mono: true, anchor: "middle" })}
+  </svg>`;
+}
+
+function mobilePortfolioOverview() {
+  const domains = portfolioDomains.map(([number, title, note, label, accent], index) => {
+    const y = 111 + index * 58;
+    const principal = index === 0;
+    return `<rect x="18" y="${y}" width="324" height="50" rx="8" fill="${principal ? accent : colors.surface}" fill-opacity="${principal ? 0.12 : 0.9}" stroke="${principal ? accent : colors.border}" stroke-opacity="${principal ? 0.66 : 1}"/>
+      <circle cx="42" cy="${y + 25}" r="11" fill="${accent}" fill-opacity="0.12" stroke="${accent}" stroke-opacity="0.55"/>
+      ${text({ x: 42, y: y + 28.5, value: number, fill: accent, size: 6.5, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: 62, y: y + 21, value: title, size: 9.5, weight: 950, mono: true })}
+      ${text({ x: 62, y: y + 38, value: note, fill: colors.muted, size: 8.1, weight: 680 })}
+      ${text({ x: 326, y: y + 29, value: label, fill: accent, size: 6.3, weight: 900, mono: true, anchor: "end" })}`;
+  }).join("");
+
+  const stack = portfolioStack.map(([label, technologies, accent], index) => {
+    const y = 485 + index * 49;
+    return `<rect x="18" y="${y}" width="324" height="41" rx="8" fill="url(#panel)" stroke="${colors.border}"/>
+      <rect x="18" y="${y}" width="4" height="41" rx="2" fill="${accent}"/>
+      ${text({ x: 34, y: y + 17, value: label, fill: accent, size: 6.8, weight: 900, mono: true })}
+      ${text({ x: 34, y: y + 33, value: technologies, fill: colors.text, size: 8.3, weight: 720 })}`;
+  }).join("");
+
+  return `<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  ${backdrop(360, 720, colors.coral)}
+  ${text({ x: 18, y: 29, value: "PORTFÓLIO / MAPA DE SISTEMAS", fill: colors.coral, size: 8.5, weight: 900, mono: true })}
+  ${text({ x: 18, y: 61, value: "Sistemas para", size: 18, weight: 950 })}
+  ${text({ x: 18, y: 83, value: "operações reais.", size: 18, weight: 950 })}
+  ${text({ x: 18, y: 101, value: "Seis produtos. Uma base técnica consistente.", fill: colors.muted, size: 8.4, weight: 650 })}
+  ${domains}
+  ${text({ x: 18, y: 469, value: "BASE TÉCNICA", fill: colors.quiet, size: 7.5, weight: 850, mono: true })}
+  ${stack}
+  <rect x="18" y="689" width="324" height="16" rx="8" fill="${colors.yellow}" fill-opacity="0.08" stroke="${colors.yellow}" stroke-opacity="0.34"/>
+  ${text({ x: 180, y: 700.5, value: "PATRIMÔNIO OPS DEFINE O PADRÃO", fill: colors.yellow, size: 6.4, weight: 900, mono: true, anchor: "middle" })}
+  </svg>`;
+}
+
 const serviceLines = [
   ["01", "CONTROLES OPERACIONAIS", "Inventário, filas, SLA e auditoria", "ROTINA RASTREÁVEL", colors.green],
   ["02", "PAINÉIS DE GESTÃO", "Indicadores, margem, risco e receita", "DECISÃO MAIS RÁPIDA", colors.blue],
@@ -851,6 +1003,10 @@ for (const [marker, title, note, domain, accent] of solutionRoutes) {
 }
 outputs.push(["profile-direction-desktop.svg", desktopDirection()]);
 outputs.push(["profile-direction-mobile.svg", mobileDirection()]);
+outputs.push(["profile-architecture-desktop.svg", desktopArchitecture()]);
+outputs.push(["profile-architecture-mobile.svg", mobileArchitecture()]);
+outputs.push(["profile-portfolio-overview-desktop.svg", desktopPortfolioOverview()]);
+outputs.push(["profile-portfolio-overview-mobile.svg", mobilePortfolioOverview()]);
 outputs.push(["profile-services-desktop.svg", desktopServices()]);
 outputs.push(["profile-services-mobile.svg", mobileServices()]);
 outputs.push(["profile-evidence-desktop.svg", desktopEvidence()]);
