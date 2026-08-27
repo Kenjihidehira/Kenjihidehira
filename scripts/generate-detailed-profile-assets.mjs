@@ -751,12 +751,12 @@ outputs.push(["portfolio-delivery-matrix-desktop.svg", desktopMatrix()]);
 outputs.push(["portfolio-delivery-matrix-mobile.svg", mobileMatrix()]);
 
 const navigationButtons = [
-  ["profile-nav-01.svg", 126, "VISÃO", "01", colors.green],
+  ["profile-nav-01.svg", 136, "PERFIL", "01", colors.green],
   ["profile-nav-02.svg", 126, "STACK", "02", colors.blue],
   ["profile-nav-03.svg", 136, "PAINEL", "03", colors.coral],
-  ["profile-nav-04.svg", 152, "PROJETOS", "04", colors.yellow],
-  ["profile-nav-05.svg", 148, "SERVIÇOS", "05", colors.cyan],
-  ["profile-nav-06.svg", 158, "EVIDÊNCIAS", "06", colors.green],
+  ["profile-nav-04.svg", 136, "PROJETOS", "02", colors.yellow],
+  ["profile-nav-05.svg", 136, "SERVIÇOS", "03", colors.cyan],
+  ["profile-nav-06.svg", 136, "QUALIDADE", "04", colors.blue],
   ["profile-nav-07.svg", 122, "ROTA", "07", colors.blue],
 ];
 for (const [filename, width, label, marker, accent] of navigationButtons) {
@@ -764,8 +764,8 @@ for (const [filename, width, label, marker, accent] of navigationButtons) {
 }
 
 const quickActions = [
-  ["profile-quick-system.svg", 216, "ABRIR SISTEMA", "01", colors.yellow, true],
-  ["profile-quick-code.svg", 218, "EXAMINAR CÓDIGO", "02", colors.blue, false],
+  ["profile-quick-system.svg", 136, "SISTEMA", "01", colors.yellow, true],
+  ["profile-quick-code.svg", 136, "CÓDIGO", "02", colors.blue, false],
   ["profile-quick-projects.svg", 222, "EXPLORAR PROJETOS", "03", colors.coral, false],
   ["project-action-demo.svg", 154, "ABRIR DEMO", "01", colors.yellow, true],
   ["project-action-repo.svg", 176, "REPOSITÓRIO", "02", colors.blue, false],

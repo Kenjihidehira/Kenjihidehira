@@ -18,27 +18,27 @@
 
 <div align="center">
 
-<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260826-8" alt="Ir para vis&atilde;o profissional"></a>
-<a href="#stack"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-02.svg?v=20260826-8" alt="Ir para arquitetura t&eacute;cnica"></a>
-<a href="#painel"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-03.svg?v=20260826-8" alt="Ir para painel do portf&oacute;lio"></a>
-<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260826-8" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
-<a href="#servicos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260826-8" alt="Ir para especialidades e servi&ccedil;os"></a>
-<a href="#evidencias"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-06.svg?v=20260826-8" alt="Ir para evid&ecirc;ncias de engenharia"></a>
-<a href="#rota"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-07.svg?v=20260826-8" alt="Ir para rota de evolu&ccedil;&atilde;o"></a>
-
-</div>
+<strong>CENTRAL DE COMANDO</strong>
 
 <br>
 
-<div align="center">
+<sub>Navega&ccedil;&atilde;o essencial e acesso direto ao projeto principal.</sub>
 
-<strong>ACESSO R&Aacute;PIDO</strong>
+<br><br>
 
-<br>
+<a href="#visao"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-01.svg?v=20260827-10" alt="Ir para perfil profissional"></a>
+<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-04.svg?v=20260827-10" alt="Ir para projetos em opera&ccedil;&atilde;o"></a>
+<a href="#servicos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-05.svg?v=20260827-10" alt="Ir para especialidades e servi&ccedil;os"></a>
+<a href="#evidencias"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-nav-06.svg?v=20260827-10" alt="Ir para evid&ecirc;ncias de engenharia"></a>
 
-<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-system.svg?v=20260826-7" alt="Abrir Patrim&ocirc;nio Ops"></a>
-<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-code.svg?v=20260826-7" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
-<a href="#projetos"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-projects.svg?v=20260826-7" alt="Explorar projetos do portf&oacute;lio"></a>
+<br><br>
+
+<sub><strong>PATRIM&Ocirc;NIO OPS / PROJETO PRINCIPAL</strong></sub>
+
+<br><br>
+
+<a href="https://patrimonio-ops-control.vercel.app/login"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-system.svg?v=20260827-10" alt="Abrir sistema Patrim&ocirc;nio Ops"></a>
+<a href="https://github.com/Kenjihidehira/patrimonio-ops-control"><img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-quick-code.svg?v=20260827-10" alt="Examinar c&oacute;digo do Patrim&ocirc;nio Ops"></a>
 
 <br>
 
