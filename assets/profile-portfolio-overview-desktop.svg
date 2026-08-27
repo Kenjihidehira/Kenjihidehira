@@ -1,0 +1,99 @@
+<svg width="900" height="390" viewBox="0 0 900 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070C15"/>
+      <stop offset="0.55" stop-color="#09111D"/>
+      <stop offset="1" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111B2B"/>
+      <stop offset="1" stop-color="#0A111D"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF705C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#111B2A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FF705C" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#FF705C"/>
+      <stop offset="0.78" stop-color="#42D8FF"/>
+      <stop offset="1" stop-color="#42D8FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
+      <stop stop-color="#FF705C" stop-opacity="0.18"/>
+      <stop offset="0.58" stop-color="#FF705C" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FF705C" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="micro-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#152238" stroke-width="0.7"/>
+      <circle cx="1" cy="1" r="0.8" fill="#687994" fill-opacity="0.32"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="388" rx="12" fill="url(#background)" stroke="#263651" stroke-width="2"/>
+  <rect x="2" y="2" width="896" height="386" rx="11" fill="url(#micro-grid)" opacity="0.62"/>
+  <rect x="2" y="2" width="896" height="386" rx="11" fill="url(#accent-glow)"/>
+  <rect x="22" y="1" width="856" height="3" rx="1.5" fill="url(#accent-line)" filter="url(#glow)"/>
+  <path d="M18 26V16H28M882 26V16H872M18 364V374H28M882 364V374H872" stroke="#FF705C" stroke-opacity="0.58" stroke-width="1.2"/>
+  <circle cx="876" cy="368" r="2.5" fill="#FF705C" filter="url(#glow)"/>
+  <text x="26" y="30" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">PORTF&#211;LIO / MAPA DE SISTEMAS</text>
+  <text x="26" y="63" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">Sistemas para opera&#231;&#245;es reais.</text>
+  <text x="26" y="86" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" text-anchor="start">Seis produtos, diferentes dom&#237;nios e uma base t&#233;cnica consistente.</text>
+  <text x="24" y="103" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">DOM&#205;NIOS E PRODUTOS</text>
+  <text x="566" y="103" fill="#687994" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">BASE T&#201;CNICA</text>
+  <rect x="24" y="111" width="520" height="31" rx="7" fill="#FFC857" fill-opacity="0.12" stroke="#FFC857" stroke-opacity="0.66"/>
+      <circle cx="43" cy="126.5" r="9" fill="#FFC857" fill-opacity="0.12" stroke="#FFC857" stroke-opacity="0.55"/>
+      <text x="43" y="129.5" fill="#FFC857" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6" font-weight="950" text-anchor="middle">01</text>
+      <text x="61" y="130" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="start">PATRIM&#212;NIO OPS</text>
+      <text x="216" y="130" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="680" text-anchor="start">Ativos, cust&#243;dia e auditoria</text>
+      <text x="526" y="130" fill="#FFC857" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="end">PRINCIPAL</text><rect x="24" y="149" width="520" height="31" rx="7" fill="#0D1420" fill-opacity="0.88" stroke="#263651" stroke-opacity="1"/>
+      <circle cx="43" cy="164.5" r="9" fill="#FF705C" fill-opacity="0.12" stroke="#FF705C" stroke-opacity="0.55"/>
+      <text x="43" y="167.5" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6" font-weight="950" text-anchor="middle">02</text>
+      <text x="61" y="168" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="start">COBREFLOW</text>
+      <text x="216" y="168" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="680" text-anchor="start">Receb&#237;veis e cobran&#231;a</text>
+      <text x="526" y="168" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="end">FINAN&#199;AS</text><rect x="24" y="187" width="520" height="31" rx="7" fill="#0D1420" fill-opacity="0.88" stroke="#263651" stroke-opacity="1"/>
+      <circle cx="43" cy="202.5" r="9" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.55"/>
+      <text x="43" y="205.5" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6" font-weight="950" text-anchor="middle">03</text>
+      <text x="61" y="206" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="start">FIELDOPS</text>
+      <text x="216" y="206" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="680" text-anchor="start">Margem e opera&#231;&#227;o em campo</text>
+      <text x="526" y="206" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="end">CAMPO</text><rect x="24" y="225" width="520" height="31" rx="7" fill="#0D1420" fill-opacity="0.88" stroke="#263651" stroke-opacity="1"/>
+      <circle cx="43" cy="240.5" r="9" fill="#FFC857" fill-opacity="0.12" stroke="#FFC857" stroke-opacity="0.55"/>
+      <text x="43" y="243.5" fill="#FFC857" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6" font-weight="950" text-anchor="middle">04</text>
+      <text x="61" y="244" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="start">LEADOPS</text>
+      <text x="216" y="244" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="680" text-anchor="start">Campanhas, score e ROI</text>
+      <text x="526" y="244" fill="#FFC857" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="end">VENDAS</text><rect x="24" y="263" width="520" height="31" rx="7" fill="#0D1420" fill-opacity="0.88" stroke="#263651" stroke-opacity="1"/>
+      <circle cx="43" cy="278.5" r="9" fill="#7197FF" fill-opacity="0.12" stroke="#7197FF" stroke-opacity="0.55"/>
+      <text x="43" y="281.5" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6" font-weight="950" text-anchor="middle">05</text>
+      <text x="61" y="282" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="start">RETURNOPS</text>
+      <text x="216" y="282" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="680" text-anchor="start">Devolu&#231;&#245;es, RMA e SLA</text>
+      <text x="526" y="282" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="end">P&#211;S-VENDA</text><rect x="24" y="301" width="520" height="31" rx="7" fill="#0D1420" fill-opacity="0.88" stroke="#263651" stroke-opacity="1"/>
+      <circle cx="43" cy="316.5" r="9" fill="#42D8FF" fill-opacity="0.12" stroke="#42D8FF" stroke-opacity="0.55"/>
+      <text x="43" y="319.5" fill="#42D8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6" font-weight="950" text-anchor="middle">06</text>
+      <text x="61" y="320" fill="#F4F7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="950" text-anchor="start">SERVICEHUB</text>
+      <text x="216" y="320" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.3" font-weight="680" text-anchor="start">Agenda, funil e receita</text>
+      <text x="526" y="320" fill="#42D8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="end">CRM</text>
+  <rect x="566" y="113" width="310" height="42" rx="8" fill="url(#panel)" stroke="#263651"/>
+      <rect x="566" y="113" width="4" height="42" rx="2" fill="#7197FF"/>
+      <text x="582" y="130" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">APLICA&#199;&#195;O</text>
+      <text x="582" y="146" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="730" text-anchor="start">TypeScript / JavaScript / PHP</text><rect x="566" y="165" width="310" height="42" rx="8" fill="url(#panel)" stroke="#263651"/>
+      <rect x="566" y="165" width="4" height="42" rx="2" fill="#FF705C"/>
+      <text x="582" y="182" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">SERVI&#199;OS</text>
+      <text x="582" y="198" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="730" text-anchor="start">Node.js / Express / APIs REST</text><rect x="566" y="217" width="310" height="42" rx="8" fill="url(#panel)" stroke="#263651"/>
+      <rect x="566" y="217" width="4" height="42" rx="2" fill="#42D8FF"/>
+      <text x="582" y="234" fill="#42D8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">DADOS</text>
+      <text x="582" y="250" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="730" text-anchor="start">Supabase / SQL / PLpgSQL</text><rect x="566" y="269" width="310" height="42" rx="8" fill="url(#panel)" stroke="#263651"/>
+      <rect x="566" y="269" width="4" height="42" rx="2" fill="#39E6B0"/>
+      <text x="582" y="286" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">INTERFACE</text>
+      <text x="582" y="302" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.6" font-weight="730" text-anchor="start">HTML5 / CSS3 / React</text>
+  <rect x="566" y="329" width="310" height="16" rx="8" fill="#FFC857" fill-opacity="0.08" stroke="#FFC857" stroke-opacity="0.34"/>
+  <text x="721" y="340.5" fill="#FFC857" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.6" font-weight="900" text-anchor="middle">PATRIM&#212;NIO OPS DEFINE O PADR&#195;O</text>
+  <rect x="24" y="352" width="852" height="22" rx="11" fill="url(#panel)" stroke="#263651"/>
+  <text x="450" y="367" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8" font-weight="850" text-anchor="middle">PROBLEMA  &#8594;  FLUXO  &#8594;  SISTEMA  &#8594;  TESTES  &#8594;  DEMONSTRA&#199;&#195;O</text>
+  </svg>

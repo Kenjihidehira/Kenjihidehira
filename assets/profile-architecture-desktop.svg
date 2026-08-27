@@ -1,0 +1,95 @@
+<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>text{letter-spacing:0}</style>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#070C15"/>
+      <stop offset="0.55" stop-color="#09111D"/>
+      <stop offset="1" stop-color="#050810"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111B2B"/>
+      <stop offset="1" stop-color="#0A111D"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7197FF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#111B2A" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7197FF" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#7197FF"/>
+      <stop offset="0.78" stop-color="#42D8FF"/>
+      <stop offset="1" stop-color="#42D8FF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
+      <stop stop-color="#7197FF" stop-opacity="0.18"/>
+      <stop offset="0.58" stop-color="#7197FF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#7197FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="micro-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#152238" stroke-width="0.7"/>
+      <circle cx="1" cy="1" r="0.8" fill="#687994" fill-opacity="0.32"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="358" rx="12" fill="url(#background)" stroke="#263651" stroke-width="2"/>
+  <rect x="2" y="2" width="896" height="356" rx="11" fill="url(#micro-grid)" opacity="0.62"/>
+  <rect x="2" y="2" width="896" height="356" rx="11" fill="url(#accent-glow)"/>
+  <rect x="22" y="1" width="856" height="3" rx="1.5" fill="url(#accent-line)" filter="url(#glow)"/>
+  <path d="M18 26V16H28M882 26V16H872M18 334V344H28M882 334V344H872" stroke="#7197FF" stroke-opacity="0.58" stroke-width="1.2"/>
+  <circle cx="876" cy="338" r="2.5" fill="#7197FF" filter="url(#glow)"/>
+  <text x="26" y="30" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">ARQUITETURA / QUATRO CAMADAS</text>
+  <text x="26" y="63" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">Da interface at&#233; a entrega.</text>
+  <text x="26" y="86" fill="#A7B4C9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="650" text-anchor="start">Cada camada tem uma fun&#231;&#227;o clara e se conecta &#224; pr&#243;xima.</text>
+  <rect x="24" y="106" width="204" height="190" rx="10" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+      <rect x="24" y="106" width="204" height="4" rx="2" fill="#7197FF"/>
+      <circle cx="52" cy="139" r="14" fill="#7197FF" fill-opacity="0.12" stroke="#7197FF" stroke-opacity="0.64"/>
+      <text x="52" y="143" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8" font-weight="950" text-anchor="middle">01</text>
+      <text x="76" y="144" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">INTERFACES</text>
+      <path d="M42 165H210" stroke="#263651"/>
+      <text x="42" y="189" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="720" text-anchor="start">Experi&#234;ncias claras e responsivas.</text>
+      <rect x="42" y="213" width="168" height="50" rx="7" fill="#7197FF" fill-opacity="0.08" stroke="#7197FF" stroke-opacity="0.34"/>
+      <text x="54" y="234" fill="#7197FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="900" text-anchor="start">HTML5 / CSS3</text>
+      <text x="54" y="251" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.1" font-weight="850" text-anchor="start">JAVASCRIPT</text>
+      <path d="M222 202H240" stroke="#7197FF" stroke-width="1.5" stroke-opacity="0.72"/>
+        <path d="M235 198L241 202L235 206" stroke="#7197FF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="240" y="106" width="204" height="190" rx="10" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+      <rect x="240" y="106" width="204" height="4" rx="2" fill="#FF705C"/>
+      <circle cx="268" cy="139" r="14" fill="#FF705C" fill-opacity="0.12" stroke="#FF705C" stroke-opacity="0.64"/>
+      <text x="268" y="143" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8" font-weight="950" text-anchor="middle">02</text>
+      <text x="292" y="144" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">APLICA&#199;&#213;ES</text>
+      <path d="M258 165H426" stroke="#263651"/>
+      <text x="258" y="189" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="720" text-anchor="start">Regras, servi&#231;os e integra&#231;&#245;es.</text>
+      <rect x="258" y="213" width="168" height="50" rx="7" fill="#FF705C" fill-opacity="0.08" stroke="#FF705C" stroke-opacity="0.34"/>
+      <text x="270" y="234" fill="#FF705C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="900" text-anchor="start">TYPESCRIPT / NODE.JS</text>
+      <text x="270" y="251" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.1" font-weight="850" text-anchor="start">EXPRESS / PHP</text>
+      <path d="M438 202H456" stroke="#FF705C" stroke-width="1.5" stroke-opacity="0.72"/>
+        <path d="M451 198L457 202L451 206" stroke="#FF705C" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="456" y="106" width="204" height="190" rx="10" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+      <rect x="456" y="106" width="204" height="4" rx="2" fill="#42D8FF"/>
+      <circle cx="484" cy="139" r="14" fill="#42D8FF" fill-opacity="0.12" stroke="#42D8FF" stroke-opacity="0.64"/>
+      <text x="484" y="143" fill="#42D8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8" font-weight="950" text-anchor="middle">03</text>
+      <text x="508" y="144" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">DADOS</text>
+      <path d="M474 165H642" stroke="#263651"/>
+      <text x="474" y="189" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="720" text-anchor="start">Persist&#234;ncia e acesso seguro.</text>
+      <rect x="474" y="213" width="168" height="50" rx="7" fill="#42D8FF" fill-opacity="0.08" stroke="#42D8FF" stroke-opacity="0.34"/>
+      <text x="486" y="234" fill="#42D8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="900" text-anchor="start">SUPABASE / PLPGSQL</text>
+      <text x="486" y="251" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.1" font-weight="850" text-anchor="start">AUTENTICA&#199;&#195;O</text>
+      <path d="M654 202H672" stroke="#42D8FF" stroke-width="1.5" stroke-opacity="0.72"/>
+        <path d="M667 198L673 202L667 206" stroke="#42D8FF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="672" y="106" width="204" height="190" rx="10" fill="url(#panel)" stroke="#263651" filter="url(#shadow)"/>
+      <rect x="672" y="106" width="204" height="4" rx="2" fill="#39E6B0"/>
+      <circle cx="700" cy="139" r="14" fill="#39E6B0" fill-opacity="0.12" stroke="#39E6B0" stroke-opacity="0.64"/>
+      <text x="700" y="143" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8" font-weight="950" text-anchor="middle">04</text>
+      <text x="724" y="144" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">ENTREGA</text>
+      <path d="M690 165H858" stroke="#263651"/>
+      <text x="690" y="189" fill="#F4F7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="720" text-anchor="start">Qualidade e publica&#231;&#227;o rastre&#225;vel.</text>
+      <rect x="690" y="213" width="168" height="50" rx="7" fill="#39E6B0" fill-opacity="0.08" stroke="#39E6B0" stroke-opacity="0.34"/>
+      <text x="702" y="234" fill="#39E6B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="900" text-anchor="start">GITHUB / TESTES</text>
+      <text x="702" y="251" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.1" font-weight="850" text-anchor="start">CI / DOCKER</text>
+      
+  <rect x="24" y="315" width="852" height="25" rx="12.5" fill="url(#panel)" stroke="#263651"/>
+  <text x="450" y="332" fill="#A7B4C9" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="850" text-anchor="middle">PROBLEMA  &#8594;  INTERFACE  &#8594;  APLICA&#199;&#195;O  &#8594;  DADOS  &#8594;  ENTREGA VERIFIC&#193;VEL</text>
+  </svg>

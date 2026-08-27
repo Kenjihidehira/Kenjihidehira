@@ -64,8 +64,8 @@
 <p align="center"><strong>Interface, aplica&ccedil;&atilde;o, dados e entrega conectados como um &uacute;nico sistema.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-mobile.png?v=20260818-3">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/mapa-stack-desktop.png?v=20260818-3" alt="Mapa das camadas t&eacute;cnicas do portf&oacute;lio: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-architecture-mobile.svg?v=20260827-13">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-architecture-desktop.svg?v=20260827-13" alt="Arquitetura t&eacute;cnica do portf&oacute;lio em quatro camadas conectadas: interfaces, aplica&ccedil;&otilde;es, dados e entrega">
 </picture>
 
 <br>
@@ -95,8 +95,8 @@
 <p align="center"><strong>Uma leitura consolidada dos projetos, linguagens e fluxo de entrega.</strong></p>
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-mobile.png?v=20260818-3">
-  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/painel-portfolio-desktop.png?v=20260818-3" alt="Painel geral do portf&oacute;lio com projetos, linguagens e processo de desenvolvimento">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-portfolio-overview-mobile.svg?v=20260827-13">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-portfolio-overview-desktop.svg?v=20260827-13" alt="Mapa do portf&oacute;lio com seis sistemas, seus dom&iacute;nios, base t&eacute;cnica e processo de entrega">
 </picture>
 
 <br>
