@@ -35,13 +35,23 @@
 
 ## 01 // Dire&ccedil;&atilde;o profissional
 
-> Desenvolvo sistemas web que transformam rotinas operacionais em fluxos claros, rastre&aacute;veis e preparados para evoluir.
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-direction-mobile.svg?v=20260827-12">
+  <img width="100%" src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-direction-desktop.svg?v=20260827-12" alt="Dire&ccedil;&atilde;o profissional de Kenji Hidehira: diagn&oacute;stico, constru&ccedil;&atilde;o e evid&ecirc;ncias para transformar problemas operacionais em sistemas rastre&aacute;veis">
+</picture>
+
+<details>
+<summary><strong>:compass: Consultar atua&ccedil;&atilde;o e m&eacute;todo</strong></summary>
+
+<br>
 
 - **Produtos web:** pain&eacute;is, CRMs, controles operacionais e centrais de acompanhamento.
 - **Integra&ccedil;&otilde;es:** APIs REST, autentica&ccedil;&atilde;o, banco de dados e automa&ccedil;&otilde;es.
 - **M&eacute;todo:** entender o problema, construir o fluxo, validar o uso e publicar a entrega.
 - **Foco atual:** TypeScript, dados reais, testes e demonstra&ccedil;&otilde;es online.
 - **Base:** Douradina, Paran&aacute; — Brasil.
+
+</details>
 
 <a id="stack"></a>
 
