@@ -15,22 +15,22 @@
       <stop offset="1" stop-color="#081016"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#C8F33D" stop-opacity="0.12"/>
+      <stop stop-color="#46D39A" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#0A1117" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#C8F33D"/>
-      <stop offset="0.72" stop-color="#87B9F4"/>
-      <stop offset="1" stop-color="#87B9F4" stop-opacity="0.18"/>
+      <stop stop-color="#46D39A"/>
+      <stop offset="0.72" stop-color="#2F80ED"/>
+      <stop offset="1" stop-color="#2F80ED" stop-opacity="0.18"/>
     </linearGradient>
     <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
-      <stop stop-color="#C8F33D" stop-opacity="0.05"/>
-      <stop offset="0.58" stop-color="#C8F33D" stop-opacity="0.015"/>
-      <stop offset="1" stop-color="#C8F33D" stop-opacity="0"/>
+      <stop stop-color="#46D39A" stop-opacity="0.05"/>
+      <stop offset="0.58" stop-color="#46D39A" stop-opacity="0.015"/>
+      <stop offset="1" stop-color="#46D39A" stop-opacity="0"/>
     </radialGradient>
     <pattern id="micro-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#173047" stroke-width="0.65"/>
-      <path d="M12 0V24M0 12H24" fill="none" stroke="#173047" stroke-width="0.25" stroke-opacity="0.55"/>
+      <path d="M24 0H0V24" fill="none" stroke="#123654" stroke-width="0.65"/>
+      <path d="M12 0V24M0 12H24" fill="none" stroke="#123654" stroke-width="0.25" stroke-opacity="0.55"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
@@ -40,60 +40,60 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="898" height="403" fill="url(#background)" stroke="#36536D" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="403" fill="url(#background)" stroke="#285A86" stroke-width="2"/>
   <rect x="2" y="2" width="896" height="401" fill="url(#micro-grid)" opacity="0.78"/>
   <rect x="2" y="2" width="896" height="401" fill="url(#accent-glow)"/>
   <rect x="24" y="1" width="852" height="2" fill="url(#accent-line)"/>
-  <path d="M18 34V16H36M882 34V16H864M18 371V389H36M882 371V389H864" stroke="#C8F33D" stroke-opacity="0.72" stroke-width="1.25"/>
-  <path d="M12 52H24M12 64H20M888 52H876M888 64H880" stroke="#87B9F4" stroke-opacity="0.48"/>
-  <circle cx="877" cy="384" r="2.3" fill="#C8F33D"/>
-  <text x="26" y="30" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">PORTF&#211;LIO / EVID&#202;NCIAS DE ENGENHARIA</text>
-  <text x="26" y="63" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">Qualidade que pode ser conferida.</text>
-  <rect x="24" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="24" y="82" width="204" height="3" rx="1.5" fill="#C8F33D"/>
-      <text x="42" y="116" fill="#C8F33D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">06/06</text>
-      <text x="42" y="138" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">DEMOS ONLINE</text>
-      <circle cx="200" cy="108" r="9" fill="#C8F33D" fill-opacity="0.1" stroke="#C8F33D" stroke-opacity="0.38"/>
-      <circle cx="200" cy="108" r="2.7" fill="#C8F33D" filter="url(#glow)"/><rect x="240" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="240" y="82" width="204" height="3" rx="1.5" fill="#87B9F4"/>
-      <text x="258" y="116" fill="#87B9F4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">06/06</text>
-      <text x="258" y="138" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">CI APROVADO</text>
-      <circle cx="416" cy="108" r="9" fill="#87B9F4" fill-opacity="0.1" stroke="#87B9F4" stroke-opacity="0.38"/>
-      <circle cx="416" cy="108" r="2.7" fill="#87B9F4" filter="url(#glow)"/><rect x="456" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="456" y="82" width="204" height="3" rx="1.5" fill="#C8F33D"/>
-      <text x="474" y="116" fill="#C8F33D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">153</text>
-      <text x="474" y="138" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">TESTES / PRINCIPAL</text>
-      <circle cx="632" cy="108" r="9" fill="#C8F33D" fill-opacity="0.1" stroke="#C8F33D" stroke-opacity="0.38"/>
-      <circle cx="632" cy="108" r="2.7" fill="#C8F33D" filter="url(#glow)"/><rect x="672" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="672" y="82" width="204" height="3" rx="1.5" fill="#FF8A4C"/>
-      <text x="690" y="116" fill="#FF8A4C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">05/06</text>
-      <text x="690" y="138" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">COM DOCKER</text>
-      <circle cx="848" cy="108" r="9" fill="#FF8A4C" fill-opacity="0.1" stroke="#FF8A4C" stroke-opacity="0.38"/>
-      <circle cx="848" cy="108" r="2.7" fill="#FF8A4C" filter="url(#glow)"/>
-  <rect x="24" y="174" width="852" height="74" rx="9" fill="url(#panel)" stroke="#36536D"/>
-  <circle cx="42" cy="211" r="17" fill="#C8F33D" fill-opacity="0.12" stroke="#C8F33D" stroke-opacity="0.56"/>
-      <text x="42" y="215" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">01</text>
-      <text x="71" y="215" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">REGRAS</text><path d="M162 211H192" stroke="#C8F33D" stroke-opacity="0.55"/><path d="M187 207L193 211L187 215" stroke="#C8F33D" fill="none"/><circle cx="210" cy="211" r="17" fill="#C8F33D" fill-opacity="0.12" stroke="#C8F33D" stroke-opacity="0.56"/>
-      <text x="210" y="215" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">02</text>
-      <text x="239" y="215" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">TESTES</text><path d="M330 211H360" stroke="#C8F33D" stroke-opacity="0.55"/><path d="M355 207L361 211L355 215" stroke="#C8F33D" fill="none"/><circle cx="378" cy="211" r="17" fill="#87B9F4" fill-opacity="0.12" stroke="#87B9F4" stroke-opacity="0.56"/>
-      <text x="378" y="215" fill="#87B9F4" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">03</text>
-      <text x="407" y="215" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">CI</text><path d="M498 211H528" stroke="#87B9F4" stroke-opacity="0.55"/><path d="M523 207L529 211L523 215" stroke="#87B9F4" fill="none"/><circle cx="546" cy="211" r="17" fill="#FF8A4C" fill-opacity="0.12" stroke="#FF8A4C" stroke-opacity="0.56"/>
-      <text x="546" y="215" fill="#FF8A4C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">04</text>
-      <text x="575" y="215" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">DEPLOY</text><path d="M666 211H696" stroke="#FF8A4C" stroke-opacity="0.55"/><path d="M691 207L697 211L691 215" stroke="#FF8A4C" fill="none"/><circle cx="714" cy="211" r="17" fill="#75D5F2" fill-opacity="0.12" stroke="#75D5F2" stroke-opacity="0.56"/>
-      <text x="714" y="215" fill="#75D5F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">05</text>
-      <text x="743" y="215" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">DEMO</text>
-  <rect x="24" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="#36536D"/>
-      <rect x="24" y="278" width="5" height="96" rx="2.5" fill="#C8F33D"/>
-      <text x="42" y="306" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="900" text-anchor="start">REGRAS E TESTES</text>
-      <text x="42" y="334" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="720" text-anchor="start">Dom&#237;nio isolado e cen&#225;rios automatizados.</text>
-      <text x="42" y="354" fill="#607B92" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">VALIDA&#199;&#195;O</text><rect x="312" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="#36536D"/>
-      <rect x="312" y="278" width="5" height="96" rx="2.5" fill="#C8F33D"/>
-      <text x="330" y="306" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="900" text-anchor="start">CI E PUBLICA&#199;&#195;O</text>
-      <text x="330" y="334" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="720" text-anchor="start">Pipelines aprovados e demonstra&#231;&#245;es acess&#237;veis.</text>
-      <text x="330" y="354" fill="#607B92" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">ENTREGA</text><rect x="600" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="#36536D"/>
-      <rect x="600" y="278" width="5" height="96" rx="2.5" fill="#75D5F2"/>
-      <text x="618" y="306" fill="#75D5F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="900" text-anchor="start">DADOS E ARQUITETURA</text>
-      <text x="618" y="334" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="720" text-anchor="start">Supabase ou D1 com documenta&#231;&#227;o por sistema.</text>
-      <text x="618" y="354" fill="#607B92" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">RASTREABILIDADE</text>
-  <text x="26" y="393" fill="#607B92" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="800" text-anchor="start">EVID&#202;NCIAS LIGADAS AOS REPOSIT&#211;RIOS, PIPELINES E DEMONSTRA&#199;&#213;ES P&#218;BLICAS</text>
+  <path d="M18 34V16H36M882 34V16H864M18 371V389H36M882 371V389H864" stroke="#46D39A" stroke-opacity="0.72" stroke-width="1.25"/>
+  <path d="M12 52H24M12 64H20M888 52H876M888 64H880" stroke="#2F80ED" stroke-opacity="0.48"/>
+  <circle cx="877" cy="384" r="2.3" fill="#46D39A"/>
+  <text x="26" y="30" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">PORTF&#211;LIO / EVID&#202;NCIAS DE ENGENHARIA</text>
+  <text x="26" y="63" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">Qualidade que pode ser conferida.</text>
+  <rect x="24" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="24" y="82" width="204" height="3" rx="1.5" fill="#46D39A"/>
+      <text x="42" y="116" fill="#46D39A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">06/06</text>
+      <text x="42" y="138" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">DEMOS ONLINE</text>
+      <circle cx="200" cy="108" r="9" fill="#46D39A" fill-opacity="0.1" stroke="#46D39A" stroke-opacity="0.38"/>
+      <circle cx="200" cy="108" r="2.7" fill="#46D39A" filter="url(#glow)"/><rect x="240" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="240" y="82" width="204" height="3" rx="1.5" fill="#2F80ED"/>
+      <text x="258" y="116" fill="#2F80ED" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">06/06</text>
+      <text x="258" y="138" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">CI APROVADO</text>
+      <circle cx="416" cy="108" r="9" fill="#2F80ED" fill-opacity="0.1" stroke="#2F80ED" stroke-opacity="0.38"/>
+      <circle cx="416" cy="108" r="2.7" fill="#2F80ED" filter="url(#glow)"/><rect x="456" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="456" y="82" width="204" height="3" rx="1.5" fill="#67B8FF"/>
+      <text x="474" y="116" fill="#67B8FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">153</text>
+      <text x="474" y="138" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">TESTES / PRINCIPAL</text>
+      <circle cx="632" cy="108" r="9" fill="#67B8FF" fill-opacity="0.1" stroke="#67B8FF" stroke-opacity="0.38"/>
+      <circle cx="632" cy="108" r="2.7" fill="#67B8FF" filter="url(#glow)"/><rect x="672" y="82" width="204" height="72" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="672" y="82" width="204" height="3" rx="1.5" fill="#FF7A59"/>
+      <text x="690" y="116" fill="#FF7A59" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="950" text-anchor="start">05/06</text>
+      <text x="690" y="138" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="850" text-anchor="start">COM DOCKER</text>
+      <circle cx="848" cy="108" r="9" fill="#FF7A59" fill-opacity="0.1" stroke="#FF7A59" stroke-opacity="0.38"/>
+      <circle cx="848" cy="108" r="2.7" fill="#FF7A59" filter="url(#glow)"/>
+  <rect x="24" y="174" width="852" height="74" rx="9" fill="url(#panel)" stroke="#285A86"/>
+  <circle cx="42" cy="211" r="17" fill="#46D39A" fill-opacity="0.12" stroke="#46D39A" stroke-opacity="0.56"/>
+      <text x="42" y="215" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">01</text>
+      <text x="71" y="215" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">REGRAS</text><path d="M162 211H192" stroke="#46D39A" stroke-opacity="0.55"/><path d="M187 207L193 211L187 215" stroke="#46D39A" fill="none"/><circle cx="210" cy="211" r="17" fill="#67B8FF" fill-opacity="0.12" stroke="#67B8FF" stroke-opacity="0.56"/>
+      <text x="210" y="215" fill="#67B8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">02</text>
+      <text x="239" y="215" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">TESTES</text><path d="M330 211H360" stroke="#67B8FF" stroke-opacity="0.55"/><path d="M355 207L361 211L355 215" stroke="#67B8FF" fill="none"/><circle cx="378" cy="211" r="17" fill="#2F80ED" fill-opacity="0.12" stroke="#2F80ED" stroke-opacity="0.56"/>
+      <text x="378" y="215" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">03</text>
+      <text x="407" y="215" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">CI</text><path d="M498 211H528" stroke="#2F80ED" stroke-opacity="0.55"/><path d="M523 207L529 211L523 215" stroke="#2F80ED" fill="none"/><circle cx="546" cy="211" r="17" fill="#FF7A59" fill-opacity="0.12" stroke="#FF7A59" stroke-opacity="0.56"/>
+      <text x="546" y="215" fill="#FF7A59" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">04</text>
+      <text x="575" y="215" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">DEPLOY</text><path d="M666 211H696" stroke="#FF7A59" stroke-opacity="0.55"/><path d="M691 207L697 211L691 215" stroke="#FF7A59" fill="none"/><circle cx="714" cy="211" r="17" fill="#5CC8FF" fill-opacity="0.12" stroke="#5CC8FF" stroke-opacity="0.56"/>
+      <text x="714" y="215" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="950" text-anchor="middle">05</text>
+      <text x="743" y="215" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">DEMO</text>
+  <rect x="24" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="#285A86"/>
+      <rect x="24" y="278" width="5" height="96" rx="2.5" fill="#67B8FF"/>
+      <text x="42" y="306" fill="#67B8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="900" text-anchor="start">REGRAS E TESTES</text>
+      <text x="42" y="334" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="720" text-anchor="start">Dom&#237;nio isolado e cen&#225;rios automatizados.</text>
+      <text x="42" y="354" fill="#6888A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">VALIDA&#199;&#195;O</text><rect x="312" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="#285A86"/>
+      <rect x="312" y="278" width="5" height="96" rx="2.5" fill="#46D39A"/>
+      <text x="330" y="306" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="900" text-anchor="start">CI E PUBLICA&#199;&#195;O</text>
+      <text x="330" y="334" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="720" text-anchor="start">Pipelines aprovados e demonstra&#231;&#245;es acess&#237;veis.</text>
+      <text x="330" y="354" fill="#6888A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">ENTREGA</text><rect x="600" y="278" width="276" height="96" rx="9" fill="url(#panel)" stroke="#285A86"/>
+      <rect x="600" y="278" width="5" height="96" rx="2.5" fill="#5CC8FF"/>
+      <text x="618" y="306" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.4" font-weight="900" text-anchor="start">DADOS E ARQUITETURA</text>
+      <text x="618" y="334" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.4" font-weight="720" text-anchor="start">Supabase ou D1 com documenta&#231;&#227;o por sistema.</text>
+      <text x="618" y="354" fill="#6888A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="850" text-anchor="start">RASTREABILIDADE</text>
+  <text x="26" y="393" fill="#6888A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.8" font-weight="800" text-anchor="start">EVID&#202;NCIAS LIGADAS AOS REPOSIT&#211;RIOS, PIPELINES E DEMONSTRA&#199;&#213;ES P&#218;BLICAS</text>
   </svg>
