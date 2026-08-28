@@ -6,19 +6,19 @@ const here = dirname(fileURLToPath(import.meta.url));
 const assetsDir = resolve(here, "..", "assets");
 
 const colors = {
-  background: "#070B0F",
-  surface: "#0A1117",
-  surfaceAlt: "#0D171F",
-  border: "#36536D",
-  grid: "#173047",
-  text: "#EDF3F7",
-  muted: "#9EB2C3",
-  quiet: "#607B92",
-  green: "#C8F33D",
-  blue: "#87B9F4",
-  yellow: "#C8F33D",
-  coral: "#FF8A4C",
-  cyan: "#75D5F2",
+  background: "#050B14",
+  surface: "#081321",
+  surfaceAlt: "#0B1A2B",
+  border: "#285A86",
+  grid: "#123654",
+  text: "#F5FAFF",
+  muted: "#A9C2D8",
+  quiet: "#6888A5",
+  green: "#46D39A",
+  blue: "#2F80ED",
+  yellow: "#67B8FF",
+  coral: "#FF7A59",
+  cyan: "#5CC8FF",
 };
 
 const projects = [
@@ -720,27 +720,28 @@ function desktopBlueprintHero() {
     return `<path d="M548 ${y}H620" stroke="${colors.blue}" stroke-opacity="0.62"/>
       <circle cx="631" cy="${y}" r="10" fill="${colors.surface}" stroke="${colors.blue}"/>
       ${text({ x: 631, y: y + 3, value: number, fill: colors.blue, size: 6.3, weight: 950, mono: true, anchor: "middle" })}
-      <path d="M642 ${y}H674L692 ${y + 15}H820" stroke="${index === 3 ? colors.green : colors.blue}" stroke-opacity="0.76" fill="none"/>
-      ${text({ x: 520, y: y - 5, value: title, fill: index === 3 ? colors.green : colors.blue, size: 7.3, weight: 900, mono: true })}
+      <path d="M642 ${y}H674L692 ${y + 15}H820" stroke="${index === 3 ? colors.cyan : colors.blue}" stroke-opacity="0.76" fill="none"/>
+      ${text({ x: 520, y: y - 5, value: title, fill: index === 3 ? colors.cyan : colors.blue, size: 7.3, weight: 900, mono: true })}
       ${text({ x: 520, y: y + 11, value: note, fill: colors.muted, size: 8.5, weight: 680 })}`;
   }).join("");
 
   return `<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  ${backdrop(900, 320, colors.green)}
+  ${backdrop(900, 320, colors.blue)}
   <rect x="26" y="42" width="126" height="152" fill="${colors.surface}" stroke="${colors.blue}"/>
-  <path d="M40 56H66M40 70H56M138 180H112M138 166H122" stroke="${colors.green}"/>
-  ${text({ x: 89, y: 135, value: "KH", fill: colors.green, size: 44, weight: 950, mono: true, anchor: "middle" })}
-  ${text({ x: 180, y: 76, value: "Kenji Hidehira", size: 31, weight: 950 })}
-  ${text({ x: 180, y: 107, value: "ENGENHARIA DE SISTEMAS WEB", fill: colors.green, size: 11, weight: 900, mono: true })}
-  <path d="M180 126H470" stroke="${colors.blue}" stroke-opacity="0.58"/>
-  ${text({ x: 180, y: 153, value: "Projetos operacionais, código limpo e arquitetura sólida", fill: colors.text, size: 11.5, weight: 720 })}
-  ${text({ x: 180, y: 174, value: "para sistemas que geram valor real.", fill: colors.text, size: 11.5, weight: 720 })}
+  <path d="M40 56H66M40 70H56M138 180H112M138 166H122" stroke="${colors.cyan}"/>
+  ${text({ x: 89, y: 135, value: "KH", fill: colors.cyan, size: 44, weight: 950, mono: true, anchor: "middle" })}
+  ${text({ x: 180, y: 69, value: "Kenji Hidehira", size: 31, weight: 950 })}
+  ${text({ x: 180, y: 98, value: "ENGENHARIA DE SISTEMAS WEB", fill: colors.cyan, size: 10.5, weight: 900, mono: true })}
+  ${text({ x: 180, y: 118, value: "GAZIN / TECNOLOGIA E OPERAÇÕES", fill: colors.blue, size: 7.4, weight: 900, mono: true })}
+  <path d="M180 134H470" stroke="${colors.blue}" stroke-opacity="0.58"/>
+  ${text({ x: 180, y: 158, value: "Projetos operacionais, código limpo e arquitetura sólida", fill: colors.text, size: 11.5, weight: 720 })}
+  ${text({ x: 180, y: 179, value: "para sistemas que geram valor real.", fill: colors.text, size: 11.5, weight: 720 })}
   ${text({ x: 520, y: 34, value: "CAMADAS TÉCNICAS", fill: colors.blue, size: 10, weight: 900, mono: true })}
   ${layers}
-  <rect x="520" y="276" width="340" height="22" fill="${colors.green}" fill-opacity="0.08" stroke="${colors.green}" stroke-opacity="0.64"/>
-  ${text({ x: 690, y: 291, value: "SISTEMAS OPERACIONAIS CONFIÁVEIS", fill: colors.green, size: 7.6, weight: 900, mono: true, anchor: "middle" })}
+  <rect x="520" y="276" width="340" height="22" fill="${colors.blue}" fill-opacity="0.12" stroke="${colors.cyan}" stroke-opacity="0.72"/>
+  ${text({ x: 690, y: 291, value: "SISTEMAS OPERACIONAIS CONFIÁVEIS", fill: colors.cyan, size: 7.6, weight: 900, mono: true, anchor: "middle" })}
   <rect x="26" y="222" width="444" height="76" fill="${colors.surface}" stroke="${colors.border}"/>
-  ${text({ x: 44, y: 247, value: "PRODUTOS WEB", fill: colors.green, size: 7.3, weight: 900, mono: true })}
+  ${text({ x: 44, y: 247, value: "TECNOLOGIA PARA OPERAÇÕES E VENDAS", fill: colors.cyan, size: 7.3, weight: 900, mono: true })}
   ${text({ x: 44, y: 268, value: "Painéis, CRMs e controles operacionais", size: 9.4, weight: 720 })}
   ${text({ x: 44, y: 285, value: "APIs • AUTENTICAÇÃO • DADOS • AUTOMAÇÕES", fill: colors.muted, size: 7.5, weight: 850, mono: true })}
   </svg>`;
@@ -754,25 +755,26 @@ function mobileBlueprintHero() {
     ["04", "DADOS", "Persistência e integração"],
   ].map(([number, title, note], index) => {
     const y = 276 + index * 54;
-    return `<rect x="18" y="${y}" width="324" height="44" fill="${colors.surface}" stroke="${index === 3 ? colors.green : colors.border}"/>
-      ${text({ x: 34, y: y + 27, value: number, fill: index === 3 ? colors.green : colors.blue, size: 7, weight: 950, mono: true })}
-      ${text({ x: 62, y: y + 19, value: title, fill: index === 3 ? colors.green : colors.blue, size: 7.2, weight: 900, mono: true })}
+    return `<rect x="18" y="${y}" width="324" height="44" fill="${colors.surface}" stroke="${index === 3 ? colors.cyan : colors.border}"/>
+      ${text({ x: 34, y: y + 27, value: number, fill: index === 3 ? colors.cyan : colors.blue, size: 7, weight: 950, mono: true })}
+      ${text({ x: 62, y: y + 19, value: title, fill: index === 3 ? colors.cyan : colors.blue, size: 7.2, weight: 900, mono: true })}
       ${text({ x: 62, y: y + 35, value: note, fill: colors.muted, size: 8.2, weight: 680 })}
-      <path d="M286 ${y + 22}H326" stroke="${index === 3 ? colors.green : colors.blue}" stroke-opacity="0.68"/>`;
+      <path d="M286 ${y + 22}H326" stroke="${index === 3 ? colors.cyan : colors.blue}" stroke-opacity="0.68"/>`;
   }).join("");
 
   return `<svg width="360" height="530" viewBox="0 0 360 530" fill="none" xmlns="http://www.w3.org/2000/svg">
-  ${backdrop(360, 530, colors.green)}
+  ${backdrop(360, 530, colors.blue)}
   <rect x="18" y="30" width="82" height="92" fill="${colors.surface}" stroke="${colors.blue}"/>
-  ${text({ x: 59, y: 87, value: "KH", fill: colors.green, size: 28, weight: 950, mono: true, anchor: "middle" })}
+  ${text({ x: 59, y: 87, value: "KH", fill: colors.cyan, size: 28, weight: 950, mono: true, anchor: "middle" })}
   ${text({ x: 118, y: 58, value: "Kenji Hidehira", size: 20, weight: 950 })}
-  ${text({ x: 118, y: 82, value: "ENGENHARIA DE", fill: colors.green, size: 7.5, weight: 900, mono: true })}
-  ${text({ x: 118, y: 97, value: "SISTEMAS WEB", fill: colors.green, size: 7.5, weight: 900, mono: true })}
+  ${text({ x: 118, y: 82, value: "ENGENHARIA DE", fill: colors.cyan, size: 7.5, weight: 900, mono: true })}
+  ${text({ x: 118, y: 97, value: "SISTEMAS WEB", fill: colors.cyan, size: 7.5, weight: 900, mono: true })}
+  ${text({ x: 118, y: 115, value: "GAZIN / TECNOLOGIA E OPERAÇÕES", fill: colors.blue, size: 5.5, weight: 900, mono: true })}
   <path d="M18 146H342" stroke="${colors.blue}" stroke-opacity="0.62"/>
   ${text({ x: 18, y: 176, value: "Projetos operacionais, código limpo", size: 11.5, weight: 760 })}
   ${text({ x: 18, y: 196, value: "e arquitetura sólida.", size: 11.5, weight: 760 })}
-  <rect x="18" y="218" width="324" height="38" fill="${colors.green}" fill-opacity="0.07" stroke="${colors.green}" stroke-opacity="0.58"/>
-  ${text({ x: 34, y: 242, value: "SISTEMAS QUE GERAM VALOR REAL", fill: colors.green, size: 7.4, weight: 900, mono: true })}
+  <rect x="18" y="218" width="324" height="38" fill="${colors.blue}" fill-opacity="0.12" stroke="${colors.cyan}" stroke-opacity="0.68"/>
+  ${text({ x: 34, y: 242, value: "SISTEMAS QUE GERAM VALOR REAL", fill: colors.cyan, size: 7.4, weight: 900, mono: true })}
   ${text({ x: 18, y: 268, value: "CAMADAS TÉCNICAS", fill: colors.blue, size: 7.5, weight: 900, mono: true })}
   ${layers}
   ${text({ x: 180, y: 510, value: "INTERFACE → APLICAÇÃO → DADOS → ENTREGA", fill: colors.muted, size: 6.4, weight: 850, mono: true, anchor: "middle" })}
@@ -784,19 +786,19 @@ const flagshipFlow = ["CADASTRO", "IDENTIFICAÇÃO", "MOVIMENTAÇÃO", "ANÁLISE
 function desktopBlueprintFlagship() {
   const flow = flagshipFlow.map((step, index) => {
     const x = 390 + index * 94;
-    const connector = index < flagshipFlow.length - 1 ? `<path d="M${x + 54} 168H${x + 82}" stroke="${colors.green}"/><path d="M${x + 77} 164L${x + 83} 168L${x + 77} 172" stroke="${colors.green}" fill="none"/>` : "";
-    return `<circle cx="${x + 27}" cy="168" r="27" fill="${colors.green}" fill-opacity="0.04" stroke="${colors.green}"/>
-      ${text({ x: x + 27, y: 172, value: String(index + 1).padStart(2, "0"), fill: colors.green, size: 8, weight: 950, mono: true, anchor: "middle" })}
-      ${text({ x: x + 27, y: 210, value: step, fill: colors.green, size: 6.6, weight: 900, mono: true, anchor: "middle" })}${connector}`;
+    const connector = index < flagshipFlow.length - 1 ? `<path d="M${x + 54} 168H${x + 82}" stroke="${colors.blue}"/><path d="M${x + 77} 164L${x + 83} 168L${x + 77} 172" stroke="${colors.blue}" fill="none"/>` : "";
+    return `<circle cx="${x + 27}" cy="168" r="27" fill="${colors.blue}" fill-opacity="0.08" stroke="${colors.blue}"/>
+      ${text({ x: x + 27, y: 172, value: String(index + 1).padStart(2, "0"), fill: colors.cyan, size: 8, weight: 950, mono: true, anchor: "middle" })}
+      ${text({ x: x + 27, y: 210, value: step, fill: colors.cyan, size: 6.6, weight: 900, mono: true, anchor: "middle" })}${connector}`;
   }).join("");
 
   return `<svg width="900" height="330" viewBox="0 0 900 330" fill="none" xmlns="http://www.w3.org/2000/svg">
-  ${backdrop(900, 330, colors.green)}
-  ${text({ x: 28, y: 34, value: "SISTEMA PRINCIPAL / 01", fill: colors.green, size: 9.5, weight: 900, mono: true })}
-  ${text({ x: 28, y: 76, value: "PATRIMÔNIO OPS", fill: colors.green, size: 28, weight: 950, mono: true })}
+  ${backdrop(900, 330, colors.blue)}
+  ${text({ x: 28, y: 34, value: "SISTEMA PRINCIPAL / 01", fill: colors.cyan, size: 9.5, weight: 900, mono: true })}
+  ${text({ x: 28, y: 76, value: "PATRIMÔNIO OPS", fill: colors.yellow, size: 28, weight: 950, mono: true })}
   ${text({ x: 28, y: 101, value: "Gestão patrimonial com rastreabilidade", size: 11, weight: 760 })}
   ${text({ x: 28, y: 121, value: "e inteligência operacional.", size: 11, weight: 760 })}
-  <path d="M28 143H340" stroke="${colors.green}" stroke-opacity="0.48"/>
+  <path d="M28 143H340" stroke="${colors.blue}" stroke-opacity="0.58"/>
   ${text({ x: 28, y: 171, value: "• INVENTÁRIO E CUSTÓDIA", fill: colors.muted, size: 8.2, weight: 850, mono: true })}
   ${text({ x: 28, y: 194, value: "• IMPORTAÇÃO E AUDITORIA", fill: colors.muted, size: 8.2, weight: 850, mono: true })}
   ${text({ x: 28, y: 217, value: "• RLS E CONTROLE DE ACESSO", fill: colors.muted, size: 8.2, weight: 850, mono: true })}
@@ -804,7 +806,7 @@ function desktopBlueprintFlagship() {
   <path d="M388 88H850" stroke="${colors.blue}" stroke-opacity="0.48"/>
   ${flow}
   <rect x="28" y="258" width="824" height="42" fill="${colors.surface}" stroke="${colors.border}"/>
-  ${text({ x: 48, y: 284, value: "v0.10.0", fill: colors.green, size: 10, weight: 950, mono: true })}
+  ${text({ x: 48, y: 284, value: "v0.10.0", fill: colors.cyan, size: 10, weight: 950, mono: true })}
   ${text({ x: 174, y: 284, value: "153 TESTES", fill: colors.blue, size: 9, weight: 900, mono: true })}
   ${text({ x: 326, y: 284, value: "CI APROVADO", fill: colors.blue, size: 9, weight: 900, mono: true })}
   ${text({ x: 494, y: 284, value: "SUPABASE + PLPGSQL", fill: colors.blue, size: 9, weight: 900, mono: true })}
@@ -815,35 +817,35 @@ function desktopBlueprintFlagship() {
 function mobileBlueprintFlagship() {
   const flow = flagshipFlow.map((step, index) => {
     const y = 252 + index * 48;
-    return `<circle cx="44" cy="${y}" r="13" fill="${colors.green}" fill-opacity="0.04" stroke="${colors.green}"/>
-      ${text({ x: 44, y: y + 3, value: String(index + 1).padStart(2, "0"), fill: colors.green, size: 6.2, weight: 950, mono: true, anchor: "middle" })}
+    return `<circle cx="44" cy="${y}" r="13" fill="${colors.blue}" fill-opacity="0.08" stroke="${colors.blue}"/>
+      ${text({ x: 44, y: y + 3, value: String(index + 1).padStart(2, "0"), fill: colors.cyan, size: 6.2, weight: 950, mono: true, anchor: "middle" })}
       ${text({ x: 70, y: y + 4, value: step, fill: colors.text, size: 8.5, weight: 900, mono: true })}
-      <path d="M44 ${y + 13}V${y + 35}" stroke="${colors.green}" stroke-opacity="${index === 4 ? 0 : 0.58}"/>`;
+      <path d="M44 ${y + 13}V${y + 35}" stroke="${colors.blue}" stroke-opacity="${index === 4 ? 0 : 0.58}"/>`;
   }).join("");
 
   return `<svg width="360" height="560" viewBox="0 0 360 560" fill="none" xmlns="http://www.w3.org/2000/svg">
-  ${backdrop(360, 560, colors.green)}
-  ${text({ x: 18, y: 30, value: "SISTEMA PRINCIPAL / 01", fill: colors.green, size: 8.3, weight: 900, mono: true })}
-  ${text({ x: 18, y: 69, value: "PATRIMÔNIO OPS", fill: colors.green, size: 22, weight: 950, mono: true })}
+  ${backdrop(360, 560, colors.blue)}
+  ${text({ x: 18, y: 30, value: "SISTEMA PRINCIPAL / 01", fill: colors.cyan, size: 8.3, weight: 900, mono: true })}
+  ${text({ x: 18, y: 69, value: "PATRIMÔNIO OPS", fill: colors.yellow, size: 22, weight: 950, mono: true })}
   ${text({ x: 18, y: 94, value: "Gestão patrimonial com rastreabilidade", size: 10, weight: 760 })}
   ${text({ x: 18, y: 112, value: "e inteligência operacional.", size: 10, weight: 760 })}
   <rect x="18" y="137" width="324" height="82" fill="${colors.surface}" stroke="${colors.border}"/>
-  ${text({ x: 32, y: 160, value: "INVENTÁRIO • CUSTÓDIA • AUDITORIA", fill: colors.green, size: 7.2, weight: 900, mono: true })}
+  ${text({ x: 32, y: 160, value: "INVENTÁRIO • CUSTÓDIA • AUDITORIA", fill: colors.cyan, size: 7.2, weight: 900, mono: true })}
   ${text({ x: 32, y: 183, value: "IMPORTAÇÃO • RLS • CONTROLE DE ACESSO", fill: colors.blue, size: 6.8, weight: 900, mono: true })}
   ${text({ x: 32, y: 204, value: "153 TESTES / CI APROVADO / DEMO ONLINE", fill: colors.muted, size: 6.8, weight: 850, mono: true })}
   ${text({ x: 18, y: 239, value: "FLUXO OPERACIONAL", fill: colors.blue, size: 7.5, weight: 900, mono: true })}
   ${flow}
-  <rect x="18" y="500" width="324" height="35" fill="${colors.green}" fill-opacity="0.07" stroke="${colors.green}"/>
-  ${text({ x: 180, y: 522, value: "v0.10.0  /  SUPABASE  /  PLPGSQL", fill: colors.green, size: 7.2, weight: 900, mono: true, anchor: "middle" })}
+  <rect x="18" y="500" width="324" height="35" fill="${colors.blue}" fill-opacity="0.12" stroke="${colors.cyan}"/>
+  ${text({ x: 180, y: 522, value: "v0.10.0  /  SUPABASE  /  PLPGSQL", fill: colors.cyan, size: 7.2, weight: 900, mono: true, anchor: "middle" })}
   </svg>`;
 }
 
 function desktopBlueprintCatalog() {
   const rows = projects.map((project, index) => {
     const y = 78 + index * 48;
-    return `<rect x="28" y="${y}" width="844" height="40" fill="${index === 0 ? colors.green : colors.surface}" fill-opacity="${index === 0 ? 0.08 : 0.92}" stroke="${index === 0 ? colors.green : colors.border}"/>
+    return `<rect x="28" y="${y}" width="844" height="40" fill="${index === 0 ? colors.blue : colors.surface}" fill-opacity="${index === 0 ? 0.12 : 0.92}" stroke="${index === 0 ? colors.cyan : colors.border}"/>
       ${text({ x: 46, y: y + 25, value: project.id, fill: project.accent, size: 8, weight: 950, mono: true })}
-      ${text({ x: 88, y: y + 25, value: project.title, fill: index === 0 ? colors.green : colors.blue, size: 11, weight: 950, mono: true })}
+      ${text({ x: 88, y: y + 25, value: project.title, fill: index === 0 ? colors.cyan : colors.blue, size: 11, weight: 950, mono: true })}
       ${text({ x: 310, y: y + 25, value: project.summary, fill: colors.muted, size: 7.5, weight: 850, mono: true })}
       ${text({ x: 850, y: y + 25, value: index === 0 ? "PRINCIPAL" : project.domain, fill: project.accent, size: 6.5, weight: 900, mono: true, anchor: "end" })}`;
   }).join("");
@@ -860,8 +862,8 @@ function desktopBlueprintCatalog() {
 function mobileBlueprintCatalog() {
   const rows = projects.map((project, index) => {
     const y = 90 + index * 78;
-    return `<rect x="18" y="${y}" width="324" height="64" fill="${index === 0 ? colors.green : colors.surface}" fill-opacity="${index === 0 ? 0.08 : 0.92}" stroke="${index === 0 ? colors.green : colors.border}"/>
-      ${text({ x: 34, y: y + 24, value: `${project.id} / ${project.title}`, fill: index === 0 ? colors.green : colors.blue, size: 8.5, weight: 950, mono: true })}
+    return `<rect x="18" y="${y}" width="324" height="64" fill="${index === 0 ? colors.blue : colors.surface}" fill-opacity="${index === 0 ? 0.12 : 0.92}" stroke="${index === 0 ? colors.cyan : colors.border}"/>
+      ${text({ x: 34, y: y + 24, value: `${project.id} / ${project.title}`, fill: index === 0 ? colors.cyan : colors.blue, size: 8.5, weight: 950, mono: true })}
       ${text({ x: 34, y: y + 44, value: project.summary, fill: colors.muted, size: 6.8, weight: 850, mono: true })}
       ${text({ x: 326, y: y + 24, value: index === 0 ? "PRINCIPAL" : "ONLINE", fill: project.accent, size: 6.2, weight: 900, mono: true, anchor: "end" })}`;
   }).join("");
@@ -872,7 +874,7 @@ function mobileBlueprintCatalog() {
   ${text({ x: 18, y: 58, value: "Seis produtos. Domínios reais.", size: 15, weight: 950 })}
   ${text({ x: 18, y: 78, value: "Fichas com demo, código, arquitetura e CI.", fill: colors.muted, size: 8.5, weight: 680 })}
   ${rows}
-  ${text({ x: 18, y: 574, value: "EXPANDA AS FICHAS ABAIXO", fill: colors.green, size: 7, weight: 900, mono: true })}
+  ${text({ x: 18, y: 574, value: "EXPANDA AS FICHAS ABAIXO", fill: colors.cyan, size: 7, weight: 900, mono: true })}
   </svg>`;
 }
 

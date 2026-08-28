@@ -15,22 +15,22 @@
       <stop offset="1" stop-color="#081016"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#75D5F2" stop-opacity="0.12"/>
+      <stop stop-color="#5CC8FF" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#0A1117" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#75D5F2"/>
-      <stop offset="0.72" stop-color="#87B9F4"/>
-      <stop offset="1" stop-color="#87B9F4" stop-opacity="0.18"/>
+      <stop stop-color="#5CC8FF"/>
+      <stop offset="0.72" stop-color="#2F80ED"/>
+      <stop offset="1" stop-color="#2F80ED" stop-opacity="0.18"/>
     </linearGradient>
     <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
-      <stop stop-color="#75D5F2" stop-opacity="0.05"/>
-      <stop offset="0.58" stop-color="#75D5F2" stop-opacity="0.015"/>
-      <stop offset="1" stop-color="#75D5F2" stop-opacity="0"/>
+      <stop stop-color="#5CC8FF" stop-opacity="0.05"/>
+      <stop offset="0.58" stop-color="#5CC8FF" stop-opacity="0.015"/>
+      <stop offset="1" stop-color="#5CC8FF" stop-opacity="0"/>
     </radialGradient>
     <pattern id="micro-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#173047" stroke-width="0.65"/>
-      <path d="M12 0V24M0 12H24" fill="none" stroke="#173047" stroke-width="0.25" stroke-opacity="0.55"/>
+      <path d="M24 0H0V24" fill="none" stroke="#123654" stroke-width="0.65"/>
+      <path d="M12 0V24M0 12H24" fill="none" stroke="#123654" stroke-width="0.25" stroke-opacity="0.55"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
@@ -40,57 +40,57 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="898" height="436" fill="url(#background)" stroke="#36536D" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="436" fill="url(#background)" stroke="#285A86" stroke-width="2"/>
   <rect x="2" y="2" width="896" height="434" fill="url(#micro-grid)" opacity="0.78"/>
   <rect x="2" y="2" width="896" height="434" fill="url(#accent-glow)"/>
   <rect x="24" y="1" width="852" height="2" fill="url(#accent-line)"/>
-  <path d="M18 34V16H36M882 34V16H864M18 404V422H36M882 404V422H864" stroke="#75D5F2" stroke-opacity="0.72" stroke-width="1.25"/>
-  <path d="M12 52H24M12 64H20M888 52H876M888 64H880" stroke="#87B9F4" stroke-opacity="0.48"/>
-  <circle cx="877" cy="417" r="2.3" fill="#75D5F2"/>
-  <text x="26" y="30" fill="#75D5F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">PORTF&#211;LIO / ESPECIALIDADES</text>
-  <text x="26" y="64" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">Sistemas para organizar e decidir.</text>
-  <text x="26" y="88" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="650" text-anchor="start">Do problema operacional ao resultado verific&#225;vel.</text>
-  <rect x="24" y="112" width="852" height="60" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="24" y="112" width="5" height="60" rx="2.5" fill="#C8F33D"/>
-      <circle cx="55" cy="142" r="15" fill="#C8F33D" fill-opacity="0.12" stroke="#C8F33D" stroke-opacity="0.55"/>
-      <text x="55" y="146" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">01</text>
-      <text x="84" y="137" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">CONTROLES OPERACIONAIS</text>
-      <text x="84" y="156" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">Invent&#225;rio, filas, SLA e auditoria</text>
-      <path d="M510 142H590" stroke="#C8F33D" stroke-opacity="0.42" stroke-width="1.5"/>
-      <path d="M585 137L591 142L585 147" stroke="#C8F33D" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="616" y="129" width="232" height="27" rx="13.5" fill="#C8F33D" fill-opacity="0.11" stroke="#C8F33D" stroke-opacity="0.46"/>
-      <circle cx="633" cy="142.5" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="645" y="146" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">ROTINA RASTRE&#193;VEL</text><rect x="24" y="184" width="852" height="60" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="24" y="184" width="5" height="60" rx="2.5" fill="#87B9F4"/>
-      <circle cx="55" cy="214" r="15" fill="#87B9F4" fill-opacity="0.12" stroke="#87B9F4" stroke-opacity="0.55"/>
-      <text x="55" y="218" fill="#87B9F4" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">02</text>
-      <text x="84" y="209" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">PAIN&#201;IS DE GEST&#195;O</text>
-      <text x="84" y="228" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">Indicadores, margem, risco e receita</text>
-      <path d="M510 214H590" stroke="#87B9F4" stroke-opacity="0.42" stroke-width="1.5"/>
-      <path d="M585 209L591 214L585 219" stroke="#87B9F4" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="616" y="201" width="232" height="27" rx="13.5" fill="#87B9F4" fill-opacity="0.11" stroke="#87B9F4" stroke-opacity="0.46"/>
-      <circle cx="633" cy="214.5" r="3" fill="#87B9F4" filter="url(#glow)"/>
-      <text x="645" y="218" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">DECIS&#195;O MAIS R&#193;PIDA</text><rect x="24" y="256" width="852" height="60" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="24" y="256" width="5" height="60" rx="2.5" fill="#75D5F2"/>
-      <circle cx="55" cy="286" r="15" fill="#75D5F2" fill-opacity="0.12" stroke="#75D5F2" stroke-opacity="0.55"/>
-      <text x="55" y="290" fill="#75D5F2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">03</text>
-      <text x="84" y="281" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">APIS E INTEGRA&#199;&#213;ES</text>
-      <text x="84" y="300" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">REST, autentica&#231;&#227;o, valida&#231;&#227;o e dados</text>
-      <path d="M510 286H590" stroke="#75D5F2" stroke-opacity="0.42" stroke-width="1.5"/>
-      <path d="M585 281L591 286L585 291" stroke="#75D5F2" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="616" y="273" width="232" height="27" rx="13.5" fill="#75D5F2" fill-opacity="0.11" stroke="#75D5F2" stroke-opacity="0.46"/>
-      <circle cx="633" cy="286.5" r="3" fill="#75D5F2" filter="url(#glow)"/>
-      <text x="645" y="290" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">FLUXO CONECTADO</text><rect x="24" y="328" width="852" height="60" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-      <rect x="24" y="328" width="5" height="60" rx="2.5" fill="#FF8A4C"/>
-      <circle cx="55" cy="358" r="15" fill="#FF8A4C" fill-opacity="0.12" stroke="#FF8A4C" stroke-opacity="0.55"/>
-      <text x="55" y="362" fill="#FF8A4C" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">04</text>
-      <text x="84" y="353" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">AUTOMA&#199;&#213;ES</text>
-      <text x="84" y="372" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">Alertas, cobran&#231;as, lembretes e rotinas</text>
-      <path d="M510 358H590" stroke="#FF8A4C" stroke-opacity="0.42" stroke-width="1.5"/>
-      <path d="M585 353L591 358L585 363" stroke="#FF8A4C" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-      <rect x="616" y="345" width="232" height="27" rx="13.5" fill="#FF8A4C" fill-opacity="0.11" stroke="#FF8A4C" stroke-opacity="0.46"/>
-      <circle cx="633" cy="358.5" r="3" fill="#FF8A4C" filter="url(#glow)"/>
-      <text x="645" y="362" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">EXECU&#199;&#195;O CONSISTENTE</text>
-  <rect x="24" y="406" width="852" height="20" rx="10" fill="#75D5F2" fill-opacity="0.08" stroke="#36536D"/>
-  <text x="450" y="420" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="850" text-anchor="middle">DIAGN&#211;STICO  &#8594;  FLUXO  &#8594;  SISTEMA  &#8594;  EVID&#202;NCIA</text>
+  <path d="M18 34V16H36M882 34V16H864M18 404V422H36M882 404V422H864" stroke="#5CC8FF" stroke-opacity="0.72" stroke-width="1.25"/>
+  <path d="M12 52H24M12 64H20M888 52H876M888 64H880" stroke="#2F80ED" stroke-opacity="0.48"/>
+  <circle cx="877" cy="417" r="2.3" fill="#5CC8FF"/>
+  <text x="26" y="30" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">PORTF&#211;LIO / ESPECIALIDADES</text>
+  <text x="26" y="64" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="950" text-anchor="start">Sistemas para organizar e decidir.</text>
+  <text x="26" y="88" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="650" text-anchor="start">Do problema operacional ao resultado verific&#225;vel.</text>
+  <rect x="24" y="112" width="852" height="60" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="24" y="112" width="5" height="60" rx="2.5" fill="#46D39A"/>
+      <circle cx="55" cy="142" r="15" fill="#46D39A" fill-opacity="0.12" stroke="#46D39A" stroke-opacity="0.55"/>
+      <text x="55" y="146" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">01</text>
+      <text x="84" y="137" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">CONTROLES OPERACIONAIS</text>
+      <text x="84" y="156" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">Invent&#225;rio, filas, SLA e auditoria</text>
+      <path d="M510 142H590" stroke="#46D39A" stroke-opacity="0.42" stroke-width="1.5"/>
+      <path d="M585 137L591 142L585 147" stroke="#46D39A" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="616" y="129" width="232" height="27" rx="13.5" fill="#46D39A" fill-opacity="0.11" stroke="#46D39A" stroke-opacity="0.46"/>
+      <circle cx="633" cy="142.5" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="645" y="146" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">ROTINA RASTRE&#193;VEL</text><rect x="24" y="184" width="852" height="60" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="24" y="184" width="5" height="60" rx="2.5" fill="#2F80ED"/>
+      <circle cx="55" cy="214" r="15" fill="#2F80ED" fill-opacity="0.12" stroke="#2F80ED" stroke-opacity="0.55"/>
+      <text x="55" y="218" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">02</text>
+      <text x="84" y="209" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">PAIN&#201;IS DE GEST&#195;O</text>
+      <text x="84" y="228" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">Indicadores, margem, risco e receita</text>
+      <path d="M510 214H590" stroke="#2F80ED" stroke-opacity="0.42" stroke-width="1.5"/>
+      <path d="M585 209L591 214L585 219" stroke="#2F80ED" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="616" y="201" width="232" height="27" rx="13.5" fill="#2F80ED" fill-opacity="0.11" stroke="#2F80ED" stroke-opacity="0.46"/>
+      <circle cx="633" cy="214.5" r="3" fill="#2F80ED" filter="url(#glow)"/>
+      <text x="645" y="218" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">DECIS&#195;O MAIS R&#193;PIDA</text><rect x="24" y="256" width="852" height="60" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="24" y="256" width="5" height="60" rx="2.5" fill="#5CC8FF"/>
+      <circle cx="55" cy="286" r="15" fill="#5CC8FF" fill-opacity="0.12" stroke="#5CC8FF" stroke-opacity="0.55"/>
+      <text x="55" y="290" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">03</text>
+      <text x="84" y="281" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">APIS E INTEGRA&#199;&#213;ES</text>
+      <text x="84" y="300" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">REST, autentica&#231;&#227;o, valida&#231;&#227;o e dados</text>
+      <path d="M510 286H590" stroke="#5CC8FF" stroke-opacity="0.42" stroke-width="1.5"/>
+      <path d="M585 281L591 286L585 291" stroke="#5CC8FF" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="616" y="273" width="232" height="27" rx="13.5" fill="#5CC8FF" fill-opacity="0.11" stroke="#5CC8FF" stroke-opacity="0.46"/>
+      <circle cx="633" cy="286.5" r="3" fill="#5CC8FF" filter="url(#glow)"/>
+      <text x="645" y="290" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">FLUXO CONECTADO</text><rect x="24" y="328" width="852" height="60" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+      <rect x="24" y="328" width="5" height="60" rx="2.5" fill="#FF7A59"/>
+      <circle cx="55" cy="358" r="15" fill="#FF7A59" fill-opacity="0.12" stroke="#FF7A59" stroke-opacity="0.55"/>
+      <text x="55" y="362" fill="#FF7A59" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="middle">04</text>
+      <text x="84" y="353" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="950" text-anchor="start">AUTOMA&#199;&#213;ES</text>
+      <text x="84" y="372" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9.5" font-weight="700" text-anchor="start">Alertas, cobran&#231;as, lembretes e rotinas</text>
+      <path d="M510 358H590" stroke="#FF7A59" stroke-opacity="0.42" stroke-width="1.5"/>
+      <path d="M585 353L591 358L585 363" stroke="#FF7A59" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="616" y="345" width="232" height="27" rx="13.5" fill="#FF7A59" fill-opacity="0.11" stroke="#FF7A59" stroke-opacity="0.46"/>
+      <circle cx="633" cy="358.5" r="3" fill="#FF7A59" filter="url(#glow)"/>
+      <text x="645" y="362" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="900" text-anchor="start">EXECU&#199;&#195;O CONSISTENTE</text>
+  <rect x="24" y="406" width="852" height="20" rx="10" fill="#5CC8FF" fill-opacity="0.08" stroke="#285A86"/>
+  <text x="450" y="420" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.3" font-weight="850" text-anchor="middle">DIAGN&#211;STICO  &#8594;  FLUXO  &#8594;  SISTEMA  &#8594;  EVID&#202;NCIA</text>
   </svg>

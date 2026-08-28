@@ -15,22 +15,22 @@
       <stop offset="1" stop-color="#081016"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#C8F33D" stop-opacity="0.12"/>
+      <stop stop-color="#46D39A" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#0A1117" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#C8F33D"/>
-      <stop offset="0.72" stop-color="#87B9F4"/>
-      <stop offset="1" stop-color="#87B9F4" stop-opacity="0.18"/>
+      <stop stop-color="#46D39A"/>
+      <stop offset="0.72" stop-color="#2F80ED"/>
+      <stop offset="1" stop-color="#2F80ED" stop-opacity="0.18"/>
     </linearGradient>
     <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
-      <stop stop-color="#C8F33D" stop-opacity="0.05"/>
-      <stop offset="0.58" stop-color="#C8F33D" stop-opacity="0.015"/>
-      <stop offset="1" stop-color="#C8F33D" stop-opacity="0"/>
+      <stop stop-color="#46D39A" stop-opacity="0.05"/>
+      <stop offset="0.58" stop-color="#46D39A" stop-opacity="0.015"/>
+      <stop offset="1" stop-color="#46D39A" stop-opacity="0"/>
     </radialGradient>
     <pattern id="micro-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#173047" stroke-width="0.65"/>
-      <path d="M12 0V24M0 12H24" fill="none" stroke="#173047" stroke-width="0.25" stroke-opacity="0.55"/>
+      <path d="M24 0H0V24" fill="none" stroke="#123654" stroke-width="0.65"/>
+      <path d="M12 0V24M0 12H24" fill="none" stroke="#123654" stroke-width="0.25" stroke-opacity="0.55"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
@@ -40,74 +40,74 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="898" height="348" fill="url(#background)" stroke="#36536D" stroke-width="2"/>
+  <rect x="1" y="1" width="898" height="348" fill="url(#background)" stroke="#285A86" stroke-width="2"/>
   <rect x="2" y="2" width="896" height="346" fill="url(#micro-grid)" opacity="0.78"/>
   <rect x="2" y="2" width="896" height="346" fill="url(#accent-glow)"/>
   <rect x="24" y="1" width="852" height="2" fill="url(#accent-line)"/>
-  <path d="M18 34V16H36M882 34V16H864M18 316V334H36M882 316V334H864" stroke="#C8F33D" stroke-opacity="0.72" stroke-width="1.25"/>
-  <path d="M12 52H24M12 64H20M888 52H876M888 64H880" stroke="#87B9F4" stroke-opacity="0.48"/>
-  <circle cx="877" cy="329" r="2.3" fill="#C8F33D"/>
-  <text x="26" y="31" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">03 / FICHA DE SISTEMA</text>
-  <rect x="730" y="15" width="146" height="26" rx="13" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.5"/>
-  <circle cx="744" cy="28" r="3.5" fill="#C8F33D" filter="url(#glow)"/>
-  <text x="756" y="32" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">DEMO COMERCIAL</text>
-  <path d="M24 50H876" stroke="#36536D"/>
-  <text x="26" y="83" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="950" text-anchor="start">FIELDOPS</text>
-  <text x="874" y="80" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="850" text-anchor="end">SERVI&#199;OS DE CAMPO</text>
+  <path d="M18 34V16H36M882 34V16H864M18 316V334H36M882 316V334H864" stroke="#46D39A" stroke-opacity="0.72" stroke-width="1.25"/>
+  <path d="M12 52H24M12 64H20M888 52H876M888 64H880" stroke="#2F80ED" stroke-opacity="0.48"/>
+  <circle cx="877" cy="329" r="2.3" fill="#46D39A"/>
+  <text x="26" y="31" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="900" text-anchor="start">03 / FICHA DE SISTEMA</text>
+  <rect x="730" y="15" width="146" height="26" rx="13" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.5"/>
+  <circle cx="744" cy="28" r="3.5" fill="#46D39A" filter="url(#glow)"/>
+  <text x="756" y="32" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="850" text-anchor="start">DEMO COMERCIAL</text>
+  <path d="M24 50H876" stroke="#285A86"/>
+  <text x="26" y="83" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="950" text-anchor="start">FIELDOPS</text>
+  <text x="874" y="80" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="10.5" font-weight="850" text-anchor="end">SERVI&#199;OS DE CAMPO</text>
 
-  <rect x="24" y="102" width="258" height="136" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-  <rect x="24" y="102" width="5" height="136" rx="2.5" fill="#C8F33D"/>
-  <text x="42" y="127" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PROBLEMA</text>
-  <text x="42" y="151" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.2" font-weight="820" text-anchor="start">Custos, equipes, materiais e SLA</text>
-  <text x="42" y="170" fill="#EDF3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.2" font-weight="820" text-anchor="start">ocultam a margem real do projeto.</text>
-  <path d="M42 184H264" stroke="#36536D"/>
-  <text x="42" y="202" fill="#607B92" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="850" text-anchor="start">ENTREGA</text>
-  <text x="42" y="220" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="680" text-anchor="start">Torre de controle para margem,</text>
-  <text x="42" y="234" fill="#9EB2C3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="680" text-anchor="start">execu&#231;&#227;o e prontid&#227;o de faturamento.</text>
+  <rect x="24" y="102" width="258" height="136" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+  <rect x="24" y="102" width="5" height="136" rx="2.5" fill="#46D39A"/>
+  <text x="42" y="127" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">PROBLEMA</text>
+  <text x="42" y="151" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.2" font-weight="820" text-anchor="start">Custos, equipes, materiais e SLA</text>
+  <text x="42" y="170" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.2" font-weight="820" text-anchor="start">ocultam a margem real do projeto.</text>
+  <path d="M42 184H264" stroke="#285A86"/>
+  <text x="42" y="202" fill="#6888A5" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="850" text-anchor="start">ENTREGA</text>
+  <text x="42" y="220" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="680" text-anchor="start">Torre de controle para margem,</text>
+  <text x="42" y="234" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10.2" font-weight="680" text-anchor="start">execu&#231;&#227;o e prontid&#227;o de faturamento.</text>
 
-  <rect x="296" y="102" width="354" height="136" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-  <text x="312" y="127" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">FLUXO OPERACIONAL</text>
-  <path d="M322 177H626" stroke="#C8F33D" stroke-opacity="0.2" stroke-width="2"/>
-  <rect x="308" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#36536D" stroke-opacity="1"/>
-        <circle cx="321" cy="165" r="7" fill="#C8F33D" fill-opacity="0.18" stroke="#C8F33D" stroke-opacity="0.6"/>
-        <text x="321" y="168" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">01</text>
-        <text x="343" y="190" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">PROJETO</text><path d="M382 177H392" stroke="#C8F33D" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M389 173L393 177L389 181" stroke="#C8F33D" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="396" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#36536D" stroke-opacity="1"/>
-        <circle cx="409" cy="165" r="7" fill="#C8F33D" fill-opacity="0.18" stroke="#C8F33D" stroke-opacity="0.6"/>
-        <text x="409" y="168" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">02</text>
-        <text x="431" y="190" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">ORDEM</text><path d="M470 177H480" stroke="#C8F33D" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M477 173L481 177L477 181" stroke="#C8F33D" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="484" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#36536D" stroke-opacity="1"/>
-        <circle cx="497" cy="165" r="7" fill="#C8F33D" fill-opacity="0.18" stroke="#C8F33D" stroke-opacity="0.6"/>
-        <text x="497" y="168" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">03</text>
-        <text x="519" y="190" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">CUSTO</text><path d="M558 177H568" stroke="#C8F33D" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M565 173L569 177L565 181" stroke="#C8F33D" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="572" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.92"/>
-        <circle cx="585" cy="165" r="7" fill="#C8F33D" fill-opacity="0.18" stroke="#C8F33D" stroke-opacity="0.6"/>
-        <text x="585" y="168" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">04</text>
-        <text x="607" y="190" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">FATURAMENTO</text>
+  <rect x="296" y="102" width="354" height="136" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+  <text x="312" y="127" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">FLUXO OPERACIONAL</text>
+  <path d="M322 177H626" stroke="#46D39A" stroke-opacity="0.2" stroke-width="2"/>
+  <rect x="308" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#285A86" stroke-opacity="1"/>
+        <circle cx="321" cy="165" r="7" fill="#46D39A" fill-opacity="0.18" stroke="#46D39A" stroke-opacity="0.6"/>
+        <text x="321" y="168" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">01</text>
+        <text x="343" y="190" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">PROJETO</text><path d="M382 177H392" stroke="#46D39A" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M389 173L393 177L389 181" stroke="#46D39A" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="396" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#285A86" stroke-opacity="1"/>
+        <circle cx="409" cy="165" r="7" fill="#46D39A" fill-opacity="0.18" stroke="#46D39A" stroke-opacity="0.6"/>
+        <text x="409" y="168" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">02</text>
+        <text x="431" y="190" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">ORDEM</text><path d="M470 177H480" stroke="#46D39A" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M477 173L481 177L477 181" stroke="#46D39A" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="484" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#285A86" stroke-opacity="1"/>
+        <circle cx="497" cy="165" r="7" fill="#46D39A" fill-opacity="0.18" stroke="#46D39A" stroke-opacity="0.6"/>
+        <text x="497" y="168" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">03</text>
+        <text x="519" y="190" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">CUSTO</text><path d="M558 177H568" stroke="#46D39A" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M565 173L569 177L565 181" stroke="#46D39A" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="572" y="151" width="70" height="54" rx="7" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.92"/>
+        <circle cx="585" cy="165" r="7" fill="#46D39A" fill-opacity="0.18" stroke="#46D39A" stroke-opacity="0.6"/>
+        <text x="585" y="168" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.5" font-weight="900" text-anchor="middle">04</text>
+        <text x="607" y="190" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.3" font-weight="850" text-anchor="middle">FATURAMENTO</text>
 
-  <rect x="664" y="102" width="212" height="136" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-  <text x="680" y="127" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">EVID&#202;NCIAS</text>
-  <rect x="678" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.7"/>
-        <text x="706" y="178" fill="#C8F33D" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.6" font-weight="950" text-anchor="middle">ONLINE</text>
-        <text x="706" y="198" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="800" text-anchor="middle">DEMO</text><rect x="740" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.34"/>
-        <text x="768" y="178" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="950" text-anchor="middle">PASS</text>
-        <text x="768" y="198" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="800" text-anchor="middle">CI</text><rect x="802" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.34"/>
-        <text x="830" y="178" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="950" text-anchor="middle">D1</text>
-        <text x="830" y="198" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="800" text-anchor="middle">DADOS</text>
+  <rect x="664" y="102" width="212" height="136" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+  <text x="680" y="127" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="900" text-anchor="start">EVID&#202;NCIAS</text>
+  <rect x="678" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.7"/>
+        <text x="706" y="178" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.6" font-weight="950" text-anchor="middle">ONLINE</text>
+        <text x="706" y="198" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="800" text-anchor="middle">DEMO</text><rect x="740" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.34"/>
+        <text x="768" y="178" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="950" text-anchor="middle">PASS</text>
+        <text x="768" y="198" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="800" text-anchor="middle">CI</text><rect x="802" y="152" width="56" height="58" rx="7" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.34"/>
+        <text x="830" y="178" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="11" font-weight="950" text-anchor="middle">D1</text>
+        <text x="830" y="198" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="800" text-anchor="middle">DADOS</text>
 
-  <rect x="24" y="252" width="852" height="76" rx="9" fill="url(#panel)" stroke="#36536D" filter="url(#shadow)"/>
-  <text x="42" y="274" fill="#9EB2C3" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="850" text-anchor="start">ARQUITETURA E ENTREGA</text>
-  <rect x="42" y="287" width="75.30000000000001" height="28" rx="14" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.58"/>
-      <circle cx="54" cy="301" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="64" y="305.5" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">PHP 8.2</text><rect x="126.30000000000001" y="287" width="93" height="28" rx="14" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.58"/>
-      <circle cx="138.3" cy="301" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="148.3" y="305.5" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">TYPESCRIPT</text><rect x="228.3" y="287" width="81.2" height="28" rx="14" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.58"/>
-      <circle cx="240.3" cy="301" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="250.3" y="305.5" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">API REST</text><rect x="318.5" y="287" width="70" height="28" rx="14" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.58"/>
-      <circle cx="330.5" cy="301" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="340.5" y="305.5" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">VINEXT</text><rect x="397.5" y="287" width="70" height="28" rx="14" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.58"/>
-      <circle cx="409.5" cy="301" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="419.5" y="305.5" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">D1</text><rect x="476.5" y="287" width="70" height="28" rx="14" fill="url(#chip)" stroke="#C8F33D" stroke-opacity="0.58"/>
-      <circle cx="488.5" cy="301" r="3" fill="#C8F33D" filter="url(#glow)"/>
-      <text x="498.5" y="305.5" fill="#EDF3F7" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">DOCKER</text>
+  <rect x="24" y="252" width="852" height="76" rx="9" fill="url(#panel)" stroke="#285A86" filter="url(#shadow)"/>
+  <text x="42" y="274" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.2" font-weight="850" text-anchor="start">ARQUITETURA E ENTREGA</text>
+  <rect x="42" y="287" width="75.30000000000001" height="28" rx="14" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.58"/>
+      <circle cx="54" cy="301" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="64" y="305.5" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">PHP 8.2</text><rect x="126.30000000000001" y="287" width="93" height="28" rx="14" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.58"/>
+      <circle cx="138.3" cy="301" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="148.3" y="305.5" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">TYPESCRIPT</text><rect x="228.3" y="287" width="81.2" height="28" rx="14" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.58"/>
+      <circle cx="240.3" cy="301" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="250.3" y="305.5" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">API REST</text><rect x="318.5" y="287" width="70" height="28" rx="14" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.58"/>
+      <circle cx="330.5" cy="301" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="340.5" y="305.5" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">VINEXT</text><rect x="397.5" y="287" width="70" height="28" rx="14" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.58"/>
+      <circle cx="409.5" cy="301" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="419.5" y="305.5" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">D1</text><rect x="476.5" y="287" width="70" height="28" rx="14" fill="url(#chip)" stroke="#46D39A" stroke-opacity="0.58"/>
+      <circle cx="488.5" cy="301" r="3" fill="#46D39A" filter="url(#glow)"/>
+      <text x="498.5" y="305.5" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="9" font-weight="850" text-anchor="start">DOCKER</text>
   </svg>
