@@ -1,35 +1,49 @@
-<svg width="360" height="590" viewBox="0 0 360 590" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="360" height="620" viewBox="0 0 360 620" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       rect { rx: 0; ry: 0; }
       text { font-kerning: normal; }
     </style>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#080D12"/>
-      <stop offset="0.62" stop-color="#091119"/>
-      <stop offset="1" stop-color="#060A0E"/>
+      <stop stop-color="#020712"/>
+      <stop offset="0.48" stop-color="#071729"/>
+      <stop offset="1" stop-color="#020711"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0D171F"/>
-      <stop offset="1" stop-color="#081016"/>
+      <stop stop-color="#0B2036"/>
+      <stop offset="0.55" stop-color="#08182A"/>
+      <stop offset="1" stop-color="#050F1C"/>
+    </linearGradient>
+    <linearGradient id="panel-active" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#238CFF" stop-opacity="0.2"/>
+      <stop offset="0.42" stop-color="#238CFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#071525" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#2F80ED" stop-opacity="0.12"/>
+      <stop stop-color="#238CFF" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#0A1117" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#2F80ED"/>
-      <stop offset="0.72" stop-color="#2F80ED"/>
-      <stop offset="1" stop-color="#2F80ED" stop-opacity="0.18"/>
+      <stop stop-color="#238CFF"/>
+      <stop offset="0.72" stop-color="#238CFF"/>
+      <stop offset="1" stop-color="#238CFF" stop-opacity="0.18"/>
     </linearGradient>
     <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
-      <stop stop-color="#2F80ED" stop-opacity="0.05"/>
-      <stop offset="0.58" stop-color="#2F80ED" stop-opacity="0.015"/>
-      <stop offset="1" stop-color="#2F80ED" stop-opacity="0"/>
+      <stop stop-color="#238CFF" stop-opacity="0.12"/>
+      <stop offset="0.58" stop-color="#238CFF" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#238CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="secondary-glow" cx="1" cy="0" r="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#55D6FF" stop-opacity="0.1"/>
+      <stop offset="0.58" stop-color="#238CFF" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#238CFF" stop-opacity="0"/>
     </radialGradient>
     <pattern id="micro-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#123654" stroke-width="0.65"/>
-      <path d="M12 0V24M0 12H24" fill="none" stroke="#123654" stroke-width="0.25" stroke-opacity="0.55"/>
+      <path d="M24 0H0V24" fill="none" stroke="#12446A" stroke-width="0.65"/>
+      <path d="M12 0V24M0 12H24" fill="none" stroke="#12446A" stroke-width="0.25" stroke-opacity="0.55"/>
+    </pattern>
+    <pattern id="scan-lines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H4" stroke="#55D6FF" stroke-width="0.25" stroke-opacity="0.12"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
@@ -39,34 +53,58 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="358" height="588" fill="url(#background)" stroke="#285A86" stroke-width="2"/>
-  <rect x="2" y="2" width="356" height="586" fill="url(#micro-grid)" opacity="0.78"/>
-  <rect x="2" y="2" width="356" height="586" fill="url(#accent-glow)"/>
-  <rect x="24" y="1" width="312" height="2" fill="url(#accent-line)"/>
-  <path d="M18 34V16H36M342 34V16H324M18 556V574H36M342 556V574H324" stroke="#2F80ED" stroke-opacity="0.72" stroke-width="1.25"/>
-  <path d="M12 52H24M12 64H20M348 52H336M348 64H340" stroke="#2F80ED" stroke-opacity="0.48"/>
-  <circle cx="337" cy="569" r="2.3" fill="#2F80ED"/>
-  <text x="18" y="30" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">CAT&#193;LOGO DE SISTEMAS</text>
+  <rect x="1" y="1" width="358" height="618" fill="url(#background)" stroke="#28689E" stroke-width="2"/>
+  <rect x="2" y="2" width="356" height="616" fill="url(#secondary-glow)"/>
+  <rect x="2" y="2" width="356" height="616" fill="url(#micro-grid)" opacity="0.7"/>
+  <rect x="2" y="2" width="356" height="616" fill="url(#scan-lines)"/>
+  <rect x="2" y="2" width="356" height="616" fill="url(#accent-glow)"/>
+  <rect x="24" y="1" width="312" height="3" fill="url(#accent-line)"/>
+  <rect x="1" y="1" width="5" height="618" fill="#238CFF" fill-opacity="0.18"/>
+  <path d="M18 34V16H36M342 34V16H324M18 586V604H36M342 586V604H324" stroke="#238CFF" stroke-opacity="0.72" stroke-width="1.25"/>
+  <path d="M12 52H24M12 64H20M348 52H336M348 64H340" stroke="#238CFF" stroke-opacity="0.48"/>
+  <path d="M302 603H318M322 603H328" stroke="#55D6FF" stroke-opacity="0.8"/>
+  <circle cx="337" cy="599" r="2.3" fill="#238CFF"/>
+  <text x="18" y="30" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="900" text-anchor="start">CAT&#193;LOGO DE SISTEMAS</text>
   <text x="18" y="58" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="950" text-anchor="start">Seis produtos. Dom&#237;nios reais.</text>
-  <text x="18" y="78" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="680" text-anchor="start">Fichas com demo, c&#243;digo, arquitetura e CI.</text>
-  <rect x="18" y="90" width="324" height="64" fill="#2F80ED" fill-opacity="0.12" stroke="#5CC8FF"/>
-      <text x="34" y="114" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">01 / PATRIM&#212;NIO OPS</text>
-      <text x="34" y="134" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">CONTROLE / CUST&#211;DIA / AUDITORIA</text>
-      <text x="326" y="114" fill="#67B8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">PRINCIPAL</text><rect x="18" y="168" width="324" height="64" fill="#081321" fill-opacity="0.92" stroke="#285A86"/>
-      <text x="34" y="192" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">02 / COBREFLOW</text>
-      <text x="34" y="212" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">RECEB&#205;VEIS / RISCO / CONCILIA&#199;&#195;O</text>
-      <text x="326" y="192" fill="#FF7A59" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">ONLINE</text><rect x="18" y="246" width="324" height="64" fill="#081321" fill-opacity="0.92" stroke="#285A86"/>
-      <text x="34" y="270" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">03 / FIELDOPS</text>
-      <text x="34" y="290" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">MARGEM / CAMPO / FATURAMENTO</text>
-      <text x="326" y="270" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">ONLINE</text><rect x="18" y="324" width="324" height="64" fill="#081321" fill-opacity="0.92" stroke="#285A86"/>
-      <text x="34" y="348" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">04 / LEADOPS</text>
-      <text x="34" y="368" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">CAMPANHAS / SCORE / ROI</text>
-      <text x="326" y="348" fill="#67B8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">ONLINE</text><rect x="18" y="402" width="324" height="64" fill="#081321" fill-opacity="0.92" stroke="#285A86"/>
-      <text x="34" y="426" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">05 / RETURNOPS</text>
-      <text x="34" y="446" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">RMA / SLA / REPOSI&#199;&#195;O</text>
-      <text x="326" y="426" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">ONLINE</text><rect x="18" y="480" width="324" height="64" fill="#081321" fill-opacity="0.92" stroke="#285A86"/>
-      <text x="34" y="504" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">06 / SERVICEHUB</text>
-      <text x="34" y="524" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">AGENDA / FUNIL / COBRAN&#199;A</text>
-      <text x="326" y="504" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">ONLINE</text>
-  <text x="18" y="574" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="900" text-anchor="start">EXPANDA AS FICHAS ABAIXO</text>
+  <text x="18" y="78" fill="#B2CCE2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="680" text-anchor="start">Fichas com demo, c&#243;digo, arquitetura e CI.</text>
+  <path d="M18 94H342" stroke="#28689E"/>
+  <text x="18" y="105" fill="#7294B0" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.8" font-weight="900" text-anchor="start">SISTEMAS / STATUS / ESCOPO</text>
+  <rect x="18" y="112" width="324" height="64" fill="url(#panel-active)" fill-opacity="1" stroke="#55D6FF"/>
+      <rect x="18" y="112" width="5" height="64" fill="#7CC7FF"/>
+      <text x="34" y="136" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">01 / PATRIM&#212;NIO OPS</text>
+      <text x="34" y="156" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">CONTROLE / CUST&#211;DIA / AUDITORIA</text>
+      <circle cx="319" cy="156" r="2.2" fill="#46D39A"/>
+      <text x="311" y="159" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="end">ONLINE</text>
+      <text x="326" y="136" fill="#7CC7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">PRINCIPAL</text><rect x="18" y="190" width="324" height="64" fill="#071525" fill-opacity="0.92" stroke="#28689E"/>
+      <rect x="18" y="190" width="2" height="64" fill="#FF7A59"/>
+      <text x="34" y="214" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">02 / COBREFLOW</text>
+      <text x="34" y="234" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">RECEB&#205;VEIS / RISCO / CONCILIA&#199;&#195;O</text>
+      <circle cx="319" cy="234" r="2.2" fill="#46D39A"/>
+      <text x="311" y="237" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="end">ONLINE</text>
+      <text x="326" y="214" fill="#FF7A59" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">02</text><rect x="18" y="268" width="324" height="64" fill="#071525" fill-opacity="0.92" stroke="#28689E"/>
+      <rect x="18" y="268" width="2" height="64" fill="#46D39A"/>
+      <text x="34" y="292" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">03 / FIELDOPS</text>
+      <text x="34" y="312" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">MARGEM / CAMPO / FATURAMENTO</text>
+      <circle cx="319" cy="312" r="2.2" fill="#46D39A"/>
+      <text x="311" y="315" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="end">ONLINE</text>
+      <text x="326" y="292" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">03</text><rect x="18" y="346" width="324" height="64" fill="#071525" fill-opacity="0.92" stroke="#28689E"/>
+      <rect x="18" y="346" width="2" height="64" fill="#7CC7FF"/>
+      <text x="34" y="370" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">04 / LEADOPS</text>
+      <text x="34" y="390" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">CAMPANHAS / SCORE / ROI</text>
+      <circle cx="319" cy="390" r="2.2" fill="#46D39A"/>
+      <text x="311" y="393" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="end">ONLINE</text>
+      <text x="326" y="370" fill="#7CC7FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">04</text><rect x="18" y="424" width="324" height="64" fill="#071525" fill-opacity="0.92" stroke="#28689E"/>
+      <rect x="18" y="424" width="2" height="64" fill="#238CFF"/>
+      <text x="34" y="448" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">05 / RETURNOPS</text>
+      <text x="34" y="468" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">RMA / SLA / REPOSI&#199;&#195;O</text>
+      <circle cx="319" cy="468" r="2.2" fill="#46D39A"/>
+      <text x="311" y="471" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="end">ONLINE</text>
+      <text x="326" y="448" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">05</text><rect x="18" y="502" width="324" height="64" fill="#071525" fill-opacity="0.92" stroke="#28689E"/>
+      <rect x="18" y="502" width="2" height="64" fill="#46D39A"/>
+      <text x="34" y="526" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="8.5" font-weight="950" text-anchor="start">06 / SERVICEHUB</text>
+      <text x="34" y="546" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.8" font-weight="850" text-anchor="start">AGENDA / FUNIL / COBRAN&#199;A</text>
+      <circle cx="319" cy="546" r="2.2" fill="#46D39A"/>
+      <text x="311" y="549" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="end">ONLINE</text>
+      <text x="326" y="526" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.2" font-weight="900" text-anchor="end">06</text>
+  <text x="18" y="604" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="900" text-anchor="start">EXPANDA AS FICHAS ABAIXO</text>
   </svg>

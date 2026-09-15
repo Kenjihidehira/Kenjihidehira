@@ -1,35 +1,49 @@
-<svg width="360" height="530" viewBox="0 0 360 530" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="360" height="590" viewBox="0 0 360 590" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       rect { rx: 0; ry: 0; }
       text { font-kerning: normal; }
     </style>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#080D12"/>
-      <stop offset="0.62" stop-color="#091119"/>
-      <stop offset="1" stop-color="#060A0E"/>
+      <stop stop-color="#020712"/>
+      <stop offset="0.48" stop-color="#071729"/>
+      <stop offset="1" stop-color="#020711"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0D171F"/>
-      <stop offset="1" stop-color="#081016"/>
+      <stop stop-color="#0B2036"/>
+      <stop offset="0.55" stop-color="#08182A"/>
+      <stop offset="1" stop-color="#050F1C"/>
+    </linearGradient>
+    <linearGradient id="panel-active" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#238CFF" stop-opacity="0.2"/>
+      <stop offset="0.42" stop-color="#238CFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#071525" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#2F80ED" stop-opacity="0.12"/>
+      <stop stop-color="#238CFF" stop-opacity="0.12"/>
       <stop offset="1" stop-color="#0A1117" stop-opacity="0.96"/>
     </linearGradient>
     <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#2F80ED"/>
-      <stop offset="0.72" stop-color="#2F80ED"/>
-      <stop offset="1" stop-color="#2F80ED" stop-opacity="0.18"/>
+      <stop stop-color="#238CFF"/>
+      <stop offset="0.72" stop-color="#238CFF"/>
+      <stop offset="1" stop-color="#238CFF" stop-opacity="0.18"/>
     </linearGradient>
     <radialGradient id="accent-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 0) rotate(34) scale(620 360)">
-      <stop stop-color="#2F80ED" stop-opacity="0.05"/>
-      <stop offset="0.58" stop-color="#2F80ED" stop-opacity="0.015"/>
-      <stop offset="1" stop-color="#2F80ED" stop-opacity="0"/>
+      <stop stop-color="#238CFF" stop-opacity="0.12"/>
+      <stop offset="0.58" stop-color="#238CFF" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#238CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="secondary-glow" cx="1" cy="0" r="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#55D6FF" stop-opacity="0.1"/>
+      <stop offset="0.58" stop-color="#238CFF" stop-opacity="0.025"/>
+      <stop offset="1" stop-color="#238CFF" stop-opacity="0"/>
     </radialGradient>
     <pattern id="micro-grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#123654" stroke-width="0.65"/>
-      <path d="M12 0V24M0 12H24" fill="none" stroke="#123654" stroke-width="0.25" stroke-opacity="0.55"/>
+      <path d="M24 0H0V24" fill="none" stroke="#12446A" stroke-width="0.65"/>
+      <path d="M12 0V24M0 12H24" fill="none" stroke="#12446A" stroke-width="0.25" stroke-opacity="0.55"/>
+    </pattern>
+    <pattern id="scan-lines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H4" stroke="#55D6FF" stroke-width="0.25" stroke-opacity="0.12"/>
     </pattern>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
@@ -39,41 +53,54 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="358" height="528" fill="url(#background)" stroke="#285A86" stroke-width="2"/>
-  <rect x="2" y="2" width="356" height="526" fill="url(#micro-grid)" opacity="0.78"/>
-  <rect x="2" y="2" width="356" height="526" fill="url(#accent-glow)"/>
-  <rect x="24" y="1" width="312" height="2" fill="url(#accent-line)"/>
-  <path d="M18 34V16H36M342 34V16H324M18 496V514H36M342 496V514H324" stroke="#2F80ED" stroke-opacity="0.72" stroke-width="1.25"/>
-  <path d="M12 52H24M12 64H20M348 52H336M348 64H340" stroke="#2F80ED" stroke-opacity="0.48"/>
-  <circle cx="337" cy="509" r="2.3" fill="#2F80ED"/>
-  <rect x="18" y="30" width="82" height="92" fill="#081321" stroke="#2F80ED"/>
-  <text x="59" y="87" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="28" font-weight="950" text-anchor="middle">KH</text>
+  <rect x="1" y="1" width="358" height="588" fill="url(#background)" stroke="#28689E" stroke-width="2"/>
+  <rect x="2" y="2" width="356" height="586" fill="url(#secondary-glow)"/>
+  <rect x="2" y="2" width="356" height="586" fill="url(#micro-grid)" opacity="0.7"/>
+  <rect x="2" y="2" width="356" height="586" fill="url(#scan-lines)"/>
+  <rect x="2" y="2" width="356" height="586" fill="url(#accent-glow)"/>
+  <rect x="24" y="1" width="312" height="3" fill="url(#accent-line)"/>
+  <rect x="1" y="1" width="5" height="588" fill="#238CFF" fill-opacity="0.18"/>
+  <path d="M18 34V16H36M342 34V16H324M18 556V574H36M342 556V574H324" stroke="#238CFF" stroke-opacity="0.72" stroke-width="1.25"/>
+  <path d="M12 52H24M12 64H20M348 52H336M348 64H340" stroke="#238CFF" stroke-opacity="0.48"/>
+  <path d="M302 573H318M322 573H328" stroke="#55D6FF" stroke-opacity="0.8"/>
+  <circle cx="337" cy="569" r="2.3" fill="#238CFF"/>
+  <text x="18" y="20" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.8" font-weight="900" text-anchor="start">GZ / PORTF&#211;LIO DE SISTEMAS</text>
+  <rect x="18" y="30" width="82" height="92" fill="#071525" stroke="#238CFF"/>
+  <rect x="23" y="35" width="72" height="82" fill="none" stroke="#55D6FF" stroke-opacity="0.18"/>
+  <text x="59" y="87" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="28" font-weight="950" text-anchor="middle">KH</text>
   <text x="118" y="58" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="950" text-anchor="start">Kenji Hidehira</text>
-  <text x="118" y="82" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">ENGENHARIA DE</text>
-  <text x="118" y="97" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">SISTEMAS WEB</text>
-  <text x="118" y="115" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="start">GAZIN / TECNOLOGIA E OPERA&#199;&#213;ES</text>
-  <path d="M18 146H342" stroke="#2F80ED" stroke-opacity="0.62"/>
+  <text x="118" y="82" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">ENGENHARIA DE</text>
+  <text x="118" y="97" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">SISTEMAS WEB</text>
+  <text x="118" y="115" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.5" font-weight="900" text-anchor="start">GAZIN / TECNOLOGIA E OPERA&#199;&#213;ES</text>
+  <path d="M18 146H342" stroke="#238CFF" stroke-opacity="0.62"/>
   <text x="18" y="176" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="760" text-anchor="start">Projetos operacionais, c&#243;digo limpo</text>
   <text x="18" y="196" fill="#F5FAFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" font-weight="760" text-anchor="start">e arquitetura s&#243;lida.</text>
-  <rect x="18" y="218" width="324" height="38" fill="#2F80ED" fill-opacity="0.12" stroke="#5CC8FF" stroke-opacity="0.68"/>
-  <text x="34" y="242" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.4" font-weight="900" text-anchor="start">SISTEMAS QUE GERAM VALOR REAL</text>
-  <text x="18" y="268" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">CAMADAS T&#201;CNICAS</text>
-  <rect x="18" y="276" width="324" height="44" fill="#081321" stroke="#285A86"/>
-      <text x="34" y="303" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">01</text>
-      <text x="62" y="295" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">APRESENTA&#199;&#195;O</text>
-      <text x="62" y="311" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Interfaces e experi&#234;ncia</text>
-      <path d="M286 298H326" stroke="#2F80ED" stroke-opacity="0.68"/><rect x="18" y="330" width="324" height="44" fill="#081321" stroke="#285A86"/>
-      <text x="34" y="357" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">02</text>
-      <text x="62" y="349" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">APLICA&#199;&#195;O</text>
-      <text x="62" y="365" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Regras e servi&#231;os</text>
-      <path d="M286 352H326" stroke="#2F80ED" stroke-opacity="0.68"/><rect x="18" y="384" width="324" height="44" fill="#081321" stroke="#285A86"/>
-      <text x="34" y="411" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">03</text>
-      <text x="62" y="403" fill="#2F80ED" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">DOM&#205;NIO</text>
-      <text x="62" y="419" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Modelos e fluxos</text>
-      <path d="M286 406H326" stroke="#2F80ED" stroke-opacity="0.68"/><rect x="18" y="438" width="324" height="44" fill="#081321" stroke="#5CC8FF"/>
-      <text x="34" y="465" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">04</text>
-      <text x="62" y="457" fill="#5CC8FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">DADOS</text>
-      <text x="62" y="473" fill="#A9C2D8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Persist&#234;ncia e integra&#231;&#227;o</text>
-      <path d="M286 460H326" stroke="#5CC8FF" stroke-opacity="0.68"/>
-  <text x="180" y="510" fill="#A9C2D8" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.4" font-weight="850" text-anchor="middle">INTERFACE &#8594; APLICA&#199;&#195;O &#8594; DADOS &#8594; ENTREGA</text>
+  <rect x="18" y="218" width="324" height="70" fill="url(#panel-active)" stroke="#55D6FF" stroke-opacity="0.76"/>
+  <rect x="18" y="218" width="4" height="70" fill="#238CFF"/>
+  <text x="34" y="240" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.1" font-weight="900" text-anchor="start">SISTEMAS QUE GERAM VALOR REAL</text>
+  <text x="34" y="271" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="14" font-weight="950" text-anchor="start">06</text>
+  <text x="58" y="267" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.8" font-weight="900" text-anchor="start">SISTEMAS</text>
+  <text x="145" y="271" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="14" font-weight="950" text-anchor="start">06</text>
+  <text x="169" y="267" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.8" font-weight="900" text-anchor="start">DEMOS</text>
+  <text x="247" y="271" fill="#F5FAFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="14" font-weight="950" text-anchor="start">06</text>
+  <text x="271" y="267" fill="#46D39A" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="5.8" font-weight="900" text-anchor="start">CI</text>
+  <text x="18" y="306" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.5" font-weight="900" text-anchor="start">CAMADAS T&#201;CNICAS</text>
+  <rect x="18" y="315" width="324" height="44" fill="#071525" stroke="#28689E"/>
+      <text x="34" y="342" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">01</text>
+      <text x="62" y="334" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">APRESENTA&#199;&#195;O</text>
+      <text x="62" y="350" fill="#B2CCE2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Interfaces e experi&#234;ncia</text>
+      <path d="M286 337H326" stroke="#238CFF" stroke-opacity="0.68"/><rect x="18" y="369" width="324" height="44" fill="#071525" stroke="#28689E"/>
+      <text x="34" y="396" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">02</text>
+      <text x="62" y="388" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">APLICA&#199;&#195;O</text>
+      <text x="62" y="404" fill="#B2CCE2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Regras e servi&#231;os</text>
+      <path d="M286 391H326" stroke="#238CFF" stroke-opacity="0.68"/><rect x="18" y="423" width="324" height="44" fill="#071525" stroke="#28689E"/>
+      <text x="34" y="450" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">03</text>
+      <text x="62" y="442" fill="#238CFF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">DOM&#205;NIO</text>
+      <text x="62" y="458" fill="#B2CCE2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Modelos e fluxos</text>
+      <path d="M286 445H326" stroke="#238CFF" stroke-opacity="0.68"/><rect x="18" y="477" width="324" height="44" fill="#071525" stroke="#55D6FF"/>
+      <text x="34" y="504" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7" font-weight="950" text-anchor="start">04</text>
+      <text x="62" y="496" fill="#55D6FF" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="7.2" font-weight="900" text-anchor="start">DADOS</text>
+      <text x="62" y="512" fill="#B2CCE2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.2" font-weight="680" text-anchor="start">Persist&#234;ncia e integra&#231;&#227;o</text>
+      <path d="M286 499H326" stroke="#55D6FF" stroke-opacity="0.68"/>
+  <text x="180" y="570" fill="#B2CCE2" font-family="Consolas, Cascadia Mono, Segoe UI, monospace" font-size="6.4" font-weight="850" text-anchor="middle">INTERFACE &#8594; APLICA&#199;&#195;O &#8594; DADOS &#8594; ENTREGA</text>
   </svg>
