@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="310" viewBox="0 0 420 310" role="img" aria-labelledby="title desc">
+<title id="title">Wesley Kenji Hidehira</title><desc id="desc">Desenvolvimento de sistemas web para operações e negócios</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c172b"/><stop offset="1" stop-color="#101f39"/></linearGradient><linearGradient id="line"><stop stop-color="#34d8c3"/><stop offset="1" stop-color="#4f8cff"/></linearGradient></defs>
+<rect width="420" height="310" rx="20" fill="url(#bg)"/><path d="M24 43H396" stroke="#8aa3c6" stroke-opacity=".25"/>
+<circle cx="32" cy="27" r="5" fill="#34d8c3"/><text x="47" y="31" fill="#a8bbd4" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.5">PORTFÓLIO / DESENVOLVIMENTO WEB</text>
+<text x="24" y="91" fill="#d5e3f5" font-family="Arial, sans-serif" font-size="17">Olá, sou</text>
+<text x="24" y="139" fill="#fff" font-family="Arial, sans-serif" font-size="35" font-weight="700">Wesley Kenji</text>
+<text x="24" y="179" fill="#fff" font-family="Arial, sans-serif" font-size="35" font-weight="700">Hidehira</text>
+<rect x="24" y="198" width="90" height="4" rx="2" fill="url(#line)"/>
+<text x="24" y="237" fill="#b8cce5" font-family="Arial, sans-serif" font-size="17">Sistemas web para operações</text>
+<text x="24" y="260" fill="#b8cce5" font-family="Arial, sans-serif" font-size="17">e negócios.</text>
+<text x="24" y="291" fill="#8fa9c7" font-family="Arial, sans-serif" font-size="10">INTERFACE  /  API  /  DADOS  /  AUTOMAÇÃO</text>
+</svg>

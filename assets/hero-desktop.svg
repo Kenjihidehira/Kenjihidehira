@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<title id="title">Wesley Kenji Hidehira</title><desc id="desc">Desenvolvimento de sistemas web para operações e negócios</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c172b"/><stop offset="1" stop-color="#101f39"/></linearGradient><linearGradient id="line"><stop stop-color="#34d8c3"/><stop offset="1" stop-color="#4f8cff"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8aa3c6" stroke-opacity=".08"/></pattern></defs>
+<rect width="960" height="300" rx="22" fill="url(#bg)"/><rect width="960" height="300" rx="22" fill="url(#grid)"/>
+<path d="M40 42H920" stroke="#8aa3c6" stroke-opacity=".25"/><circle cx="52" cy="28" r="5" fill="#34d8c3"/>
+<text x="68" y="32" fill="#a8bbd4" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">PORTFÓLIO / DESENVOLVIMENTO WEB</text>
+<text x="40" y="108" fill="#d5e3f5" font-family="Arial, sans-serif" font-size="17">Olá, sou</text>
+<text x="40" y="165" fill="#fff" font-family="Arial, sans-serif" font-size="52" font-weight="700">Wesley Kenji Hidehira</text>
+<rect x="40" y="182" width="110" height="4" rx="2" fill="url(#line)"/>
+<text x="40" y="222" fill="#b8cce5" font-family="Arial, sans-serif" font-size="20">Sistemas web para operações e negócios.</text>
+<text x="40" y="264" fill="#8fa9c7" font-family="Arial, sans-serif" font-size="13">INTERFACE  /  API  /  DADOS  /  AUTOMAÇÃO</text>
+<circle cx="818" cy="166" r="90" fill="none" stroke="#4f8cff" stroke-opacity=".20" stroke-width="1.5"/><circle cx="818" cy="166" r="65" fill="none" stroke="#34d8c3" stroke-opacity=".35" stroke-width="1.5"/>
+<path d="M765 166H871M818 113V219" stroke="url(#line)" stroke-opacity=".5"/><rect x="794" y="142" width="48" height="48" rx="12" fill="#142d46" stroke="#34d8c3" stroke-opacity=".7"/>
+<text x="818" y="173" text-anchor="middle" fill="#baf7ed" font-family="Arial, sans-serif" font-size="17" font-weight="700">KH</text>
+</svg>
