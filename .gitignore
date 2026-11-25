@@ -1,0 +1,2 @@
+# Saída local do scripts/build-stats.mjs (no GitHub, a Action publica no branch output)
+dist/

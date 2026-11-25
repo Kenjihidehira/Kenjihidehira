@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="titulo">
+<title id="titulo">Como trabalho: Entender o fluxo. Mapeio o processo real, quem participa e onde ele trava. Modelar as regras. Regras de negócio em funções puras, cobertas por testes. Construir interface e API. Telas responsivas e API com validação dos dados. Testar o que é crítico. Cenários críticos testados antes de cada entrega.</title>
+<style>
+  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+  .mono{font-family:'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:.75}100%{transform:scale(2.5);opacity:0}}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.pulse,.blink,.spin,.flow,.trace,.cycle,.glow,.grow{animation:none!important}}
+
+  .flow{animation:flow 1.4s linear infinite}
+  @keyframes flow{to{stroke-dashoffset:-36}}
+  .glow{transform-box:fill-box;transform-origin:center;opacity:0;animation:glow 6s ease-out infinite}
+  .g1{animation-delay:1.5s}.g2{animation-delay:3s}.g3{animation-delay:4.5s}
+  @keyframes glow{0%{opacity:.9;transform:scale(1)}25%{opacity:0;transform:scale(1.9)}100%{opacity:0}}
+</style>
+
+<defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1638"/><stop offset="1" stop-color="#162160"/></linearGradient></defs>
+<rect x="1" y="1" width="1278" height="328" rx="27" fill="url(#card)" stroke="rgba(255,255,255,0.10)"/>
+<line x1="196" y1="84" x2="1084" y2="84" stroke="#c8ff3e" stroke-opacity=".25" stroke-width="2"/><line class="flow" x1="196" y1="84" x2="1084" y2="84" stroke="#c8ff3e" stroke-width="2" stroke-dasharray="6 12"/>
+<circle class="glow g0" cx="160" cy="84" r="34" fill="#c8ff3e" fill-opacity=".25"/>
+<circle cx="160" cy="84" r="34" fill="#141f55" stroke="#c8ff3e" stroke-width="2"/>
+<text class="mono" x="160" y="91" font-size="20" font-weight="700" fill="#c8ff3e" text-anchor="middle">01</text>
+<text class="sans" x="160" y="170" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Entender o fluxo</text>
+<text class="sans" font-size="20" fill="#b4bde6" text-anchor="middle"><tspan x="160" y="208">Mapeio o processo real,</tspan><tspan x="160" y="236">quem participa e onde ele</tspan><tspan x="160" y="264">trava.</tspan></text>
+<circle class="glow g1" cx="480" cy="84" r="34" fill="#c8ff3e" fill-opacity=".25"/>
+<circle cx="480" cy="84" r="34" fill="#141f55" stroke="#c8ff3e" stroke-width="2"/>
+<text class="mono" x="480" y="91" font-size="20" font-weight="700" fill="#c8ff3e" text-anchor="middle">02</text>
+<text class="sans" x="480" y="170" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Modelar as regras</text>
+<text class="sans" font-size="20" fill="#b4bde6" text-anchor="middle"><tspan x="480" y="208">Regras de negócio em</tspan><tspan x="480" y="236">funções puras, cobertas</tspan><tspan x="480" y="264">por testes.</tspan></text>
+<circle class="glow g2" cx="800" cy="84" r="34" fill="#c8ff3e" fill-opacity=".25"/>
+<circle cx="800" cy="84" r="34" fill="#141f55" stroke="#c8ff3e" stroke-width="2"/>
+<text class="mono" x="800" y="91" font-size="20" font-weight="700" fill="#c8ff3e" text-anchor="middle">03</text>
+<text class="sans" x="800" y="170" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Construir interface e API</text>
+<text class="sans" font-size="20" fill="#b4bde6" text-anchor="middle"><tspan x="800" y="208">Telas responsivas e API</tspan><tspan x="800" y="236">com validação dos dados.</tspan></text>
+<circle class="glow g3" cx="1120" cy="84" r="34" fill="#c8ff3e" fill-opacity=".25"/>
+<circle cx="1120" cy="84" r="34" fill="#141f55" stroke="#c8ff3e" stroke-width="2"/>
+<text class="mono" x="1120" y="91" font-size="20" font-weight="700" fill="#c8ff3e" text-anchor="middle">04</text>
+<text class="sans" x="1120" y="170" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Testar o que é crítico</text>
+<text class="sans" font-size="20" fill="#b4bde6" text-anchor="middle"><tspan x="1120" y="208">Cenários críticos testados</tspan><tspan x="1120" y="236">antes de cada entrega.</tspan></text>
+
+</svg>
