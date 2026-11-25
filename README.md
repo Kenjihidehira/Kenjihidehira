@@ -23,11 +23,11 @@
 
 ## Projetos em destaque
 
-<a href="https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme"><img src="./assets/v3/feature-hemodinamica.svg" width="100%" alt="Hemodinâmica · protótipo hospitalar de cardiologia intervencionista: 8 etapas até o faturamento, 90 testes automatizados, 3 perfis de acesso e copilot com Claude"></a>
+<a href="https://github.com/Kenjihidehira/hemodinamica#readme"><img src="./assets/v3/feature-hemodinamica.svg" width="100%" alt="Hemodinâmica · protótipo hospitalar de cardiologia intervencionista: 8 etapas até o faturamento, 90 testes automatizados, 3 perfis de acesso e copilot com Claude"></a>
 
 <a href="./assets/v3/hemo-procedimentos.png"><img src="./assets/v3/vitrine-hemodinamica.png" width="100%" alt="Tela de procedimentos da Hemodinâmica no computador e no celular"></a>
 
-**[Ver o projeto ↗](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)** · [Como funciona](https://github.com/Kenjihidehira/jusimed-estoque-prototipo/blob/main/docs/hemodinamica.md) · [Acesso e permissões](https://github.com/Kenjihidehira/jusimed-estoque-prototipo/blob/main/docs/acesso-e-permissoes.md)
+**[Ver o projeto ↗](https://github.com/Kenjihidehira/hemodinamica#readme)** · [Como funciona](https://github.com/Kenjihidehira/hemodinamica/blob/main/docs/hemodinamica.md) · [Acesso e permissões](https://github.com/Kenjihidehira/hemodinamica/blob/main/docs/acesso-e-permissoes.md)
 
 <details>
 <summary><strong>Ver mais telas</strong> · urgência, sala, indicadores e materiais</summary>
@@ -163,10 +163,10 @@ Clique em uma área para abrir ou fechar. Cada cartão leva ao repositório.
 
 | Tecnologia | Onde ver |
 |---|---|
-| React e TypeScript | [Hemodinâmica](https://github.com/Kenjihidehira/jusimed-estoque-prototipo) e [Patrimônio Ops](https://github.com/Kenjihidehira/patrimonio-ops-control) |
+| React e TypeScript | [Hemodinâmica](https://github.com/Kenjihidehira/hemodinamica) e [Patrimônio Ops](https://github.com/Kenjihidehira/patrimonio-ops-control) |
 | Next.js e Tailwind CSS | [Patrimônio Ops](https://github.com/Kenjihidehira/patrimonio-ops-control) |
 | Supabase e PostgreSQL | [Patrimônio Ops](https://github.com/Kenjihidehira/patrimonio-ops-control) |
-| API do Claude (IA) | copilot da [Hemodinâmica](https://github.com/Kenjihidehira/jusimed-estoque-prototipo) |
+| API do Claude (IA) | copilot da [Hemodinâmica](https://github.com/Kenjihidehira/hemodinamica) |
 | Node.js sem dependências | [Helpdesk](https://github.com/Kenjihidehira/helpdesk-node-fullstack), [ERP Estoque](https://github.com/Kenjihidehira/erp-estoque-node), [ClinicFlow](https://github.com/Kenjihidehira/clinicflow-no-show-recovery) e os projetos de operações |
 | PHP | [FieldOps](https://github.com/Kenjihidehira/fieldops-margin-control), [Loja](https://github.com/Kenjihidehira/loja-php) e [Agenda](https://github.com/Kenjihidehira/agenda-php) |
 | Docker e GitHub Actions | [TaskFlow](https://github.com/Kenjihidehira/devops-atividade) (deploy automático) e a integração contínua dos projetos de operações |
