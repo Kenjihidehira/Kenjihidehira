@@ -1,15 +1,13 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/hero-mobile.svg">
-  <img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/hero-desktop.svg" width="100%" alt="Wesley Kenji Hidehira — desenvolvimento de sistemas web para operações e negócios">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/capa-portfolio-mobile.png">
+  <img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/capa-portfolio.png" width="100%" alt="Wesley Kenji Hidehira · Portfólio de desenvolvimento web · Douradina, PR">
 </picture>
 
 <br><br>
 
-Desenvolvo sistemas web para operações, de controles de estoque a plataformas de gestão patrimonial.
-
-**[Ver projetos em destaque ↓](#projetos-em-destaque)** · [Sobre meu trabalho](#como-trabalho) · [Contato ↗](#contato)
+**[Jusimed](#jusimed)** &nbsp;·&nbsp; **[Patrimônio Ops](#patrimônio-ops)** &nbsp;·&nbsp; [Outros projetos](#outros-projetos) &nbsp;·&nbsp; [Contato](#contato)
 
 </div>
 
@@ -25,9 +23,9 @@ Protótipo web para acompanhar o saldo por lote, validade e localização. O flu
 
 **[Explorar o projeto ↗](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)** · [Ler a proposta](https://github.com/Kenjihidehira/jusimed-estoque-prototipo/blob/main/docs/proposta-apresentacao.md)
 
-[![Interface do protótipo Jusimed com dados fictícios](./assets/portfolio-jusimed-current.png)](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)
+[![Painel do Jusimed com indicadores de disponibilidade, validade e movimentação de estoque](./assets/vitrine-jusimed.png)](./assets/portfolio-jusimed-current.png)
 
-<sub>Painel de disponibilidade, validade e movimentação de estoque.</sub>
+<sub>Dados fictícios · Clique na imagem para ampliar.</sub>
 
 ---
 
@@ -39,9 +37,9 @@ Sistema de controle patrimonial por núcleo. Reúne inventário de ativos, impor
 
 **[Ver código ↗](https://github.com/Kenjihidehira/patrimonio-ops-control)** · [Ler arquitetura](https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md) · [Acessar sistema (login)](https://patrimonio-ops-control.vercel.app/demo)
 
-[![Interface do Patrimônio Ops no laboratório local com dados fictícios](./assets/portfolio-patrimonio-current.png)](https://github.com/Kenjihidehira/patrimonio-ops-control)
+[![Painel do Patrimônio Ops com indicadores de inventário, custódia e movimentações](./assets/vitrine-patrimonio.png)](./assets/portfolio-patrimonio-current.png)
 
-<sub>Interface do projeto executada no laboratório local com dados fictícios.</sub>
+<sub>Laboratório local com dados fictícios · Clique na imagem para ampliar.</sub>
 
 ---
 
