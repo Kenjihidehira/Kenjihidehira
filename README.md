@@ -7,9 +7,9 @@
 
 <br><br>
 
-**Transformo processos operacionais em sistemas claros, rastreáveis e fáceis de usar.**
+Desenvolvo sistemas web para operações, de controles de estoque a plataformas de gestão patrimonial.
 
-[Destaques](#projetos-em-destaque) · [Outros projetos](#outros-projetos) · [Como trabalho](#como-trabalho) · [Tecnologias](#tecnologias) · [Contato](#contato)
+**[Ver projetos em destaque ↓](#projetos-em-destaque)** · [Sobre meu trabalho](#como-trabalho) · [Contato ↗](#contato)
 
 </div>
 
@@ -17,25 +17,37 @@
 
 ## Projetos em destaque
 
-### Jusimed · Estoque de dispositivos médicos
+### Jusimed
 
-Protótipo independente e não oficial, com dados fictícios. Demonstra o fluxo de estoque de dispositivos médicos, do controle de lote e validade à reserva, separação e expedição de pedidos.
+`Estoque de dispositivos médicos` · `Protótipo independente`
 
-**[Ver projeto e telas](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)** · [Ler a proposta](https://github.com/Kenjihidehira/jusimed-estoque-prototipo/blob/main/docs/proposta-apresentacao.md)
+Protótipo web para acompanhar o saldo por lote, validade e localização. O fluxo conecta o pedido à reserva, à conferência e à expedição, com dados fictícios.
 
-### Patrimônio Ops · Inventário e custódia
+**[Explorar o projeto ↗](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)** · [Ler a proposta](https://github.com/Kenjihidehira/jusimed-estoque-prototipo/blob/main/docs/proposta-apresentacao.md)
 
-Sistema de controle patrimonial por núcleo. Reúne inventário de ativos, termos de custódia, importação de dados e trilha de auditoria, com acesso autenticado.
+[![Interface do protótipo Jusimed com dados fictícios](./assets/portfolio-jusimed-current.png)](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)
 
-**[Abrir demonstração](https://patrimonio-ops-control.vercel.app/demo)** · [Ver código](https://github.com/Kenjihidehira/patrimonio-ops-control) · [Ler arquitetura](https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md)
+<sub>Painel de disponibilidade, validade e movimentação de estoque.</sub>
+
+---
+
+### Patrimônio Ops
+
+`Inventário e custódia` · `Sistema com acesso autenticado`
+
+Sistema de controle patrimonial por núcleo. Reúne inventário de ativos, importação de dados, emissão de termos de custódia e histórico de movimentações para auditoria.
+
+**[Ver código ↗](https://github.com/Kenjihidehira/patrimonio-ops-control)** · [Ler arquitetura](https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md) · [Acessar sistema (login)](https://patrimonio-ops-control.vercel.app/demo)
+
+[![Interface do Patrimônio Ops no laboratório local com dados fictícios](./assets/portfolio-patrimonio-current.png)](https://github.com/Kenjihidehira/patrimonio-ops-control)
+
+<sub>Interface do projeto executada no laboratório local com dados fictícios.</sub>
 
 ---
 
 <a id="projetos"></a>
 
 ## Outros projetos
-
-Sistemas para problemas diferentes, com código e demonstrações acessíveis.
 
 | Projeto | O que resolve | Acessar |
 | --- | --- | --- |
@@ -49,17 +61,13 @@ Sistemas para problemas diferentes, com código e demonstrações acessíveis.
 
 ## Como trabalho
 
-**Entender o processo → modelar regras e dados → construir a interface e a API → validar os fluxos.**
-
-Nos repositórios, você encontra as decisões de arquitetura, instruções de execução e testes de cada projeto. As demonstrações permitem avaliar o fluxo antes de examinar o código.
+Começo pelo fluxo de quem usa o sistema. A partir dele, modelo as regras e os dados, construo a interface e a API e testo os cenários críticos.
 
 <a id="tecnologias"></a>
 
 ## Tecnologias
 
-TypeScript · JavaScript · Node.js · PHP · SQL · Supabase · GitHub Actions
-
-Aplico cada ferramenta conforme o problema e explico as escolhas no repositório correspondente.
+`TypeScript` · `JavaScript` · `Node.js` · `PHP` · `SQL` · `Supabase` · `GitHub Actions`
 
 <a id="contato"></a>
 
