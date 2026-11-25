@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="titulo">
+<title id="titulo">Wesley Kenji Hidehira · Desenvolvedor web · Sistemas web, APIs e automações para operações · Douradina, PR</title>
+<style>
+  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+  .mono{font-family:'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:.75}100%{transform:scale(2.5);opacity:0}}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.pulse,.blink,.spin,.flow,.trace,.cycle,.glow,.grow{animation:none!important}}
+
+  .spin{transform-box:view-box;transform-origin:1010px 220px;animation:spin 70s linear infinite}
+  .orbit{animation-duration:18s}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .cycle{opacity:0;animation:cycle 16s infinite}
+  .c1{animation-delay:4s}.c2{animation-delay:8s}.c3{animation-delay:12s}
+  @keyframes cycle{0%{opacity:0;transform:translateY(10px)}4%,21%{opacity:1;transform:translateY(0)}25%,100%{opacity:0;transform:translateY(-10px)}}
+  @media (prefers-reduced-motion: reduce){.c0{opacity:1}}
+</style>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1a7a"/><stop offset=".55" stop-color="#2440e6"/><stop offset="1" stop-color="#0a1250"/></linearGradient>
+  <radialGradient id="glow" cx="78.90625%" cy="40%" r="45%"><stop offset="0" stop-color="#6d8bff" stop-opacity=".55"/><stop offset="1" stop-color="#6d8bff" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+  <clipPath id="clip"><rect width="1280" height="440" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1280" height="440" fill="url(#bg)"/>
+  <rect width="1280" height="440" fill="url(#grid)"/>
+  <rect width="1280" height="440" fill="url(#glow)"/>
+  <circle cx="1010" cy="220" r="70" fill="none" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="1010" cy="220" r="100" fill="none" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="1010" cy="220" r="130" fill="none" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="1010" cy="220" r="160" fill="none" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="1010" cy="220" r="190" fill="none" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="1010" cy="220" r="220" fill="none" stroke="#ffffff" stroke-opacity="0.14"/><circle cx="1010" cy="220" r="250" fill="none" stroke="#ffffff" stroke-opacity="0.14"/>
+  <circle class="spin" cx="1010" cy="220" r="190" fill="none" stroke="#c8ff3e" stroke-opacity=".35" stroke-dasharray="4 14"/>
+  <g class="spin orbit">
+    <circle cx="1170" cy="220" r="9" fill="#c8ff3e"/>
+    <circle class="pulse" cx="1170" cy="220" r="9" fill="#c8ff3e"/>
+  </g>
+  <circle cx="1010" cy="220" r="64" fill="#1a2fd0" stroke="#c8ff3e" stroke-width="2"/>
+  <text class="sans" x="1010" y="240" font-size="58" font-weight="800" font-style="italic" fill="#c8ff3e" text-anchor="middle">KH</text>
+</g>
+<text class="mono" x="72" y="86" font-size="15" font-weight="700" letter-spacing="4" fill="#c8ff3e">PORTFÓLIO · DESENVOLVIMENTO WEB</text>
+<text class="sans" x="72" y="182" font-size="88" font-weight="800" letter-spacing="-2" fill="#f6f7ff">Wesley Kenji</text>
+<text class="sans" x="72" y="268" font-size="88" font-weight="800" letter-spacing="-2" fill="#f6f7ff">Hidehira</text>
+<text class="sans cycle c0" x="72" y="330" font-size="30" font-weight="600" fill="#e6eaff">Sistemas web para operações<tspan class="mono blink" fill="#c8ff3e" dx="6">▌</tspan></text>
+<text class="sans cycle c1" x="72" y="330" font-size="30" font-weight="600" fill="#e6eaff">APIs e automações em Node.js<tspan class="mono blink" fill="#c8ff3e" dx="6">▌</tspan></text>
+<text class="sans cycle c2" x="72" y="330" font-size="30" font-weight="600" fill="#e6eaff">Painéis com dados e indicadores<tspan class="mono blink" fill="#c8ff3e" dx="6">▌</tspan></text>
+<text class="sans cycle c3" x="72" y="330" font-size="30" font-weight="600" fill="#e6eaff">Protótipos de saúde com IA<tspan class="mono blink" fill="#c8ff3e" dx="6">▌</tspan></text>
+<line x1="72" y1="364" x2="1208" y2="364" stroke="#fff" stroke-opacity=".2"/>
+<text class="mono" x="72" y="404" font-size="14" letter-spacing="3" fill="#c9d2ff">DOURADINA, PR · BRASIL</text>
+<g><rect x="380" y="384" width="105" height="28" rx="14" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.22)"/><text class="mono" x="432.5" y="402.68" font-size="13" font-weight="600" fill="#eef1ff" text-anchor="middle">TypeScript</text></g><g><rect x="493" y="384" width="80" height="28" rx="14" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.22)"/><text class="mono" x="533" y="402.68" font-size="13" font-weight="600" fill="#eef1ff" text-anchor="middle">Node.js</text></g><g><rect x="581" y="384" width="64" height="28" rx="14" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.22)"/><text class="mono" x="613" y="402.68" font-size="13" font-weight="600" fill="#eef1ff" text-anchor="middle">React</text></g><g><rect x="653" y="384" width="48" height="28" rx="14" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.22)"/><text class="mono" x="677" y="402.68" font-size="13" font-weight="600" fill="#eef1ff" text-anchor="middle">PHP</text></g><g><rect x="709" y="384" width="88" height="28" rx="14" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.22)"/><text class="mono" x="753" y="402.68" font-size="13" font-weight="600" fill="#eef1ff" text-anchor="middle">Supabase</text></g>
+
+</svg>
