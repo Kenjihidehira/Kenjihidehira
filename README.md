@@ -9,24 +9,27 @@
 
 **Transformo processos operacionais em sistemas claros, rastreáveis e fáceis de usar.**
 
-[Projetos](#projetos) · [Como trabalho](#como-trabalho) · [Tecnologias](#tecnologias) · [Contato](#contato)
+[Destaques](#projetos-em-destaque) · [Outros projetos](#outros-projetos) · [Como trabalho](#como-trabalho) · [Tecnologias](#tecnologias) · [Contato](#contato)
 
 </div>
 
 ---
 
-## Projeto em destaque
+## Projetos em destaque
 
-### Patrimônio Ops
+### Jusimed · Estoque de dispositivos médicos
 
-Controle patrimonial por núcleo, com inventário, custódia, auditoria e importação de dados. O projeto reúne interface, API, autenticação, persistência e documentação técnica.
+Protótipo independente e não oficial, com dados fictícios. Demonstra o fluxo de estoque de dispositivos médicos, do controle de lote e validade à reserva, separação e expedição de pedidos.
 
-**[Explorar a demonstração](https://patrimonio-ops-control.vercel.app/demo)** · [Ver código](https://github.com/Kenjihidehira/patrimonio-ops-control) · [Ler arquitetura](https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md)
+**[Ver projeto e telas](https://github.com/Kenjihidehira/jusimed-estoque-prototipo#readme)** · [Ler a proposta](https://github.com/Kenjihidehira/jusimed-estoque-prototipo/blob/main/docs/proposta-apresentacao.md)
 
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-blueprint-flagship-mobile.svg">
-  <img src="https://raw.githubusercontent.com/Kenjihidehira/Kenjihidehira/main/assets/profile-blueprint-flagship-desktop.svg" width="100%" alt="Resumo visual do Patrimônio Ops, projeto de controle patrimonial">
-</picture>
+### Patrimônio Ops · Inventário e custódia
+
+Sistema de controle patrimonial por núcleo. Reúne inventário de ativos, termos de custódia, importação de dados e trilha de auditoria, com acesso autenticado.
+
+**[Abrir demonstração](https://patrimonio-ops-control.vercel.app/demo)** · [Ver código](https://github.com/Kenjihidehira/patrimonio-ops-control) · [Ler arquitetura](https://github.com/Kenjihidehira/patrimonio-ops-control/blob/main/docs/arquitetura.md)
+
+---
 
 <a id="projetos"></a>
 
