@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="430" viewBox="0 0 1280 430" role="img" aria-labelledby="titulo">
+<title id="titulo">Em números: 32 repositórios públicos, 413 contribuições em 12 meses, 40 dias com contribuição, 5 dias na maior sequência. Linguagens: TypeScript 39,4%, JavaScript 26,0%, CSS 19,7%, PLpgSQL 9,0%, HTML 4,9%, Outras 1,0%.</title>
+<style>
+  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+  .mono{font-family:'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:.75}100%{transform:scale(2.5);opacity:0}}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @keyframes blink{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.pulse,.blink,.spin,.flow,.trace,.cycle,.glow,.grow{animation:none!important}}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1.6s cubic-bezier(.2,.8,.2,1) both}@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}</style>
+
+<defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1638"/><stop offset="1" stop-color="#162160"/></linearGradient>
+<clipPath id="clip"><rect width="1280" height="430" rx="28"/></clipPath><clipPath id="barclip"><rect x="704" y="138" width="528" height="16" rx="8"/></clipPath></defs>
+<g clip-path="url(#clip)"><rect width="1280" height="430" fill="url(#card)"/><circle cx="1240" cy="430" r="60" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="90" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="120" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="150" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="180" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="210" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="240" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="270" fill="none" stroke="#ffffff" stroke-opacity="0.05"/><circle cx="1240" cy="430" r="300" fill="none" stroke="#ffffff" stroke-opacity="0.05"/></g>
+<rect x="1" y="1" width="1278" height="428" rx="27" fill="none" stroke="rgba(255,255,255,0.10)"/>
+<text class="mono" x="48" y="72" font-size="14" font-weight="700" letter-spacing="3" fill="#c8ff3e">GITHUB · ATUALIZADO TODO DIA</text>
+<text class="sans" x="48" y="108" font-size="30" font-weight="800" fill="#ffffff">Atividade no GitHub</text>
+<rect x="48" y="128" width="270" height="108" rx="18" fill="#ffffff" fill-opacity=".05" stroke="rgba(255,255,255,0.10)"/>
+<text class="sans" x="70" y="186" font-size="46" font-weight="800" fill="#c8ff3e">32</text>
+<text class="sans" x="70" y="216" font-size="17" fill="#b4bde6">repositórios públicos</text>
+<rect x="334" y="128" width="270" height="108" rx="18" fill="#ffffff" fill-opacity=".05" stroke="rgba(255,255,255,0.10)"/>
+<text class="sans" x="356" y="186" font-size="46" font-weight="800" fill="#ffffff">413</text>
+<text class="sans" x="356" y="216" font-size="17" fill="#b4bde6">contribuições em 12 meses</text>
+<rect x="48" y="252" width="270" height="108" rx="18" fill="#ffffff" fill-opacity=".05" stroke="rgba(255,255,255,0.10)"/>
+<text class="sans" x="70" y="310" font-size="46" font-weight="800" fill="#ffffff">40</text>
+<text class="sans" x="70" y="340" font-size="17" fill="#b4bde6">dias com contribuição</text>
+<rect x="334" y="252" width="270" height="108" rx="18" fill="#ffffff" fill-opacity=".05" stroke="rgba(255,255,255,0.10)"/>
+<text class="sans" x="356" y="310" font-size="46" font-weight="800" fill="#ffffff">5</text>
+<text class="sans" x="356" y="340" font-size="17" fill="#b4bde6">dias na maior sequência</text>
+<line x1="660" y1="56" x2="660" y2="360" stroke="rgba(255,255,255,0.10)"/>
+<text class="mono" x="704" y="72" font-size="14" font-weight="700" letter-spacing="3" fill="#c8ff3e">LINGUAGENS</text>
+<text class="sans" x="704" y="108" font-size="30" font-weight="800" fill="#ffffff">Onde está o código</text>
+<g clip-path="url(#barclip)"><g class="grow"><rect x="704" y="138" width="208.07660417655038" height="16" fill="#4d8dff"/><rect x="912.0766041765504" y="138" width="137.2511210837506" height="16" fill="#f1e05a"/><rect x="1049.3277252603011" y="138" width="103.87602783472836" height="16" fill="#a37cf0"/><rect x="1153.2037530950295" y="138" width="47.3312691422431" height="16" fill="#5fa8d3"/><rect x="1200.5350222372726" y="138" width="26.125269688745238" height="16" fill="#ff7a52"/><rect x="1226.6602919260179" y="138" width="5.339708073982307" height="16" fill="#7f89b8"/></g></g>
+<circle cx="712" cy="200" r="7" fill="#4d8dff"/>
+<text class="sans" x="730" y="206" font-size="19" font-weight="600" fill="#ffffff">TypeScript</text>
+<text class="mono" x="944" y="206" font-size="16" fill="#b4bde6" text-anchor="end">39,4%</text>
+<circle cx="976" cy="200" r="7" fill="#f1e05a"/>
+<text class="sans" x="994" y="206" font-size="19" font-weight="600" fill="#ffffff">JavaScript</text>
+<text class="mono" x="1208" y="206" font-size="16" fill="#b4bde6" text-anchor="end">26,0%</text>
+<circle cx="712" cy="250" r="7" fill="#a37cf0"/>
+<text class="sans" x="730" y="256" font-size="19" font-weight="600" fill="#ffffff">CSS</text>
+<text class="mono" x="944" y="256" font-size="16" fill="#b4bde6" text-anchor="end">19,7%</text>
+<circle cx="976" cy="250" r="7" fill="#5fa8d3"/>
+<text class="sans" x="994" y="256" font-size="19" font-weight="600" fill="#ffffff">PLpgSQL</text>
+<text class="mono" x="1208" y="256" font-size="16" fill="#b4bde6" text-anchor="end">9,0%</text>
+<circle cx="712" cy="300" r="7" fill="#ff7a52"/>
+<text class="sans" x="730" y="306" font-size="19" font-weight="600" fill="#ffffff">HTML</text>
+<text class="mono" x="944" y="306" font-size="16" fill="#b4bde6" text-anchor="end">4,9%</text>
+<circle cx="976" cy="300" r="7" fill="#7f89b8"/>
+<text class="sans" x="994" y="306" font-size="19" font-weight="600" fill="#ffffff">Outras</text>
+<text class="mono" x="1208" y="306" font-size="16" fill="#b4bde6" text-anchor="end">1,0%</text>
+<text class="mono" x="48" y="398" font-size="13" fill="#b4bde6">Atualizado em 27/11/2026 · repositórios públicos próprios, sem forks</text>
+
+</svg>
